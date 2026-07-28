@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Portland Fire x Las Vegas Aces (Análise Completa)</title>
+<link rel="stylesheet" href="../style.css" />
+<script src="../common.js" defer></script>
+</head>
+<body>
+<main>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-hero">
+    <span class="history-date-badge">28/07 · 22:00</span>
+    <div class="history-logos">
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/por.png" alt="Portland Fire" />
+      <span class="history-vs">VS</span>
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/lv.png" alt="Las Vegas Aces" />
+    </div>
+    <div class="history-teams-label">Portland Fire vs Las Vegas Aces</div>
+    <div class="hero-venue">Michelob ULTRA Arena, Las Vegas</div>
+  </div>
+
+  <div class="card">
+    <h2>Momento da equipe</h2>
+    <table>
+      <tr><th></th><th>Portland Fire</th><th>Las Vegas Aces</th></tr>
+      <tr><td>Posição</td><td>5º</td><td>3º</td></tr>
+      <tr><td>Últimos 5 jogos</td><td>✅❌✅❌❌</td><td>✅✅❌✅❌</td></tr>
+      <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
+      <tr><td>Último jogo</td><td>23/07 — ❌ <strong>97</strong>-101<br>🏠 vs Dallas Wings</td><td>22/07 — ❌ <strong>99</strong>-100<br>✈️ vs Washington Mystics</td></tr>
+      <tr><td>Próximo jogo</td><td>01/08 🏠 vs Indiana Fever</td><td>31/07 🏠 vs New York Liberty</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Lesões e desfalques</h2>
+    <p><span class="badge">Portland Fire</span> Sarah Ashlee Barker <strong>fora pro resto da temporada</strong> (cirurgia no joelho esquerdo); Sania Feagin <strong>fora pro resto da temporada</strong> (joelho esquerdo). Nenhuma das duas era rotação relevante recente — elenco principal (Carleton, Engstler, Oblak, Samuelson) sem desfalque para este jogo.</p>
+    <p><span class="badge">Las Vegas Aces</span> Cheyenne Parker-Tyus <strong>fora</strong> (concussão, retorno estimado 30/07 — pode desfalcar ainda este jogo); Kierstan Bell <strong>fora</strong> (perna direita, retorno estimado 30/07); Janiah Barker <strong>fora pro resto da temporada</strong> (perna direita). Nenhuma das três é rotação de destaque no perímetro — A'ja Wilson, Jackie Young, Chelsea Gray e Jewell Loyd seguem disponíveis.</p>
+    <p style="font-size:13px;color:var(--muted)">Fonte: ESPN Injuries, atualizado 28/07/2026.</p>
+  </div>
+
+  <div class="card">
+    <h2>Análise do jogo</h2>
+    <p><span class="confianca-alto">Confiança: média-alta</span></p>
+    <p>Las Vegas é favorito em casa: 3º seed do Oeste (18-8) contra o 5º (11-16), com A'ja Wilson em temporada de MVP (26.7 pts/10.2 reb nos últimos 10) liderando um quinteto com quatro jogadoras acima do piso de relevância (Wilson, Young, Gray, Smith). Portland vem de 2 derrotas seguidas e tem histórico ruim no confronto direto — perdeu os dois encontros da temporada contra o Aces. Ainda assim, o Aces também está em maré instável (perdeu o último jogo para o Washington) e o 4ºQ é o ponto fraco de ambos os times, o que deixa margem pra jogo mais parelho do que o retrospecto direto sugere — daí a confiança "média-alta" e não "alta".</p>
+  </div>
+
+  <div class="card">
+    <h2>Matchup</h2>
+    <p><strong>Portland Fire</strong>: elenco de expansão, mais raso, dependente de Bridget Carleton como principal pontuadora perimetral e Emily Engstler como opção de garrafão/rebote — mas ambas com produção moderada, sem uma segunda opção de alto volume constante. Fora da briga direta de playoff no momento, temporada de desenvolvimento.</p>
+    <p><strong>Las Vegas Aces</strong>: elenco mais consolidado e talentoso, com A'ja Wilson (MVP-caliber) sustentando o garrafão e um backcourt de criação forte (Gray, Young, Loyd). Ambição de topo de conferência, ainda brigando pelas primeiras posições do Oeste.</p>
+
+    <details class="collapsible">
+      <summary>Histórico entre os times</summary>
+      <table>
+        <tr><th>Data</th><th>Resultado</th><th>Observação</th></tr>
+        <tr><td>10/07/2026</td><td>Las Vegas Aces 88-80 Portland Fire (Aces em casa)</td><td>Vitória do Aces por 8 pontos.</td></tr>
+        <tr><td>12/06/2026</td><td>Las Vegas Aces 105-89 Portland Fire (Fire em casa)</td><td>Vitória mais folgada do Aces, 16 de diferença.</td></tr>
+      </table>
+      <p style="font-size:12px;color:var(--muted)">Dois confrontos diretos encontrados na amostra da temporada — Aces venceu os dois, incluindo um jogando fora de casa.</p>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>Mercado de Pontos — Portland Fire</h2>
+
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="por-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('por-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('por-avg',10)">Últimos 10</button>
+    </div>
+    <div id="por-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card">
+          <div class="qc-label">1ºQ</div>
+          <div class="qc-avg" data-5="21.8" data-10="20.6">20.6</div>
+          <div class="qc-range" data-5="16-28" data-10="10-31">10-31</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">2ºQ</div>
+          <div class="qc-avg" data-5="22.0" data-10="22.0">22.0</div>
+          <div class="qc-range" data-5="17-26" data-10="15-31">15-31</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">3ºQ</div>
+          <div class="qc-avg" data-5="23.0" data-10="21.6">21.6</div>
+          <div class="qc-range" data-5="12-32" data-10="12-32">12-32</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">4ºQ</div>
+          <div class="qc-avg" data-5="24.0" data-10="22.8">22.8</div>
+          <div class="qc-range" data-5="16-33" data-10="16-33">16-33</div>
+        </div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card">
+          <div class="qc-label">1º Tempo</div>
+          <div class="qc-avg" data-5="43.8" data-10="42.6">42.6</div>
+          <div class="qc-range" data-5="39-51" data-10="32-55">32-55</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">2º Tempo</div>
+          <div class="qc-avg" data-5="47.0" data-10="44.4">44.4</div>
+          <div class="qc-range" data-5="28-55" data-10="28-55">28-55</div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (um deles, 28/06 contra Washington, foi prorrogação — os quartos extras foram ignorados no cálculo, só os 4 regulamentares entraram). 4ºQ é o quarto mais forte do Fire (22.8 de média, bate 18+ em 90% dos jogos); 1ºQ é o mais fraco (20.6, só 50% acima de 20). Não há amostra de blowout grande a favor do Fire nos últimos 10 jogos (a maior vitória foi por 10 pontos) — não dá pra afirmar padrão de poupar titulares em vantagem.</p>
+
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr data-rank="1"><td>23/07</td><td>🏠</td><td class="opp">Dallas Wings</td><td>❌</td><td><strong>97</strong>-101</td><td>17 <span class="opp-pts">(21)</span></td><td>25 <span class="opp-pts">(25)</span></td><td>27 <span class="opp-pts">(24)</span></td><td>28 <span class="opp-pts">(31)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo parelho, decidido nos minutos finais</span></details></td></tr>
+          <tr data-rank="2"><td>19/07</td><td>✈️</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>93</strong>-101</td><td>16 <span class="opp-pts">(24)</span></td><td>23 <span class="opp-pts">(29)</span></td><td>21 <span class="opp-pts">(19)</span></td><td>33 <span class="opp-pts">(29)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">MIN abriu 24-16 já no 1ºQ; Fire reagiu tarde com 33 no 4ºQ</span></details></td></tr>
+          <tr data-rank="3"><td>16/07</td><td>✈️</td><td class="opp">Washington Mystics</td><td>✅</td><td><strong>75</strong>-56</td><td>28 <span class="opp-pts">(11)</span></td><td>19 <span class="opp-pts">(15)</span></td><td>12 <span class="opp-pts">(16)</span></td><td>16 <span class="opp-pts">(14)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">28-11 no 1ºQ definiu o jogo cedo, folga administrada no resto</span></details></td></tr>
+          <tr data-rank="4"><td>14/07</td><td>✈️</td><td class="opp">Connecticut Sun</td><td>❌</td><td><strong>87</strong>-90</td><td>23 <span class="opp-pts">(21)</span></td><td>17 <span class="opp-pts">(28)</span></td><td>23 <span class="opp-pts">(15)</span></td><td>24 <span class="opp-pts">(26)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Derrota por 3, CON decidiu no 2ºQ (28x17)</span></details></td></tr>
+          <tr data-rank="5"><td>11/07</td><td>✈️</td><td class="opp">Atlanta Dream</td><td>✅</td><td><strong>102</strong>-92</td><td>25 <span class="opp-pts">(20)</span></td><td>26 <span class="opp-pts">(24)</span></td><td>32 <span class="opp-pts">(29)</span></td><td>19 <span class="opp-pts">(19)</span></td><td class="obs-cell"></td></tr>
+          <tr data-rank="6"><td>10/07</td><td>🏠</td><td class="opp">Las Vegas Aces</td><td>❌</td><td><strong>80</strong>-88</td><td>18 <span class="opp-pts">(23)</span></td><td>15 <span class="opp-pts">(22)</span></td><td>19 <span class="opp-pts">(24)</span></td><td>28 <span class="opp-pts">(19)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">LV construiu a vantagem no 1ºQ e 3ºQ; Fire reagiu tarde no 4ºQ</span></details></td></tr>
+          <tr data-rank="7"><td>05/07</td><td>🏠</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>77</strong>-72</td><td>10 <span class="opp-pts">(20)</span></td><td>22 <span class="opp-pts">(16)</span></td><td>22 <span class="opp-pts">(22)</span></td><td>23 <span class="opp-pts">(23)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Começo muito lento (10 no 1ºQ) mas virou o jogo depois</span></details></td></tr>
+          <tr data-rank="8"><td>28/06</td><td>✈️</td><td class="opp">Washington Mystics</td><td>❌</td><td><strong>123</strong>-124</td><td>31 <span class="opp-pts">(24)</span></td><td>24 <span class="opp-pts">(21)</span></td><td>12 <span class="opp-pts">(23)</span></td><td>20 <span class="opp-pts">(28)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo de prorrogação — WSH decidiu no acréscimo (12-4 na prorrogação, não contabilizada aqui)</span></details></td></tr>
+          <tr data-rank="9"><td>26/06</td><td>✈️</td><td class="opp">Chicago Sky</td><td>❌</td><td><strong>94</strong>-124</td><td>17 <span class="opp-pts">(31)</span></td><td>31 <span class="opp-pts">(35)</span></td><td>27 <span class="opp-pts">(30)</span></td><td>19 <span class="opp-pts">(28)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Derrota folgada, CHI dominante em todos os quartos</span></details></td></tr>
+          <tr data-rank="10"><td>25/06</td><td>✈️</td><td class="opp">Chicago Sky</td><td>❌</td><td><strong>78</strong>-101</td><td>21 <span class="opp-pts">(29)</span></td><td>18 <span class="opp-pts">(23)</span></td><td>21 <span class="opp-pts">(24)</span></td><td>18 <span class="opp-pts">(25)</span></td><td class="obs-cell"></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>Mercado de Pontos — Las Vegas Aces</h2>
+
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="lv-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('lv-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('lv-avg',10)">Últimos 10</button>
+    </div>
+    <div id="lv-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card">
+          <div class="qc-label">1ºQ</div>
+          <div class="qc-avg" data-5="25.2" data-10="25.2">25.2</div>
+          <div class="qc-range" data-5="22-30" data-10="21-31">21-31</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">2ºQ</div>
+          <div class="qc-avg" data-5="25.8" data-10="24.0">24.0</div>
+          <div class="qc-range" data-5="22-30" data-10="16-30">16-30</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">3ºQ</div>
+          <div class="qc-avg" data-5="24.2" data-10="22.8">22.8</div>
+          <div class="qc-range" data-5="16-33" data-10="14-33">14-33</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">4ºQ</div>
+          <div class="qc-avg" data-5="20.2" data-10="20.2">20.2</div>
+          <div class="qc-range" data-5="11-27" data-10="11-28">11-28</div>
+        </div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card">
+          <div class="qc-label">1º Tempo</div>
+          <div class="qc-avg" data-5="51.0" data-10="49.2">49.2</div>
+          <div class="qc-range" data-5="45-60" data-10="37-61">37-61</div>
+        </div>
+        <div class="quarter-card">
+          <div class="qc-label">2º Tempo</div>
+          <div class="qc-avg" data-5="44.4" data-10="43.0">43.0</div>
+          <div class="qc-range" data-5="27-54" data-10="27-54">27-54</div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (um deles, 04/07 contra Chicago, foi prorrogação — quarto extra ignorado no cálculo). 1ºQ é o quarto mais forte do Aces (25.2 de média, bate 20+ em 100% dos jogos); 4ºQ é claramente o mais fraco (20.2, só 60% acima de 20 e nunca passou de 28). No jogo de maior vantagem da amostra (vitória por 34 sobre Phoenix em 11/07, 106-58), o 4ºQ ainda assim rendeu 27 pontos — não há evidência clara de descanso total de titulares mesmo em blowout, mas o 4ºQ mais fraco em geral sugere alguma acomodação quando o jogo já está resolvido.</p>
+
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr data-rank="1"><td>22/07</td><td>✈️</td><td class="opp">Washington Mystics</td><td>❌</td><td><strong>99</strong>-100</td><td>22 <span class="opp-pts">(23)</span></td><td>23 <span class="opp-pts">(29)</span></td><td>33 <span class="opp-pts">(24)</span></td><td>21 <span class="opp-pts">(24)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Derrota por 1 ponto, jogo parelho do início ao fim</span></details></td></tr>
+          <tr data-rank="2"><td>21/07</td><td>✈️</td><td class="opp">Toronto Tempo</td><td>✅</td><td><strong>109</strong>-83</td><td>30 <span class="opp-pts">(19)</span></td><td>30 <span class="opp-pts">(20)</span></td><td>26 <span class="opp-pts">(24)</span></td><td>23 <span class="opp-pts">(20)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Vitória folgada por 26, construída já no 1ºT (60-39)</span></details></td></tr>
+          <tr data-rank="3"><td>13/07</td><td>🏠</td><td class="opp">Indiana Fever</td><td>❌</td><td><strong>75</strong>-109</td><td>22 <span class="opp-pts">(31)</span></td><td>26 <span class="opp-pts">(28)</span></td><td>16 <span class="opp-pts">(21)</span></td><td>11 <span class="opp-pts">(29)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Derrota folgada por 34, pior 4ºQ da amostra (11 pontos)</span></details></td></tr>
+          <tr data-rank="4"><td>11/07</td><td>🏠</td><td class="opp">Phoenix Mercury</td><td>✅</td><td><strong>106</strong>-58</td><td>29 <span class="opp-pts">(17)</span></td><td>28 <span class="opp-pts">(12)</span></td><td>22 <span class="opp-pts">(11)</span></td><td>27 <span class="opp-pts">(18)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Vitória por 48, maior blowout da amostra — mesmo assim 27 pontos no 4ºQ, sem sinal claro de descanso total</span></details></td></tr>
+          <tr data-rank="5"><td>10/07</td><td>✈️</td><td class="opp">Portland Fire</td><td>✅</td><td><strong>88</strong>-80</td><td>23 <span class="opp-pts">(18)</span></td><td>22 <span class="opp-pts">(15)</span></td><td>24 <span class="opp-pts">(19)</span></td><td>19 <span class="opp-pts">(28)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">POR reagiu no 4ºQ (28x19) mas a vantagem já estava construída</span></details></td></tr>
+          <tr data-rank="6"><td>05/07</td><td>🏠</td><td class="opp">Indiana Fever</td><td>❌</td><td><strong>68</strong>-84</td><td>24 <span class="opp-pts">(23)</span></td><td>17 <span class="opp-pts">(19)</span></td><td>14 <span class="opp-pts">(29)</span></td><td>13 <span class="opp-pts">(13)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">IND dominou o 3ºQ (29x14) e definiu o jogo</span></details></td></tr>
+          <tr data-rank="7"><td>04/07</td><td>🏠</td><td class="opp">Chicago Sky</td><td>✅</td><td><strong>98</strong>-90</td><td>22 <span class="opp-pts">(24)</span></td><td>27 <span class="opp-pts">(24)</span></td><td>21 <span class="opp-pts">(25)</span></td><td>16 <span class="opp-pts">(11)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo de prorrogação — decidido no acréscimo (12-6), não contabilizado nos quartos</span></details></td></tr>
+          <tr data-rank="8"><td>30/06</td><td>✈️</td><td class="opp">New York Liberty</td><td>❌</td><td><strong>85</strong>-93</td><td>21 <span class="opp-pts">(24)</span></td><td>16 <span class="opp-pts">(22)</span></td><td>25 <span class="opp-pts">(20)</span></td><td>23 <span class="opp-pts">(27)</span></td><td class="obs-cell"></td></tr>
+          <tr data-rank="9"><td>28/06</td><td>✈️</td><td class="opp">Chicago Sky</td><td>✅</td><td><strong>107</strong>-99</td><td>31 <span class="opp-pts">(24)</span></td><td>30 <span class="opp-pts">(26)</span></td><td>25 <span class="opp-pts">(23)</span></td><td>21 <span class="opp-pts">(26)</span></td><td class="obs-cell"></td></tr>
+          <tr data-rank="10"><td>26/06</td><td>🏠</td><td class="opp">Dallas Wings</td><td>✅</td><td><strong>99</strong>-84</td><td>28 <span class="opp-pts">(23)</span></td><td>21 <span class="opp-pts">(17)</span></td><td>22 <span class="opp-pts">(18)</span></td><td>28 <span class="opp-pts">(26)</span></td><td class="obs-cell"></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>BETANIA TIPS</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir dos dados — não é indicação de aposta. Taxas calculadas sobre os últimos 10 jogos de cada time. "Ambas marcam" é uma estimativa de probabilidade conjunta assumindo independência entre as duas amostras — não é frequência observada diretamente deste confronto.</p>
+
+    <div class="quarter-toggle" id="tips-toggle">
+      <button data-q="1" class="active" onclick="setQuarterTips('tips',1)">1ºQ</button>
+      <button data-q="2" onclick="setQuarterTips('tips',2)">2ºQ</button>
+      <button data-q="3" onclick="setQuarterTips('tips',3)">3ºQ</button>
+      <button data-q="4" onclick="setQuarterTips('tips',4)">4ºQ</button>
+    </div>
+
+    <div id="tips">
+      <div data-q="1">
+        <h3>Portland marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Moeda lançada, quarto mais fraco do Fire</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Las Vegas marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>10/10 (100%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Quarto mais forte do Aces, bate sempre</span></td></tr>
+          <tr><td>25</td><td>4/10 (40%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 1ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~60%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Boa leitura conjunta, os dois costumam abrir bem</span></td></tr>
+          <tr><td>22</td><td>~36%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~12%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Pouco provável</span></td></tr>
+        </table>
+      </div>
+
+      <div data-q="2" style="display:none">
+        <h3>Portland marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>6/10 (60%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Frequência razoável</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Las Vegas marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na grande maioria dos jogos</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Moeda lançada pra cima, com respaldo</span></td></tr>
+          <tr><td>30</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 2ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~48%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>22</td><td>~36%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~15%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Pouco provável</span></td></tr>
+        </table>
+      </div>
+
+      <div data-q="3" style="display:none">
+        <h3>Portland marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria dos jogos</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Las Vegas marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na grande maioria dos jogos</span></td></tr>
+          <tr><td>25</td><td>4/10 (40%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 3ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~56%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Boa leitura conjunta neste quarto</span></td></tr>
+          <tr><td>22</td><td>~35%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~12%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Pouco provável</span></td></tr>
+        </table>
+      </div>
+
+      <div data-q="4" style="display:none">
+        <h3>Portland marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>6/10 (60%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Quarto mais forte do Fire</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Las Vegas marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>6/10 (60%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">4ºQ é o pior quarto do Aces, mas ainda bate 20 na maioria</span></td></tr>
+          <tr><td>25</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Não aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 4ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~63%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Melhor leitura conjunta do jogo, os dois 4ºQs são parecidos em nível</span></td></tr>
+          <tr><td>22</td><td>~20%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Pouco provável</span></td></tr>
+          <tr><td>25</td><td>~6%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Muito improvável</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Análise Jogadores</h2>
+    <p style="font-size:13px;color:var(--muted)">Karlie Samuelson e Teja Oblak (POR) e Nyadiew Puoch e Holly Winterburn (POR) descartadas por volume abaixo do piso em todas as categorias (pontos entre 2-5/jogo). Jewell Loyd (LV) fica abaixo do piso em pontos/rebotes/assistências, mas entra na tabela porque as conversões de 3 pontos (1.8/jogo) atingem o piso mínimo.</p>
+
+    <table class="player-table">
+      <thead><tr><th>Time</th><th>Nome</th><th>Pontos</th><th>Rebotes</th><th>Duplo-Duplo</th><th>3PTS</th><th>Jogos</th></tr></thead>
+      <tbody>
+
+        <tr>
+          <td>Portland</td>
+          <td>Bridget Carleton</td>
+          <td>6-22</td><td>abaixo do piso</td><td>0/10</td><td>0-6</td>
+          <td><button class="expand-btn" data-toggle-target="det-carleton" onclick="toggleRow('det-carleton')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-carleton" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>23/07</td><td class="opp">Dallas Wings</td><td>18</td><td>5</td><td>2</td><td>2</td><td>⏱️ 31min</td></tr>
+                <tr><td>19/07</td><td class="opp">Minnesota Lynx</td><td>22</td><td>8</td><td>4</td><td>6</td><td>⏱️ 32min</td></tr>
+                <tr><td>16/07</td><td class="opp">Washington Mystics</td><td>6</td><td>3</td><td>3</td><td>2</td><td>⏱️ 26min</td></tr>
+                <tr><td>14/07</td><td class="opp">Connecticut Sun</td><td>12</td><td>3</td><td>3</td><td>2</td><td>⏱️ 32min</td></tr>
+                <tr><td>11/07</td><td class="opp">Atlanta Dream</td><td>12</td><td>3</td><td>4</td><td>4</td><td>⏱️ 34min</td></tr>
+                <tr><td>10/07</td><td class="opp">Las Vegas Aces</td><td>9</td><td>6</td><td>3</td><td>3</td><td>⏱️ 28min</td></tr>
+                <tr><td>05/07</td><td class="opp">Seattle Storm</td><td>14</td><td>7</td><td>2</td><td>1</td><td>⏱️ 31min</td></tr>
+                <tr><td>28/06</td><td class="opp">Washington Mystics</td><td>16</td><td>3</td><td>2</td><td>3</td><td>⏱️ 51min</td></tr>
+                <tr><td>26/06</td><td class="opp">Chicago Sky</td><td>20</td><td>4</td><td>1</td><td>2</td><td>⏱️ 29min</td></tr>
+                <tr><td>25/06</td><td class="opp">Chicago Sky</td><td>7</td><td>5</td><td>2</td><td>0</td><td>⏱️ 29min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Portland</td>
+          <td>Emily Engstler</td>
+          <td>abaixo do piso</td><td>1-11</td><td>1/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-engstler" onclick="toggleRow('det-engstler')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-engstler" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>23/07</td><td class="opp">Dallas Wings</td><td>6</td><td>1</td><td>2</td><td>0</td><td class="low-min">⏱️ 23min</td></tr>
+                <tr><td>19/07</td><td class="opp">Minnesota Lynx</td><td>12</td><td>6</td><td>3</td><td>2</td><td>⏱️ 29min</td></tr>
+                <tr><td>16/07</td><td class="opp">Washington Mystics</td><td>8</td><td>3</td><td>5</td><td>0</td><td class="low-min">⏱️ 22min</td></tr>
+                <tr><td>14/07</td><td class="opp">Connecticut Sun</td><td>14</td><td>6</td><td>7</td><td>1</td><td>⏱️ 29min</td></tr>
+                <tr><td>11/07</td><td class="opp">Atlanta Dream</td><td>14</td><td>11</td><td>4</td><td>2</td><td class="low-min">⏱️ 25min</td></tr>
+                <tr><td>10/07</td><td class="opp">Las Vegas Aces</td><td>10</td><td>7</td><td>2</td><td>1</td><td>⏱️ 29min</td></tr>
+                <tr><td>05/07</td><td class="opp">Seattle Storm</td><td>9</td><td>8</td><td>0</td><td>1</td><td class="low-min">⏱️ 22min</td></tr>
+                <tr><td>28/06</td><td class="opp">Washington Mystics</td><td>6</td><td>11</td><td>2</td><td>0</td><td>⏱️ 38min</td></tr>
+                <tr><td>26/06</td><td class="opp">Chicago Sky</td><td>4</td><td>5</td><td>3</td><td>0</td><td class="low-min">⏱️ 18min</td></tr>
+                <tr><td>25/06</td><td class="opp">Chicago Sky</td><td>10</td><td>4</td><td>2</td><td>2</td><td class="low-min">⏱️ 17min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Las Vegas</td>
+          <td>A'ja Wilson</td>
+          <td>16-38</td><td>6-15</td><td>5/10</td><td>0-3</td>
+          <td><button class="expand-btn" data-toggle-target="det-wilson" onclick="toggleRow('det-wilson')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-wilson" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>22/07</td><td class="opp">Washington Mystics</td><td>38</td><td>7</td><td>5</td><td>2</td><td>⏱️ 35min</td></tr>
+                <tr><td>21/07</td><td class="opp">Toronto Tempo</td><td>26</td><td>6</td><td>4</td><td>3</td><td class="low-min">⏱️ 28min</td></tr>
+                <tr><td>13/07</td><td class="opp">Indiana Fever</td><td>20</td><td>12</td><td>2</td><td>0</td><td>⏱️ 31min</td></tr>
+                <tr><td>11/07</td><td class="opp">Phoenix Mercury</td><td>21</td><td>15</td><td>3</td><td>1</td><td class="low-min">⏱️ 25min</td></tr>
+                <tr><td>10/07</td><td class="opp">Portland Fire</td><td>32</td><td>10</td><td>3</td><td>1</td><td>⏱️ 30min</td></tr>
+                <tr><td>28/06</td><td class="opp">Chicago Sky</td><td>30</td><td>15</td><td>1</td><td>1</td><td>⏱️ 34min</td></tr>
+                <tr><td>26/06</td><td class="opp">Dallas Wings</td><td>32</td><td>9</td><td>0</td><td>0</td><td>⏱️ 32min</td></tr>
+                <tr><td>24/06</td><td class="opp">New York Liberty</td><td>16</td><td>9</td><td>5</td><td>0</td><td>⏱️ 36min</td></tr>
+                <tr><td>21/06</td><td class="opp">Golden State Valkyries</td><td>19</td><td>9</td><td>3</td><td>0</td><td>⏱️ 31min</td></tr>
+                <tr><td>18/06</td><td class="opp">Phoenix Mercury</td><td>33</td><td>10</td><td>3</td><td>0</td><td>⏱️ 37min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Las Vegas</td>
+          <td>Jewell Loyd</td>
+          <td>abaixo do piso</td><td>abaixo do piso</td><td>0/10</td><td>0-3</td>
+          <td><button class="expand-btn" data-toggle-target="det-loyd" onclick="toggleRow('det-loyd')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-loyd" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>22/07</td><td class="opp">Washington Mystics</td><td>8</td><td>2</td><td>0</td><td>2</td><td>⏱️ 29min</td></tr>
+                <tr><td>21/07</td><td class="opp">Toronto Tempo</td><td>11</td><td>1</td><td>1</td><td>2</td><td class="low-min">⏱️ 23min</td></tr>
+                <tr><td>13/07</td><td class="opp">Indiana Fever</td><td>8</td><td>2</td><td>3</td><td>0</td><td>⏱️ 28min</td></tr>
+                <tr><td>11/07</td><td class="opp">Phoenix Mercury</td><td>9</td><td>1</td><td>3</td><td>2</td><td class="low-min">⏱️ 28min</td></tr>
+                <tr><td>10/07</td><td class="opp">Portland Fire</td><td>6</td><td>1</td><td>0</td><td>2</td><td>⏱️ 29min</td></tr>
+                <tr><td>05/07</td><td class="opp">Indiana Fever</td><td>12</td><td>3</td><td>1</td><td>2</td><td>⏱️ 32min</td></tr>
+                <tr><td>04/07</td><td class="opp">Chicago Sky</td><td>19</td><td>5</td><td>3</td><td>3</td><td>⏱️ 39min</td></tr>
+                <tr><td>30/06</td><td class="opp">New York Liberty</td><td>5</td><td>3</td><td>0</td><td>1</td><td>⏱️ 32min</td></tr>
+                <tr><td>28/06</td><td class="opp">Chicago Sky</td><td>6</td><td>1</td><td>0</td><td>2</td><td>⏱️ 28min</td></tr>
+                <tr><td>26/06</td><td class="opp">Dallas Wings</td><td>8</td><td>2</td><td>2</td><td>2</td><td>⏱️ 26min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Las Vegas</td>
+          <td>Chelsea Gray</td>
+          <td>7-19</td><td>abaixo do piso</td><td>1/10</td><td>0-3</td>
+          <td><button class="expand-btn" data-toggle-target="det-gray" onclick="toggleRow('det-gray')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-gray" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>22/07</td><td class="opp">Washington Mystics</td><td>19</td><td>1</td><td>4</td><td>1</td><td>⏱️ 37min</td></tr>
+                <tr><td>21/07</td><td class="opp">Toronto Tempo</td><td>14</td><td>4</td><td>7</td><td>3</td><td>⏱️ 31min</td></tr>
+                <tr><td>13/07</td><td class="opp">Indiana Fever</td><td>9</td><td>2</td><td>6</td><td>1</td><td>⏱️ 30min</td></tr>
+                <tr><td>11/07</td><td class="opp">Phoenix Mercury</td><td>15</td><td>1</td><td>12</td><td>3</td><td class="low-min">⏱️ 28min</td></tr>
+                <tr><td>10/07</td><td class="opp">Portland Fire</td><td>8</td><td>1</td><td>7</td><td>1</td><td>⏱️ 34min</td></tr>
+                <tr><td>05/07</td><td class="opp">Indiana Fever</td><td>10</td><td>4</td><td>6</td><td>0</td><td>⏱️ 31min</td></tr>
+                <tr><td>04/07</td><td class="opp">Chicago Sky</td><td>18</td><td>4</td><td>6</td><td>0</td><td>⏱️ 41min</td></tr>
+                <tr><td>30/06</td><td class="opp">New York Liberty</td><td>7</td><td>3</td><td>7</td><td>1</td><td>⏱️ 36min</td></tr>
+                <tr><td>28/06</td><td class="opp">Chicago Sky</td><td>18</td><td>6</td><td>8</td><td>1</td><td>⏱️ 35min</td></tr>
+                <tr><td>26/06</td><td class="opp">Dallas Wings</td><td>12</td><td>1</td><td>9</td><td>2</td><td>⏱️ 33min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Las Vegas</td>
+          <td>NaLyssa Smith</td>
+          <td>4-29</td><td>abaixo do piso</td><td>1/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-smith" onclick="toggleRow('det-smith')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-smith" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>22/07</td><td class="opp">Washington Mystics</td><td>4</td><td>3</td><td>0</td><td>0</td><td>⏱️ 22min</td></tr>
+                <tr><td>21/07</td><td class="opp">Toronto Tempo</td><td>18</td><td>5</td><td>2</td><td>0</td><td class="low-min">⏱️ 19min</td></tr>
+                <tr><td>13/07</td><td class="opp">Indiana Fever</td><td>9</td><td>5</td><td>1</td><td>0</td><td class="low-min">⏱️ 21min</td></tr>
+                <tr><td>11/07</td><td class="opp">Phoenix Mercury</td><td>14</td><td>3</td><td>0</td><td>0</td><td class="low-min">⏱️ 18min</td></tr>
+                <tr><td>10/07</td><td class="opp">Portland Fire</td><td>16</td><td>2</td><td>0</td><td>0</td><td>⏱️ 28min</td></tr>
+                <tr><td>05/07</td><td class="opp">Indiana Fever</td><td>9</td><td>10</td><td>1</td><td>0</td><td class="low-min">⏱️ 24min</td></tr>
+                <tr><td>04/07</td><td class="opp">Chicago Sky</td><td>29</td><td>8</td><td>1</td><td>0</td><td>⏱️ 33min</td></tr>
+                <tr><td>30/06</td><td class="opp">New York Liberty</td><td>9</td><td>6</td><td>1</td><td>0</td><td class="low-min">⏱️ 20min</td></tr>
+                <tr><td>28/06</td><td class="opp">Chicago Sky</td><td>6</td><td>1</td><td>2</td><td>0</td><td class="low-min">⏱️ 14min</td></tr>
+                <tr><td>26/06</td><td class="opp">Dallas Wings</td><td>4</td><td>11</td><td>0</td><td>0</td><td>⏱️ 30min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Las Vegas</td>
+          <td>Jackie Young</td>
+          <td>8-31</td><td>abaixo do piso</td><td>1/10</td><td>0-4</td>
+          <td><button class="expand-btn" data-toggle-target="det-young" onclick="toggleRow('det-young')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-young" class="detail-row" style="display:none">
+          <td colspan="7">
+            <table class="gamelog">
+              <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+              <tbody>
+                <tr><td>22/07</td><td class="opp">Washington Mystics</td><td>24</td><td>7</td><td>7</td><td>0</td><td>⏱️ 31min</td></tr>
+                <tr><td>21/07</td><td class="opp">Toronto Tempo</td><td>24</td><td>4</td><td>12</td><td>4</td><td>⏱️ 33min</td></tr>
+                <tr><td>13/07</td><td class="opp">Indiana Fever</td><td>15</td><td>1</td><td>3</td><td>1</td><td>⏱️ 32min</td></tr>
+                <tr><td>11/07</td><td class="opp">Phoenix Mercury</td><td>8</td><td>2</td><td>6</td><td>2</td><td class="low-min">⏱️ 24min</td></tr>
+                <tr><td>10/07</td><td class="opp">Portland Fire</td><td>19</td><td>4</td><td>11</td><td>3</td><td>⏱️ 31min</td></tr>
+                <tr><td>05/07</td><td class="opp">Indiana Fever</td><td>15</td><td>2</td><td>4</td><td>1</td><td>⏱️ 33min</td></tr>
+                <tr><td>04/07</td><td class="opp">Chicago Sky</td><td>16</td><td>6</td><td>5</td><td>0</td><td>⏱️ 39min</td></tr>
+                <tr><td>30/06</td><td class="opp">New York Liberty</td><td>31</td><td>2</td><td>7</td><td>3</td><td>⏱️ 36min</td></tr>
+                <tr><td>28/06</td><td class="opp">Chicago Sky</td><td>28</td><td>5</td><td>8</td><td>4</td><td>⏱️ 36min</td></tr>
+                <tr><td>26/06</td><td class="opp">Dallas Wings</td><td>20</td><td>8</td><td>6</td><td>2</td><td>⏱️ 32min</td></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>BETANIA TIPS — Jogadoras</h2>
+    <p style="font-size:13px;color:var(--muted)">Só mostro aqui os mercados com taxa de acerto histórica boa (🟢). A linha sugerida é mais baixa que a média — uma linha "segura", não a odd real da bet365 (confira o número da casa antes de decidir). Jogadoras/mercados sem opção boa não aparecem aqui.</p>
+
+    <table>
+      <thead><tr><th>Jogadora</th><th>Mercado</th><th>Linha sugerida</th><th>Acerto histórico</th><th></th></tr></thead>
+      <tbody>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Pontos+Assistências</td>
+          <td>Over 21.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Pontos</td>
+          <td>Over 19.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Rebotes</td>
+          <td>Over 8.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Pontos+Assistências+Rebotes</td>
+          <td>Over 33.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Pontos+Rebotes</td>
+          <td>Over 31.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>A'ja Wilson</td>
+          <td>Assistências+Rebotes</td>
+          <td>Over 11.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Chelsea Gray</td>
+          <td>Assistências</td>
+          <td>Over 5.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Chelsea Gray</td>
+          <td>Pontos+Assistências+Rebotes</td>
+          <td>Over 16.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Chelsea Gray</td>
+          <td>Pontos+Assistências</td>
+          <td>Over 14.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Chelsea Gray</td>
+          <td>Assistências+Rebotes</td>
+          <td>Over 7.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Chelsea Gray</td>
+          <td>Pontos</td>
+          <td>Over 8.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Pontos</td>
+          <td>Over 14.5</td>
+          <td>9/10 (90%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Assistências</td>
+          <td>Over 4.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>3 Pontos Convertidos</td>
+          <td>Over 0.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Pontos+Assistências+Rebotes</td>
+          <td>Over 20.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Pontos+Assistências</td>
+          <td>Over 18.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Pontos+Rebotes</td>
+          <td>Over 16.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jackie Young</td>
+          <td>Assistências+Rebotes</td>
+          <td>Over 7.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>NaLyssa Smith</td>
+          <td>Pontos</td>
+          <td>Over 5.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>NaLyssa Smith</td>
+          <td>Pontos+Rebotes</td>
+          <td>Over 13.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Bridget Carleton</td>
+          <td>Pontos</td>
+          <td>Over 8.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Bridget Carleton</td>
+          <td>3 Pontos Convertidos</td>
+          <td>Over 1.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Bridget Carleton</td>
+          <td>Pontos+Assistências+Rebotes</td>
+          <td>Over 17.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Bridget Carleton</td>
+          <td>Pontos+Assistências</td>
+          <td>Over 11.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Bridget Carleton</td>
+          <td>Pontos+Rebotes</td>
+          <td>Over 14.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Emily Engstler</td>
+          <td>Rebotes</td>
+          <td>Over 3.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Emily Engstler</td>
+          <td>Assistências+Rebotes</td>
+          <td>Over 7.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+        <tr>
+          <td>Jewell Loyd</td>
+          <td>3 Pontos Convertidos</td>
+          <td>Over 1.5</td>
+          <td>8/10 (80%)</td>
+          <td><span class="tip-verdict">🟢</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:var(--muted)">Nenhuma jogadora teve Duplo-Duplo com taxa boa o suficiente (Wilson, Gray, Smith e Engstler ficaram entre 0-50% nos últimos 10 jogos — abaixo do corte de 70%). Rebotes/assistências isoladas de Loyd, Gray, Smith, Young e Carleton, e a maior parte dos combos de Loyd e Smith, ficaram abaixo do piso mínimo de volume.</p>
+  </div>
+
+  <div class="sources">
+    <strong>Fontes (data da informação, não da consulta):</strong>
+    <div>Boxscores ESPN de cada jogo específico — datas de 25/06 a 23/07/2026 (ver tabelas)</div>
+    <div>Gamelogs das jogadoras — ESPN, jogos até 22-23/07/2026</div>
+    <div>ESPN Injuries — atualizado 28/07/2026</div>
+    <div>Calendário ESPN de cada time — confrontos diretos de 12/06/2026 e 10/07/2026</div>
+    <div>ESPN Standings — atualizado 28/07/2026</div>
+  </div>
+</main>
+</body>
+</html>
