@@ -9,8 +9,11 @@
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-home" href="../index.html">🏠 Início</a>
-  <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+  <div class="site-nav-inner">
+    <a class="site-nav-home" href="../index.html">Início</a>
+    <a class="site-nav-league active" href="index.html">WNBA</a>
+    <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+  </div>
 </nav>
 <main>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>

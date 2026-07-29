@@ -331,10 +331,20 @@ Sempre gere as duas entregas, sem perguntar:
    igual em todas as páginas da WNBA:
    ```html
    <nav class="site-nav">
-     <a class="site-nav-home" href="../index.html">🏠 Início</a>
-     <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+     <div class="site-nav-inner">
+       <a class="site-nav-home" href="../index.html">Início</a>
+       <a class="site-nav-league active" href="index.html">WNBA</a>
+       <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+     </div>
    </nav>
    ```
+   (`.site-nav-inner` é o que centraliza o conteúdo do menu na mesma
+   largura do `<main>` — não remova essa div, sem ela o menu fica esticado
+   na largura toda da viewport. `.site-nav-league` marca a liga atual;
+   quando houver mais de uma liga implementada, liste todas aqui, com
+   `class="site-nav-league active"` só na liga desta página. Sem emoji no
+   link de Início.)
+
    Para isso funcionar, o `<head>` precisa carregar
    `<script src="analises-list.js"></script>` (mesma pasta `wnba/`) e
    `<script src="../common.js"></script>` (sem `defer` — o dropdown é
@@ -343,6 +353,15 @@ Sempre gere as duas entregas, sem perguntar:
    chame `<script>buildNavDropdown('nav-select', 'WNBA_ANALISES', '{slug}');</script>`
    passando o slug desta própria análise (sem `.html`) como `currentSlug`,
    pra ele já vir selecionado no dropdown.
+
+   **IMPORTANTE — bug já visto**: `analises/wnba/analises-list.js` deve
+   declarar a lista como `window.WNBA_ANALISES = [...]`, nunca
+   `const WNBA_ANALISES = [...]` — uma `const`/`let` no escopo global de um
+   script comum (não-módulo) NÃO vira propriedade de `window`, então
+   `buildNavDropdown` (que lê `window[listVarName]`) não encontra a lista e
+   o dropdown fica vazio silenciosamente, sem erro visível no console. Já
+   aconteceu isso e o menu "não funcionava" — sempre use `window.` explícito
+   ao declarar essa lista.
 
    **Toda vez que uma nova análise for gerada, adicione uma nova entrada
    no início do array em `analises/wnba/analises-list.js`**
