@@ -4,14 +4,19 @@
 <meta charset="utf-8" />
 <title>Betania — Indiana Fever x Seattle Storm (Análise Completa)</title>
 <link rel="stylesheet" href="../style.css" />
-<script src="../common.js" defer></script>
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-home" href="../index.html">🏠 Início</a>
+  <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+</nav>
 <main>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
   <div class="analysis-hero">
-    <span class="history-date-badge">28/07 · 21:30</span>
+    <span class="history-date-badge">28/07 · 22:30</span>
     <div class="history-logos">
       <img src="https://a.espncdn.com/i/teamlogos/wnba/500/ind.png" alt="Indiana Fever" />
       <span class="history-vs">VS</span>
@@ -28,8 +33,8 @@
       <tr><td>Posição</td><td>1º</td><td>8º</td></tr>
       <tr><td>Últimos 5 jogos</td><td>✅❌✅✅✅</td><td>❌❌❌❌❌</td></tr>
       <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
-      <tr><td>Último jogo</td><td>23/07 — ✅ <strong>123</strong>-88<br>🏠 vs Connecticut Sun</td><td>22/07 — ❌ <strong>76</strong>-86<br>🏠 vs Minnesota Lynx</td></tr>
-      <tr><td>Próximo jogo</td><td>01/08 ✈️ vs Portland Fire</td><td>31/07 ✈️ vs Atlanta Dream</td></tr>
+      <tr><td>Último jogo</td><td>22/07 — ✅ <strong>123</strong>-88<br>🏠 vs Connecticut Sun</td><td>22/07 — ❌ <strong>76</strong>-86<br>🏠 vs Minnesota Lynx</td></tr>
+      <tr><td>Próximo jogo</td><td>31/07 ✈️ vs Portland Fire</td><td>31/07 ✈️ vs Atlanta Dream</td></tr>
     </table>
   </div>
 
@@ -652,6 +657,8 @@
     </table>
     <p style="font-size:12px;color:var(--muted)">Nenhuma jogadora teve Duplo-Duplo com taxa boa o suficiente pra entrar aqui (Clark, Boston e Malonga ficaram entre 20-40% nos últimos 10 jogos — abaixo do corte de 70%). Rebotes de Clark/Mitchell, assistências de Boston/Mitchell/Malonga e 3PTS de Boston/Malonga/Hiedeman ficaram abaixo do piso mínimo de volume.</p>
   </div>
+
+  <script>buildNavDropdown('nav-select', 'WNBA_ANALISES', '2026-07-28_indiana-fever-x-seattle-storm');</script>
 
   <div class="sources">
     <strong>Fontes (data da informação, não da consulta):</strong>

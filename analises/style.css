@@ -368,3 +368,42 @@ table.player-summary { margin-bottom: 6px; }
   color: var(--muted);
   text-align: center;
 }
+
+/* Menu fixo (sticky nav) no topo de toda pagina */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 16px;
+  margin: -24px -16px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  flex-wrap: wrap;
+}
+
+.site-nav a.site-nav-home {
+  color: var(--fg);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.site-nav a.site-nav-home:hover { color: var(--accent); }
+
+.site-nav select.site-nav-select {
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  max-width: 100%;
+}
+
+.site-nav select.site-nav-select:hover { border-color: var(--accent); }

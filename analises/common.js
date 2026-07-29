@@ -36,6 +36,21 @@ function toggleRow(rowId) {
   if (btn) btn.textContent = isHidden ? 'Ocultar jogos' : 'Ver jogos';
 }
 
+function buildNavDropdown(selectId, listVarName, currentSlug) {
+  var select = document.getElementById(selectId);
+  if (!select) return;
+  var list = window[listVarName];
+  if (!list || !list.length) return;
+  select.innerHTML = '';
+  list.forEach(function (item) {
+    var opt = document.createElement('option');
+    opt.value = item.slug + '.html';
+    opt.textContent = item.dataLabel + ' · ' + item.timeLabel + ' — ' + item.teamsLabel;
+    if (currentSlug && item.slug === currentSlug) opt.selected = true;
+    select.appendChild(opt);
+  });
+}
+
 function setQuarterTips(groupId, q) {
   var container = document.getElementById(groupId);
   if (!container) return;

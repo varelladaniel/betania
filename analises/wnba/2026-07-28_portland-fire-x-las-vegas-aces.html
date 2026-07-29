@@ -4,14 +4,19 @@
 <meta charset="utf-8" />
 <title>Betania — Portland Fire x Las Vegas Aces (Análise Completa)</title>
 <link rel="stylesheet" href="../style.css" />
-<script src="../common.js" defer></script>
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-home" href="../index.html">🏠 Início</a>
+  <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+</nav>
 <main>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
   <div class="analysis-hero">
-    <span class="history-date-badge">28/07 · 22:00</span>
+    <span class="history-date-badge">28/07 · 23:00</span>
     <div class="history-logos">
       <img src="https://a.espncdn.com/i/teamlogos/wnba/500/por.png" alt="Portland Fire" />
       <span class="history-vs">VS</span>
@@ -28,8 +33,8 @@
       <tr><td>Posição</td><td>5º</td><td>3º</td></tr>
       <tr><td>Últimos 5 jogos</td><td>✅❌✅❌❌</td><td>✅✅❌✅❌</td></tr>
       <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
-      <tr><td>Último jogo</td><td>23/07 — ❌ <strong>97</strong>-101<br>🏠 vs Dallas Wings</td><td>22/07 — ❌ <strong>99</strong>-100<br>✈️ vs Washington Mystics</td></tr>
-      <tr><td>Próximo jogo</td><td>01/08 🏠 vs Indiana Fever</td><td>31/07 🏠 vs New York Liberty</td></tr>
+      <tr><td>Último jogo</td><td>22/07 — ❌ <strong>97</strong>-101<br>🏠 vs Dallas Wings</td><td>22/07 — ❌ <strong>99</strong>-100<br>✈️ vs Washington Mystics</td></tr>
+      <tr><td>Próximo jogo</td><td>31/07 🏠 vs Indiana Fever</td><td>30/07 🏠 vs New York Liberty</td></tr>
     </table>
   </div>
 
@@ -693,6 +698,8 @@
     </table>
     <p style="font-size:12px;color:var(--muted)">Nenhuma jogadora teve Duplo-Duplo com taxa boa o suficiente (Wilson, Gray, Smith e Engstler ficaram entre 0-50% nos últimos 10 jogos — abaixo do corte de 70%). Rebotes/assistências isoladas de Loyd, Gray, Smith, Young e Carleton, e a maior parte dos combos de Loyd e Smith, ficaram abaixo do piso mínimo de volume.</p>
   </div>
+
+  <script>buildNavDropdown('nav-select', 'WNBA_ANALISES', '2026-07-28_portland-fire-x-las-vegas-aces');</script>
 
   <div class="sources">
     <strong>Fontes (data da informação, não da consulta):</strong>

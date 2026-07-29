@@ -4,8 +4,14 @@
 <meta charset="utf-8" />
 <title>Betania — WNBA — Histórico</title>
 <link rel="stylesheet" href="../style.css" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-home" href="../index.html">🏠 Início</a>
+  <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
+</nav>
 <main>
   <a class="back-link" href="../index.html">← Voltar para esportes/ligas</a>
   <header class="brand">
@@ -19,7 +25,7 @@
   <div class="history-grid" id="lista-analises">
     <!-- NOVA_ANALISE_AQUI -->
     <a class="history-card" href="2026-07-29_gs-x-phx.html">
-      <span class="history-date-badge">29/07 · 22:00</span>
+      <span class="history-date-badge">29/07 · 23:00</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/gs.png" alt="Golden State Valkyries" />
         <span class="history-vs">VS</span>
@@ -28,7 +34,7 @@
       <div class="history-teams-label">GS Valkyries vs PHX Mercury</div>
     </a>
     <a class="history-card" href="2026-07-29_atl-x-dal.html">
-      <span class="history-date-badge">29/07 · 20:00</span>
+      <span class="history-date-badge">29/07 · 21:00</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/atl.png" alt="Atlanta Dream" />
         <span class="history-vs">VS</span>
@@ -37,7 +43,7 @@
       <div class="history-teams-label">ATL Dream vs DAL Wings</div>
     </a>
     <a class="history-card" href="2026-07-28_new-york-liberty-x-los-angeles-sparks.html">
-      <span class="history-date-badge">28/07 · 22:00</span>
+      <span class="history-date-badge">28/07 · 23:00</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/ny.png" alt="New York Liberty" />
         <span class="history-vs">VS</span>
@@ -46,7 +52,7 @@
       <div class="history-teams-label">NY Liberty vs LA Sparks</div>
     </a>
     <a class="history-card" href="2026-07-28_portland-fire-x-las-vegas-aces.html">
-      <span class="history-date-badge">28/07 · 22:00</span>
+      <span class="history-date-badge">28/07 · 23:00</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/por.png" alt="Portland Fire" />
         <span class="history-vs">VS</span>
@@ -55,7 +61,7 @@
       <div class="history-teams-label">POR Fire vs LV Aces</div>
     </a>
     <a class="history-card" href="2026-07-28_indiana-fever-x-seattle-storm.html">
-      <span class="history-date-badge">28/07 · 21:30</span>
+      <span class="history-date-badge">28/07 · 22:30</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/ind.png" alt="Indiana Fever" />
         <span class="history-vs">VS</span>
@@ -64,7 +70,7 @@
       <div class="history-teams-label">IND Fever vs SEA Storm</div>
     </a>
     <a class="history-card" href="2026-07-28_toronto-tempo-x-minnesota-lynx.html">
-      <span class="history-date-badge">28/07 · 20:00</span>
+      <span class="history-date-badge">28/07 · 21:00</span>
       <div class="history-logos">
         <img src="https://a.espncdn.com/i/teamlogos/wnba/500/tor.png" alt="Toronto Tempo" />
         <span class="history-vs">VS</span>
@@ -83,5 +89,6 @@
     </a>
   </div>
 </main>
+<script>buildNavDropdown('nav-select', 'WNBA_ANALISES', null);</script>
 </body>
 </html>
