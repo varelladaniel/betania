@@ -1,0 +1,99 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T20:19:00Z",
+  "jogos": [
+    {
+      "game_pk": 824890,
+      "contexto": {
+        "visitante": "Washington Nationals",
+        "visitante_sigla": "WSH",
+        "mandante": "Atlanta Braves",
+        "mandante_sigla": "ATL",
+        "data_hora_brt": "2026-08-01T20:15:00-03:00",
+        "estadio": "Truist Park",
+        "cidade": "Atlanta, GA",
+        "classificacao": {
+          "visitante": { "vitorias": 55, "derrotas": 56, "posicao_divisao": 4, "jogos_atras_wildcard": 2.5 },
+          "mandante": { "vitorias": 65, "derrotas": 45, "posicao_divisao": 1, "jogos_atras_wildcard": 0 }
+        },
+        "sequencia_recente": { "visitante": "2V-3D", "mandante": "4V-1D" },
+        "ultimo_jogo": {
+          "visitante": { "resultado": "derrota", "placar": "2-6", "local": "fora", "data": "2026-07-31", "adversario": "Atlanta Braves" },
+          "mandante": { "resultado": "vitoria", "placar": "6-2", "local": "casa", "data": "2026-07-31", "adversario": "Washington Nationals" }
+        },
+        "proximo_jogo": {
+          "visitante": { "data": "2026-08-02", "local": "fora", "adversario": "Atlanta Braves" },
+          "mandante": { "data": "2026-08-02", "local": "casa", "adversario": "Washington Nationals" }
+        },
+        "confronto_direto_temporada": { "vitorias_visitante": 3, "vitorias_mandante": 6 },
+        "abridores": {
+          "visitante": { "nome": "Miles Mikolas", "braco": "R", "player_id": 571945, "era": 5.65, "baa": 0.283, "whip": 1.33, "ip": "102.0", "gamesStarted": 9 },
+          "mandante": { "nome": "Reynaldo López", "braco": "R", "player_id": 625643, "era": 3.64, "baa": 0.245, "whip": 1.34, "ip": "71.2", "gamesStarted": 11 }
+        },
+        "bullpen": {
+          "visitante": { "baa_bullpen": 0.216, "ip_total_temporada": 107.3, "ip_ultimos_3_dias": 24.3 },
+          "mandante": { "baa_bullpen": 0.195, "ip_total_temporada": 236.7, "ip_ultimos_3_dias": 27.7 }
+        },
+        "baa_efetiva": {
+          "vs_pitching_visitante": { "descricao": "BAA enfrentada pelos batedores do ATL (contra Mikolas + bullpen WSH)", "valor": 0.256 },
+          "vs_pitching_mandante": { "descricao": "BAA enfrentada pelos batedores do WSH (contra López + bullpen ATL)", "valor": 0.225 }
+        },
+        "desfalques": {
+          "visitante": [
+            { "nome": "Josiah Gray", "posicao": "SP", "status": "IL60" },
+            { "nome": "Mitchell Parker", "posicao": "SP", "status": "IL60" },
+            { "nome": "DJ Herz", "posicao": "SP", "status": "IL60" },
+            { "nome": "Ken Waldichuk", "posicao": "RP", "status": "IL60" },
+            { "nome": "Richard Lovelady", "posicao": "RP", "status": "IL60" },
+            { "nome": "Brad Lord", "posicao": "RP", "status": "IL15" },
+            { "nome": "PJ Poulin", "posicao": "RP", "status": "IL15" }
+          ],
+          "mandante": [
+            { "nome": "Sean Murphy", "posicao": "C", "status": "IL60", "nota": "Fractured left middle finger. Titular; substituído por Drake Baldwin hoje." },
+            { "nome": "Ha-Seong Kim", "posicao": "SS", "status": "IL10", "nota": "Titular; substituído por Jim Jarvis hoje." },
+            { "nome": "Spencer Strider", "posicao": "SP", "status": "IL60" },
+            { "nome": "Spencer Schwellenbach", "posicao": "SP", "status": "IL60" },
+            { "nome": "Joe Jiménez", "posicao": "RP", "status": "IL60" },
+            { "nome": "Joey Wentz", "posicao": "RP", "status": "IL60" },
+            { "nome": "Robert Suarez", "posicao": "RP", "status": "IL15" }
+          ]
+        },
+        "motivacao_extra": "Rivalidade divisional NL East normal — Atlanta lidera com folga (10,5 jogos à frente) e busca consolidar 1º lugar; Washington briga pela wild card e tenta evitar a varrida na série de 4 jogos (perde 0-2 até aqui). Nenhum fator extra além da disputa normal de classificação.",
+        "estadio_condicoes": {
+          "park_factor": { "runs": 101, "hr": 102, "doubles": 100, "categoria": "neutro" },
+          "teto_retratil": false,
+          "clima_confirmado": false,
+          "nota_clima": "⚠️ clima não confirmado"
+        },
+        "interesse_jogo": {
+          "classificacao": "Interessante",
+          "n_fortes": 4,
+          "jogadores_fortes": ["Michael Harris II (ATL)", "CJ Abrams (WSH)", "Matt Olson (ATL)", "Ozzie Albies (ATL)"],
+          "explicacao": "4 rebatedores batem sinal forte (P(1+base) ≥ 65% com consistência ✅) distribuídos nos dois times, não concentrados em só um lado. A BAA_efetiva enfrentada pelos batedores do WSH (contra López + bullpen ATL, 0,225) é dura, mas do outro lado a BAA_efetiva enfrentada pelos batedores do ATL (contra Mikolas + bullpen WSH, 0,256) é bem batível — não é um cenário de dois arremessos difíceis anulando os números."
+        }
+      },
+      "rebatedores": [
+        { "player_id": 686948, "nome": "Drake Baldwin", "time": "ATL", "slot": "1", "slot_confirmado": true, "pa_temporada": 388, "avg": 0.275, "babip": 0.307, "k_pct": 20.9, "bb_pct": 10.8, "pct_1mais_temporada": 69.0, "pct_1mais_ultimos10": 80.0, "maior_seca_temporada": 9, "seca_atual": 2, "split_vs_braco": { "amostra_pa": 232, "avg": 0.298 }, "p_1mais_base": 0.760, "odd_justa": 1.32, "faixa_odd": [1.27, 1.37], "consistencia": "aviso", "avisos": ["maior seca da temporada (9 jogos) acima do padrão de calibração (≤6)"] },
+        { "player_id": 671739, "nome": "Michael Harris II", "time": "ATL", "slot": "4", "slot_confirmado": true, "pa_temporada": 418, "avg": 0.292, "babip": 0.321, "k_pct": 19.4, "bb_pct": 3.8, "pct_1mais_temporada": 69.2, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 3, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 257, "avg": 0.300 }, "p_1mais_base": 0.753, "odd_justa": 1.33, "faixa_odd": [1.28, 1.38], "consistencia": "ok", "avisos": [] },
+        { "player_id": 660670, "nome": "Ronald Acuña Jr.", "time": "ATL", "slot": "2", "slot_confirmado": true, "pa_temporada": 257, "avg": 0.239, "babip": 0.289, "k_pct": 22.6, "bb_pct": 14.4, "pct_1mais_temporada": 63.8, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 3, "seca_atual": 1, "split_vs_braco": { "amostra_pa": 166, "avg": 0.277 }, "p_1mais_base": 0.713, "odd_justa": 1.40, "faixa_odd": [1.35, 1.46], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (63,8%) abaixo do piso de 65% mesmo com P alta"] },
+        { "player_id": 682928, "nome": "CJ Abrams", "time": "WSH", "slot": "2", "slot_confirmado": true, "pa_temporada": 458, "avg": 0.290, "babip": 0.314, "k_pct": 21.4, "bb_pct": 9.2, "pct_1mais_temporada": 70.1, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 4, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 321, "avg": 0.303 }, "p_1mais_base": 0.708, "odd_justa": 1.41, "faixa_odd": [1.35, 1.47], "consistencia": "ok", "avisos": [] },
+        { "player_id": 621566, "nome": "Matt Olson", "time": "ATL", "slot": "3", "slot_confirmado": true, "pa_temporada": 483, "avg": 0.263, "babip": 0.298, "k_pct": 25.1, "bb_pct": 10.1, "pct_1mais_temporada": 71.8, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 3, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 274, "avg": 0.259 }, "p_1mais_base": 0.699, "odd_justa": 1.43, "faixa_odd": [1.37, 1.49], "consistencia": "ok", "avisos": [] },
+        { "player_id": 645277, "nome": "Ozzie Albies", "time": "ATL", "slot": "5", "slot_confirmado": true, "pa_temporada": 477, "avg": 0.263, "babip": 0.268, "k_pct": 14.5, "bb_pct": 6.5, "pct_1mais_temporada": 68.2, "pct_1mais_ultimos10": 80.0, "maior_seca_temporada": 6, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 279, "avg": 0.234 }, "p_1mais_base": 0.667, "odd_justa": 1.50, "faixa_odd": [1.44, 1.57], "consistencia": "ok", "avisos": [] },
+        { "player_id": 671277, "nome": "Luis García Jr.", "time": "WSH", "slot": "2", "slot_confirmado": true, "pa_temporada": 370, "avg": 0.283, "babip": 0.284, "k_pct": 16.2, "bb_pct": 4.3, "pct_1mais_temporada": 60.2, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 4, "seca_atual": 1, "split_vs_braco": { "amostra_pa": 316, "avg": 0.292 }, "p_1mais_base": 0.647, "odd_justa": 1.54, "faixa_odd": [1.48, 1.62], "consistencia": "aviso", "avisos": ["piso de consistência não atingido (%1+H temporada 60,2% < 65%)"] },
+        { "player_id": 695734, "nome": "Daylen Lile", "time": "WSH", "slot": "6", "slot_confirmado": true, "pa_temporada": 456, "avg": 0.248, "babip": 0.278, "k_pct": 18.4, "bb_pct": 5.9, "pct_1mais_temporada": 65.1, "pct_1mais_ultimos10": 80.0, "maior_seca_temporada": 4, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 329, "avg": 0.253 }, "p_1mais_base": 0.634, "odd_justa": 1.58, "faixa_odd": [1.51, 1.66], "consistencia": "ok", "avisos": [] },
+        { "player_id": 642086, "nome": "Dominic Smith", "time": "ATL", "slot": "6", "slot_confirmado": true, "pa_temporada": 259, "avg": 0.267, "babip": 0.282, "k_pct": 13.5, "bb_pct": 7.3, "pct_1mais_temporada": 51.1, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 6, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 224, "avg": 0.282 }, "p_1mais_base": 0.600, "odd_justa": 1.67, "faixa_odd": [1.59, 1.75], "consistencia": "aviso", "avisos": ["piso de consistência não atingido (%1+H temporada 51,1% < 65%)"] },
+        { "player_id": 660688, "nome": "Keibert Ruiz", "time": "WSH", "slot": "5", "slot_confirmado": true, "pa_temporada": 242, "avg": 0.263, "babip": 0.272, "k_pct": 12.0, "bb_pct": 3.7, "pct_1mais_temporada": 62.0, "pct_1mais_ultimos10": 40.0, "maior_seca_temporada": 4, "seca_atual": 1, "split_vs_braco": { "amostra_pa": 160, "avg": 0.250 }, "p_1mais_base": 0.563, "odd_justa": 1.78, "faixa_odd": [1.69, 1.88], "consistencia": "aviso", "avisos": ["piso de consistência não atingido"] },
+        { "player_id": 683083, "nome": "Nasim Nuñez", "time": "WSH", "slot": "7", "slot_confirmado": true, "pa_temporada": 357, "avg": 0.242, "babip": 0.312, "k_pct": 20.7, "bb_pct": 10.6, "pct_1mais_temporada": 52.0, "pct_1mais_ultimos10": 40.0, "maior_seca_temporada": 6, "seca_atual": 3, "split_vs_braco": { "amostra_pa": 249, "avg": 0.243 }, "p_1mais_base": 0.533, "odd_justa": 1.88, "faixa_odd": [1.78, 1.99], "consistencia": "aviso", "avisos": ["piso de consistência não atingido"] },
+        { "player_id": 573262, "nome": "Mike Yastrzemski", "time": "ATL", "slot": "8", "slot_confirmado": true, "pa_temporada": 281, "avg": 0.226, "babip": 0.283, "k_pct": 24.6, "bb_pct": 10.0, "pct_1mais_temporada": 50.0, "pct_1mais_ultimos10": 40.0, "maior_seca_temporada": 5, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 246, "avg": 0.229 }, "p_1mais_base": 0.509, "odd_justa": 1.97, "faixa_odd": [1.86, 2.09], "consistencia": "aviso", "avisos": ["piso de consistência não atingido"] },
+        { "player_id": 696285, "nome": "Jacob Young", "time": "WSH", "slot": "9", "slot_confirmado": true, "pa_temporada": 327, "avg": 0.236, "babip": 0.263, "k_pct": 17.4, "bb_pct": 6.4, "pct_1mais_temporada": 55.7, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 4, "seca_atual": 1, "split_vs_braco": { "amostra_pa": 216, "avg": 0.217 }, "p_1mais_base": 0.490, "odd_justa": 2.04, "faixa_odd": [1.92, 2.17], "consistencia": "aviso", "avisos": ["piso de consistência não atingido"] },
+        { "player_id": 686611, "nome": "Dylan Crews", "time": "WSH", "slot": "3", "slot_confirmado": true, "pa_temporada": 244, "avg": 0.228, "babip": 0.266, "k_pct": 23.0, "bb_pct": 7.4, "pct_1mais_temporada": 61.0, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 3, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 165, "avg": 0.180 }, "p_1mais_base": 0.484, "odd_justa": 2.07, "faixa_odd": [1.94, 2.20], "consistencia": "aviso", "avisos": ["split vs destro fraco (.180, 48pts abaixo da média geral, perto do corte de 50pts)", "piso de consistência não atingido"] },
+        { "player_id": 678391, "nome": "Jorbit Vivas", "time": "WSH", "slot": "8", "slot_confirmado": true, "pa_temporada": 233, "avg": 0.240, "babip": 0.269, "k_pct": 14.6, "bb_pct": 9.4, "pct_1mais_temporada": 50.0, "pct_1mais_ultimos10": 40.0, "maior_seca_temporada": 5, "seca_atual": 0, "split_vs_braco": { "amostra_pa": 203, "avg": 0.236 }, "p_1mais_base": 0.462, "odd_justa": 2.16, "faixa_odd": [2.03, 2.31], "consistencia": "aviso", "avisos": ["piso de consistência não atingido"] }
+      ],
+      "excluidos": [
+        { "nome": "James Wood", "time": "WSH", "motivo": "K% da temporada 28,7% > 28% (filtro eliminatório)" },
+        { "nome": "Austin Riley", "time": "ATL", "motivo": "K% da temporada 31,0% > 28% (filtro eliminatório)" },
+        { "nome": "Jim Jarvis", "time": "ATL", "motivo": "Amostra da temporada insuficiente (82 PA < 150 PA)" }
+      ]
+    }
+  ]
+}
