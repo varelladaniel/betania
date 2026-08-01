@@ -1,0 +1,496 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T18:16:05.207Z",
+  "jogos": [
+    {
+      "game_pk": 822944,
+      "contexto": {
+        "visitante": "Chicago White Sox",
+        "mandante": "Tampa Bay Rays",
+        "estadio": "Tropicana Field",
+        "data_hora_brt": "2026-08-01T17:10:00-03:00",
+        "classificacao": {
+          "CWS": {
+            "vitorias": 58,
+            "derrotas": 51,
+            "posicao": "1º AL Central"
+          },
+          "TB": {
+            "vitorias": 64,
+            "derrotas": 45,
+            "posicao": "1º AL East (líder da liga)"
+          }
+        },
+        "ultimos_5": {
+          "CWS": "3-2",
+          "TB": "3-2"
+        },
+        "ultimo_jogo": {
+          "CWS": {
+            "resultado": "venceu",
+            "placar": "6-1",
+            "mando": "fora",
+            "adversario": "Tampa Bay Rays",
+            "data": "2026-07-31"
+          },
+          "TB": {
+            "resultado": "perdeu",
+            "placar": "1-6",
+            "mando": "casa",
+            "adversario": "Chicago White Sox",
+            "data": "2026-07-31"
+          }
+        },
+        "proximo_jogo": {
+          "CWS": {
+            "data": "2026-08-02",
+            "mando": "fora",
+            "adversario": "Tampa Bay Rays"
+          },
+          "TB": {
+            "data": "2026-08-02",
+            "mando": "casa",
+            "adversario": "Chicago White Sox"
+          }
+        },
+        "confronto_direto_temporada": "TB lidera 3-1",
+        "abridores": {
+          "CWS": {
+            "nome": "Jordan Hicks",
+            "mao": "R",
+            "nota": "abridor por bullpen game/opener — 0 starts em 34 aparições na temporada, AVG contra .214, 31 IP"
+          },
+          "TB": {
+            "nome": "Drew Rasmussen",
+            "mao": "R",
+            "nota": "20 starts, 111.1 IP, AVG contra .206, WHIP 0.93, ERA 3.07 — fase muito forte"
+          }
+        },
+        "baa_efetiva": {
+          "CWS_pitching": 0.2091,
+          "TB_pitching": 0.21697875383043919
+        },
+        "desfalques": [
+          {
+            "time": "TB",
+            "nome": "Shane McClanahan",
+            "pos": "SP",
+            "status": "D15",
+            "nota": "99 IP na temporada — não é o abridor de hoje"
+          },
+          {
+            "time": "TB",
+            "nome": "Jake Fraley",
+            "pos": "RF",
+            "status": "D10",
+            "nota": "90 PA — reserva/platoon"
+          }
+        ],
+        "motivacao": "Ambos os times lideram suas divisões (CWS no AL Central, TB no AL East); série de 3 jogos em andamento, sem rivalidade especial.",
+        "park_factor": {
+          "estadio": "Tropicana Field",
+          "runs": 96,
+          "hr": 94,
+          "doubles": 98,
+          "categoria": "supressor",
+          "teto": "fixo, condições internas controladas"
+        },
+        "interesse_jogo": {
+          "classificacao": "Desinteressante",
+          "n_fortes": 2,
+          "justificativa": "Apenas 2 rebatedores (Chandler Simpson e Yandy Díaz, ambos do TB) batem P≥65% com consistência ok — sem profundidade do lado CWS. As duas BAA_efetivas (0.209 CWS pitching / 0.217 TB pitching) estão bem abaixo da média de liga (~0.248), pitching difícil dos dois lados neutraliza os rebatedores. Soma-se incerteza real do uso de Jordan Hicks como opener/bullpen game, mas o motivo central é o matchup difícil em si."
+        }
+      },
+      "rebatedores": [
+        {
+          "player_id": 802415,
+          "nome": "Chandler Simpson",
+          "time": "TB",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 405,
+          "avg": 0.29,
+          "babip": 0.319,
+          "k_pct": 0.0938,
+          "bb_pct": 0.0494,
+          "pct_1mais_temporada": 0.6667,
+          "pct_1mais_ultimos10": 0.9,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.7436,
+          "odd_justa": 1.34,
+          "faixa_odd": [
+            1.26,
+            1.44
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 650490,
+          "nome": "Yandy Díaz",
+          "time": "TB",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 461,
+          "avg": 0.302,
+          "babip": 0.33,
+          "k_pct": 0.1475,
+          "bb_pct": 0.0911,
+          "pct_1mais_temporada": 0.7143,
+          "pct_1mais_ultimos10": 0.9,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.7205,
+          "odd_justa": 1.39,
+          "faixa_odd": [
+            1.3,
+            1.49
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 803011,
+          "nome": "Sam Antonacci",
+          "time": "CWS",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 357,
+          "avg": 0.282,
+          "babip": 0.32,
+          "k_pct": 0.1541,
+          "bb_pct": 0.07,
+          "pct_1mais_temporada": 0.6404,
+          "pct_1mais_ultimos10": 0.6,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6964,
+          "odd_justa": 1.44,
+          "faixa_odd": [
+            1.38,
+            1.5
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 676356,
+          "nome": "Jonny DeLuca",
+          "time": "TB",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 214,
+          "avg": 0.262,
+          "babip": 0.303,
+          "k_pct": 0.2009,
+          "bb_pct": 0.0467,
+          "pct_1mais_temporada": 0.5373,
+          "pct_1mais_ultimos10": 0.4,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6593,
+          "odd_justa": 1.52,
+          "faixa_odd": [
+            1.41,
+            1.64
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 663743,
+          "nome": "Nick Fortes",
+          "time": "TB",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 252,
+          "avg": 0.277,
+          "babip": 0.303,
+          "k_pct": 0.123,
+          "bb_pct": 0.0238,
+          "pct_1mais_temporada": 0.5926,
+          "pct_1mais_ultimos10": 0.8,
+          "maior_seca_temporada": 5,
+          "seca_atual": 2,
+          "p_1mais_base": 0.6479,
+          "odd_justa": 1.54,
+          "faixa_odd": [
+            1.43,
+            1.67
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 691406,
+          "nome": "Junior Caminero",
+          "time": "TB",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 475,
+          "avg": 0.282,
+          "babip": 0.289,
+          "k_pct": 0.1811,
+          "bb_pct": 0.1263,
+          "pct_1mais_temporada": 0.7339,
+          "pct_1mais_ultimos10": 0.8,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6464,
+          "odd_justa": 1.55,
+          "faixa_odd": [
+            1.44,
+            1.68
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 671976,
+          "nome": "Tristan Peters",
+          "time": "CWS",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 327,
+          "avg": 0.268,
+          "babip": 0.316,
+          "k_pct": 0.1835,
+          "bb_pct": 0.0673,
+          "pct_1mais_temporada": 0.5143,
+          "pct_1mais_ultimos10": 0.5,
+          "maior_seca_temporada": 6,
+          "seca_atual": 6,
+          "p_1mais_base": 0.6342,
+          "odd_justa": 1.58,
+          "faixa_odd": [
+            1.51,
+            1.66
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 668723,
+          "nome": "Ryan Vilade",
+          "time": "TB",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 180,
+          "avg": 0.256,
+          "babip": 0.278,
+          "k_pct": 0.2167,
+          "bb_pct": 0.0833,
+          "pct_1mais_temporada": 0.4833,
+          "pct_1mais_ultimos10": 0.3,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.6087,
+          "odd_justa": 1.64,
+          "faixa_odd": [
+            1.52,
+            1.79
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21.7% acima de 21%"
+          ]
+        },
+        {
+          "player_id": 643217,
+          "nome": "Andrew Benintendi",
+          "time": "CWS",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 333,
+          "avg": 0.247,
+          "babip": 0.296,
+          "k_pct": 0.2372,
+          "bb_pct": 0.0871,
+          "pct_1mais_temporada": 0.5464,
+          "pct_1mais_ultimos10": 0.5,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6013,
+          "odd_justa": 1.66,
+          "faixa_odd": [
+            1.58,
+            1.75
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 23.7% acima de 21%"
+          ]
+        },
+        {
+          "player_id": 810938,
+          "nome": "Ben Williamson",
+          "time": "TB",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 258,
+          "avg": 0.251,
+          "babip": 0.31,
+          "k_pct": 0.1899,
+          "bb_pct": 0.0775,
+          "pct_1mais_temporada": 0.519,
+          "pct_1mais_ultimos10": 0.5,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6011,
+          "odd_justa": 1.66,
+          "faixa_odd": [
+            1.54,
+            1.81
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 695731,
+          "nome": "Braden Montgomery",
+          "time": "CWS",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 175,
+          "avg": 0.237,
+          "babip": 0.286,
+          "k_pct": 0.2,
+          "bb_pct": 0.0914,
+          "pct_1mais_temporada": 0.6279,
+          "pct_1mais_ultimos10": 0.5,
+          "maior_seca_temporada": 3,
+          "seca_atual": 3,
+          "p_1mais_base": 0.5809,
+          "odd_justa": 1.72,
+          "faixa_odd": [
+            1.64,
+            1.82
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 805367,
+          "nome": "Chase Meidroth",
+          "time": "CWS",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 445,
+          "avg": 0.272,
+          "babip": 0.343,
+          "k_pct": 0.227,
+          "bb_pct": 0.0944,
+          "pct_1mais_temporada": 0.7075,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 3,
+          "seca_atual": 2,
+          "p_1mais_base": 0.5659,
+          "odd_justa": 1.77,
+          "faixa_odd": [
+            1.68,
+            1.87
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 22.7% acima de 21%",
+            "BABIP 0.343 — atenção à sustentabilidade"
+          ]
+        },
+        {
+          "player_id": 678246,
+          "nome": "Miguel Vargas",
+          "time": "CWS",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 472,
+          "avg": 0.24,
+          "babip": 0.243,
+          "k_pct": 0.1716,
+          "bb_pct": 0.1271,
+          "pct_1mais_temporada": 0.6481,
+          "pct_1mais_ultimos10": 0.5,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5456,
+          "odd_justa": 1.83,
+          "faixa_odd": [
+            1.74,
+            1.94
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 670764,
+          "nome": "Taylor Walls",
+          "time": "TB",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 302,
+          "avg": 0.214,
+          "babip": 0.302,
+          "k_pct": 0.2583,
+          "bb_pct": 0.1093,
+          "pct_1mais_temporada": 0.5114,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 5,
+          "seca_atual": 5,
+          "p_1mais_base": 0.53,
+          "odd_justa": 1.89,
+          "faixa_odd": [
+            1.72,
+            2.08
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 25.8% acima de 21%"
+          ]
+        },
+        {
+          "player_id": 700337,
+          "nome": "Edgar Quero",
+          "time": "CWS",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 190,
+          "avg": 0.186,
+          "babip": 0.225,
+          "k_pct": 0.2158,
+          "bb_pct": 0.0684,
+          "pct_1mais_temporada": 0.3667,
+          "pct_1mais_ultimos10": 0.4,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.4894,
+          "odd_justa": 2.04,
+          "faixa_odd": [
+            1.93,
+            2.18
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21.6% acima de 21%"
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Munetaka Murakami",
+          "motivo": "K% 32.3% acima do limite de 28%",
+          "time": "CWS"
+        },
+        {
+          "nome": "Colson Montgomery",
+          "motivo": "K% 31.9% acima do limite de 28%",
+          "time": "CWS"
+        },
+        {
+          "nome": "Victor Mesa Jr.",
+          "motivo": "amostra da temporada < 150 PA (tem 137)",
+          "time": "TB"
+        }
+      ]
+    }
+  ]
+}

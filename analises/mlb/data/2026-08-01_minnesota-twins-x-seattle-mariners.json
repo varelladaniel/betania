@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T19:00:00Z",
+  "jogos": [
+    {
+      "game_pk": 823109,
+      "contexto": {
+        "visitante": "Minnesota Twins",
+        "mandante": "Seattle Mariners",
+        "estadio": "T-Mobile Park",
+        "data_hora_utc": "2026-08-01T20:10:00Z",
+        "data_hora_brt": "2026-08-01T17:10:00-03:00",
+        "classificacao": {
+          "visitante": "56-55, 2º lugar AL Central, 3,0 jogos do 1º, na linha da vaga de wild card",
+          "mandante": "53-58, 3º lugar AL West, 3,0 jogos do 1º e 3,0 da wild card"
+        },
+        "sequencia_recente": {
+          "visitante": "4 vitórias e 1 derrota nos últimos 5 (streak W2)",
+          "mandante": "1 vitória e 4 derrotas nos últimos 5 (streak L3)"
+        },
+        "ultimo_jogo": {
+          "visitante": "31/07 — vitória 5-3 fora vs Seattle Mariners",
+          "mandante": "31/07 — derrota 3-5 em casa vs Minnesota Twins"
+        },
+        "proximo_jogo": {
+          "visitante": "02/08, fora, vs Seattle Mariners (segue a série)",
+          "mandante": "02/08, em casa, vs Minnesota Twins (segue a série)"
+        },
+        "confronto_direto_temporada": "Equilibrado, 2 vitórias a 2 em 4 jogos disputados em 2026",
+        "abridores": {
+          "visitante": { "nome": "Connor Prielipp", "braco": "L", "baa": 0.249, "whip": 1.30, "era": 4.73, "gs": 14, "ip": 72.1, "k": 76 },
+          "mandante": { "nome": "Logan Gilbert", "braco": "R", "baa": 0.213, "whip": 0.99, "era": 3.44, "gs": 21, "ip": 125.2, "k": 133 }
+        },
+        "baa_bullpen": { "visitante": 0.2327, "mandante": 0.2418 },
+        "baa_efetiva": { "twins_vs_gilbert": 0.2245, "mariners_vs_prielipp": 0.2425 },
+        "desfalques": [
+          { "time": "MIN", "nome": "Byron Buxton", "posicao": "CF", "status": "IL10", "nota": "titular, 362 PA, AVG .263" },
+          { "time": "MIN", "nome": "Pablo López", "posicao": "SP", "status": "IL60", "nota": "abridor de rotação, fora praticamente a temporada toda" },
+          { "time": "SEA", "nome": "J.P. Crawford", "posicao": "SS/util", "status": "IL10", "nota": "titular, 364 PA, AVG .212" },
+          { "time": "SEA", "nome": "Matt Brash", "posicao": "RP", "status": "IL15", "nota": "reliever de destaque, IP 16.2, ERA 0,54" }
+        ],
+        "motivacao_extra": "Twins e Guardians disputam de perto a última vaga de wild card da AL; Mariners abaixo de .500 precisam da série para não caírem de vez da corrida.",
+        "park_factor": { "estadio": "T-Mobile Park", "runs": 92, "hr": 90, "doubles": 98, "categoria": "supressor", "teto_retratil": true, "teto_estado_jogo": "aberto" },
+        "clima": { "confirmado": true, "resumo": "céu limpo, máxima ~23°C, mínima ~13°C, brisa leve do left field, sem chance relevante de chuva" }
+      },
+      "rebatedores": [
+        { "player_id": 663616, "nome": "Trevor Larnach", "time": "MIN", "slot": "1", "slot_confirmado": true, "pa_temporada": 327, "avg": 0.283, "babip": 0.330, "k_pct": 0.174, "bb_pct": 0.113, "pct_1mais_temporada": 0.571, "pct_1mais_ultimos10": 0.50, "maior_seca_temporada": 4, "seca_atual": 4, "p_1mais_base": 0.702, "odd_justa": 1.42, "faixa_odd": [1.37, 1.49], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 57,1% abaixo do piso de 65%"] },
+        { "player_id": 647304, "nome": "Josh Naylor", "time": "SEA", "slot": "6", "slot_confirmado": true, "pa_temporada": 446, "avg": 0.261, "babip": 0.285, "k_pct": 0.123, "bb_pct": 0.076, "pct_1mais_temporada": 0.683, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.694, "odd_justa": 1.44, "faixa_odd": [1.38, 1.51], "consistencia": "ok", "avisos": [] },
+        { "player_id": 702284, "nome": "Cole Young", "time": "SEA", "slot": "1", "slot_confirmado": true, "pa_temporada": 443, "avg": 0.261, "babip": 0.288, "k_pct": 0.172, "bb_pct": 0.063, "pct_1mais_temporada": 0.676, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.672, "odd_justa": 1.49, "faixa_odd": [1.42, 1.56], "consistencia": "ok", "avisos": [] },
+        { "player_id": 686527, "nome": "Dominic Canzone", "time": "SEA", "slot": "3", "slot_confirmado": true, "pa_temporada": 310, "avg": 0.261, "babip": 0.277, "k_pct": 0.210, "bb_pct": 0.090, "pct_1mais_temporada": 0.531, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.666, "odd_justa": 1.50, "faixa_odd": [1.44, 1.57], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 53,1% abaixo do piso de 65%"] },
+        { "player_id": 680777, "nome": "Ryan Jeffers", "time": "MIN", "slot": "2", "slot_confirmado": true, "pa_temporada": 198, "avg": 0.293, "babip": 0.310, "k_pct": 0.162, "bb_pct": 0.136, "pct_1mais_temporada": 0.735, "pct_1mais_ultimos10": 0.90, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.659, "odd_justa": 1.52, "faixa_odd": [1.45, 1.59], "consistencia": "ok", "avisos": [] },
+        { "player_id": 668227, "nome": "Randy Arozarena", "time": "SEA", "slot": "2", "slot_confirmado": true, "pa_temporada": 440, "avg": 0.280, "babip": 0.339, "k_pct": 0.214, "bb_pct": 0.095, "pct_1mais_temporada": 0.660, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 2, "seca_atual": 1, "p_1mais_base": 0.659, "odd_justa": 1.52, "faixa_odd": [1.45, 1.59], "consistencia": "aviso", "avisos": ["BABIP .339 perto do limite de sustentabilidade .340"] },
+        { "player_id": 677594, "nome": "Julio Rodríguez", "time": "SEA", "slot": "4", "slot_confirmado": true, "pa_temporada": 432, "avg": 0.251, "babip": 0.283, "k_pct": 0.204, "bb_pct": 0.069, "pct_1mais_temporada": 0.690, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 2, "seca_atual": 0, "p_1mais_base": 0.648, "odd_justa": 1.54, "faixa_odd": [1.47, 1.62], "consistencia": "ok", "avisos": [] },
+        { "player_id": 668952, "nome": "Ryan Kreidler", "time": "MIN", "slot": "8", "slot_confirmado": true, "pa_temporada": 182, "avg": 0.243, "babip": 0.283, "k_pct": 0.203, "bb_pct": 0.066, "pct_1mais_temporada": 0.455, "pct_1mais_ultimos10": 0.40, "maior_seca_temporada": 8, "seca_atual": 2, "p_1mais_base": 0.629, "odd_justa": 1.59, "faixa_odd": [1.52, 1.67], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 45,5% abaixo do piso de 65%", "maior seca da temporada 8 jogos, acima do normal (≤6)"] },
+        { "player_id": 686797, "nome": "Brooks Lee", "time": "MIN", "slot": "5", "slot_confirmado": true, "pa_temporada": 425, "avg": 0.244, "babip": 0.257, "k_pct": 0.160, "bb_pct": 0.073, "pct_1mais_temporada": 0.613, "pct_1mais_ultimos10": 0.50, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.622, "odd_justa": 1.61, "faixa_odd": [1.53, 1.69], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 61,3% abaixo do piso de 65%"] },
+        { "player_id": 665019, "nome": "Kody Clemens", "time": "MIN", "slot": "3", "slot_confirmado": true, "pa_temporada": 386, "avg": 0.241, "babip": 0.264, "k_pct": 0.223, "bb_pct": 0.060, "pct_1mais_temporada": 0.604, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.617, "odd_justa": 1.62, "faixa_odd": [1.55, 1.70], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 60,4% abaixo do piso de 65%"] },
+        { "player_id": 807712, "nome": "Luke Keaschall", "time": "MIN", "slot": "6", "slot_confirmado": true, "pa_temporada": 402, "avg": 0.259, "babip": 0.299, "k_pct": 0.152, "bb_pct": 0.102, "pct_1mais_temporada": 0.650, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.616, "odd_justa": 1.62, "faixa_odd": [1.55, 1.71], "consistencia": "ok", "avisos": [] },
+        { "player_id": 605170, "nome": "Victor Caratini", "time": "MIN", "slot": "7", "slot_confirmado": true, "pa_temporada": 299, "avg": 0.234, "babip": 0.266, "k_pct": 0.194, "bb_pct": 0.087, "pct_1mais_temporada": 0.568, "pct_1mais_ultimos10": 0.40, "maior_seca_temporada": 4, "seca_atual": 3, "p_1mais_base": 0.576, "odd_justa": 1.74, "faixa_odd": [1.65, 1.83], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 56,8% abaixo do piso de 65%"] },
+        { "player_id": 668904, "nome": "Royce Lewis", "time": "MIN", "slot": "4", "slot_confirmado": true, "pa_temporada": 309, "avg": 0.216, "babip": 0.257, "k_pct": 0.252, "bb_pct": 0.100, "pct_1mais_temporada": 0.645, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.545, "odd_justa": 1.83, "faixa_odd": [1.74, 1.94], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 64,5% abaixo do piso de 65%, muito próximo"] },
+        { "player_id": 668885, "nome": "Austin Martin", "time": "MIN", "slot": "9", "slot_confirmado": true, "pa_temporada": 302, "avg": 0.242, "babip": 0.298, "k_pct": 0.182, "bb_pct": 0.139, "pct_1mais_temporada": 0.480, "pct_1mais_ultimos10": 0.30, "maior_seca_temporada": 5, "seca_atual": 2, "p_1mais_base": 0.505, "odd_justa": 1.98, "faixa_odd": [1.87, 2.11], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 48,0% abaixo do piso de 65%"] }
+      ],
+      "excluidos": [
+        { "nome": "Cal Raleigh", "motivo": "K% temporada 32,2% > 28%" },
+        { "nome": "Mitch Garver", "motivo": "K% temporada 33,8% > 28% e PA temporada 145 < 150" },
+        { "nome": "Weston Wilson", "motivo": "K% temporada 29,8% > 28% e PA temporada 94 < 150" },
+        { "nome": "Colt Emerson", "motivo": "K% temporada 33,3% > 28%" }
+      ],
+      "interesse_jogo": {
+        "classificacao": "Interessante",
+        "n_fortes": 5,
+        "explicacao": "5 rebatedores com P(1+base) ≥ 65% e consistência ✅ ou apenas 1 aviso leve (Naylor, Young, Jeffers, Arozarena, Julio Rodríguez), com profundidade nos dois times. BAA_efetiva enfrentada pelo Twins (0,225, contra Gilbert) é dura, mas a do Mariners (0,243, contra Prielipp) está próxima da média de liga — não são os dois lados enfrentando pitching muito difícil ao mesmo tempo."
+      }
+    }
+  ]
+}

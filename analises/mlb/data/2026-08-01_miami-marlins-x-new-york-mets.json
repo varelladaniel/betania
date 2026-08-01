@@ -1,0 +1,74 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T19:20:00Z",
+  "jogos": [
+    {
+      "game_pk": 823594,
+      "contexto": {
+        "visitante": "Miami Marlins",
+        "visitante_sigla": "MIA",
+        "mandante": "New York Mets",
+        "mandante_sigla": "NYM",
+        "data_hora_brt": "01/08/2026 (sábado), 17:10 BRT",
+        "estadio": "Citi Field, Flushing (NY)",
+        "classificacao": {
+          "MIA": "56-55, 3º NL East, 9,5 jogos da divisão, 1,5 jogos da vaga de wild card — ainda vivo na disputa",
+          "NYM": "47-64, 5º NL East, 18,5 jogos da divisão, 10,5 jogos da wild card — praticamente fora da disputa"
+        },
+        "sequencia_recente": { "MIA": "4 vitórias e 1 derrota nos últimos 5", "NYM": "3 vitórias e 2 derrotas nos últimos 5" },
+        "ultimo_jogo": {
+          "MIA": "31/07 — venceu 5-2 em Nova York vs New York Mets",
+          "NYM": "31/07 — perdeu 2-5 em casa vs Miami Marlins"
+        },
+        "proximo_jogo": {
+          "MIA": "02/08, fora, vs New York Mets (fecha a série), depois viaja para Cincinnati vs Reds",
+          "NYM": "02/08, em casa, vs Miami Marlins (fecha a série), depois viaja para Baltimore vs Orioles"
+        },
+        "confronto_direto_temporada": "4 vitórias a 4 na temporada regular 2026 (ignorando jogos de pré-temporada em março)",
+        "abridores": {
+          "MIA": "Tyler Phillips (D) — perfil de swingman (27 jogos, 11 aberturas), BAA .241, WHIP 1,36, ERA 3,52 em 84.1 IP",
+          "NYM": "Zac Thornton (E) — rookie com amostra pequena (5 aberturas na carreira MLB), BAA .196, WHIP 0,91, ERA 2,43 em 29.2 IP — número muito bom mas ainda de baixa confiança estatística"
+        },
+        "desfalques": [
+          "NYM: Juan Soto (LF) — IL10, entorse/estiramento de panturrilha esquerda — desfalque de destaque, principal bate-rebatedor do time fora",
+          "NYM: Mark Vientos (1B) — IL10, fratura na mão direita — titular de destaque fora",
+          "NYM: Clay Holmes (P) — IL60, fratura de fíbula direita — fechador/bullpen fora",
+          "MIA: Owen Caissie (RF) — IL10, estiramento de panturrilha direita — reserva/rotativo, papel secundário",
+          "Demais desfalques em ambos os times são majoritariamente arremessadores do IL60 sem impacto direto na escalação titular de hoje"
+        ],
+        "motivacao_extra": "Nenhum fator extra de rivalidade — série de fim de temporada entre um MIA ainda com chance matemática de wild card e um NYM já fora da disputa; MIA busca completar a varrida da série de 3 jogos.",
+        "estadio_condicoes": {
+          "park_factor": "Citi Field — runs 97 / HR 96 / doubles 100 (categoria: levemente supressor)",
+          "teto": "Não aplicável — Citi Field não tem teto retrátil",
+          "clima_previsto": "~28°C (83°F), vento de norte/nordeste 10-15 mph, chance de chuva pontual 30-40% (pancadas isoladas possíveis, não deve interromper o jogo) — previsão consultada com dias de antecedência, ⚠️ sujeita a ajuste"
+        }
+      },
+      "interesse_jogo": {
+        "categoria": "Desinteressante",
+        "justificativa": "N_fortes = 2 (Bo Bichette e Carson Benge, ambos NYM, com P(1+base) ≥ 65% e consistência ✅). Apesar disso, as duas BAA_efetivas do confronto estão visivelmente abaixo da média de liga (~.248): o lado que os batedores do MIA enfrentam (Thornton + bullpen NYM) fica em .202, e o lado que os batedores do NYM enfrentam (Phillips + bullpen MIA) fica em .231 — ambas ≤.235, o cenário-gatilho da skill para pitching duro dos dois lados. Isso é agravado pela baixa confiança do dado de Thornton (apenas 5 aberturas na carreira MLB), que empurra artificialmente sua BAA_efetiva para baixo. Ou seja, o jogo é desinteressante tanto pelo matchup em si (pitching combinado difícil) quanto por incerteza estatística do abridor do NYM — os dois fatores pesam juntos."
+      },
+      "rebatedores": [
+        { "player_id": 672640, "nome": "Otto Lopez", "time": "MIA", "slot": "1", "slot_confirmado": true, "pa_temporada": 463, "avg": 0.322, "babip": 0.354, "k_pct": 13.6, "bb_pct": 8.6, "pct_1mais_temporada": 75.7, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 3, "seca_atual": 2, "p_1mais_base": 0.8228, "odd_justa": 1.22, "faixa_odd": [1.15, 1.29], "consistencia": "aviso", "avisos": ["%1+base últimos 10 jogos (50%) abaixo do piso de 60%", "BABIP .354 — atenção à sustentabilidade da média"] },
+        { "player_id": 805999, "nome": "A.J. Ewing", "time": "NYM", "slot": "1", "slot_confirmado": true, "pa_temporada": 283, "avg": 0.268, "babip": 0.351, "k_pct": 26.5, "bb_pct": 9.5, "pct_1mais_temporada": 61.4, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.6803, "odd_justa": 1.47, "faixa_odd": [1.41, 1.54], "consistencia": "aviso", "avisos": ["%1+base temporada (61,4%) abaixo do piso de 65%", "K% (26,5%) acima de 21%", "BABIP .351 — atenção à sustentabilidade da média"] },
+        { "player_id": 666182, "nome": "Bo Bichette", "time": "NYM", "slot": "3", "slot_confirmado": true, "pa_temporada": 475, "avg": 0.256, "babip": 0.293, "k_pct": 18.1, "bb_pct": 5.9, "pct_1mais_temporada": 64.5, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.6662, "odd_justa": 1.50, "faixa_odd": [1.44, 1.57], "consistencia": "ok", "avisos": [] },
+        { "player_id": 701807, "nome": "Carson Benge", "time": "NYM", "slot": "4", "slot_confirmado": true, "pa_temporada": 436, "avg": 0.266, "babip": 0.326, "k_pct": 22.2, "bb_pct": 8.3, "pct_1mais_temporada": 65.1, "pct_1mais_ultimos10": 80.0, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.6565, "odd_justa": 1.52, "faixa_odd": [1.46, 1.60], "consistencia": "ok", "avisos": ["K% (22,2%) levemente acima de 21%"] },
+        { "player_id": 689414, "nome": "Liam Hicks", "time": "MIA", "slot": "3", "slot_confirmado": true, "pa_temporada": 400, "avg": 0.280, "babip": 0.276, "k_pct": 9.5, "bb_pct": 8.5, "pct_1mais_temporada": 63.6, "pct_1mais_ultimos10": 40.0, "maior_seca_temporada": 3, "seca_atual": 1, "p_1mais_base": 0.6400, "odd_justa": 1.56, "faixa_odd": [1.45, 1.69], "consistencia": "aviso", "avisos": ["%1+base temporada (63,6%) e últimos 10 (40%) abaixo do piso", "faixa alargada — abridor Thornton com amostra pequena (5 aberturas MLB)"] },
+        { "player_id": 676724, "nome": "Jared Young", "time": "NYM", "slot": "5", "slot_confirmado": true, "pa_temporada": 191, "avg": 0.253, "babip": 0.286, "k_pct": 19.9, "bb_pct": 10.5, "pct_1mais_temporada": 50.8, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.6331, "odd_justa": 1.58, "faixa_odd": [1.51, 1.66], "consistencia": "aviso", "avisos": ["%1+base temporada (50,8%) abaixo do piso de 65%"] },
+        { "player_id": 681715, "nome": "Heriberto Hernández", "time": "MIA", "slot": "2", "slot_confirmado": true, "pa_temporada": 287, "avg": 0.236, "babip": 0.269, "k_pct": 26.8, "bb_pct": 8.4, "pct_1mais_temporada": 55.6, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 5, "seca_atual": 2, "p_1mais_base": 0.6256, "odd_justa": 1.60, "faixa_odd": [1.48, 1.74], "consistencia": "aviso", "avisos": ["K% (26,8%) acima de 21%", "%1+base temporada e últimos 10 abaixo do piso", "faixa alargada — abridor Thornton com amostra pequena"] },
+        { "player_id": 669364, "nome": "Xavier Edwards", "time": "MIA", "slot": "4", "slot_confirmado": true, "pa_temporada": 467, "avg": 0.291, "babip": 0.329, "k_pct": 13.7, "bb_pct": 8.4, "pct_1mais_temporada": 73.0, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.6158, "odd_justa": 1.62, "faixa_odd": [1.50, 1.77], "consistencia": "ok", "avisos": ["faixa alargada — abridor Thornton com amostra pequena"] },
+        { "player_id": 596019, "nome": "Francisco Lindor", "time": "NYM", "slot": "2", "slot_confirmado": true, "pa_temporada": 233, "avg": 0.233, "babip": 0.250, "k_pct": 17.6, "bb_pct": 9.4, "pct_1mais_temporada": 57.4, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.6103, "odd_justa": 1.64, "faixa_odd": [1.56, 1.72], "consistencia": "aviso", "avisos": ["%1+base temporada (57,4%) abaixo do piso de 65%", "amostra de PA reduzida na temporada (233)"] },
+        { "player_id": 691594, "nome": "Javier Sanoja", "time": "MIA", "slot": "7", "slot_confirmado": true, "pa_temporada": 290, "avg": 0.265, "babip": 0.279, "k_pct": 7.9, "bb_pct": 8.6, "pct_1mais_temporada": 47.3, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.6047, "odd_justa": 1.65, "faixa_odd": [1.53, 1.80], "consistencia": "aviso", "avisos": ["%1+base temporada (47,3%) e últimos 10 abaixo do piso", "faixa alargada — abridor Thornton com amostra pequena"] },
+        { "player_id": 621438, "nome": "Tyrone Taylor", "time": "NYM", "slot": "8", "slot_confirmado": true, "pa_temporada": 156, "avg": 0.239, "babip": 0.245, "k_pct": 19.9, "bb_pct": 8.3, "pct_1mais_temporada": 38.5, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 4, "seca_atual": 3, "p_1mais_base": 0.5861, "odd_justa": 1.71, "faixa_odd": [1.62, 1.80], "consistencia": "aviso", "avisos": ["%1+base temporada (38,5%) bem abaixo do piso", "amostra split vs destro pequena (79 PA)"] },
+        { "player_id": 683146, "nome": "Brett Baty", "time": "NYM", "slot": "7", "slot_confirmado": true, "pa_temporada": 357, "avg": 0.220, "babip": 0.292, "k_pct": 27.2, "bb_pct": 8.4, "pct_1mais_temporada": 52.9, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 7, "seca_atual": 2, "p_1mais_base": 0.5757, "odd_justa": 1.74, "faixa_odd": [1.65, 1.83], "consistencia": "aviso", "avisos": ["K% (27,2%) próximo do corte de 28%", "maior seca histórica (7 jogos) acima do padrão de normalidade (6)", "%1+base temporada e últimos 10 abaixo do piso"] },
+        { "player_id": 620443, "nome": "Luis Torrens", "time": "NYM", "slot": "9", "slot_confirmado": true, "pa_temporada": 200, "avg": 0.220, "babip": 0.273, "k_pct": 20.5, "bb_pct": 8.5, "pct_1mais_temporada": 47.7, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.5339, "odd_justa": 1.87, "faixa_odd": [1.77, 1.98], "consistencia": "aviso", "avisos": ["%1+base temporada (47,7%) abaixo do piso de 65%"] },
+        { "player_id": 543760, "nome": "Marcus Semien", "time": "NYM", "slot": "6", "slot_confirmado": true, "pa_temporada": 358, "avg": 0.210, "babip": 0.241, "k_pct": 22.9, "bb_pct": 10.9, "pct_1mais_temporada": 51.1, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.5189, "odd_justa": 1.93, "faixa_odd": [1.82, 2.05], "consistencia": "aviso", "avisos": ["K% (22,9%) acima de 21%", "%1+base temporada e últimos 10 abaixo do piso", "menor P(1+base) do jogo — split vs destro fraco (.196 em 264 PA)"] }
+      ],
+      "excluidos": [
+        { "nome": "Leo Jiménez", "time": "MIA", "motivo": "PA temporada 138 < 150" },
+        { "nome": "Kyle Stowers", "time": "MIA", "motivo": "K% temporada 31,8% > 28%" },
+        { "nome": "Esteury Ruiz", "time": "MIA", "motivo": "PA temporada 142 < 150" },
+        { "nome": "Griffin Conine", "time": "MIA", "motivo": "PA temporada 135 < 150" }
+      ]
+    }
+  ]
+}
