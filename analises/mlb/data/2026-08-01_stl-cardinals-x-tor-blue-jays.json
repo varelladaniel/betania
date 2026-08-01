@@ -4,6 +4,14 @@
   "jogos": [
     {
       "game_pk": 822781,
+      "interesse_jogo": {
+        "classificacao": "neutro",
+        "n_fortes": 2,
+        "fortes": ["Alec Burleson (STL)", "Ernie Clement (TOR)"],
+        "baa_efetiva_STL_batters": 0.2443,
+        "baa_efetiva_TOR_batters": 0.2306,
+        "motivo": "N_fortes=2, um de cada time, pouca profundidade. Pitching não é fator limitante do lado STL (BAA_efetiva na média de liga); do lado TOR a BAA_efetiva um pouco mais dura vem principalmente da incerteza do abridor estreante (Quinn Mathews, sem amostra MLB), não de um arremessador comprovadamente difícil."
+      },
       "contexto": {
         "visitante": "St. Louis Cardinals",
         "mandante": "Toronto Blue Jays",
