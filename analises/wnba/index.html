@@ -8,14 +8,17 @@
 <script src="../common.js"></script>
 </head>
 <body>
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="site-nav-home" href="../index.html">Início</a>
-    <a class="site-nav-league active" href="index.html">WNBA</a>
-    <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
-  </div>
-</nav>
-<main>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-wnba">🏀</span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link" href="../mlb/index.html"><span class="sidebar-icon sidebar-icon-mlb">⚾</span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
   <a class="back-link" href="../index.html">← Voltar para esportes/ligas</a>
   <header class="brand">
     <img src="../logo-betania.png" alt="Betania" />
@@ -27,6 +30,15 @@
 
   <div class="history-grid" id="lista-analises">
     <!-- NOVA_ANALISE_AQUI -->
+    <a class="history-card" href="2026-08-01_chicago-sky-x-las-vegas-aces.html">
+      <span class="history-date-badge">01/08 · 14:00</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/wnba/500/chi.png" alt="Chicago Sky" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/wnba/500/lv.png" alt="Las Vegas Aces" />
+      </div>
+      <div class="history-teams-label">CHI Sky vs LVA Aces</div>
+    </a>
     <a class="history-card" href="2026-07-31_portland-fire-x-indiana-fever.html">
       <span class="history-date-badge">31/07 · 23:00</span>
       <div class="history-logos">
@@ -146,6 +158,7 @@
     </a>
   </div>
 </main>
+</div>
 <script>buildNavDropdown('nav-select', 'WNBA_ANALISES', null);</script>
 </body>
 </html>
