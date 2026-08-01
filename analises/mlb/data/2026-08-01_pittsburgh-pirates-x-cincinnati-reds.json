@@ -1,0 +1,78 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T21:10:00Z",
+  "jogos": [
+    {
+      "game_pk": 824485,
+      "contexto": {
+        "visitante": "Pittsburgh Pirates",
+        "mandante": "Cincinnati Reds",
+        "estadio": "Great American Ball Park",
+        "horario_utc": "2026-08-01T22:40:00Z",
+        "horario_brt": "2026-08-01 19:40",
+        "classificacao": {
+          "visitante": "55-56, 3º NL Central, 2,5 jogos da vaga de wild card",
+          "mandante": "52-57, 5º NL Central, 4,5 jogos da vaga de wild card"
+        },
+        "ultimos_5": { "visitante": "1V-4D", "mandante": "3V-2D" },
+        "ultimo_jogo": {
+          "visitante": "31/07 — derrota 7-8 fora vs Cincinnati Reds",
+          "mandante": "31/07 — vitória 8-7 em casa vs Pittsburgh Pirates"
+        },
+        "proximo_jogo": {
+          "visitante": "02/08 fora vs Cincinnati Reds (segue a série), depois em Milwaukee vs Brewers",
+          "mandante": "02/08 em casa vs Pittsburgh Pirates (segue a série), depois em casa vs Athletics"
+        },
+        "confronto_direto_temporada": "PIT lidera 6-5 na temporada (11 jogos disputados), mas CIN venceu os 2 últimos (30/07 e 31/07), quebrando a vantagem histórica do PIT na série atual",
+        "abridores": {
+          "visitante": { "nome": "Braxton Ashcraft", "brace": "R", "gs": 21, "ip": "122.1", "baa": 0.248, "era": 4.05, "whip": 1.19, "obs": "K/9 9,93, BB/9 2,21 — 4 das últimas 5 saídas com ERA de jogo acima de 4, sem boa saída recente" },
+          "mandante": { "nome": "Andrew Abbott", "brace": "L", "gs": 22, "ip": "117.0", "baa": 0.243, "era": 3.85, "whip": 1.38, "obs": "K/9 7,23, BB/9 4,15 — melhora nas últimas 2 saídas (6.0IP/0ER e 6.0IP/2ER)" }
+        },
+        "desfalques": [
+          { "time": "PIT", "nome": "Oneil Cruz", "posicao": "CF", "status": "IL60" },
+          { "time": "PIT", "nome": "Ryan O'Hearn", "posicao": "RF", "status": "IL10" },
+          { "time": "PIT", "nome": "Spencer Horwitz", "posicao": "1B", "status": "IL10" },
+          { "time": "CIN", "nome": "Spencer Steer", "posicao": "1B", "status": "IL10" },
+          { "time": "CIN", "nome": "Nick Lodolo", "posicao": "P", "status": "IL15" },
+          { "time": "CIN", "nome": "Blake Dunn", "posicao": "CF", "status": "IL10" }
+        ],
+        "motivacao_extra": "Ambos os times fora de contenção real na NL Central (PIT 2,5 GB da wild card, CIN 4,5 GB). É o 3º de 4 jogos da série atual, com PIT já perdendo os 2 primeiros. Nenhuma rivalidade especial nem jogo nacional identificado — motivação normal de fim de temporada.",
+        "park_factor": { "estadio": "Great American Ball Park", "runs": 110, "hr": 118, "doubles": 102, "categoria": "inflador de HR", "teto_retratil": false },
+        "clima": "Previsão de tempestades (algumas fortes no início da noite) em Cincinnati, depois nublado após meia-noite. Mínima ~19-20°C, vento SSE 10-15 mph. Chance de chuva 80-100% — risco real de atraso/chuva durante o jogo."
+      },
+      "bullpen": {
+        "PIT": { "baa_ponderada": 0.236, "ip_total": 351.3, "ip_ultimos_3_dias": 6.7 },
+        "CIN": { "baa_ponderada": 0.219, "ip_total": 233.0, "ip_ultimos_3_dias": 6.0 }
+      },
+      "interesse_jogo": {
+        "classificacao": "Interessante",
+        "n_fortes": 3,
+        "baa_efetiva_pit_batters_vs": 0.2334,
+        "baa_efetiva_cin_batters_vs": 0.2432,
+        "justificativa": "3 rebatedores batem P(1+base) ≥ 65% com consistência plena ou só 1 aviso leve: Nick Gonzales (PIT, 69,7%, aviso leve de BABIP), Elly De La Cruz (CIN, 68,7%, aviso leve de BABIP) e Sal Stewart (CIN, 65,9%). A BAA_efetiva que o PIT enfrenta (contra Abbott + bullpen do CIN) é 0,233 — abaixo da média de liga, mas o outro lado (CIN contra Ashcraft + bullpen do PIT) é 0,243, praticamente na média — não são dois pitchings difíceis simultaneamente, o que evita anular o matchup como um todo."
+      },
+      "rebatedores": [
+        { "player_id": 663968, "nome": "Jake Mangum", "time": "PIT", "slot": "1", "slot_confirmado": true, "pa_temporada": 309, "avg": 0.304, "babip": 0.366, "k_pct": 0.175, "bb_pct": 0.049, "pct_1mais_temporada": 0.614, "pct_1mais_ultimos10": 0.900, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.766, "odd_justa": 1.31, "faixa_odd": [1.26, 1.36], "consistencia": "aviso", "avisos": ["piso de %1+H temporada (65%) não atingido (61,4%)", "BABIP .366 — atenção à sustentabilidade"] },
+        { "player_id": 693304, "nome": "Nick Gonzales", "time": "PIT", "slot": "5", "slot_confirmado": true, "pa_temporada": 435, "avg": 0.318, "babip": 0.379, "k_pct": 0.172, "bb_pct": 0.064, "pct_1mais_temporada": 0.695, "pct_1mais_ultimos10": 1.000, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.697, "odd_justa": 1.43, "faixa_odd": [1.38, 1.50], "consistencia": "ok", "avisos": ["BABIP .379 — atenção à sustentabilidade"] },
+        { "player_id": 668804, "nome": "Bryan Reynolds", "time": "PIT", "slot": "3", "slot_confirmado": true, "pa_temporada": 483, "avg": 0.268, "babip": 0.339, "k_pct": 0.240, "bb_pct": 0.139, "pct_1mais_temporada": 0.667, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.686, "odd_justa": 1.46, "faixa_odd": [1.40, 1.52], "consistencia": "aviso", "avisos": ["últimos 10 jogos abaixo do piso (50% < 60%)"] },
+        { "player_id": 664040, "nome": "Brandon Lowe", "time": "PIT", "slot": "2", "slot_confirmado": true, "pa_temporada": 455, "avg": 0.257, "babip": 0.306, "k_pct": 0.273, "bb_pct": 0.090, "pct_1mais_temporada": 0.676, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.591, "odd_justa": 1.69, "faixa_odd": [1.61, 1.78], "consistencia": "ok", "avisos": ["K% 27,3% próximo do limite eliminatório (28%)"] },
+        { "player_id": 669707, "nome": "Jared Triolo", "time": "PIT", "slot": "7", "slot_confirmado": true, "pa_temporada": 248, "avg": 0.243, "babip": 0.319, "k_pct": 0.222, "bb_pct": 0.081, "pct_1mais_temporada": 0.539, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 4, "seca_atual": 2, "p_1mais_base": 0.607, "odd_justa": 1.65, "faixa_odd": [1.57, 1.73], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (53,9%)"] },
+        { "player_id": 680779, "nome": "Henry Davis", "time": "PIT", "slot": "9", "slot_confirmado": true, "pa_temporada": 218, "avg": 0.173, "babip": 0.181, "k_pct": 0.211, "bb_pct": 0.087, "pct_1mais_temporada": 0.380, "pct_1mais_ultimos10": 0.600, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.451, "odd_justa": 2.22, "faixa_odd": [2.08, 2.38], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (38,0%)", "AVG temporada baixo (.173)"] },
+        { "player_id": 682829, "nome": "Elly De La Cruz", "time": "CIN", "slot": "1", "slot_confirmado": true, "pa_temporada": 405, "avg": 0.279, "babip": 0.353, "k_pct": 0.272, "bb_pct": 0.106, "pct_1mais_temporada": 0.711, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 2, "seca_atual": 0, "p_1mais_base": 0.687, "odd_justa": 1.45, "faixa_odd": [1.39, 1.52], "consistencia": "ok", "avisos": ["BABIP .353 — atenção à sustentabilidade"] },
+        { "player_id": 701398, "nome": "Sal Stewart", "time": "CIN", "slot": "2", "slot_confirmado": true, "pa_temporada": 473, "avg": 0.255, "babip": 0.281, "k_pct": 0.218, "bb_pct": 0.106, "pct_1mais_temporada": 0.670, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.659, "odd_justa": 1.52, "faixa_odd": [1.45, 1.59], "consistencia": "ok", "avisos": [] },
+        { "player_id": 663993, "nome": "Nathaniel Lowe", "time": "CIN", "slot": "4", "slot_confirmado": true, "pa_temporada": 267, "avg": 0.258, "babip": 0.314, "k_pct": 0.258, "bb_pct": 0.101, "pct_1mais_temporada": 0.543, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.697, "odd_justa": 1.43, "faixa_odd": [1.38, 1.50], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (54,3%), apesar do P alto"] },
+        { "player_id": 668709, "nome": "JJ Bleday", "time": "CIN", "slot": "3", "slot_confirmado": true, "pa_temporada": 341, "avg": 0.229, "babip": 0.236, "k_pct": 0.211, "bb_pct": 0.141, "pct_1mais_temporada": 0.630, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.623, "odd_justa": 1.60, "faixa_odd": [1.53, 1.69], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (63,0%)"] },
+        { "player_id": 682622, "nome": "Noelvi Marte", "time": "CIN", "slot": "5", "slot_confirmado": true, "pa_temporada": 169, "avg": 0.200, "babip": 0.232, "k_pct": 0.249, "bb_pct": 0.053, "pct_1mais_temporada": 0.510, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.611, "odd_justa": 1.64, "faixa_odd": [1.56, 1.72], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (51,0%)"] },
+        { "player_id": 670770, "nome": "TJ Friedl", "time": "CIN", "slot": "8", "slot_confirmado": true, "pa_temporada": 233, "avg": 0.167, "babip": 0.211, "k_pct": 0.232, "bb_pct": 0.086, "pct_1mais_temporada": 0.391, "pct_1mais_ultimos10": 0.200, "maior_seca_temporada": 5, "seca_atual": 5, "p_1mais_base": 0.454, "odd_justa": 2.20, "faixa_odd": [2.07, 2.36], "consistencia": "sem_lastro", "avisos": ["seca atual (5) iguala a maior seca histórica — queda recente de rendimento, zero bases totais nos últimos 5 jogos"] },
+        { "player_id": 680574, "nome": "Matt McLain", "time": "CIN", "slot": "9", "slot_confirmado": true, "pa_temporada": 317, "avg": 0.192, "babip": 0.247, "k_pct": 0.271, "bb_pct": 0.114, "pct_1mais_temporada": 0.447, "pct_1mais_ultimos10": 0.300, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.484, "odd_justa": 2.07, "faixa_odd": [1.95, 2.20], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido (44,7%)"] }
+      ],
+      "excluidos": [
+        { "nome": "Esmerlyn Valdez", "time": "PIT", "motivo": "K% temporada 34,8% > 28%" },
+        { "nome": "Marcell Ozuna", "time": "PIT", "motivo": "K% temporada 29,0% > 28%" },
+        { "nome": "Rafael Flores Jr.", "time": "PIT", "motivo": "PA temporada 19 < 150" },
+        { "nome": "Eugenio Suárez", "time": "CIN", "motivo": "K% temporada 36,4% > 28%" },
+        { "nome": "Jose Trevino", "time": "CIN", "motivo": "PA temporada 84 < 150" }
+      ]
+    }
+  ]
+}
