@@ -1,0 +1,78 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T19:30:00Z",
+  "jogos": [
+    {
+      "game_pk": 824405,
+      "contexto": {
+        "visitante": "Arizona Diamondbacks",
+        "mandante": "Cleveland Guardians",
+        "estadio": "Progressive Field",
+        "horario_utc": "2026-08-01T23:15:00Z",
+        "horario_brt": "2026-08-01 20:15",
+        "classificacao": {
+          "visitante": "58-52, 2º NL West, +1,0 na vaga de wild card",
+          "mandante": "56-55, 3º AL Central, 3,0 jogos do líder da divisão"
+        },
+        "ultimos_5": { "visitante": "3V-2D", "mandante": "2V-3D" },
+        "ultimo_jogo": {
+          "visitante": "31/07 — vitória 4-1 fora vs Cleveland Guardians",
+          "mandante": "31/07 — derrota 1-4 em casa vs Arizona Diamondbacks"
+        },
+        "proximo_jogo": {
+          "visitante": "02/08 fora vs Cleveland Guardians, depois em casa vs San Diego Padres",
+          "mandante": "02/08 em casa vs Arizona Diamondbacks, depois em casa vs New York Mets"
+        },
+        "confronto_direto_temporada": "ARI lidera 1-0 (só 31/07 disputado na temporada regular)",
+        "abridores": {
+          "visitante": { "nome": "Kohl Drake", "brace": "L", "gs": 2, "ip": "9.0", "baa": 0.257, "era": 5.00, "whip": 1.44, "obs": "amostra mínima na MLB, dado de baixa confiança" },
+          "mandante": { "nome": "Parker Messick", "brace": "L", "gs": 21, "ip": "125.1", "baa": 0.208, "era": 2.59, "whip": 1.04 }
+        },
+        "desfalques": [
+          { "time": "ARI", "nome": "Lourdes Gurriel Jr.", "posicao": "LF", "status": "IL10" },
+          { "time": "ARI", "nome": "Jordan Lawlar", "posicao": "LF/util", "status": "IL10" },
+          { "time": "ARI", "nome": "Tommy Troy", "posicao": "LF/util", "status": "IL10" },
+          { "time": "ARI", "nome": "Corbin Burnes", "posicao": "P", "status": "IL60" },
+          { "time": "ARI", "nome": "Zac Gallen", "posicao": "P", "status": "IL15" },
+          { "time": "CLE", "nome": "Shawn Armstrong", "posicao": "P (bullpen)", "status": "IL15" }
+        ],
+        "motivacao_extra": "Série de 3 jogos em andamento (ARI venceu jogo 1 em 31/07); ARI brigando por vaga de wild card na NL, CLE tentando se aproximar do topo da AL Central. Nenhuma rivalidade especial.",
+        "park_factor": { "estadio": "Progressive Field", "runs": 97, "hr": 95, "doubles": 100, "categoria": "levemente supressor", "teto_retratil": false },
+        "clima": "Pancadas de chuva e possibilidade de tempestades ao entardecer/noite em Cleveland, mínima ~21°C, vento leste fraco a moderado. Risco real de atraso/interrupção por chuva — não confirmado se afeta o início do jogo."
+      },
+      "bullpen": {
+        "ARI": { "baa_ponderada": 0.225, "ip_total": 367.0, "ip_ultimos_3_dias": 5.0 },
+        "CLE": { "baa_ponderada": 0.221, "ip_total": 269.7, "ip_ultimos_3_dias": 6.7 }
+      },
+      "interesse_jogo": {
+        "classificacao": "Neutro",
+        "n_fortes": 2,
+        "baa_efetiva_ari_batters_vs": 0.213,
+        "baa_efetiva_cle_batters_vs": 0.244,
+        "justificativa": "Apenas Gabriel Moreno (ARI, 69,5%) e Ketel Marte (ARI, 68,3%) batem P≥65% com consistência plena ou aviso leve — os dois do mesmo time, pouca profundidade cruzada. Do lado CLE os P mais altos (DeLauter, Ramírez, Hedges) estão marcados 'sem lastro'. A BAA_efetiva enfrentada pelo ARI (0,213) é dura de fato; a enfrentada pelo CLE (0,244) está próxima da média de liga — não são dois pitchings difíceis ao mesmo tempo, é baixa profundidade de sinais consistentes."
+      },
+      "rebatedores": [
+        { "player_id": 800050, "nome": "Chase DeLauter", "time": "CLE", "slot": "3", "slot_confirmado": true, "pa_temporada": 389, "avg": 0.277, "babip": 0.299, "k_pct": 0.141, "bb_pct": 0.100, "pct_1mais_temporada": 0.645, "pct_1mais_ultimos10": 0.600, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.824, "odd_justa": 1.21, "faixa_odd": [1.14, 1.29], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido por 0,5pp", "abridor rival com amostra mínima (2 GS)"] },
+        { "player_id": 682998, "nome": "Corbin Carroll", "time": "ARI", "slot": "1", "slot_confirmado": true, "pa_temporada": 459, "avg": 0.247, "babip": 0.294, "k_pct": 0.224, "bb_pct": 0.115, "pct_1mais_temporada": 0.632, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.768, "odd_justa": 1.30, "faixa_odd": [1.25, 1.36], "consistencia": "sem_lastro", "avisos": ["K% 22,4% acima do ideal de 21%", "piso de %1+H temporada (65%) não atingido"] },
+        { "player_id": 608070, "nome": "José Ramírez", "time": "CLE", "slot": "2", "slot_confirmado": true, "pa_temporada": 351, "avg": 0.236, "babip": 0.246, "k_pct": 0.131, "bb_pct": 0.128, "pct_1mais_temporada": 0.625, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.747, "odd_justa": 1.34, "faixa_odd": [1.25, 1.43], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido", "abridor rival com amostra mínima (2 GS)"] },
+        { "player_id": 545121, "nome": "Ildemaro Vargas", "time": "ARI", "slot": "7", "slot_confirmado": true, "pa_temporada": 339, "avg": 0.274, "babip": 0.284, "k_pct": 0.089, "bb_pct": 0.059, "pct_1mais_temporada": 0.656, "pct_1mais_ultimos10": 0.900, "maior_seca_temporada": 8, "seca_atual": 1, "p_1mais_base": 0.735, "odd_justa": 1.36, "faixa_odd": [1.31, 1.42], "consistencia": "aviso", "avisos": ["maior seca histórica de 8 jogos, acima da normalidade (≤6)"] },
+        { "player_id": 672515, "nome": "Gabriel Moreno", "time": "ARI", "slot": "3", "slot_confirmado": true, "pa_temporada": 340, "avg": 0.308, "babip": 0.340, "k_pct": 0.147, "bb_pct": 0.118, "pct_1mais_temporada": 0.687, "pct_1mais_ultimos10": 0.900, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.695, "odd_justa": 1.44, "faixa_odd": [1.34, 1.55], "consistencia": "ok", "avisos": ["BABIP .340 no limite do aviso de sustentabilidade"] },
+        { "player_id": 606466, "nome": "Ketel Marte", "time": "ARI", "slot": "4", "slot_confirmado": true, "pa_temporada": 465, "avg": 0.254, "babip": 0.260, "k_pct": 0.148, "bb_pct": 0.069, "pct_1mais_temporada": 0.686, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.683, "odd_justa": 1.46, "faixa_odd": [1.40, 1.53], "consistencia": "ok", "avisos": [] },
+        { "player_id": 595978, "nome": "Austin Hedges", "time": "CLE", "slot": "8", "slot_confirmado": true, "pa_temporada": 165, "avg": 0.276, "babip": 0.313, "k_pct": 0.170, "bb_pct": 0.079, "pct_1mais_temporada": 0.600, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.676, "odd_justa": 1.48, "faixa_odd": [1.38, 1.60], "consistencia": "sem_lastro", "avisos": ["piso de %1+H temporada (65%) não atingido", "abridor rival com amostra mínima (2 GS)"] },
+        { "player_id": 677587, "nome": "Brayan Rocchio", "time": "CLE", "slot": "9", "slot_confirmado": true, "pa_temporada": 419, "avg": 0.263, "babip": 0.289, "k_pct": 0.143, "bb_pct": 0.067, "pct_1mais_temporada": 0.611, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.594, "odd_justa": 1.68, "faixa_odd": [1.55, 1.84], "consistencia": "aviso", "avisos": ["piso de %1+H temporada (65%) não atingido"] },
+        { "player_id": 571448, "nome": "Nolan Arenado", "time": "ARI", "slot": "5", "slot_confirmado": true, "pa_temporada": 401, "avg": 0.242, "babip": 0.277, "k_pct": 0.212, "bb_pct": 0.090, "pct_1mais_temporada": 0.625, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 4, "seca_atual": 2, "p_1mais_base": 0.585, "odd_justa": 1.71, "faixa_odd": [1.63, 1.80], "consistencia": "aviso", "avisos": ["piso de %1+H temporada (65%) não atingido", "K% 21,2% levemente acima do ideal"] },
+        { "player_id": 682657, "nome": "Angel Martínez", "time": "CLE", "slot": "5", "slot_confirmado": true, "pa_temporada": 262, "avg": 0.221, "babip": 0.243, "k_pct": 0.218, "bb_pct": 0.027, "pct_1mais_temporada": 0.522, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 6, "seca_atual": 6, "p_1mais_base": 0.624, "odd_justa": 1.60, "faixa_odd": [1.48, 1.74], "consistencia": "aviso", "avisos": ["seca atual (6 jogos) igual à maior seca histórica — atenção a queda de rendimento", "piso de %1+H temporada (65%) não atingido"] },
+        { "player_id": 672695, "nome": "Geraldo Perdomo", "time": "ARI", "slot": "2", "slot_confirmado": true, "pa_temporada": 458, "avg": 0.231, "babip": 0.249, "k_pct": 0.122, "bb_pct": 0.148, "pct_1mais_temporada": 0.566, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.552, "odd_justa": 1.81, "faixa_odd": [1.72, 1.92], "consistencia": "aviso", "avisos": ["piso de %1+H temporada (65%) não atingido"] }
+      ],
+      "excluidos": [
+        { "nome": "Tim Tawa", "time": "ARI", "motivo": "PA temporada 149 < 150" },
+        { "nome": "James McCann", "time": "ARI", "motivo": "PA temporada 87 < 150" },
+        { "nome": "Ryan Waldschmidt", "time": "ARI", "motivo": "K% temporada 32,9% > 28%" },
+        { "nome": "Rhys Hoskins", "time": "CLE", "motivo": "K% temporada 31,7% > 28%" },
+        { "nome": "David Fry", "time": "CLE", "motivo": "K% temporada 30,1% > 28%" },
+        { "nome": "Steven Kwan", "time": "CLE", "motivo": "Split vs canhoto .198 x .251 geral (-53 pts, amostra 115 PA)" },
+        { "nome": "Travis Bazzana", "time": "CLE", "motivo": "Split vs canhoto .189 x .241 geral (-52 pts, amostra 111 PA)" }
+      ]
+    }
+  ]
+}
