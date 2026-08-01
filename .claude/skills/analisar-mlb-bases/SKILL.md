@@ -359,14 +359,64 @@ Sempre as três entregas, sem perguntar:
 2. **Página HTML** em `analises/mlb/<slug>.html`
    (slug: `AAAA-MM-DD_rodada.html` pra rodada inteira, ou
    `AAAA-MM-DD_time1-x-time2.html` pra jogo específico), reaproveitando
-   `analises/style.css` e `analises/common.js`, com o mesmo padrão de menu
-   fixo (`site-nav`) das páginas da WNBA, adaptado pra MLB
-   (`site-nav-league` apontando pra `mlb/index.html`, sigla "MLB").
+   `analises/style.css` e `analises/common.js`. Estrutura de grid fixa
+   (referência viva: `analises/mlb/2026-08-01_arizona-diamondbacks-x-cleveland-guardians.html`
+   — sempre olhar esse arquivo antes de gerar uma nova página, ele é o
+   template canônico):
+
+   - **Linha 1** — `.analysis-head-grid` com dois blocos lado a lado:
+     - `.analysis-hero` (cabeçalho com logos dos dois times, como já
+       existia).
+     - `.info-tabs-card` — abas fixas (`.info-tab-btn` + `.info-tab-panel`,
+       controladas por `setInfoTab('info-tabs', key)` do `common.js`) com
+       exatamente estas 4: **Momento da Equipe** (tabela classificação/
+       últimos 5/mando/último-próximo jogo/confronto direto/abridores),
+       **Desfalques** (só desfalques, sem motivação junto), **Motivação**
+       (motivação extra + estádio/clima, separado de desfalques), e
+       **Avaliação da IA** (classificação de interesse do jogo — Interessante/
+       Neutro/Desinteressante — com a explicação de 1-2 frases).
+   - **Linha 2** — `.market-tabs-nav` com um botão por mercado coberto
+     (hoje só "Total de Bases", `data-market="tb"`, controlado por
+     `setMarketTab('market-tabs', key)`). Cada mercado é um
+     `.market-panel[data-group="market-tabs"][data-market="..."]`
+     contendo:
+     - **Ranking** (`table.rank-table` dentro de `.rank-table-wrap`):
+       só jogadores com **P(1+base) ≥ 70%** na tabela principal. Jogadores
+       entre **65% e 70%** vão num `<tbody class="rank-extra-rows" id="...">`
+       escondido, revelado por um botão `.rank-expand-btn` chamando
+       `expandRank(this, 'id-do-tbody')`. **Abaixo de 65% não entra na
+       página** — nem principal nem expandido (mas continua na Tabela 4 de
+       exclusões internamente/no chat, só a página HTML corta).
+     - Dentro do ranking, marcar com `tr.rank-pick` (+ `<span
+       class="pick-star">⭐</span>` ao lado do nome) os **escolhidos**: a
+       dupla de maior P(1+base) na tabela, preferindo times distintos
+       quando possível. Se dois (ou mais) estiverem muito próximos em P
+       (diferença ≤ ~1-2pp, empate forte de verdade), pode virar trio — o
+       usuário decide depois qual entra. Nunca mais que um trio.
+     - Um card **"Dupla escolhida"** (ou "Trio escolhido") logo abaixo do
+       ranking, com `.picks-l5-grid` → `.picks-l5-card` por jogador
+       destacado: nome + time, P(1+base), e um mini-gráfico de barras
+       (`.picks-l5-bars`/`.pl5-bar-col`/`.pl5-bar`) mostrando **total de
+       bases nos últimos 5 jogos** (buscar via `gameLog` da MLB Stats API,
+       um valor real por jogo, barra proporcional — altura mínima ~6% pra
+       jogos com 0 base, classe `.pl5-bar.zero`), com a data de cada jogo
+       embaixo e uma linha de média/leitura curta no rodapé do card.
+   - **Sem seção de Exclusões na página HTML** — a tabela de exclusões
+     (Tabela 4) continua obrigatória no chat e no JSON estruturado, só não
+     vai pro HTML (o usuário não quer avaliar quem já caiu fora dos
+     critérios).
+
    Adicionar entrada em `analises/mlb/analises-list.js`
    (`window.MLB_ANALISES = [...]`, mais recente primeiro — **atenção**:
    declarar sempre com `window.` explícito, uma `const` solta não vira
    propriedade de `window` e quebra o dropdown silenciosamente) e um card
-   em `analises/mlb/index.html` após `<!-- NOVA_ANALISE_AQUI -->`.
+   em `analises/mlb/index.html` após `<!-- NOVA_ANALISE_AQUI -->`. O card
+   leva uma bolinha indicadora da Avaliação da IA logo no início, antes do
+   `.history-date-badge`:
+   `<span class="history-ai-dot dot-good|dot-neutral|dot-bad" title="Avaliação da IA: Interessante|Neutro|Desinteressante"></span>`
+   (`dot-good` = Interessante, `dot-neutral` = Neutro, `dot-bad` =
+   Desinteressante), usando a mesma classificação decidida para a aba
+   "Avaliação da IA" da página do jogo.
 3. **Dado estruturado** em `analises/mlb/data/<slug>.json` — snapshot
    machine-readable da análise (contexto de cada jogo, tabela de
    rebatedores com todos os campos calculados, exclusões), pensado pra
