@@ -1,6 +1,6 @@
 {
   "data": "2026-08-01",
-  "gerado_em_utc": "2026-08-01T21:10:00Z",
+  "gerado_em_utc": "2026-08-01T23:00:00Z",
   "jogos": [
     {
       "game_pk": 824326,
@@ -10,60 +10,63 @@
         "estadio": "Coors Field, Denver (CO)",
         "data_hora_brt": "01/08/2026, 21:10 BRT",
         "classificacao": {
-          "Kansas City Royals": "46-65, 5º lugar AL Central, 13,0 jogos da divisão e 10,0 da wild card",
-          "Colorado Rockies": "43-67, 5º lugar NL West, 26,0 jogos da divisão e 14,0 da wild card"
+          "Kansas City Royals": "46-65, 5º lugar AL Central, 13,0 jogos do líder da divisão, 10,0 da vaga de wild card — fora da corrida",
+          "Colorado Rockies": "43-67, 5º lugar NL West, 26,0 jogos do líder da divisão, 14,0 da vaga de wild card — fora da corrida"
         },
         "sequencia_recente": {
-          "Kansas City Royals": "L2 (últimos 10: 5V-5D)",
-          "Colorado Rockies": "W1 (últimos 10: 3V-7D)"
+          "Kansas City Royals": "2 vitórias e 3 derrotas nos últimos 5",
+          "Colorado Rockies": "1 vitória e 4 derrotas nos últimos 5"
         },
         "ultimo_jogo": {
-          "Kansas City Royals": "Derrota 1-3 fora, vs Colorado Rockies (31/07/2026, jogo 1 desta mesma série)",
-          "Colorado Rockies": "Vitória 3-1 em casa, vs Kansas City Royals (31/07/2026, jogo 1 desta mesma série)"
+          "Kansas City Royals": "Derrota 1-3 fora, vs Colorado Rockies (01/08/2026, jogo 1 desta mesma série)",
+          "Colorado Rockies": "Vitória 3-1 em casa, vs Kansas City Royals (01/08/2026, jogo 1 desta mesma série)"
         },
         "proximo_jogo": {
-          "Kansas City Royals": "02/08/2026, fora, vs Colorado Rockies (segue a série)",
-          "Colorado Rockies": "02/08/2026, em casa, vs Kansas City Royals (segue a série)"
+          "Kansas City Royals": "02/08/2026, fora, vs Colorado Rockies (jogo 3 da série)",
+          "Colorado Rockies": "02/08/2026, em casa, vs Kansas City Royals (jogo 3 da série)"
         },
-        "confronto_direto_temporada": "Amostra recente consultada (série atual): Colorado Rockies lidera 1-0 no confronto direto dos últimos dias.",
+        "confronto_direto_temporada": "Colorado Rockies lidera 1-0 na temporada 2026 (só o jogo 1 desta série, em 01/08, foi disputado até aqui)",
         "abridores": {
-          "Kansas City Royals": "Luinder Avila (D) — 20 jogos (11 como abridor), 67.1 IP, AVG contra .269, WHIP 1,57, ERA 4,95. Perfil de swingman, saídas curtas.",
-          "Colorado Rockies": "Ryan Feltner (D) — 15 jogos, todos como abridor, 70.2 IP, AVG contra .267, WHIP 1,46, ERA 5,73."
+          "Kansas City Royals": "Luinder Avila (D) — 20 jogos (11 como abridor), 67.1 IP, AVG contra .269, WHIP 1,57, ERA 4,95 — perfil de swingman/saídas curtas",
+          "Colorado Rockies": "Ryan Feltner (D) — 15 jogos, todos como abridor, 70.2 IP, AVG contra .267, WHIP 1,46, ERA 5,73"
         },
         "desfalques_destaque": [
-          "KC: Bobby Witt Jr. (SS, estrela) — IL10", "KC: Vinnie Pasquantino (1B) — IL10", "KC: Maikel Garcia (3B) — IL10",
-          "KC: Jonathan India (2B) — IL60", "KC: Kyle Isbel (OF) — IL10", "KC: Cole Ragans (ace abridor) — IL60",
-          "COL: Kris Bryant (3B, estrela) — IL60", "COL: Jose Quintana (abridor) — IL60"
+          "KC: Bobby Witt Jr. (SS, titular/estrela) — IL10",
+          "KC: Vinnie Pasquantino (1B, titular) — IL10",
+          "KC: Maikel Garcia (3B, titular) — IL10",
+          "KC: Jonathan India (2B) — IL60",
+          "KC: Kyle Isbel (CF) — IL10",
+          "COL: Kris Bryant (DH, titular/estrela) — IL60"
         ],
-        "motivacao_extra": "Nenhum fator extra além da disputa normal — ambos os times fora da corrida por classificação, jogo 2 de uma série de 3.",
+        "motivacao_extra": "Nenhum fator extra além da disputa normal — ambos os times fora da corrida por classificação (últimos lugares de suas divisões), jogo 2 de uma série de 3 sem rivalidade especial",
         "estadio_condicoes": {
-          "park_factor": "Coors Field — runs 118 / hr 112 / doubles 115 (categoria: extremo inflador, altitude — bola viaja muito mais)",
+          "park_factor": "Coors Field — runs 118 / hr 112 / doubles 115 (categoria: extremo inflador, efeito de altitude — bola viaja muito mais, ar rarefeito reduz movimento dos arremessos)",
           "teto": "Coors Field não tem teto retrátil, ao ar livre",
-          "clima": "⚠️ clima não confirmado (não pesquisado nesta rodada de coleta)"
+          "clima": "Tempo seco e ameno em Denver na noite de 01/08/2026, mínima por volta de 16°C (61°F), céu limpo, sem chance relevante de chuva"
         }
       },
       "interesse_jogo": {
-        "classificacao": "Interessante",
-        "explicacao": "N_fortes = 4 (TJ Rumfield, Jake McCarthy, Mickey Moniak e Jac Caglianone com P(1+base) final ≥ 65% e consistência ✅ ou apenas 1 aviso leve, contando o ajuste de park factor). Nenhum dos dois lados está com BAA_efetiva muito abaixo da média de liga (~.248) — pelo contrário, tanto a BAA_efetiva enfrentada pelos batedores do KC (0,273, vs Feltner+bullpen COL) quanto a enfrentada pelos batedores do COL (0,258, vs Avila+bullpen KC) estão ACIMA da média de liga, e ainda recebem o efeito extremo inflador de Coors Field. Pitching fraco dos dois lados + park factor extremo = matchup com profundidade real de sinais fortes."
+        "classificacao": "Neutro",
+        "explicacao": "N_fortes = 2 (TJ Rumfield e Jake McCarthy, ambos do COL, com P(1+base) final ≥ 65% e consistência ✅). Nenhum dos dois lados está com BAA_efetiva muito abaixo da média de liga (~0,248) — pelo contrário, a BAA_efetiva enfrentada pelos batedores do KC (0,273, vs Feltner+bullpen COL) e a enfrentada pelos batedores do COL (0,258, vs Avila+bullpen KC) estão ACIMA da média de liga, ou seja, pitching batível dos dois lados. Mas a maioria dos números altos do jogo (Moniak, Caglianone, Carrigg, Massey, Collins, Karros, Freeman) fica marcada 'sem lastro' — %1+H temporada abaixo do piso de 65% mesmo com P pontual elevado, puxado majoritariamente pelo park factor extremo de Coors Field. Classificação Neutro pela baixa profundidade de sinais com lastro real, concentrados em só um dos dois times."
       },
       "rebatedores": [
-        {"player_id": 681198, "nome": "TJ Rumfield", "time": "COL", "slot": "3", "slot_confirmado": true, "pa_temporada": 432, "avg": 0.293, "babip": 0.321, "k_pct": 0.146, "bb_pct": 0.102, "pct_1mais_temporada": 0.68, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.791, "odd_justa": 1.26, "faixa_odd": [1.19, 1.35], "consistencia": "ok", "avisos": ["Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 664983, "nome": "Jake McCarthy", "time": "COL", "slot": "1", "slot_confirmado": true, "pa_temporada": 361, "avg": 0.289, "babip": 0.332, "k_pct": 0.183, "bb_pct": 0.050, "pct_1mais_temporada": 0.67, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 3, "seca_atual": 2, "p_1mais_base": 0.774, "odd_justa": 1.29, "faixa_odd": [1.22, 1.39], "consistencia": "ok", "avisos": ["Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 666160, "nome": "Mickey Moniak", "time": "COL", "slot": "5", "slot_confirmado": true, "pa_temporada": 268, "avg": 0.278, "babip": 0.313, "k_pct": 0.254, "bb_pct": 0.052, "pct_1mais_temporada": 0.64, "pct_1mais_ultimos10": 0.80, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.773, "odd_justa": 1.29, "faixa_odd": [1.22, 1.40], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 64% fica 1pp abaixo do piso de 65% — P alta pontual sem lastro pleno de consistência", "K% 25,4% acima do ideal de 21%", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 695506, "nome": "Jac Caglianone", "time": "KC", "slot": "3", "slot_confirmado": true, "pa_temporada": 394, "avg": 0.251, "babip": 0.314, "k_pct": 0.279, "bb_pct": 0.069, "pct_1mais_temporada": 0.60, "pct_1mais_ultimos10": 0.30, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.750, "odd_justa": 1.33, "faixa_odd": [1.25, 1.46], "consistencia": "sem_lastro", "avisos": ["K% 27,9% muito próximo do corte eliminatório de 28%", "%1+H últimos 10 caiu para 30% — queda de forma recente", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 694249, "nome": "Cole Carrigg", "time": "COL", "slot": "6", "slot_confirmado": true, "pa_temporada": 159, "avg": 0.296, "babip": 0.343, "k_pct": 0.201, "bb_pct": 0.101, "pct_1mais_temporada": 0.62, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 5, "seca_atual": 2, "p_1mais_base": 0.746, "odd_justa": 1.34, "faixa_odd": [1.26, 1.47], "consistencia": "sem_lastro", "avisos": ["BABIP 0,343 — atenção à sustentabilidade da média", "%1+H temporada 62% abaixo do piso de 65%", "Amostra de temporada relativamente pequena (159 PA)", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 686681, "nome": "Michael Massey", "time": "KC", "slot": "7", "slot_confirmado": true, "pa_temporada": 297, "avg": 0.262, "babip": 0.290, "k_pct": 0.168, "bb_pct": 0.054, "pct_1mais_temporada": 0.55, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 2, "p_1mais_base": 0.726, "odd_justa": 1.38, "faixa_odd": [1.29, 1.53], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 55% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 686555, "nome": "Isaac Collins", "time": "KC", "slot": "5", "slot_confirmado": true, "pa_temporada": 367, "avg": 0.242, "babip": 0.308, "k_pct": 0.226, "bb_pct": 0.117, "pct_1mais_temporada": 0.59, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.715, "odd_justa": 1.40, "faixa_odd": [1.31, 1.56], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 59% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 691720, "nome": "Kyle Karros", "time": "COL", "slot": "2", "slot_confirmado": true, "pa_temporada": 359, "avg": 0.266, "babip": 0.323, "k_pct": 0.209, "bb_pct": 0.125, "pct_1mais_temporada": 0.58, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.701, "odd_justa": 1.43, "faixa_odd": [1.33, 1.60], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 58% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 671289, "nome": "Tyler Freeman", "time": "COL", "slot": "8", "slot_confirmado": true, "pa_temporada": 276, "avg": 0.250, "babip": 0.279, "k_pct": 0.120, "bb_pct": 0.040, "pct_1mais_temporada": 0.64, "pct_1mais_ultimos10": 0.40, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.681, "odd_justa": 1.47, "faixa_odd": [1.36, 1.66], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 64% fica 1pp abaixo do piso de 65%", "%1+H últimos 10 caiu para 40%", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 657041, "nome": "Lane Thomas", "time": "KC", "slot": "2", "slot_confirmado": true, "pa_temporada": 326, "avg": 0.230, "babip": 0.279, "k_pct": 0.239, "bb_pct": 0.120, "pct_1mais_temporada": 0.50, "pct_1mais_ultimos10": 0.50, "maior_seca_temporada": 8, "seca_atual": 0, "p_1mais_base": 0.652, "odd_justa": 1.53, "faixa_odd": [1.41, 1.75], "consistencia": "aviso", "avisos": ["%1+H temporada apenas 50%, bem abaixo do piso de 65%", "Maior seca da temporada de 8 jogos, acima da normalidade", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 679845, "nome": "Nick Loftin", "time": "KC", "slot": "6", "slot_confirmado": true, "pa_temporada": 255, "avg": 0.251, "babip": 0.273, "k_pct": 0.137, "bb_pct": 0.094, "pct_1mais_temporada": 0.52, "pct_1mais_ultimos10": 0.80, "maior_seca_temporada": 7, "seca_atual": 2, "p_1mais_base": 0.642, "odd_justa": 1.56, "faixa_odd": [1.43, 1.80], "consistencia": "aviso", "avisos": ["%1+H temporada apenas 52%, abaixo do piso de 65%", "Maior seca da temporada de 7 jogos", "Ajuste Tier2 Coors Field (+2pp) aplicado"]},
-        {"player_id": 521692, "nome": "Salvador Perez", "time": "KC", "slot": "4", "slot_confirmado": true, "pa_temporada": 434, "avg": 0.214, "babip": 0.237, "k_pct": 0.212, "bb_pct": 0.039, "pct_1mais_temporada": 0.59, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.637, "odd_justa": 1.57, "faixa_odd": [1.44, 1.82], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 59% abaixo do piso de 65%", "AVG geral da temporada baixo (.214), split vs destro ainda mais baixo (.195)", "Ajuste Tier2 Coors Field (+2pp) aplicado"]}
+        {"player_id": 681198, "nome": "TJ Rumfield", "time": "COL", "slot": "3", "slot_confirmado": true, "pa_temporada": 432, "avg": 0.293, "babip": 0.321, "k_pct": 0.146, "bb_pct": 0.102, "pct_1mais_temporada": 0.682, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.815, "odd_justa": 1.23, "faixa_odd": [1.18, 1.27], "consistencia": "ok", "avisos": ["Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 664983, "nome": "Jake McCarthy", "time": "COL", "slot": "1", "slot_confirmado": true, "pa_temporada": 361, "avg": 0.289, "babip": 0.332, "k_pct": 0.183, "bb_pct": 0.050, "pct_1mais_temporada": 0.674, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 3, "seca_atual": 2, "p_1mais_base": 0.798, "odd_justa": 1.25, "faixa_odd": [1.21, 1.30], "consistencia": "ok", "avisos": ["BABIP 0,332 — atenção à sustentabilidade da média (próximo do limite de 0,340)", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 666160, "nome": "Mickey Moniak", "time": "COL", "slot": "5", "slot_confirmado": true, "pa_temporada": 268, "avg": 0.278, "babip": 0.313, "k_pct": 0.254, "bb_pct": 0.052, "pct_1mais_temporada": 0.639, "pct_1mais_ultimos10": 0.80, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.797, "odd_justa": 1.25, "faixa_odd": [1.21, 1.30], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 63,9% fica abaixo do piso de 65% — P alta pontual sem lastro pleno de consistência", "K% 25,4% acima do ideal de 21%", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 695506, "nome": "Jac Caglianone", "time": "KC", "slot": "3", "slot_confirmado": true, "pa_temporada": 394, "avg": 0.251, "babip": 0.314, "k_pct": 0.279, "bb_pct": 0.069, "pct_1mais_temporada": 0.598, "pct_1mais_ultimos10": 0.30, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.774, "odd_justa": 1.29, "faixa_odd": [1.24, 1.34], "consistencia": "sem_lastro", "avisos": ["K% 27,9% muito próximo do corte eliminatório de 28%", "%1+H últimos 10 caiu para 30% — queda de forma recente, investigar", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 694249, "nome": "Cole Carrigg", "time": "COL", "slot": "6", "slot_confirmado": true, "pa_temporada": 159, "avg": 0.296, "babip": 0.343, "k_pct": 0.201, "bb_pct": 0.101, "pct_1mais_temporada": 0.619, "pct_1mais_ultimos10": 0.70, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.770, "odd_justa": 1.30, "faixa_odd": [1.22, 1.39], "consistencia": "sem_lastro", "avisos": ["BABIP 0,343 — atenção à sustentabilidade da média", "%1+H temporada 61,9% abaixo do piso de 65%", "Amostra de split vs destro pequena (85 PA) — usado AVG geral no cálculo e faixa de odd ampliada para ±5pp", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 686681, "nome": "Michael Massey", "time": "KC", "slot": "7", "slot_confirmado": true, "pa_temporada": 297, "avg": 0.262, "babip": 0.290, "k_pct": 0.168, "bb_pct": 0.054, "pct_1mais_temporada": 0.549, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 2, "p_1mais_base": 0.750, "odd_justa": 1.33, "faixa_odd": [1.28, 1.39], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 54,9% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 686555, "nome": "Isaac Collins", "time": "KC", "slot": "5", "slot_confirmado": true, "pa_temporada": 367, "avg": 0.242, "babip": 0.308, "k_pct": 0.226, "bb_pct": 0.117, "pct_1mais_temporada": 0.590, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.739, "odd_justa": 1.35, "faixa_odd": [1.30, 1.41], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 59,0% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 691720, "nome": "Kyle Karros", "time": "COL", "slot": "2", "slot_confirmado": true, "pa_temporada": 359, "avg": 0.266, "babip": 0.323, "k_pct": 0.209, "bb_pct": 0.125, "pct_1mais_temporada": 0.583, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.725, "odd_justa": 1.38, "faixa_odd": [1.32, 1.44], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 58,3% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 671289, "nome": "Tyler Freeman", "time": "COL", "slot": "8", "slot_confirmado": true, "pa_temporada": 276, "avg": 0.250, "babip": 0.279, "k_pct": 0.120, "bb_pct": 0.040, "pct_1mais_temporada": 0.635, "pct_1mais_ultimos10": 0.40, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.705, "odd_justa": 1.42, "faixa_odd": [1.36, 1.48], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 63,5% fica abaixo do piso de 65%", "%1+H últimos 10 caiu para 40% — queda de forma recente", "HBP% alto (5,4%), reduz estimativa de AB por jogo", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 650489, "nome": "Willi Castro", "time": "COL", "slot": "7", "slot_confirmado": true, "pa_temporada": 364, "avg": 0.259, "babip": 0.343, "k_pct": 0.280, "bb_pct": 0.082, "pct_1mais_temporada": 0.634, "pct_1mais_ultimos10": 0.80, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.687, "odd_justa": 1.46, "faixa_odd": [1.39, 1.52], "consistencia": "sem_lastro", "avisos": ["K% 28,0% no limite exato do corte eliminatório (não excluído por não ser >28%)", "BABIP 0,343 — atenção à sustentabilidade da média", "%1+H temporada 63,4% abaixo do piso de 65%", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 657041, "nome": "Lane Thomas", "time": "KC", "slot": "2", "slot_confirmado": true, "pa_temporada": 326, "avg": 0.230, "babip": 0.279, "k_pct": 0.239, "bb_pct": 0.120, "pct_1mais_temporada": 0.500, "pct_1mais_ultimos10": 0.50, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.677, "odd_justa": 1.48, "faixa_odd": [1.41, 1.55], "consistencia": "sem_lastro", "avisos": ["%1+H temporada apenas 50%, bem abaixo do piso de 65%", "Split vs destro (0,207) bem inferior ao AVG geral da temporada (0,230)", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 679845, "nome": "Nick Loftin", "time": "KC", "slot": "6", "slot_confirmado": true, "pa_temporada": 255, "avg": 0.251, "babip": 0.273, "k_pct": 0.137, "bb_pct": 0.094, "pct_1mais_temporada": 0.521, "pct_1mais_ultimos10": 0.80, "maior_seca_temporada": 7, "seca_atual": 2, "p_1mais_base": 0.667, "odd_justa": 1.50, "faixa_odd": [1.43, 1.57], "consistencia": "sem_lastro", "avisos": ["%1+H temporada apenas 52,1%, abaixo do piso de 65%", "Maior seca da temporada de 7 jogos", "Ajuste Tier2 Coors Field (+4pp) aplicado"]},
+        {"player_id": 521692, "nome": "Salvador Perez", "time": "KC", "slot": "4", "slot_confirmado": true, "pa_temporada": 434, "avg": 0.214, "babip": 0.237, "k_pct": 0.212, "bb_pct": 0.039, "pct_1mais_temporada": 0.592, "pct_1mais_ultimos10": 0.60, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.661, "odd_justa": 1.51, "faixa_odd": [1.45, 1.58], "consistencia": "sem_lastro", "avisos": ["%1+H temporada 59,2% abaixo do piso de 65%", "AVG geral da temporada baixo (0,214), split vs destro ainda mais baixo (0,195)", "Ajuste Tier2 Coors Field (+4pp) aplicado"]}
       ],
       "excluidos": [
         {"nome": "Carter Jensen", "time": "KC", "motivo": "K% temporada 29,6% — acima do corte eliminatório de 28%"},
         {"nome": "Hunter Goodman", "time": "COL", "motivo": "K% temporada 33,7% — acima do corte eliminatório de 28%"},
-        {"nome": "Willi Castro", "time": "COL", "motivo": "K% temporada 28,0% — acima do corte eliminatório de 28%"},
         {"nome": "Brenton Doyle", "time": "COL", "motivo": "K% temporada 32,8% (acima de 28%) e amostra de temporada de apenas 125 PA (abaixo do piso de 150 PA)"},
         {"nome": "John Rave", "time": "KC", "motivo": "Amostra de temporada de apenas 27 PA — muito abaixo do piso de 150 PA"},
         {"nome": "Tyler Tolbert", "time": "KC", "motivo": "Amostra de temporada de apenas 83 PA — abaixo do piso de 150 PA"}
