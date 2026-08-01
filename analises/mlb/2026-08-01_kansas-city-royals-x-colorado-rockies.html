@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — KC Royals x COL Rockies (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">01/08 · 21:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/kc.png" alt="Kansas City Royals" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/col.png" alt="Colorado Rockies" />
+      </div>
+      <div class="history-teams-label">Kansas City Royals vs Colorado Rockies</div>
+      <div class="hero-venue">Coors Field, Denver (CO)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>KC</th><th>COL</th></tr>
+            <tr><td>Classificação</td><td>46-65, 5º AL Central, 13,0 jogos da divisão / 10,0 da wild card</td><td>43-67, 5º NL West, 26,0 jogos da divisão / 14,0 da wild card</td></tr>
+            <tr><td>Últimos 10</td><td>5V-5D (L2 na sequência atual)</td><td>3V-7D (W1 na sequência atual)</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>31/07 — ❌ 1-3 ✈️ vs COL (jogo 1 desta série)</td><td>31/07 — ✅ 3-1 🏠 vs KC (jogo 1 desta série)</td></tr>
+            <tr><td>Próximo jogo</td><td>02/08 ✈️ vs COL (segue a série)</td><td>02/08 🏠 vs KC (segue a série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">COL lidera 1-0 na série atual (só o jogo de 31/07 disputado nesta janela)</td></tr>
+            <tr><td>Abridor</td><td>Luinder Avila (D) — 20 jogos, só 11 como abridor (perfil swingman). 67.1 IP, AVG contra .269, WHIP 1,57, ERA 4,95</td><td>Ryan Feltner (D) — 15 jogos, todos como abridor. 70.2 IP, AVG contra .267, WHIP 1,46, ERA 5,73</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">KC</span> Bobby Witt Jr. (SS, estrela) — IL10; Vinnie Pasquantino (1B) — IL10; Maikel Garcia (3B) — IL10; Kyle Isbel (OF) — IL10; Jonathan India (2B) — IL60; Cole Ragans (ace abridor) — IL60. Escalação titular bastante desfalcada de titulares regulares (Loftin, Rave, Tolbert entram no lugar).</p>
+          <p><span class="badge">COL</span> Kris Bryant (3B, estrela) — IL60; Jose Quintana (abridor) — IL60.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Nenhum fator extra além da disputa normal — os dois times já estão fora da corrida por classificação (KC 13 jogos da divisão / 10 da wild card, COL 26 jogos da divisão / 14 da wild card). É o jogo 2 de uma série de 3.</p>
+          <p style="font-size:13px;color:var(--muted)">Coors Field — park factor 118 runs / 112 HR / 115 doubles (categoria: extremo inflador, efeito de altitude). Sem teto retrátil, ao ar livre. ⚠️ clima não confirmado nesta rodada de coleta.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Interessante.</strong></p>
+          <p>N_fortes = 4 (TJ Rumfield, Jake McCarthy, Mickey Moniak e Jac Caglianone com P(1+base) final ≥ 65% e consistência ✅ ou apenas 1 aviso leve). Os dois abridores enfrentados estão com BAA_efetiva ACIMA da média de liga (~0,248): batedores do KC enfrentam 0,273 (vs Feltner + bullpen COL) e batedores do COL enfrentam 0,258 (vs Avila + bullpen KC) — pitching visivelmente batível dos dois lados, ainda potencializado pelo efeito extremo inflador de Coors Field (+2pp aplicado a todos os rebatedores na Tabela 2). Profundidade real, não é só número de papel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>TJ Rumfield <span class="pick-star">⭐</span></td><td>COL</td><td>3</td><td>68%</td><td>60%</td><td>14,6%</td><td>0,321</td><td>✅</td><td class="prob-cell">79,1%</td><td>1,26</td><td>1,19–1,35</td></tr>
+            <tr><td><span class="rank-num">2</span></td><td>Jake McCarthy</td><td>COL</td><td>1</td><td>67%</td><td>70%</td><td>18,3%</td><td>0,332</td><td>✅</td><td class="prob-cell">77,4%</td><td>1,29</td><td>1,22–1,39</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Mickey Moniak</td><td>COL</td><td>5</td><td>64%</td><td>80%</td><td>25,4%</td><td>0,313</td><td>sem lastro</td><td class="prob-cell">77,3%</td><td>1,29</td><td>1,22–1,40</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">4</span></td><td>Jac Caglianone <span class="pick-star">⭐</span></td><td>KC</td><td>3</td><td>60%</td><td>30%</td><td>27,9%</td><td>0,314</td><td>sem lastro</td><td class="prob-cell">75,0%</td><td>1,33</td><td>1,25–1,46</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Cole Carrigg</td><td>COL</td><td>6</td><td>62%</td><td>70%</td><td>20,1%</td><td>0,343</td><td>sem lastro</td><td class="prob-cell">74,6%</td><td>1,34</td><td>1,26–1,47</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Michael Massey</td><td>KC</td><td>7</td><td>55%</td><td>60%</td><td>16,8%</td><td>0,290</td><td>sem lastro</td><td class="prob-cell">72,6%</td><td>1,38</td><td>1,29–1,53</td></tr>
+            <tr><td><span class="rank-num">7</span></td><td>Isaac Collins</td><td>KC</td><td>5</td><td>59%</td><td>60%</td><td>22,6%</td><td>0,308</td><td>sem lastro</td><td class="prob-cell">71,5%</td><td>1,40</td><td>1,31–1,56</td></tr>
+            <tr><td><span class="rank-num">8</span></td><td>Kyle Karros</td><td>COL</td><td>2</td><td>58%</td><td>60%</td><td>20,9%</td><td>0,323</td><td>sem lastro</td><td class="prob-cell">70,1%</td><td>1,43</td><td>1,33–1,60</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr><td><span class="rank-num">9</span></td><td>Tyler Freeman</td><td>COL</td><td>8</td><td>64%</td><td>40%</td><td>12,0%</td><td>0,279</td><td>sem lastro</td><td class="prob-cell">68,1%</td><td>1,47</td><td>1,36–1,66</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = dupla escolhida, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores do KC (vs Feltner + bullpen COL) = 0,273. BAA_efetiva enfrentada pelos batedores do COL (vs Avila + bullpen KC) = 0,258. Todos os valores de P(1+base) já incluem o ajuste Tier 2 de Coors Field (+2pp, park factor extremo inflador) e faixa ampliada para ±5pp por causa desse ajuste declarado.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(TJ Rumfield é o maior P(1+base) geral; Jac Caglianone é o maior do KC — dupla cruzando os dois times em vez de dobrar no COL)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">TJ Rumfield <span class="badge">COL</span></div>
+          <div class="pl5-sub">P(1+base) 79,1% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">25/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>0,6 base/jogo</strong> nos últimos 5 (3 bases totais em 5 jogos, 3/5 jogos com 1+ base) — produção modesta em volume, mas consistente com a temporada (68% dos jogos com 1+ hit) e reforçada agora pelo efeito de Coors Field.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Jac Caglianone <span class="badge">KC</span></div>
+          <div class="pl5-sub">P(1+base) 75,0% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,4 base/jogo</strong> nos últimos 5 (7 bases totais em 5 jogos) — janela irregular, com um jogo de 5 bases puxando a média para cima e apenas 30% dos últimos 10 jogos com 1+ hit. K% de 27,9% está no limite do corte eliminatório (28%) — nome com P alta pontual, mas marcado "sem lastro" de consistência.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
