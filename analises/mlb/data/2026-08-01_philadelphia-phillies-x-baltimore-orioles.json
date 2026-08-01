@@ -1,0 +1,91 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T19:57:00Z",
+  "jogos": [
+    {
+      "game_pk": 824808,
+      "contexto": {
+        "visitante": "Philadelphia Phillies",
+        "mandante": "Baltimore Orioles",
+        "estadio": "Oriole Park at Camden Yards",
+        "horario_utc": "2026-08-01T23:05:00Z",
+        "horario_brt": "2026-08-01 20:05",
+        "classificacao": {
+          "visitante": "57-53, 2º NL East, 8,0 jogos do líder da divisão, 3º na corrida de wild card",
+          "mandante": "54-56, 4º AL East, 10,5 jogos do líder da divisão, 1,5 jogo da vaga de wild card"
+        },
+        "ultimos_5": { "visitante": "vide últimos 10 (2V-8D)", "mandante": "vide últimos 10 (5V-5D)" },
+        "ultimos_10": { "visitante": "2V-8D", "mandante": "5V-5D" },
+        "sequencia_atual": { "visitante": "L4 (4 derrotas seguidas)", "mandante": "W2 (2 vitórias seguidas)" },
+        "ultimo_jogo": {
+          "visitante": "31/07 — derrota 4-6 fora vs Baltimore Orioles",
+          "mandante": "31/07 — vitória 6-4 em casa vs Philadelphia Phillies"
+        },
+        "proximo_jogo": {
+          "visitante": "02/08 fora vs Baltimore Orioles (jogo 3 da série), depois em casa vs Washington Nationals",
+          "mandante": "02/08 em casa vs Philadelphia Phillies (jogo 3 da série), depois em casa vs Los Angeles Angels"
+        },
+        "confronto_direto_temporada": "BAL lidera 1-0 na temporada regular (só 31/07 disputado; dois jogos de spring training em março não contam)",
+        "abridores": {
+          "visitante": { "nome": "Cristopher Sánchez", "brace": "L", "gs": 22, "ip": "138.1", "baa": 0.256, "era": 2.73, "whip": 1.20 },
+          "mandante": { "nome": "Shane Baz", "brace": "R", "gs": 21, "ip": "122.0", "baa": 0.267, "era": 3.98, "whip": 1.39 }
+        },
+        "desfalques": [
+          { "time": "PHI", "nome": "Adolis García", "posicao": "RF", "status": "IL60" },
+          { "time": "PHI", "nome": "Johan Rojas", "posicao": "CF", "status": "IL60" },
+          { "time": "PHI", "nome": "Rafael Marchán", "posicao": "C", "status": "IL10" },
+          { "time": "PHI", "nome": "Brad Keller", "posicao": "P", "status": "IL60" },
+          { "time": "PHI", "nome": "Tanner Banks", "posicao": "P", "status": "IL60" },
+          { "time": "PHI", "nome": "Lou Trivino III", "posicao": "P", "status": "IL15" },
+          { "time": "BAL", "nome": "Adley Rutschman", "posicao": "C", "status": "IL10" },
+          { "time": "BAL", "nome": "Samuel Basallo", "posicao": "C", "status": "IL10" },
+          { "time": "BAL", "nome": "Ryan Mountcastle", "posicao": "1B", "status": "IL60" },
+          { "time": "BAL", "nome": "Jordan Westburg", "posicao": "3B", "status": "IL60" },
+          { "time": "BAL", "nome": "Blaze Alexander", "posicao": "3B", "status": "IL10" },
+          { "time": "BAL", "nome": "Chris Bassitt", "posicao": "P", "status": "IL60" },
+          { "time": "BAL", "nome": "Zach Eflin", "posicao": "P", "status": "IL60" },
+          { "time": "BAL", "nome": "Keegan Akin", "posicao": "P", "status": "IL60" },
+          { "time": "BAL", "nome": "Ryan Helsley", "posicao": "P", "status": "IL60" },
+          { "time": "BAL", "nome": "Félix Bautista", "posicao": "P", "status": "IL60" },
+          { "time": "BAL", "nome": "Colin Selby", "posicao": "P", "status": "IL60" }
+        ],
+        "motivacao_extra": "Série de 3 jogos em Camden Yards (BAL venceu jogo 1 em 31/07, 6-4). PHI vem de 4 derrotas seguidas e briga por wild card na NL; BAL a 1,5 jogo da vaga de wild card na AL, embalado com 2 vitórias seguidas. Sem rivalidade especial além da disputa normal de classificação.",
+        "park_factor": { "estadio": "Oriole Park at Camden Yards", "runs": 95, "hr": 90, "doubles": 100, "categoria": "supressor de HR desde o recuo do left field em 2022", "teto_retratil": false },
+        "clima": "Noite parcialmente nublada em Baltimore, mínima próxima de 24°C (75°F), vento sul fraco a moderado (5-10 mph, rajadas até 20 mph). Sem sinal de chuva relevante na previsão."
+      },
+      "bullpen": {
+        "PHI": { "baa_ponderada": 0.236, "ip_total": 272.7, "ip_ultimos_3_dias": 3.7 },
+        "BAL": { "baa_ponderada": 0.219, "ip_total": 302.0, "ip_ultimos_3_dias": 21.0 }
+      },
+      "interesse_jogo": {
+        "classificacao": "Neutro",
+        "n_fortes": 1,
+        "baa_efetiva_phi_batters_vs": 0.248,
+        "baa_efetiva_bal_batters_vs": 0.248,
+        "justificativa": "Apenas Trea Turner (PHI, 73,1%) bate P≥65% com consistência plena — N_fortes=1. Os demais P altos no papel (Marsh 75,0%, Harper 71,4%, Crawford 67,2% do PHI; Ward 66,7% do BAL) estão marcados 'sem lastro', sem bater o piso de %1+H de temporada e últimos 10 jogos ao mesmo tempo. As duas BAA_efetivas (0,248 e 0,248) estão exatamente na média de liga — não é cenário de pitching duro dos dois lados, é baixa profundidade de sinais consistentes."
+      },
+      "rebatedores": [
+        { "player_id": 669016, "nome": "Brandon Marsh", "time": "PHI", "slot": "5", "slot_confirmado": true, "pa_temporada": 413, "avg": 0.277, "babip": 0.346, "k_pct": 0.266, "bb_pct": 0.053, "pct_1mais_temporada": 0.667, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.750, "odd_justa": 1.33, "faixa_odd": [1.28, 1.39], "consistencia": "sem_lastro", "avisos": ["%1+H últimos 10 (40,0%) abaixo do piso de 60%", "BABIP .346 acima do limite de sustentabilidade"] },
+        { "player_id": 607208, "nome": "Trea Turner", "time": "PHI", "slot": "1", "slot_confirmado": true, "pa_temporada": 473, "avg": 0.248, "babip": 0.291, "k_pct": 0.224, "bb_pct": 0.059, "pct_1mais_temporada": 0.673, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.731, "odd_justa": 1.37, "faixa_odd": [1.31, 1.43], "consistencia": "ok", "avisos": ["K% 22,4% levemente acima do ideal de 21%"] },
+        { "player_id": 547180, "nome": "Bryce Harper", "time": "PHI", "slot": "3", "slot_confirmado": true, "pa_temporada": 463, "avg": 0.252, "babip": 0.276, "k_pct": 0.214, "bb_pct": 0.143, "pct_1mais_temporada": 0.591, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.714, "odd_justa": 1.40, "faixa_odd": [1.34, 1.46], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (59,1%) abaixo do piso de 65%"] },
+        { "player_id": 702222, "nome": "Justin Crawford", "time": "PHI", "slot": "8", "slot_confirmado": true, "pa_temporada": 320, "avg": 0.257, "babip": 0.319, "k_pct": 0.197, "bb_pct": 0.056, "pct_1mais_temporada": 0.550, "pct_1mais_ultimos10": 0.500, "maior_seca_temporada": 7, "seca_atual": 0, "p_1mais_base": 0.672, "odd_justa": 1.49, "faixa_odd": [1.42, 1.56], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (55,0%) abaixo do piso de 65%", "maior seca histórica de 7 jogos, acima da normalidade (≤6)"] },
+        { "player_id": 621493, "nome": "Taylor Ward", "time": "BAL", "slot": "2", "slot_confirmado": true, "pa_temporada": 500, "avg": 0.247, "babip": 0.310, "k_pct": 0.202, "bb_pct": 0.172, "pct_1mais_temporada": 0.633, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.667, "odd_justa": 1.50, "faixa_odd": [1.43, 1.57], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (63,3%) abaixo do piso de 65%"] },
+        { "player_id": 624413, "nome": "Pete Alonso", "time": "BAL", "slot": "4", "slot_confirmado": true, "pa_temporada": 480, "avg": 0.252, "babip": 0.292, "k_pct": 0.244, "bb_pct": 0.117, "pct_1mais_temporada": 0.655, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.635, "odd_justa": 1.57, "faixa_odd": [1.50, 1.65], "consistencia": "ok", "avisos": [] },
+        { "player_id": 664761, "nome": "Alec Bohm", "time": "PHI", "slot": "4", "slot_confirmado": true, "pa_temporada": 428, "avg": 0.223, "babip": 0.234, "k_pct": 0.152, "bb_pct": 0.063, "pct_1mais_temporada": 0.581, "pct_1mais_ultimos10": 0.600, "maior_seca_temporada": 4, "seca_atual": 1, "p_1mais_base": 0.634, "odd_justa": 1.58, "faixa_odd": [1.51, 1.66], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (58,1%) abaixo do piso de 65%"] },
+        { "player_id": 681082, "nome": "Bryson Stott", "time": "PHI", "slot": "7", "slot_confirmado": true, "pa_temporada": 402, "avg": 0.252, "babip": 0.296, "k_pct": 0.187, "bb_pct": 0.077, "pct_1mais_temporada": 0.654, "pct_1mais_ultimos10": 0.600, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.630, "odd_justa": 1.59, "faixa_odd": [1.52, 1.67], "consistencia": "ok", "avisos": [] },
+        { "player_id": 683002, "nome": "Gunnar Henderson", "time": "BAL", "slot": "3", "slot_confirmado": true, "pa_temporada": 500, "avg": 0.219, "babip": 0.254, "k_pct": 0.234, "bb_pct": 0.076, "pct_1mais_temporada": 0.596, "pct_1mais_ultimos10": 0.700, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.626, "odd_justa": 1.60, "faixa_odd": [1.52, 1.68], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (59,6%) abaixo do piso de 65%"] },
+        { "player_id": 702616, "nome": "Jackson Holliday", "time": "BAL", "slot": "8", "slot_confirmado": true, "pa_temporada": 188, "avg": 0.261, "babip": 0.324, "k_pct": 0.234, "bb_pct": 0.149, "pct_1mais_temporada": 0.483, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 6, "seca_atual": 0, "p_1mais_base": 0.620, "odd_justa": 1.61, "faixa_odd": [1.54, 1.69], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (48,3%) abaixo do piso de 65%", "amostra de temporada reduzida (58 jogos) — pouco tempo na MLB, split vs canhoto com só 39 PA (não usado no cálculo)"] },
+        { "player_id": 592663, "nome": "J.T. Realmuto", "time": "PHI", "slot": "6", "slot_confirmado": true, "pa_temporada": 300, "avg": 0.226, "babip": 0.263, "k_pct": 0.210, "bb_pct": 0.073, "pct_1mais_temporada": 0.550, "pct_1mais_ultimos10": 0.800, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.606, "odd_justa": 1.65, "faixa_odd": [1.57, 1.74], "consistencia": "sem_lastro", "avisos": ["%1+H temporada (55,0%) abaixo do piso de 65%"] },
+        { "player_id": 665750, "nome": "Leody Taveras", "time": "BAL", "slot": "7", "slot_confirmado": true, "pa_temporada": 336, "avg": 0.223, "babip": 0.296, "k_pct": 0.250, "bb_pct": 0.101, "pct_1mais_temporada": 0.553, "pct_1mais_ultimos10": 0.400, "maior_seca_temporada": 6, "seca_atual": 1, "p_1mais_base": 0.507, "odd_justa": 1.97, "faixa_odd": [1.86, 2.10], "consistencia": "sem_lastro", "avisos": ["%1+H temporada e últimos 10 abaixo dos pisos (65%/60%)", "split vs canhoto fraco (.185 em 106 PA) — não cruza o corte de -50pts mas pesa negativamente"] }
+      ],
+      "excluidos": [
+        { "nome": "Bryan De La Cruz", "time": "PHI", "motivo": "PA temporada 16 < 150 (substituto recente de Adolis García, amostra insuficiente)" },
+        { "nome": "Kyle Schwarber", "time": "PHI", "motivo": "K% temporada 34,3% > 28%" },
+        { "nome": "Coby Mayo", "time": "BAL", "motivo": "K% temporada 33,5% > 28%" },
+        { "nome": "Tyler O'Neill", "time": "BAL", "motivo": "K% temporada 28,5% > 28%" },
+        { "nome": "Christian Encarnacion-Strand", "time": "BAL", "motivo": "PA temporada 37 < 150 (substituto recente de Jordan Westburg, amostra insuficiente)" },
+        { "nome": "Jake Rogers", "time": "BAL", "motivo": "PA temporada 111 < 150 (substituto recente de Adley Rutschman, amostra insuficiente)" }
+      ]
+    }
+  ]
+}

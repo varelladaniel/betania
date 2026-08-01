@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8" />
-<title>Betania — MLB — TEX @ HOU (01/08)</title>
-<link rel="stylesheet" href="../style.css?v=7" />
+<title>Betania — TEX Rangers x HOU Astros (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
 <script src="analises-list.js"></script>
 <script src="../common.js"></script>
 </head>
@@ -19,217 +19,118 @@
 </aside>
 <main class="main-content">
   <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
-  <a class="back-link" href="index.html">← Voltar para MLB</a>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
-  <div class="analysis-hero">
-    <span class="history-date-badge">01/08 · 20:10 BRT</span>
-    <div class="history-teams-label">Texas Rangers @ Houston Astros</div>
-    <span class="hero-venue">Daikin Park · Mercado: 1+ base total (rebatedor)</span>
-  </div>
-
-  <div class="card-note" style="margin-bottom:18px">
-    <p><strong>⚠️ Jogo de teste do pipeline.</strong> Escalação de hoje ainda não confirmada no momento
-    da coleta — usada a escalação do jogo anterior (31/07, mesmo confronto) como proxy. BAA_efetiva já
-    pondera abridor + bullpen (0,60/0,40). Ronel Blanco tem amostra mínima (2 saídas, BAA .171) —
-    a ponderação com o bullpen do HOU evitou que isso distorcesse os rebatedores do TEX.</p>
-  </div>
-
-  <div class="card">
-    <h2>Contexto do jogo</h2>
-    <div class="stat-grid">
-      <div class="stat-block">
-        <span class="stat-label">Classificação — TEX</span>
-        <span class="stat-value">55V–55D · 2º AL West · 0,5 jogo da wild card (briga direta)</span>
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">01/08 · 20:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/tex.png" alt="Texas Rangers" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/hou.png" alt="Houston Astros" />
       </div>
-      <div class="stat-block">
-        <span class="stat-label">Classificação — HOU</span>
-        <span class="stat-value">56V–55D · 1º AL West</span>
-      </div>
+      <div class="history-teams-label">Texas Rangers vs Houston Astros</div>
+      <div class="hero-venue">Daikin Park, Houston (TX)</div>
+    </div>
 
-      <div class="stat-block">
-        <span class="stat-label">Sequência recente — TEX</span>
-        <span class="stat-value">2 vitórias e 3 derrotas nos últimos 5 (L3 atual)</span>
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
       </div>
-      <div class="stat-block">
-        <span class="stat-label">Sequência recente — HOU</span>
-        <span class="stat-value">4 vitórias e 1 derrota nos últimos 5 (W4 atual)</span>
-      </div>
-
-      <div class="stat-divider"></div>
-
-      <div class="stat-block">
-        <span class="stat-label">Último jogo — TEX</span>
-        <span class="stat-value">Perdeu de 11–2 fora (31/07 vs HOU)</span>
-      </div>
-      <div class="stat-block">
-        <span class="stat-label">Último jogo — HOU</span>
-        <span class="stat-value">Venceu de 11–2 em casa (31/07 vs TEX)</span>
-      </div>
-
-      <div class="stat-block">
-        <span class="stat-label">Próximo jogo (a partir deste) — TEX</span>
-        <span class="stat-value">02/08, fora, vs HOU (segue a série)</span>
-      </div>
-      <div class="stat-block">
-        <span class="stat-label">Próximo jogo (a partir deste) — HOU</span>
-        <span class="stat-value">02/08, em casa, vs TEX (segue a série)</span>
-      </div>
-
-      <div class="stat-divider"></div>
-
-      <div class="stat-block full">
-        <span class="stat-label">Confronto direto na temporada</span>
-        <span class="stat-value">HOU leva vantagem: <strong>7 vitórias a 4</strong> nos jogos já disputados essa temporada</span>
-      </div>
-
-      <div class="stat-block">
-        <span class="stat-label">Abridor — TEX</span>
-        <span class="stat-value">Jacob deGrom (D) — BAA .224, ERA 3.67, WHIP 1.07, 20 saídas</span>
-      </div>
-      <div class="stat-block">
-        <span class="stat-label">Abridor — HOU</span>
-        <span class="stat-value">Ronel Blanco (D) — <span class="pill pill-warn">⚠️ amostra mínima</span> só 2 saídas, BAA .171 pouco confiável</span>
-      </div>
-
-      <div class="stat-divider"></div>
-
-      <div class="stat-block full">
-        <span class="stat-label">Desfalques de destaque</span>
-        <span class="stat-value">
-          <strong>HOU — Carlos Correa (SS)</strong>: IL de 60 dias, lesão de tendão no tornozelo esquerdo (explica Jeremy Peña como titular no shortstop).<br>
-          <strong>TEX — Josh Jung (3B)</strong>: IL de 10 dias (explica Ezequiel Duran na 3ª base). Demais desfalques do TEX sem papel na titularidade atual.
-        </span>
-      </div>
-
-      <div class="stat-block full">
-        <span class="stat-label">Motivação extra</span>
-        <span class="stat-value">Série direta na disputa da AL West — jogo com peso real pros dois lados</span>
-      </div>
-
-      <div class="stat-block full">
-        <span class="stat-label">Estádio e condições</span>
-        <span class="stat-value">
-          Daikin Park — park factor: 98 runs / 102 HR / 96 duplas (neutro, curto no left field).
-          Teto retrátil: fica fechado na grande maioria dos jogos do Astros em 2026 por causa do calor de Houston
-          (status exato de hoje não confirmado publicamente antes do jogo). <strong>Se fechado, o clima externo
-          não influencia o jogo</strong> — a previsão real (alerta de calor extremo, 20% de chance de chuva antes
-          das 21h, vento SO 5–10 km/h) só seria relevante se o teto abrir, o que é incomum aqui no verão.
-        </span>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>TEX</th><th>HOU</th></tr>
+            <tr><td>Classificação</td><td>55-55, 2º AL West, 0,5 jogo da wild card</td><td>56-55, 1º AL West</td></tr>
+            <tr><td>Últimos 5</td><td>2V-3D</td><td>4V-1D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>31/07 — ❌ 2-11 ✈️ vs HOU</td><td>31/07 — ✅ 11-2 🏠 vs TEX</td></tr>
+            <tr><td>Próximo jogo</td><td>02/08 ✈️ vs HOU (segue a série)</td><td>02/08 🏠 vs TEX (segue a série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">HOU lidera 7-4 nos jogos já disputados essa temporada</td></tr>
+            <tr><td>Abridor</td><td>Jacob deGrom (D) — 20 saídas, BAA .224, ERA 3,67, WHIP 1,07</td><td>Ronel Blanco (D) — amostra mínima: só 2 saídas na temporada, BAA .171 pouco confiável</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">TEX</span> Josh Jung (3B titular antes da lesão, D10) — ausência mais sentida da linha, Ezequiel Duran assumiu a 3ª base no seu lugar. Danny Jansen (C, D60) também fora.</p>
+          <p><span class="badge">HOU</span> Carlos Correa (INF, D60) e Brice Matthews (INF, D10) fora — nenhum dos dois estava na escalação titular de hoje mesmo assim, impacto limitado na linha ofensiva de hoje.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Rivalidade direta AL West com os dois times colados na parte de cima da tabela (HOU 1º, TEX 2º a meio jogo da wild card) — série de 3 jogos em Houston, 2º de 3 confrontos, com HOU tentando abrir vantagem na divisão.</p>
+          <p style="font-size:13px;color:var(--muted)">Daikin Park — park factor 98 runs / 102 HR / 96 doubles (neutro, ligeiramente favorável a HR pelo left field curto). Teto retrátil, geralmente fechado no verão por calor/umidade de Houston — condições internas controladas, clima externo não deve influenciar.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Desinteressante.</strong></p>
+          <p>N_fortes=4 (Jeremy Peña 78,1%, Yordan Alvarez 75,0%, Wyatt Langford 67,8%, Yainer Diaz 65,5%) — na letra fria parece boa profundidade e não 100% concentrada num só time. Mas os dois lados enfrentam arremesso duro: TEX (deGrom + bullpen) tem BAA_efetiva de 0,220 contra os batedores do HOU, e HOU (Blanco + bullpen) tem BAA_efetiva de 0,196 contra os batedores do TEX — as duas bem abaixo da média de liga (0,248), cenário que tende a anular até rebatedores bons no papel.</p>
+          <p>Desinteressante por matchup difícil dos dois lados, não só por baixa confiança de dados — embora a amostra de Ronel Blanco (só 2 saídas na temporada) mereça cautela extra, refletida na faixa de odd ampliada (±5pp) para todos os batedores do TEX.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="card">
-    <h2>Ranking geral — P(1+ base)</h2>
-    <div class="rank-table-wrap">
-    <table class="rank-table">
-      <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
-      <tr class="top-pick"><td><span class="rank-num">1</span></td><td><strong>Jeremy Peña</strong></td><td>HOU</td><td>1º</td><td>79.4%</td><td>100%</td><td>18.1%</td><td>.353</td><td><span class="pill pill-warn">⚠️ BABIP alto</span></td><td class="prob-cell">79.3%</td><td>1.26</td><td>1.22–1.31</td></tr>
-      <tr class="top-pick"><td><span class="rank-num">2</span></td><td><strong>Yordan Alvarez</strong></td><td>HOU</td><td>2º</td><td>69.7%</td><td>70%</td><td>17.3%</td><td>.332</td><td><span class="pill pill-ok">✅</span></td><td class="prob-cell">76.3%</td><td>1.31</td><td>1.26–1.37</td></tr>
-      <tr class="top-pick"><td><span class="rank-num">3</span></td><td>Wyatt Langford</td><td>TEX</td><td>2º</td><td>70.7%</td><td>70%</td><td>22.4%</td><td>.317</td><td><span class="pill pill-warn">⚠️ K% alto</span></td><td class="prob-cell">66.2%</td><td>1.51</td><td>1.40–1.63</td></tr>
-      <tr><td><span class="rank-num">4</span></td><td>Isaac Paredes</td><td>HOU</td><td>3º</td><td>66.3%</td><td>60%</td><td>14.7%</td><td>.272</td><td><span class="pill pill-ok">✅</span></td><td class="prob-cell">65.4%</td><td>1.53</td><td>1.46–1.60</td></tr>
-      <tr><td><span class="rank-num">5</span></td><td>Yainer Diaz</td><td>HOU</td><td>7º</td><td>69.2%</td><td>70%</td><td>15.3%</td><td>.273</td><td><span class="pill pill-ok">✅</span></td><td class="prob-cell">65.2%</td><td>1.53</td><td>1.47–1.61</td></tr>
-      <tr><td><span class="rank-num">6</span></td><td>Taylor Trammell</td><td>HOU</td><td>6º</td><td>45.5%</td><td>60%</td><td>32.1%</td><td>.333</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">64.5%</td><td>1.55</td><td>1.48–1.63</td></tr>
-      <tr><td><span class="rank-num">7</span></td><td>Christian Walker</td><td>HOU</td><td>4º</td><td>60.7%</td><td>70%</td><td>24.0%</td><td>.264</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">63.0%</td><td>1.59</td><td>1.52–1.67</td></tr>
-      <tr><td><span class="rank-num">8</span></td><td>Nicky Lopez</td><td>TEX</td><td>8º</td><td>57.9%</td><td>50%</td><td>14.0%</td><td>.336</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">61.3%</td><td>1.63</td><td>1.51–1.77</td></tr>
-      <tr><td><span class="rank-num">9</span></td><td>Joc Pederson</td><td>TEX</td><td>1º</td><td>52.5%</td><td>80%</td><td>22.6%</td><td>.272</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">60.1%</td><td>1.66</td><td>1.54–1.82</td></tr>
-      <tr><td><span class="rank-num">10</span></td><td>Ezequiel Duran</td><td>TEX</td><td>5º</td><td>64.4%</td><td>80%</td><td>23.0%</td><td>.323</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">59.4%</td><td>1.68</td><td>1.55–1.84</td></tr>
-      <tr><td><span class="rank-num">11</span></td><td>Jose Altuve</td><td>HOU</td><td>5º</td><td>59.3%</td><td>50%</td><td>21.7%</td><td>.268</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">58.6%</td><td>1.71</td><td>1.62–1.80</td></tr>
-      <tr><td><span class="rank-num">12</span></td><td>Brandon Nimmo</td><td>TEX</td><td>4º</td><td>61.5%</td><td>60%</td><td>21.8%</td><td>.323</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">55.8%</td><td>1.79</td><td>1.65–1.97</td></tr>
-      <tr><td><span class="rank-num">13</span></td><td>Cam Smith</td><td>HOU</td><td>9º</td><td>49.5%</td><td>30%</td><td>24.6%</td><td>.244</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">53.0%</td><td>1.89</td><td>1.79–2.00</td></tr>
-      <tr><td><span class="rank-num">14</span></td><td>Jake Burger</td><td>TEX</td><td>7º</td><td>61.0%</td><td>70%</td><td>27.0%</td><td>.283</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">51.2%</td><td>1.95</td><td>1.78–2.17</td></tr>
-      <tr><td><span class="rank-num">15</span></td><td>Evan Carter</td><td>TEX</td><td>6º</td><td>45.1%</td><td>60%</td><td>23.3%</td><td>.253</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">47.9%</td><td>2.09</td><td>1.89–2.33</td></tr>
-      <tr><td><span class="rank-num">16</span></td><td>Corey Seager</td><td>TEX</td><td>3º</td><td>48.1%</td><td>60%</td><td>27.0%</td><td>.213</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">45.8%</td><td>2.18</td><td>1.97–2.45</td></tr>
-      <tr><td><span class="rank-num">17</span></td><td>LaMonte Wade Jr</td><td>HOU</td><td>8º</td><td>36.4%</td><td>30%</td><td>23.4%</td><td>.209</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">42.6%</td><td>2.35</td><td>2.19–2.53</td></tr>
-      <tr><td><span class="rank-num">18</span></td><td>Austin Wynns</td><td>TEX</td><td>9º</td><td>23.1%</td><td>30%</td><td>28.2%</td><td>.111</td><td><span class="pill pill-muted">sem lastro</span></td><td class="prob-cell">21.7%</td><td>4.60</td><td>3.74–5.97</td></tr>
-    </table>
-    </div>
-    <p class="rank-note">"sem lastro" = P calculada normalmente, mas o jogador não bate o piso de consistência (K% ≤21% e %1+H temporada ≥65% e últimos 10 ≥60%). Ninguém foi excluído desta tabela — só sinalizado.</p>
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
   </div>
 
-  <div class="spotlight-card" style="margin-bottom:18px">
-    <div class="spotlight-head">
-      <div>
-        <div class="spotlight-name">Jeremy Peña</div>
-        <div class="spotlight-sub">Houston Astros (HOU) · 1º na ordem · Destro — vs Jacob deGrom (TEX), destro</div>
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Jeremy Peña <span class="pick-star">⭐</span></td><td>HOU</td><td>1</td><td>79%</td><td>100%</td><td>18,1%</td><td>0,353</td><td>⚠️</td><td class="prob-cell">78,1%</td><td>1,28</td><td>1,23–1,33</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Yordan Alvarez <span class="pick-star">⭐</span></td><td>HOU</td><td>2</td><td>70%</td><td>70%</td><td>17,3%</td><td>0,332</td><td>✅</td><td class="prob-cell">75,0%</td><td>1,33</td><td>1,28–1,39</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr><td><span class="rank-num">3</span></td><td>Wyatt Langford</td><td>TEX</td><td>2</td><td>71%</td><td>70%</td><td>22,4%</td><td>0,317</td><td>⚠️</td><td class="prob-cell">67,8%</td><td>1,48</td><td>1,37–1,59</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Yainer Diaz</td><td>HOU</td><td>5</td><td>69%</td><td>70%</td><td>15,3%</td><td>0,273</td><td>✅</td><td class="prob-cell">65,5%</td><td>1,53</td><td>1,46–1,60</td></tr>
+          </tbody>
+        </table>
       </div>
-      <div class="spotlight-prob">
-        <div class="big">79,3%</div>
-        <div class="odd">odd justa 1,26 · faixa 1,22–1,31</div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
       </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores do HOU (vs deGrom + bullpen TEX) = 0,220. BAA_efetiva enfrentada pelos batedores do TEX (vs Blanco + bullpen HOU) = 0,196, com faixa ampliada ±5pp em todos os batedores do TEX por causa da amostra mínima de Blanco (só 2 saídas na temporada).</p>
     </div>
-    <div class="spotlight-windows">
-      <div class="spotlight-window"><div class="sw-label">Temporada</div><div class="sw-val">79,4%</div><div class="sw-sample">50 de 63 jogos</div></div>
-      <div class="spotlight-window"><div class="sw-label">Últimos 10</div><div class="sw-val">100%</div><div class="sw-sample">10 de 10</div></div>
-      <div class="spotlight-window"><div class="sw-label">vs deGrom</div><div class="sw-val">—</div><div class="sw-sample">amostra insuficiente</div></div>
-    </div>
-    <div class="spotlight-cols">
-      <div class="spotlight-col favor">
-        <h4>A favor</h4>
-        <ul>
-          <li>K% de 18,1% — baixo</li>
-          <li>Maior probabilidade do jogo</li>
-          <li>Consistência real nos últimos 10</li>
-          <li>1º na ordem = mais aparições esperadas</li>
-        </ul>
-      </div>
-      <div class="spotlight-col contra">
-        <h4>Atenção</h4>
-        <ul>
-          <li>BABIP de .353 acima do normal (.290–.310) — parte da média pode estar inflada por sorte</li>
-          <li>Mesmo assim, perfil de K% baixo é o mesmo dos nomes historicamente confiáveis do usuário</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <div class="spotlight-card" style="margin-bottom:18px">
-    <div class="spotlight-head">
-      <div>
-        <div class="spotlight-name">Yordan Alvarez</div>
-        <div class="spotlight-sub">Houston Astros (HOU) · 2º na ordem · Canhoto — vs Jacob deGrom (TEX), destro</div>
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking — os dois do HOU, folga de 7,2pp para o próximo nome de outro time)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Jeremy Peña <span class="badge">HOU</span></div>
+          <div class="pl5-sub">P(1+base) 78,1% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">8</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:13%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">4</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">4</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>3,8 base/jogo</strong> nos últimos 5 (19 bases totais em 5 jogos, 5/5 jogos com 1+ base) — janela muito forte, coerente com o maior P do ranking; BABIP de 0,353 pede atenção à sustentabilidade a médio prazo, mas nada no curto prazo indica queda.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Yordan Alvarez <span class="badge">HOU</span></div>
+          <div class="pl5-sub">P(1+base) 75,0% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:20%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,6 base/jogo</strong> nos últimos 5 (8 bases totais em 5 jogos, 3/5 jogos com 1+ base) — janela irregular com dois jogos zerados, mas puxada pra cima por um jogo de 5 bases; consistência ✅ na temporada segura o número.</div>
+        </div>
       </div>
-      <div class="spotlight-prob">
-        <div class="big">76,3%</div>
-        <div class="odd">odd justa 1,31 · faixa 1,26–1,37</div>
-      </div>
-    </div>
-    <div class="spotlight-windows">
-      <div class="spotlight-window"><div class="sw-label">Temporada</div><div class="sw-val">69,7%</div><div class="sw-sample">76 de 109 jogos</div></div>
-      <div class="spotlight-window"><div class="sw-label">Últimos 10</div><div class="sw-val">70%</div><div class="sw-sample">7 de 10</div></div>
-      <div class="spotlight-window"><div class="sw-label">Consistência</div><div class="sw-val">✅</div><div class="sw-sample">sem avisos</div></div>
-    </div>
-    <div class="spotlight-cols">
-      <div class="spotlight-col favor">
-        <h4>A favor</h4>
-        <ul>
-          <li>K% de 17,3% — um dos mais baixos do jogo</li>
-          <li>BABIP .332 dentro de faixa aceitável</li>
-          <li>Canhoto vs destro é matchup favorável</li>
-        </ul>
-      </div>
-      <div class="spotlight-col contra">
-        <h4>Atenção</h4>
-        <ul>
-          <li>BB% de 15,7% é alto (reduz ABs reais), mas o perfil de contato compensa — mesmo padrão da calibração original deste jogador</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2>Limitações conhecidas</h2>
-    <div class="stat-grid">
-      <div class="stat-block full"><span class="stat-value">✅ <strong>Resolvido</strong>: BAA_efetiva pondera abridor + bullpen (0,60/0,40), bullpen derivado do roster ativo ponderado por innings pitched. Corrigiu a distorção da amostra mínima do Blanco.</span></div>
-      <div class="stat-block full"><span class="stat-value">✅ <strong>Resolvido</strong>: bug do <code>battingOrder</code> agregado do time (refletia estado final pós-substituição) — corrigido pra usar o campo por jogador terminando em "0".</span></div>
-      <div class="stat-block full"><span class="stat-value">✅ <strong>Resolvido</strong>: clima e teto retrátil — checa <code>teto_retratil</code>/<code>teto_tendencia</code> no park-factors.json antes de buscar previsão real.</span></div>
-      <div class="stat-block full"><span class="stat-value">✅ <strong>Resolvido</strong>: desfalques via roster 40Man com <code>hydrate=person(injuries)</code> — achou Correa e Jung direto, sem WebSearch.</span></div>
-      <div class="stat-block full"><span class="stat-value">Pendente: escalação de hoje ainda não confirmada — usado o jogo anterior como proxy. Decisão de arquitetura já tomada: a skill só roda com escalação confirmada de verdade (sem "slot provável").</span></div>
-      <div class="stat-block full"><span class="stat-value">Pendente: bullpen desgastado (Tier 2, últimos 3 dias) — método desenhado na skill, ainda não aplicado num teste.</span></div>
     </div>
   </div>
 </main>
 </div>
-<script>buildNavDropdown('nav-select', 'MLB_ANALISES', '2026-08-01_texas-rangers-x-houston-astros');</script>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
 </body>
 </html>
