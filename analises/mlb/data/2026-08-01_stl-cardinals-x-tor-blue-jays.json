@@ -1,0 +1,64 @@
+{
+  "data": "2026-08-01",
+  "gerado_em_utc": "2026-08-01T14:22:00Z",
+  "jogos": [
+    {
+      "game_pk": 822781,
+      "contexto": {
+        "visitante": "St. Louis Cardinals",
+        "mandante": "Toronto Blue Jays",
+        "horario_brt": "2026-08-01T16:07:00-03:00",
+        "estadio": "Rogers Centre",
+        "classificacao": {
+          "STL": { "vitorias": 54, "derrotas": 56, "posicao_divisao": 4, "jogos_wc": 14.5 },
+          "TOR": { "vitorias": 51, "derrotas": 59, "posicao_divisao": 5, "jogos_wc": 13.5 }
+        },
+        "ultimos_5": { "STL": "1-4", "TOR": "3-2" },
+        "ultimo_jogo": {
+          "STL": { "resultado": "L", "placar": "1-3", "mando": "fora", "data": "2026-07-31", "adversario": "TOR" },
+          "TOR": { "resultado": "W", "placar": "3-1", "mando": "casa", "data": "2026-07-31", "adversario": "STL" }
+        },
+        "proximo_jogo": {
+          "STL": { "data": "2026-08-02", "mando": "fora", "adversario": "TOR" },
+          "TOR": { "data": "2026-08-02", "mando": "casa", "adversario": "STL" }
+        },
+        "confronto_direto_temporada": "TOR 1-0",
+        "abridores": {
+          "STL": { "nome": "Quinn Mathews", "braco": "L", "estreia_mlb": true, "obs": "sem amostra MLB; Triple-A 2026: ERA 3.13, 111K/92IP, AVG contra .170" },
+          "TOR": { "nome": "Kevin Gausman", "braco": "R", "gp": 22, "ip": "121.2", "avg_contra": 0.253, "whip": 1.27, "era": 4.51 }
+        },
+        "desfalques": {
+          "STL": ["Ramón Urías (3B) - IL60"],
+          "TOR": ["Anthony Santander (RF) - IL60", "Addison Barger (RF/UTIL) - IL60", "José Berríos (P) - IL60", "Patrick Corbin (P) - IL15", "Bowden Francis (P) - IL60", "Cody Ponce (P) - IL60", "Yimi García (P) - IL60"]
+        },
+        "motivacao_extra": "nenhuma rivalidade especial; ambos fora da disputa de classificação; storyline: estreia MLB de Quinn Mathews",
+        "park_factor": { "estadio": "Rogers Centre", "runs": 99, "hr": 100, "doubles": 98, "categoria": "neutro" },
+        "clima": { "confirmado": false, "temp_c": 23, "condicao": "parcialmente nublado", "vento": "fraco", "obs": "teto retrátil, status não confirmado oficialmente" },
+        "bullpen_baa": { "STL": 0.2263, "TOR": 0.2312 },
+        "bullpen_ip_ultimos_3_dias": { "STL": 10.67, "TOR": 5.33 }
+      },
+      "rebatedores": [
+        { "player_id": 676475, "nome": "Alec Burleson", "time": "STL", "slot": "3", "slot_confirmado": true, "pa_temporada": 462, "avg": 0.282, "babip": 0.309, "k_pct": 0.158, "bb_pct": 0.080, "pct_1mais_temporada": 0.688, "pct_1mais_ultimos10": 0.6, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 0.7771, "odd_justa": 1.29, "faixa_odd": [1.24, 1.34], "consistencia": "ok", "avisos": [] },
+        { "player_id": 691023, "nome": "Jordan Walker", "time": "STL", "slot": "2", "slot_confirmado": true, "pa_temporada": 460, "avg": 0.281, "babip": 0.337, "k_pct": 0.252, "bb_pct": 0.080, "pct_1mais_temporada": 0.731, "pct_1mais_ultimos10": 0.5, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.7208, "odd_justa": 1.39, "faixa_odd": [1.33, 1.45], "consistencia": "sem_lastro", "avisos": ["%1+H últimos 10 abaixo do piso (50% < 60%)"] },
+        { "player_id": 665489, "nome": "Vladimir Guerrero Jr.", "time": "TOR", "slot": "2", "slot_confirmado": true, "pa_temporada": 439, "avg": 0.265, "babip": 0.294, "k_pct": 0.130, "bb_pct": 0.103, "pct_1mais_temporada": 0.625, "pct_1mais_ultimos10": 0.7, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 0.6995, "odd_justa": 1.43, "faixa_odd": [1.33, 1.54], "consistencia": "sem_lastro", "avisos": ["%1+H temporada abaixo do piso (63% < 65%)", "faixa ampliada: abridor estreante"] },
+        { "player_id": 802139, "nome": "JJ Wetherholt", "time": "STL", "slot": "1", "slot_confirmado": true, "pa_temporada": 474, "avg": 0.251, "babip": 0.272, "k_pct": 0.160, "bb_pct": 0.101, "pct_1mais_temporada": 0.619, "pct_1mais_ultimos10": 0.5, "maior_seca_temporada": 3, "seca_atual": 1, "p_1mais_base": 0.6839, "odd_justa": 1.46, "faixa_odd": [1.40, 1.53], "consistencia": "sem_lastro", "avisos": ["abaixo do piso de consistência em ambas as janelas"] },
+        { "player_id": 676391, "nome": "Ernie Clement", "time": "TOR", "slot": "7", "slot_confirmado": true, "pa_temporada": 434, "avg": 0.292, "babip": 0.308, "k_pct": 0.097, "bb_pct": 0.035, "pct_1mais_temporada": 0.738, "pct_1mais_ultimos10": 0.7, "maior_seca_temporada": 3, "seca_atual": 1, "p_1mais_base": 0.6700, "odd_justa": 1.49, "faixa_odd": [1.39, 1.61], "consistencia": "ok", "avisos": ["faixa ampliada: abridor estreante"] },
+        { "player_id": 663457, "nome": "Lars Nootbaar", "time": "STL", "slot": "5", "slot_confirmado": true, "pa_temporada": 174, "avg": 0.235, "babip": 0.296, "k_pct": 0.224, "bb_pct": 0.138, "pct_1mais_temporada": 0.565, "pct_1mais_ultimos10": 0.4, "maior_seca_temporada": 3, "seca_atual": 2, "p_1mais_base": 0.6460, "odd_justa": 1.55, "faixa_odd": [1.48, 1.62], "consistencia": "aviso", "avisos": ["abaixo do piso de consistência"] },
+        { "player_id": 671056, "nome": "Iván Herrera", "time": "STL", "slot": "4", "slot_confirmado": true, "pa_temporada": 485, "avg": 0.244, "babip": 0.278, "k_pct": 0.173, "bb_pct": 0.105, "pct_1mais_temporada": 0.642, "pct_1mais_ultimos10": 0.6, "maior_seca_temporada": 3, "seca_atual": 1, "p_1mais_base": 0.6311, "odd_justa": 1.58, "faixa_odd": [1.51, 1.66], "consistencia": "aviso", "avisos": ["%1+H temporada quase no piso (64% vs 65% exigido)"] },
+        { "player_id": 662139, "nome": "Daulton Varsho", "time": "TOR", "slot": "6", "slot_confirmado": true, "pa_temporada": 358, "avg": 0.245, "babip": 0.289, "k_pct": 0.190, "bb_pct": 0.078, "pct_1mais_temporada": 0.567, "pct_1mais_ultimos10": 0.6, "maior_seca_temporada": 5, "seca_atual": 1, "p_1mais_base": 0.6105, "odd_justa": 1.64, "faixa_odd": [1.51, 1.78], "consistencia": "aviso", "avisos": ["abaixo do piso de consistência", "split vs canhoto amostra <100 PA, usado AVG temporada", "faixa ampliada: abridor estreante"] },
+        { "player_id": 543807, "nome": "George Springer", "time": "TOR", "slot": "4", "slot_confirmado": true, "pa_temporada": 348, "avg": 0.235, "babip": 0.260, "k_pct": 0.184, "bb_pct": 0.101, "pct_1mais_temporada": 0.658, "pct_1mais_ultimos10": 0.8, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.6015, "odd_justa": 1.66, "faixa_odd": [1.53, 1.81], "consistencia": "ok", "avisos": ["split vs canhoto amostra <100 PA, usado AVG temporada", "faixa ampliada: abridor estreante"] },
+        { "player_id": 691026, "nome": "Masyn Winn", "time": "STL", "slot": "6", "slot_confirmado": true, "pa_temporada": 417, "avg": 0.243, "babip": 0.296, "k_pct": 0.197, "bb_pct": 0.089, "pct_1mais_temporada": 0.627, "pct_1mais_ultimos10": 0.7, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 0.5982, "odd_justa": 1.67, "faixa_odd": [1.59, 1.76], "consistencia": "aviso", "avisos": ["abaixo do piso de consistência"] },
+        { "player_id": 701675, "nome": "Nathan Church", "time": "STL", "slot": "7", "slot_confirmado": true, "pa_temporada": 295, "avg": 0.226, "babip": 0.260, "k_pct": 0.207, "bb_pct": 0.047, "pct_1mais_temporada": 0.473, "pct_1mais_ultimos10": 0.3, "maior_seca_temporada": 10, "seca_atual": 0, "p_1mais_base": 0.5979, "odd_justa": 1.67, "faixa_odd": [1.59, 1.76], "consistencia": "aviso", "avisos": ["abaixo do piso de consistência", "maior seca histórica alta (10 jogos)"] },
+        { "player_id": 664702, "nome": "Myles Straw", "time": "TOR", "slot": "8", "slot_confirmado": true, "pa_temporada": 190, "avg": 0.218, "babip": 0.234, "k_pct": 0.132, "bb_pct": 0.074, "pct_1mais_temporada": 0.292, "pct_1mais_ultimos10": 0.2, "maior_seca_temporada": 13, "seca_atual": 3, "p_1mais_base": 0.4979, "odd_justa": 2.01, "faixa_odd": [1.83, 2.23], "consistencia": "aviso", "avisos": ["bem abaixo do piso de consistência", "maior seca histórica alta (13 jogos)", "faixa ampliada: abridor estreante"] }
+      ],
+      "excluidos": [
+        { "nome": "Luis Urías", "time": "TOR", "motivo": "PA temporada 48 < 150" },
+        { "nome": "Alejandro Kirk", "time": "TOR", "motivo": "PA temporada 136 < 150" },
+        { "nome": "Davis Schneider", "time": "TOR", "motivo": "PA temporada 130 < 150" },
+        { "nome": "Kazuma Okamoto", "time": "TOR", "motivo": "K% temporada 30.7% > 28%" },
+        { "nome": "Blaze Jordan", "time": "STL", "motivo": "PA temporada 126 < 150" },
+        { "nome": "Jimmy Crooks", "time": "STL", "motivo": "PA temporada 95 < 150" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3763 @@
+{
+ "data": "2026-08-01",
+ "gerado_em_utc": "2026-08-01T14:05:21.931Z",
+ "jogos": [
+  {
+   "game_pk": 824162,
+   "contexto": {
+    "visitante": "Texas Rangers (TEX)",
+    "mandante": "Houston Astros (HOU)",
+    "horario_brt": "01/08, 20h10 (BRT)",
+    "estadio": "Daikin Park",
+    "classificacao": {
+     "TEX": "55-55, 2º AL West, 0.5 jogo da wild card",
+     "HOU": "56-55, 1º AL West"
+    },
+    "sequencia": {
+     "TEX": "2 vitórias e 3 derrotas nos últimos 5 (L3 atual)",
+     "HOU": "4 vitórias e 1 derrota nos últimos 5 (W4 atual)"
+    },
+    "ultimo_jogo": {
+     "TEX": "perdeu de 11-2 fora (31/07 vs HOU)",
+     "HOU": "venceu de 11-2 em casa (31/07 vs TEX)"
+    },
+    "proximo_jogo": {
+     "TEX": "02/08, fora, vs HOU (segue a série)",
+     "HOU": "02/08, em casa, vs TEX (segue a série)"
+    },
+    "confronto_direto_temporada": "HOU leva vantagem: 7 vitórias a 4 nos jogos já disputados essa temporada",
+    "abridores": {
+     "TEX": "Jacob deGrom (D) — BAA .224, ERA 3.67, WHIP 1.07, 20 saídas",
+     "HOU": "Ronel Blanco (D) — amostra mínima: só 2 saídas na temporada (BAA .171 pouco confiável), margem ampliada recomendada"
+    },
+    "estadio_condicoes": "Daikin Park (teto retrátil) — park factor não coberto ainda na tabela estática v1 para este estádio específico"
+   },
+   "rebatedores": [
+    {
+     "id": "665161",
+     "name": "Jeremy Peña",
+     "team": "HOU",
+     "slot": 1,
+     "pa": 270,
+     "avg": ".317",
+     "babip": ".353",
+     "kpct": "18.1",
+     "bbpct": "6.3",
+     "pctSeason": "79.4",
+     "games": 63,
+     "pctLast10": "100.0",
+     "maxStreak": 4,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 26,
+        "groundOuts": 13,
+        "airOuts": 12,
+        "doubles": 3,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 13,
+        "baseOnBalls": 3,
+        "intentionalWalks": 0,
+        "hits": 14,
+        "hitByPitch": 1,
+        "avg": ".269",
+        "atBats": 52,
+        "obp": ".321",
+        "slg": ".385",
+        "ops": ".706",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 186,
+        "plateAppearances": 56,
+        "totalBases": 20,
+        "rbi": 7,
+        "leftOnBase": 12,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".342",
+        "groundOutsToAirouts": "1.08",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "52.00"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 665161,
+        "fullName": "Jeremy Peña",
+        "link": "/api/v1/people/665161",
+        "firstName": "Jeremy",
+        "lastName": "Peña"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 60,
+        "groundOuts": 46,
+        "airOuts": 50,
+        "doubles": 8,
+        "triples": 0,
+        "homeRuns": 11,
+        "strikeOuts": 36,
+        "baseOnBalls": 14,
+        "intentionalWalks": 0,
+        "hits": 64,
+        "hitByPitch": 4,
+        "avg": ".330",
+        "atBats": 194,
+        "obp": ".383",
+        "slg": ".541",
+        "ops": ".924",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 815,
+        "plateAppearances": 214,
+        "totalBases": 105,
+        "rbi": 27,
+        "leftOnBase": 57,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".356",
+        "groundOutsToAirouts": "0.92",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "17.64"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 665161,
+        "fullName": "Jeremy Peña",
+        "link": "/api/v1/people/665161",
+        "firstName": "Jeremy",
+        "lastName": "Peña"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.330",
+     "P": 0.224,
+     "sampleNote": "split vs D (214 PA)",
+     "p_aj": "30.1",
+     "AB": "4.31",
+     "P1base": "78.7",
+     "oddJusta": "1.27",
+     "oddTeto": "1.32",
+     "oddPiso": "1.22",
+     "consist": "aviso",
+     "avisos": [
+      "BABIP > .340 — atenção sustentabilidade"
+     ]
+    },
+    {
+     "id": "670541",
+     "name": "Yordan Alvarez",
+     "team": "HOU",
+     "slot": 2,
+     "pa": 479,
+     "avg": ".324",
+     "babip": ".332",
+     "kpct": "17.3",
+     "bbpct": "15.7",
+     "pctSeason": "69.7",
+     "games": 109,
+     "pctLast10": "70.0",
+     "maxStreak": 5,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 51,
+        "groundOuts": 28,
+        "airOuts": 31,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 9,
+        "strikeOuts": 20,
+        "baseOnBalls": 11,
+        "intentionalWalks": 4,
+        "hits": 30,
+        "hitByPitch": 3,
+        "avg": ".280",
+        "atBats": 107,
+        "obp": ".358",
+        "slg": ".551",
+        "ops": ".909",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 448,
+        "plateAppearances": 123,
+        "totalBases": 59,
+        "rbi": 19,
+        "leftOnBase": 52,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".263",
+        "groundOutsToAirouts": "0.90",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "11.89"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 670541,
+        "fullName": "Yordan Alvarez",
+        "link": "/api/v1/people/670541",
+        "firstName": "Yordan",
+        "lastName": "Alvarez"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "10",
+        "name": "Designated Hitter",
+        "type": "Hitter",
+        "abbreviation": "DH"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 102,
+        "groundOuts": 37,
+        "airOuts": 91,
+        "doubles": 18,
+        "triples": 0,
+        "homeRuns": 26,
+        "strikeOuts": 63,
+        "baseOnBalls": 64,
+        "intentionalWalks": 16,
+        "hits": 98,
+        "hitByPitch": 3,
+        "avg": ".340",
+        "atBats": 288,
+        "obp": ".463",
+        "slg": ".674",
+        "ops": "1.137",
+        "groundIntoDoublePlay": 3,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1400,
+        "plateAppearances": 356,
+        "totalBases": 194,
+        "rbi": 63,
+        "leftOnBase": 78,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".360",
+        "groundOutsToAirouts": "0.41",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "11.08"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 670541,
+        "fullName": "Yordan Alvarez",
+        "link": "/api/v1/people/670541",
+        "firstName": "Yordan",
+        "lastName": "Alvarez"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "10",
+        "name": "Designated Hitter",
+        "type": "Hitter",
+        "abbreviation": "DH"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.340",
+     "P": 0.224,
+     "sampleNote": "split vs D (356 PA)",
+     "p_aj": "31.1",
+     "AB": "3.79",
+     "P1base": "75.6",
+     "oddJusta": "1.32",
+     "oddTeto": "1.38",
+     "oddPiso": "1.27",
+     "consist": "ok",
+     "avisos": []
+    },
+    {
+     "id": "670623",
+     "name": "Isaac Paredes",
+     "team": "HOU",
+     "slot": 3,
+     "pa": 443,
+     "avg": ".257",
+     "babip": ".272",
+     "kpct": "14.7",
+     "bbpct": "9.7",
+     "pctSeason": "66.3",
+     "games": 104,
+     "pctLast10": "60.0",
+     "maxStreak": 5,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 46,
+        "groundOuts": 7,
+        "airOuts": 42,
+        "doubles": 7,
+        "triples": 1,
+        "homeRuns": 0,
+        "strikeOuts": 18,
+        "baseOnBalls": 8,
+        "intentionalWalks": 0,
+        "hits": 24,
+        "hitByPitch": 3,
+        "avg": ".264",
+        "atBats": 91,
+        "obp": ".343",
+        "slg": ".363",
+        "ops": ".706",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 434,
+        "plateAppearances": 102,
+        "totalBases": 33,
+        "rbi": 7,
+        "leftOnBase": 37,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".329",
+        "groundOutsToAirouts": "0.17",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 670623,
+        "fullName": "Isaac Paredes",
+        "link": "/api/v1/people/670623",
+        "firstName": "Isaac",
+        "lastName": "Paredes"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "5",
+        "name": "Third Base",
+        "type": "Infielder",
+        "abbreviation": "3B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 101,
+        "groundOuts": 55,
+        "airOuts": 118,
+        "doubles": 11,
+        "triples": 0,
+        "homeRuns": 15,
+        "strikeOuts": 47,
+        "baseOnBalls": 35,
+        "intentionalWalks": 0,
+        "hits": 74,
+        "hitByPitch": 12,
+        "avg": ".255",
+        "atBats": 290,
+        "obp": ".355",
+        "slg": ".448",
+        "ops": ".803",
+        "groundIntoDoublePlay": 8,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1532,
+        "plateAppearances": 341,
+        "totalBases": 130,
+        "rbi": 53,
+        "leftOnBase": 152,
+        "sacBunts": 0,
+        "sacFlies": 4,
+        "babip": ".254",
+        "groundOutsToAirouts": "0.47",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "19.33"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 670623,
+        "fullName": "Isaac Paredes",
+        "link": "/api/v1/people/670623",
+        "firstName": "Isaac",
+        "lastName": "Paredes"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "5",
+        "name": "Third Base",
+        "type": "Infielder",
+        "abbreviation": "3B"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.255",
+     "P": 0.224,
+     "sampleNote": "split vs D (341 PA)",
+     "p_aj": "23.1",
+     "AB": "3.97",
+     "P1base": "64.7",
+     "oddJusta": "1.55",
+     "oddTeto": "1.62",
+     "oddPiso": "1.48",
+     "consist": "ok",
+     "avisos": []
+    },
+    {
+     "id": "673237",
+     "name": "Yainer Diaz",
+     "team": "HOU",
+     "slot": 7,
+     "pa": 209,
+     "avg": ".261",
+     "babip": ".273",
+     "kpct": "15.3",
+     "bbpct": "3.3",
+     "pctSeason": "69.2",
+     "games": 52,
+     "pctLast10": "70.0",
+     "maxStreak": 2,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 29,
+        "groundOuts": 20,
+        "airOuts": 9,
+        "doubles": 3,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 12,
+        "baseOnBalls": 2,
+        "intentionalWalks": 0,
+        "hits": 15,
+        "hitByPitch": 0,
+        "avg": ".268",
+        "atBats": 56,
+        "obp": ".293",
+        "slg": ".321",
+        "ops": ".614",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 204,
+        "plateAppearances": 58,
+        "totalBases": 18,
+        "rbi": 3,
+        "leftOnBase": 15,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".341",
+        "groundOutsToAirouts": "2.22",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 673237,
+        "fullName": "Yainer Diaz",
+        "link": "/api/v1/people/673237",
+        "firstName": "Yainer",
+        "lastName": "Diaz"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 50,
+        "groundOuts": 54,
+        "airOuts": 34,
+        "doubles": 6,
+        "triples": 0,
+        "homeRuns": 8,
+        "strikeOuts": 20,
+        "baseOnBalls": 5,
+        "intentionalWalks": 0,
+        "hits": 37,
+        "hitByPitch": 1,
+        "avg": ".259",
+        "atBats": 143,
+        "obp": ".285",
+        "slg": ".469",
+        "ops": ".754",
+        "groundIntoDoublePlay": 6,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 468,
+        "plateAppearances": 151,
+        "totalBases": 67,
+        "rbi": 23,
+        "leftOnBase": 77,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".248",
+        "groundOutsToAirouts": "1.59",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "17.88"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 673237,
+        "fullName": "Yainer Diaz",
+        "link": "/api/v1/people/673237",
+        "firstName": "Yainer",
+        "lastName": "Diaz"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.259",
+     "P": 0.224,
+     "sampleNote": "split vs D (151 PA)",
+     "p_aj": "23.4",
+     "AB": "3.88",
+     "P1base": "64.5",
+     "oddJusta": "1.55",
+     "oddTeto": "1.63",
+     "oddPiso": "1.48",
+     "consist": "ok",
+     "avisos": []
+    },
+    {
+     "id": "666211",
+     "name": "Taylor Trammell",
+     "team": "HOU",
+     "slot": 6,
+     "pa": 156,
+     "avg": ".237",
+     "babip": ".333",
+     "kpct": "32.1",
+     "bbpct": "8.3",
+     "pctSeason": "45.5",
+     "games": 55,
+     "pctLast10": "60.0",
+     "maxStreak": 5,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 18,
+        "groundOuts": 8,
+        "airOuts": 7,
+        "doubles": 0,
+        "triples": 1,
+        "homeRuns": 0,
+        "strikeOuts": 7,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 3,
+        "hitByPitch": 1,
+        "avg": ".125",
+        "atBats": 24,
+        "obp": ".192",
+        "slg": ".208",
+        "ops": ".400",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 100,
+        "plateAppearances": 27,
+        "totalBases": 5,
+        "rbi": 0,
+        "leftOnBase": 9,
+        "sacBunts": 1,
+        "sacFlies": 0,
+        "babip": ".176",
+        "groundOutsToAirouts": "1.14",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 666211,
+        "fullName": "Taylor Trammell",
+        "link": "/api/v1/people/666211",
+        "firstName": "Taylor",
+        "lastName": "Trammell"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "8",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "CF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 47,
+        "groundOuts": 16,
+        "airOuts": 26,
+        "doubles": 6,
+        "triples": 0,
+        "homeRuns": 5,
+        "strikeOuts": 43,
+        "baseOnBalls": 12,
+        "intentionalWalks": 0,
+        "hits": 30,
+        "hitByPitch": 2,
+        "avg": ".261",
+        "atBats": 115,
+        "obp": ".341",
+        "slg": ".443",
+        "ops": ".784",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 495,
+        "plateAppearances": 129,
+        "totalBases": 51,
+        "rbi": 14,
+        "leftOnBase": 36,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".373",
+        "groundOutsToAirouts": "0.62",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "23.00"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 666211,
+        "fullName": "Taylor Trammell",
+        "link": "/api/v1/people/666211",
+        "firstName": "Taylor",
+        "lastName": "Trammell"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "8",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "CF"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.261",
+     "P": 0.224,
+     "sampleNote": "split vs D (129 PA)",
+     "p_aj": "23.6",
+     "AB": "3.76",
+     "P1base": "63.7",
+     "oddJusta": "1.57",
+     "oddTeto": "1.65",
+     "oddPiso": "1.50",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "694671",
+     "name": "Wyatt Langford",
+     "team": "TEX",
+     "slot": 2,
+     "pa": 250,
+     "avg": ".277",
+     "babip": ".317",
+     "kpct": "22.4",
+     "bbpct": "5.6",
+     "pctSeason": "70.7",
+     "games": 58,
+     "pctLast10": "70.0",
+     "maxStreak": 2,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 32,
+        "groundOuts": 12,
+        "airOuts": 19,
+        "doubles": 2,
+        "triples": 1,
+        "homeRuns": 4,
+        "strikeOuts": 20,
+        "baseOnBalls": 4,
+        "intentionalWalks": 0,
+        "hits": 16,
+        "hitByPitch": 0,
+        "avg": ".239",
+        "atBats": 67,
+        "obp": ".282",
+        "slg": ".478",
+        "ops": ".760",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 281,
+        "plateAppearances": 71,
+        "totalBases": 32,
+        "rbi": 7,
+        "leftOnBase": 22,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".279",
+        "groundOutsToAirouts": "0.63",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "16.75"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 694671,
+        "fullName": "Wyatt Langford",
+        "link": "/api/v1/people/694671",
+        "firstName": "Wyatt",
+        "lastName": "Langford"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "7",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "LF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 54,
+        "groundOuts": 28,
+        "airOuts": 55,
+        "doubles": 11,
+        "triples": 1,
+        "homeRuns": 8,
+        "strikeOuts": 36,
+        "baseOnBalls": 10,
+        "intentionalWalks": 0,
+        "hits": 49,
+        "hitByPitch": 1,
+        "avg": ".292",
+        "atBats": 168,
+        "obp": ".335",
+        "slg": ".512",
+        "ops": ".847",
+        "groundIntoDoublePlay": 3,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 658,
+        "plateAppearances": 179,
+        "totalBases": 86,
+        "rbi": 23,
+        "leftOnBase": 64,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".331",
+        "groundOutsToAirouts": "0.51",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "21.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 694671,
+        "fullName": "Wyatt Langford",
+        "link": "/api/v1/people/694671",
+        "firstName": "Wyatt",
+        "lastName": "Langford"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "7",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "LF"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.292",
+     "P": 0.171,
+     "sampleNote": "split vs D (179 PA)",
+     "p_aj": "20.5",
+     "AB": "4.25",
+     "P1base": "62.3",
+     "oddJusta": "1.61",
+     "oddTeto": "1.69",
+     "oddPiso": "1.53",
+     "consist": "aviso",
+     "avisos": [
+      "K% acima de 21%"
+     ]
+    },
+    {
+     "id": "572233",
+     "name": "Christian Walker",
+     "team": "HOU",
+     "slot": 4,
+     "pa": 441,
+     "avg": ".235",
+     "babip": ".264",
+     "kpct": "24.0",
+     "bbpct": "8.2",
+     "pctSeason": "60.7",
+     "games": 107,
+     "pctLast10": "70.0",
+     "maxStreak": 5,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 47,
+        "groundOuts": 21,
+        "airOuts": 24,
+        "doubles": 5,
+        "triples": 0,
+        "homeRuns": 5,
+        "strikeOuts": 21,
+        "baseOnBalls": 13,
+        "intentionalWalks": 1,
+        "hits": 17,
+        "hitByPitch": 3,
+        "avg": ".207",
+        "atBats": 82,
+        "obp": ".333",
+        "slg": ".451",
+        "ops": ".784",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 382,
+        "plateAppearances": 99,
+        "totalBases": 37,
+        "rbi": 15,
+        "leftOnBase": 35,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".211",
+        "groundOutsToAirouts": "0.88",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "16.40"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 572233,
+        "fullName": "Christian Walker",
+        "link": "/api/v1/people/572233",
+        "firstName": "Christian",
+        "lastName": "Walker"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "3",
+        "name": "First Base",
+        "type": "Infielder",
+        "abbreviation": "1B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 101,
+        "groundOuts": 71,
+        "airOuts": 82,
+        "doubles": 15,
+        "triples": 1,
+        "homeRuns": 17,
+        "strikeOuts": 85,
+        "baseOnBalls": 23,
+        "intentionalWalks": 1,
+        "hits": 76,
+        "hitByPitch": 5,
+        "avg": ".242",
+        "atBats": 314,
+        "obp": ".304",
+        "slg": ".459",
+        "ops": ".763",
+        "groundIntoDoublePlay": 8,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1342,
+        "plateAppearances": 342,
+        "totalBases": 144,
+        "rbi": 48,
+        "leftOnBase": 184,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".278",
+        "groundOutsToAirouts": "0.87",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "18.47"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 572233,
+        "fullName": "Christian Walker",
+        "link": "/api/v1/people/572233",
+        "firstName": "Christian",
+        "lastName": "Walker"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "3",
+        "name": "First Base",
+        "type": "Infielder",
+        "abbreviation": "1B"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.242",
+     "P": 0.224,
+     "sampleNote": "split vs D (342 PA)",
+     "p_aj": "21.8",
+     "AB": "3.95",
+     "P1base": "62.2",
+     "oddJusta": "1.61",
+     "oddTeto": "1.69",
+     "oddPiso": "1.53",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "514888",
+     "name": "Jose Altuve",
+     "team": "HOU",
+     "slot": 5,
+     "pa": 369,
+     "avg": ".231",
+     "babip": ".268",
+     "kpct": "21.7",
+     "bbpct": "7.9",
+     "pctSeason": "59.3",
+     "games": 86,
+     "pctLast10": "50.0",
+     "maxStreak": 4,
+     "curStreak": 1,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 40,
+        "groundOuts": 19,
+        "airOuts": 22,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 2,
+        "strikeOuts": 18,
+        "baseOnBalls": 9,
+        "intentionalWalks": 0,
+        "hits": 21,
+        "hitByPitch": 1,
+        "avg": ".263",
+        "atBats": 80,
+        "obp": ".344",
+        "slg": ".363",
+        "ops": ".707",
+        "groundIntoDoublePlay": 3,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 329,
+        "plateAppearances": 90,
+        "totalBases": 29,
+        "rbi": 5,
+        "leftOnBase": 34,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".317",
+        "groundOutsToAirouts": "0.86",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "40.00"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 514888,
+        "fullName": "Jose Altuve",
+        "link": "/api/v1/people/514888",
+        "firstName": "Jose",
+        "lastName": "Altuve"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 84,
+        "groundOuts": 84,
+        "airOuts": 56,
+        "doubles": 12,
+        "triples": 1,
+        "homeRuns": 10,
+        "strikeOuts": 62,
+        "baseOnBalls": 20,
+        "intentionalWalks": 1,
+        "hits": 57,
+        "hitByPitch": 0,
+        "avg": ".222",
+        "atBats": 257,
+        "obp": ".277",
+        "slg": ".393",
+        "ops": ".670",
+        "groundIntoDoublePlay": 12,
+        "groundIntoTriplePlay": 1,
+        "numberOfPitches": 1002,
+        "plateAppearances": 279,
+        "totalBases": 101,
+        "rbi": 25,
+        "leftOnBase": 128,
+        "sacBunts": 1,
+        "sacFlies": 1,
+        "babip": ".253",
+        "groundOutsToAirouts": "1.50",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "25.70"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 514888,
+        "fullName": "Jose Altuve",
+        "link": "/api/v1/people/514888",
+        "firstName": "Jose",
+        "lastName": "Altuve"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.222",
+     "P": 0.224,
+     "sampleNote": "split vs D (279 PA)",
+     "p_aj": "20.0",
+     "AB": "3.87",
+     "P1base": "57.8",
+     "oddJusta": "1.73",
+     "oddTeto": "1.82",
+     "oddPiso": "1.64",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "670032",
+     "name": "Nicky Lopez",
+     "team": "TEX",
+     "slot": 8,
+     "pa": 178,
+     "avg": ".289",
+     "babip": ".336",
+     "kpct": "14.0",
+     "bbpct": "5.1",
+     "pctSeason": "57.9",
+     "games": 57,
+     "pctLast10": "50.0",
+     "maxStreak": 6,
+     "curStreak": 4,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 24,
+        "groundOuts": 17,
+        "airOuts": 8,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 5,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 12,
+        "hitByPitch": 1,
+        "avg": ".316",
+        "atBats": 38,
+        "obp": ".350",
+        "slg": ".316",
+        "ops": ".666",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 171,
+        "plateAppearances": 44,
+        "totalBases": 12,
+        "rbi": 3,
+        "leftOnBase": 12,
+        "sacBunts": 4,
+        "sacFlies": 0,
+        "babip": ".364",
+        "groundOutsToAirouts": "2.13",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 2,
+        "groundOuts": 1,
+        "airOuts": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 1,
+        "baseOnBalls": 0,
+        "intentionalWalks": 0,
+        "hits": 0,
+        "hitByPitch": 0,
+        "avg": ".000",
+        "atBats": 2,
+        "obp": ".000",
+        "slg": ".000",
+        "ops": ".000",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 11,
+        "plateAppearances": 2,
+        "totalBases": 0,
+        "rbi": 0,
+        "leftOnBase": 1,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".000",
+        "groundOutsToAirouts": "1.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 112,
+        "name": "Chicago Cubs",
+        "link": "/api/v1/teams/112"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "league": {
+        "id": 104,
+        "name": "National League",
+        "link": "/api/v1/league/104"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 26,
+        "groundOuts": 18,
+        "airOuts": 8,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 6,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 12,
+        "hitByPitch": 1,
+        "avg": ".300",
+        "atBats": 40,
+        "obp": ".333",
+        "slg": ".300",
+        "ops": ".633",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 182,
+        "plateAppearances": 46,
+        "totalBases": 12,
+        "rbi": 3,
+        "leftOnBase": 13,
+        "sacBunts": 4,
+        "sacFlies": 0,
+        "babip": ".353",
+        "groundOutsToAirouts": "2.25",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "numTeams": 2,
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 51,
+        "groundOuts": 43,
+        "airOuts": 25,
+        "doubles": 3,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 18,
+        "baseOnBalls": 8,
+        "intentionalWalks": 0,
+        "hits": 34,
+        "hitByPitch": 1,
+        "avg": ".293",
+        "atBats": 116,
+        "obp": ".341",
+        "slg": ".345",
+        "ops": ".686",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 475,
+        "plateAppearances": 129,
+        "totalBases": 40,
+        "rbi": 15,
+        "leftOnBase": 44,
+        "sacBunts": 3,
+        "sacFlies": 1,
+        "babip": ".337",
+        "groundOutsToAirouts": "1.72",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "116.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 3,
+        "groundOuts": 2,
+        "airOuts": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 1,
+        "baseOnBalls": 0,
+        "intentionalWalks": 0,
+        "hits": 0,
+        "hitByPitch": 0,
+        "avg": ".000",
+        "atBats": 3,
+        "obp": ".000",
+        "slg": ".000",
+        "ops": ".000",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 10,
+        "plateAppearances": 3,
+        "totalBases": 0,
+        "rbi": 0,
+        "leftOnBase": 1,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".000",
+        "groundOutsToAirouts": "2.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 112,
+        "name": "Chicago Cubs",
+        "link": "/api/v1/teams/112"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "league": {
+        "id": 104,
+        "name": "National League",
+        "link": "/api/v1/league/104"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 54,
+        "groundOuts": 45,
+        "airOuts": 25,
+        "doubles": 3,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 19,
+        "baseOnBalls": 8,
+        "intentionalWalks": 0,
+        "hits": 34,
+        "hitByPitch": 1,
+        "avg": ".286",
+        "atBats": 119,
+        "obp": ".333",
+        "slg": ".336",
+        "ops": ".669",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 485,
+        "plateAppearances": 132,
+        "totalBases": 40,
+        "rbi": 15,
+        "leftOnBase": 45,
+        "sacBunts": 3,
+        "sacFlies": 1,
+        "babip": ".330",
+        "groundOutsToAirouts": "1.80",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "119.00"
+       },
+       "player": {
+        "id": 670032,
+        "fullName": "Nicky Lopez",
+        "link": "/api/v1/people/670032",
+        "firstName": "Nicholas",
+        "lastName": "Lopez"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "numTeams": 2,
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "4",
+        "name": "Second Base",
+        "type": "Infielder",
+        "abbreviation": "2B"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.293",
+     "P": 0.171,
+     "sampleNote": "split vs D (129 PA)",
+     "p_aj": "20.6",
+     "AB": "3.71",
+     "P1base": "57.5",
+     "oddJusta": "1.74",
+     "oddTeto": "1.84",
+     "oddPiso": "1.65",
+     "consist": "sem_lastro",
+     "avisos": [
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "592626",
+     "name": "Joc Pederson",
+     "team": "TEX",
+     "slot": 1,
+     "pa": 332,
+     "avg": ".254",
+     "babip": ".272",
+     "kpct": "22.6",
+     "bbpct": "11.4",
+     "pctSeason": "52.5",
+     "games": 99,
+     "pctLast10": "80.0",
+     "maxStreak": 6,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 25,
+        "groundOuts": 8,
+        "airOuts": 2,
+        "doubles": 1,
+        "triples": 2,
+        "homeRuns": 1,
+        "strikeOuts": 12,
+        "baseOnBalls": 2,
+        "intentionalWalks": 0,
+        "hits": 4,
+        "hitByPitch": 1,
+        "avg": ".154",
+        "atBats": 26,
+        "obp": ".241",
+        "slg": ".462",
+        "ops": ".703",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 139,
+        "plateAppearances": 30,
+        "totalBases": 12,
+        "rbi": 3,
+        "leftOnBase": 13,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".231",
+        "groundOutsToAirouts": "4.00",
+        "catchersInterference": 1,
+        "atBatsPerHomeRun": "26.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 592626,
+        "fullName": "Joc Pederson",
+        "link": "/api/v1/people/592626",
+        "firstName": "Joc",
+        "lastName": "Pederson"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "10",
+        "name": "Designated Hitter",
+        "type": "Hitter",
+        "abbreviation": "DH"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 99,
+        "groundOuts": 61,
+        "airOuts": 71,
+        "doubles": 10,
+        "triples": 0,
+        "homeRuns": 19,
+        "strikeOuts": 63,
+        "baseOnBalls": 36,
+        "intentionalWalks": 1,
+        "hits": 69,
+        "hitByPitch": 2,
+        "avg": ".264",
+        "atBats": 261,
+        "obp": ".354",
+        "slg": ".521",
+        "ops": ".875",
+        "groundIntoDoublePlay": 7,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1206,
+        "plateAppearances": 302,
+        "totalBases": 136,
+        "rbi": 39,
+        "leftOnBase": 82,
+        "sacBunts": 0,
+        "sacFlies": 3,
+        "babip": ".275",
+        "groundOutsToAirouts": "0.86",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "13.74"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 592626,
+        "fullName": "Joc Pederson",
+        "link": "/api/v1/people/592626",
+        "firstName": "Joc",
+        "lastName": "Pederson"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "10",
+        "name": "Designated Hitter",
+        "type": "Hitter",
+        "abbreviation": "DH"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.264",
+     "P": 0.171,
+     "sampleNote": "split vs D (302 PA)",
+     "p_aj": "18.3",
+     "AB": "4.07",
+     "P1base": "56.2",
+     "oddJusta": "1.78",
+     "oddTeto": "1.88",
+     "oddPiso": "1.69",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "677649",
+     "name": "Ezequiel Duran",
+     "team": "TEX",
+     "slot": 5,
+     "pa": 382,
+     "avg": ".269",
+     "babip": ".323",
+     "kpct": "23.0",
+     "bbpct": "7.1",
+     "pctSeason": "64.4",
+     "games": 101,
+     "pctLast10": "80.0",
+     "maxStreak": 4,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 45,
+        "groundOuts": 16,
+        "airOuts": 18,
+        "doubles": 4,
+        "triples": 0,
+        "homeRuns": 2,
+        "strikeOuts": 24,
+        "baseOnBalls": 11,
+        "intentionalWalks": 0,
+        "hits": 21,
+        "hitByPitch": 1,
+        "avg": ".269",
+        "atBats": 78,
+        "obp": ".363",
+        "slg": ".397",
+        "ops": ".760",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 391,
+        "plateAppearances": 91,
+        "totalBases": 31,
+        "rbi": 16,
+        "leftOnBase": 30,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".358",
+        "groundOutsToAirouts": "0.89",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "39.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 677649,
+        "fullName": "Ezequiel Duran",
+        "link": "/api/v1/people/677649",
+        "firstName": "Ezequiel",
+        "lastName": "Duran"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 93,
+        "groundOuts": 74,
+        "airOuts": 63,
+        "doubles": 15,
+        "triples": 3,
+        "homeRuns": 10,
+        "strikeOuts": 64,
+        "baseOnBalls": 16,
+        "intentionalWalks": 0,
+        "hits": 72,
+        "hitByPitch": 2,
+        "avg": ".269",
+        "atBats": 268,
+        "obp": ".310",
+        "slg": ".459",
+        "ops": ".769",
+        "groundIntoDoublePlay": 3,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1104,
+        "plateAppearances": 291,
+        "totalBases": 123,
+        "rbi": 41,
+        "leftOnBase": 110,
+        "sacBunts": 1,
+        "sacFlies": 4,
+        "babip": ".313",
+        "groundOutsToAirouts": "1.17",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "26.80"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 677649,
+        "fullName": "Ezequiel Duran",
+        "link": "/api/v1/people/677649",
+        "firstName": "Ezequiel",
+        "lastName": "Duran"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.269",
+     "P": 0.171,
+     "sampleNote": "split vs D (291 PA)",
+     "p_aj": "18.7",
+     "AB": "3.91",
+     "P1base": "55.5",
+     "oddJusta": "1.80",
+     "oddTeto": "1.91",
+     "oddPiso": "1.71",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "701358",
+     "name": "Cam Smith",
+     "team": "HOU",
+     "slot": 9,
+     "pa": 402,
+     "avg": ".207",
+     "babip": ".244",
+     "kpct": "24.6",
+     "bbpct": "8.2",
+     "pctSeason": "49.5",
+     "games": 109,
+     "pctLast10": "30.0",
+     "maxStreak": 6,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 57,
+        "groundOuts": 28,
+        "airOuts": 25,
+        "doubles": 3,
+        "triples": 1,
+        "homeRuns": 4,
+        "strikeOuts": 24,
+        "baseOnBalls": 11,
+        "intentionalWalks": 0,
+        "hits": 18,
+        "hitByPitch": 2,
+        "avg": ".191",
+        "atBats": 94,
+        "obp": ".287",
+        "slg": ".372",
+        "ops": ".659",
+        "groundIntoDoublePlay": 5,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 477,
+        "plateAppearances": 108,
+        "totalBases": 35,
+        "rbi": 11,
+        "leftOnBase": 40,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".209",
+        "groundOutsToAirouts": "1.12",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "23.50"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 701358,
+        "fullName": "Cam Smith",
+        "link": "/api/v1/people/701358",
+        "firstName": "Cameron",
+        "lastName": "Smith"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "9",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "RF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 97,
+        "groundOuts": 71,
+        "airOuts": 65,
+        "doubles": 11,
+        "triples": 1,
+        "homeRuns": 9,
+        "strikeOuts": 75,
+        "baseOnBalls": 22,
+        "intentionalWalks": 0,
+        "hits": 56,
+        "hitByPitch": 4,
+        "avg": ".212",
+        "atBats": 264,
+        "obp": ".280",
+        "slg": ".364",
+        "ops": ".644",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1172,
+        "plateAppearances": 294,
+        "totalBases": 96,
+        "rbi": 27,
+        "leftOnBase": 133,
+        "sacBunts": 0,
+        "sacFlies": 3,
+        "babip": ".257",
+        "groundOutsToAirouts": "1.09",
+        "catchersInterference": 1,
+        "atBatsPerHomeRun": "29.33"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 701358,
+        "fullName": "Cam Smith",
+        "link": "/api/v1/people/701358",
+        "firstName": "Cameron",
+        "lastName": "Smith"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "9",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "RF"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.212",
+     "P": 0.224,
+     "sampleNote": "split vs D (294 PA)",
+     "p_aj": "19.1",
+     "AB": "3.50",
+     "P1base": "52.3",
+     "oddJusta": "1.91",
+     "oddTeto": "2.03",
+     "oddPiso": "1.81",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "607043",
+     "name": "Brandon Nimmo",
+     "team": "TEX",
+     "slot": 4,
+     "pa": 441,
+     "avg": ".264",
+     "babip": ".323",
+     "kpct": "21.8",
+     "bbpct": "7.9",
+     "pctSeason": "61.5",
+     "games": 104,
+     "pctLast10": "60.0",
+     "maxStreak": 3,
+     "curStreak": 2,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 62,
+        "groundOuts": 28,
+        "airOuts": 23,
+        "doubles": 10,
+        "triples": 0,
+        "homeRuns": 3,
+        "strikeOuts": 21,
+        "baseOnBalls": 6,
+        "intentionalWalks": 0,
+        "hits": 33,
+        "hitByPitch": 2,
+        "avg": ".317",
+        "atBats": 104,
+        "obp": ".363",
+        "slg": ".500",
+        "ops": ".863",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 435,
+        "plateAppearances": 113,
+        "totalBases": 52,
+        "rbi": 15,
+        "leftOnBase": 35,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".370",
+        "groundOutsToAirouts": "1.22",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "34.67"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 607043,
+        "fullName": "Brandon Nimmo",
+        "link": "/api/v1/people/607043",
+        "firstName": "Brandon",
+        "lastName": "Nimmo"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "9",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "RF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 96,
+        "groundOuts": 65,
+        "airOuts": 83,
+        "doubles": 16,
+        "triples": 4,
+        "homeRuns": 7,
+        "strikeOuts": 75,
+        "baseOnBalls": 29,
+        "intentionalWalks": 1,
+        "hits": 72,
+        "hitByPitch": 4,
+        "avg": ".245",
+        "atBats": 294,
+        "obp": ".320",
+        "slg": ".398",
+        "ops": ".718",
+        "groundIntoDoublePlay": 9,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1284,
+        "plateAppearances": 328,
+        "totalBases": 117,
+        "rbi": 24,
+        "leftOnBase": 115,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".305",
+        "groundOutsToAirouts": "0.78",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "42.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 607043,
+        "fullName": "Brandon Nimmo",
+        "link": "/api/v1/people/607043",
+        "firstName": "Brandon",
+        "lastName": "Nimmo"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "9",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "RF"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.245",
+     "P": 0.171,
+     "sampleNote": "split vs D (328 PA)",
+     "p_aj": "16.9",
+     "AB": "3.96",
+     "P1base": "51.9",
+     "oddJusta": "1.93",
+     "oddTeto": "2.04",
+     "oddPiso": "1.82",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "669394",
+     "name": "Jake Burger",
+     "team": "TEX",
+     "slot": 7,
+     "pa": 426,
+     "avg": ".236",
+     "babip": ".283",
+     "kpct": "27.0",
+     "bbpct": "7.3",
+     "pctSeason": "61.0",
+     "games": 105,
+     "pctLast10": "70.0",
+     "maxStreak": 5,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 51,
+        "groundOuts": 15,
+        "airOuts": 21,
+        "doubles": 5,
+        "triples": 0,
+        "homeRuns": 5,
+        "strikeOuts": 29,
+        "baseOnBalls": 9,
+        "intentionalWalks": 0,
+        "hits": 21,
+        "hitByPitch": 1,
+        "avg": ".250",
+        "atBats": 84,
+        "obp": ".323",
+        "slg": ".488",
+        "ops": ".811",
+        "groundIntoDoublePlay": 1,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 361,
+        "plateAppearances": 96,
+        "totalBases": 41,
+        "rbi": 19,
+        "leftOnBase": 46,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".308",
+        "groundOutsToAirouts": "0.71",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "16.80"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 669394,
+        "fullName": "Jake Burger",
+        "link": "/api/v1/people/669394",
+        "firstName": "Jacob",
+        "lastName": "Burger"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "3",
+        "name": "First Base",
+        "type": "Infielder",
+        "abbreviation": "1B"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 103,
+        "groundOuts": 74,
+        "airOuts": 75,
+        "doubles": 11,
+        "triples": 0,
+        "homeRuns": 14,
+        "strikeOuts": 86,
+        "baseOnBalls": 22,
+        "intentionalWalks": 0,
+        "hits": 71,
+        "hitByPitch": 2,
+        "avg": ".232",
+        "atBats": 306,
+        "obp": ".288",
+        "slg": ".405",
+        "ops": ".693",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1205,
+        "plateAppearances": 330,
+        "totalBases": 124,
+        "rbi": 47,
+        "leftOnBase": 139,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".277",
+        "groundOutsToAirouts": "0.99",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "21.86"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 669394,
+        "fullName": "Jake Burger",
+        "link": "/api/v1/people/669394",
+        "firstName": "Jacob",
+        "lastName": "Burger"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "3",
+        "name": "First Base",
+        "type": "Infielder",
+        "abbreviation": "1B"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.232",
+     "P": 0.171,
+     "sampleNote": "split vs D (330 PA)",
+     "p_aj": "15.9",
+     "AB": "3.71",
+     "P1base": "47.4",
+     "oddJusta": "2.11",
+     "oddTeto": "2.25",
+     "oddPiso": "1.98",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "694497",
+     "name": "Evan Carter",
+     "team": "TEX",
+     "slot": 6,
+     "pa": 305,
+     "avg": ".207",
+     "babip": ".253",
+     "kpct": "23.3",
+     "bbpct": "12.8",
+     "pctSeason": "45.1",
+     "games": 91,
+     "pctLast10": "60.0",
+     "maxStreak": 8,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 36,
+        "groundOuts": 12,
+        "airOuts": 11,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 14,
+        "baseOnBalls": 3,
+        "intentionalWalks": 0,
+        "hits": 5,
+        "hitByPitch": 0,
+        "avg": ".128",
+        "atBats": 39,
+        "obp": ".190",
+        "slg": ".128",
+        "ops": ".318",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 178,
+        "plateAppearances": 45,
+        "totalBases": 5,
+        "rbi": 0,
+        "leftOnBase": 22,
+        "sacBunts": 3,
+        "sacFlies": 0,
+        "babip": ".200",
+        "groundOutsToAirouts": "1.09",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 694497,
+        "fullName": "Evan Carter",
+        "link": "/api/v1/people/694497",
+        "firstName": "Evan",
+        "lastName": "Carter"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "8",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "CF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 87,
+        "groundOuts": 46,
+        "airOuts": 69,
+        "doubles": 9,
+        "triples": 2,
+        "homeRuns": 8,
+        "strikeOuts": 57,
+        "baseOnBalls": 36,
+        "intentionalWalks": 0,
+        "hits": 48,
+        "hitByPitch": 4,
+        "avg": ".221",
+        "atBats": 217,
+        "obp": ".341",
+        "slg": ".392",
+        "ops": ".733",
+        "groundIntoDoublePlay": 1,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 1085,
+        "plateAppearances": 260,
+        "totalBases": 85,
+        "rbi": 29,
+        "leftOnBase": 98,
+        "sacBunts": 2,
+        "sacFlies": 1,
+        "babip": ".261",
+        "groundOutsToAirouts": "0.67",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "27.12"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 694497,
+        "fullName": "Evan Carter",
+        "link": "/api/v1/people/694497",
+        "firstName": "Evan",
+        "lastName": "Carter"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "8",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "CF"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.221",
+     "P": 0.171,
+     "sampleNote": "split vs D (260 PA)",
+     "p_aj": "15.1",
+     "AB": "3.58",
+     "P1base": "44.3",
+     "oddJusta": "2.26",
+     "oddTeto": "2.42",
+     "oddPiso": "2.12",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)",
+      "seca histórica > 6 jogos"
+     ]
+    },
+    {
+     "id": "608369",
+     "name": "Corey Seager",
+     "team": "TEX",
+     "slot": 3,
+     "pa": 222,
+     "avg": ".189",
+     "babip": ".213",
+     "kpct": "27.0",
+     "bbpct": "12.6",
+     "pctSeason": "48.1",
+     "games": 52,
+     "pctLast10": "60.0",
+     "maxStreak": 7,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 30,
+        "groundOuts": 13,
+        "airOuts": 9,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 18,
+        "baseOnBalls": 8,
+        "intentionalWalks": 0,
+        "hits": 8,
+        "hitByPitch": 0,
+        "avg": ".167",
+        "atBats": 48,
+        "obp": ".286",
+        "slg": ".250",
+        "ops": ".536",
+        "groundIntoDoublePlay": 2,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 224,
+        "plateAppearances": 56,
+        "totalBases": 12,
+        "rbi": 5,
+        "leftOnBase": 25,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".241",
+        "groundOutsToAirouts": "1.44",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "48.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 608369,
+        "fullName": "Corey Seager",
+        "link": "/api/v1/people/608369",
+        "firstName": "Corey",
+        "lastName": "Seager"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 48,
+        "groundOuts": 36,
+        "airOuts": 38,
+        "doubles": 6,
+        "triples": 0,
+        "homeRuns": 9,
+        "strikeOuts": 42,
+        "baseOnBalls": 20,
+        "intentionalWalks": 2,
+        "hits": 28,
+        "hitByPitch": 2,
+        "avg": ".197",
+        "atBats": 142,
+        "obp": ".301",
+        "slg": ".430",
+        "ops": ".731",
+        "groundIntoDoublePlay": 4,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 607,
+        "plateAppearances": 166,
+        "totalBases": 61,
+        "rbi": 20,
+        "leftOnBase": 62,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".204",
+        "groundOutsToAirouts": "0.95",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "15.78"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 608369,
+        "fullName": "Corey Seager",
+        "link": "/api/v1/people/608369",
+        "firstName": "Corey",
+        "lastName": "Seager"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "6",
+        "name": "Shortstop",
+        "type": "Infielder",
+        "abbreviation": "SS"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.197",
+     "P": 0.171,
+     "sampleNote": "split vs D (166 PA)",
+     "p_aj": "13.3",
+     "AB": "3.84",
+     "P1base": "42.2",
+     "oddJusta": "2.37",
+     "oddTeto": "2.55",
+     "oddPiso": "2.21",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)",
+      "seca histórica > 6 jogos"
+     ]
+    },
+    {
+     "id": "664774",
+     "name": "LaMonte Wade Jr",
+     "team": "HOU",
+     "slot": 8,
+     "pa": 77,
+     "avg": ".175",
+     "babip": ".209",
+     "kpct": "23.4",
+     "bbpct": "18.2",
+     "pctSeason": "36.4",
+     "games": 22,
+     "pctLast10": "30.0",
+     "maxStreak": 6,
+     "curStreak": 0,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 4,
+        "groundOuts": 2,
+        "airOuts": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 2,
+        "baseOnBalls": 2,
+        "intentionalWalks": 0,
+        "hits": 2,
+        "hitByPitch": 0,
+        "avg": ".286",
+        "atBats": 7,
+        "obp": ".444",
+        "slg": ".429",
+        "ops": ".873",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 45,
+        "plateAppearances": 9,
+        "totalBases": 3,
+        "rbi": 2,
+        "leftOnBase": 1,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".400",
+        "groundOutsToAirouts": "2.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 664774,
+        "fullName": "LaMonte Wade Jr.",
+        "link": "/api/v1/people/664774",
+        "firstName": "LaMonte",
+        "lastName": "Wade"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "7",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "LF"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 22,
+        "groundOuts": 11,
+        "airOuts": 20,
+        "doubles": 2,
+        "triples": 0,
+        "homeRuns": 2,
+        "strikeOuts": 16,
+        "baseOnBalls": 12,
+        "intentionalWalks": 0,
+        "hits": 9,
+        "hitByPitch": 0,
+        "avg": ".161",
+        "atBats": 56,
+        "obp": ".309",
+        "slg": ".304",
+        "ops": ".613",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 300,
+        "plateAppearances": 68,
+        "totalBases": 17,
+        "rbi": 10,
+        "leftOnBase": 20,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".184",
+        "groundOutsToAirouts": "0.55",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "28.00"
+       },
+       "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+       },
+       "player": {
+        "id": 664774,
+        "fullName": "LaMonte Wade Jr.",
+        "link": "/api/v1/people/664774",
+        "firstName": "LaMonte",
+        "lastName": "Wade"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "7",
+        "name": "Outfielder",
+        "type": "Outfielder",
+        "abbreviation": "LF"
+       }
+      }
+     ],
+     "abridor": "Jacob deGrom (R)",
+     "B": "0.175",
+     "P": 0.224,
+     "sampleNote": "AVG geral (amostra split <100PA)",
+     "p_aj": "15.7",
+     "AB": "3.19",
+     "P1base": "41.9",
+     "oddJusta": "2.38",
+     "oddTeto": "2.57",
+     "oddPiso": "2.23",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)"
+     ]
+    },
+    {
+     "id": "642851",
+     "name": "Austin Wynns",
+     "team": "TEX",
+     "slot": 9,
+     "pa": 71,
+     "avg": ".091",
+     "babip": ".111",
+     "kpct": "28.2",
+     "bbpct": "5.6",
+     "pctSeason": "23.1",
+     "games": 26,
+     "pctLast10": "30.0",
+     "maxStreak": 8,
+     "curStreak": 3,
+     "splits": [
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 3,
+        "groundOuts": 0,
+        "airOuts": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 3,
+        "baseOnBalls": 0,
+        "intentionalWalks": 0,
+        "hits": 1,
+        "hitByPitch": 0,
+        "avg": ".200",
+        "atBats": 5,
+        "obp": ".200",
+        "slg": ".800",
+        "ops": "1.000",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 18,
+        "plateAppearances": 5,
+        "totalBases": 4,
+        "rbi": 1,
+        "leftOnBase": 1,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".000",
+        "groundOutsToAirouts": "0.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "5.00"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 10,
+        "groundOuts": 7,
+        "airOuts": 10,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 4,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 3,
+        "hitByPitch": 0,
+        "avg": ".130",
+        "atBats": 23,
+        "obp": ".167",
+        "slg": ".130",
+        "ops": ".297",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 81,
+        "plateAppearances": 25,
+        "totalBases": 3,
+        "rbi": 0,
+        "leftOnBase": 11,
+        "sacBunts": 1,
+        "sacFlies": 0,
+        "babip": ".158",
+        "groundOutsToAirouts": "0.70",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 133,
+        "name": "Athletics",
+        "link": "/api/v1/teams/133"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 2,
+        "groundOuts": 1,
+        "airOuts": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 0,
+        "baseOnBalls": 0,
+        "intentionalWalks": 0,
+        "hits": 0,
+        "hitByPitch": 0,
+        "avg": ".000",
+        "atBats": 2,
+        "obp": ".000",
+        "slg": ".000",
+        "ops": ".000",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 9,
+        "plateAppearances": 2,
+        "totalBases": 0,
+        "rbi": 0,
+        "leftOnBase": 2,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".000",
+        "groundOutsToAirouts": "1.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "link": "/api/v1/teams/144"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 104,
+        "name": "National League",
+        "link": "/api/v1/league/104"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 15,
+        "groundOuts": 8,
+        "airOuts": 12,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 1,
+        "strikeOuts": 7,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 4,
+        "hitByPitch": 0,
+        "avg": ".133",
+        "atBats": 30,
+        "obp": ".161",
+        "slg": ".233",
+        "ops": ".394",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 108,
+        "plateAppearances": 32,
+        "totalBases": 7,
+        "rbi": 1,
+        "leftOnBase": 14,
+        "sacBunts": 1,
+        "sacFlies": 0,
+        "babip": ".136",
+        "groundOutsToAirouts": "0.67",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "30.00"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "numTeams": 3,
+       "split": {
+        "code": "vl",
+        "description": "vs Left",
+        "sortOrder": 73
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 3,
+        "groundOuts": 4,
+        "airOuts": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 3,
+        "baseOnBalls": 1,
+        "intentionalWalks": 0,
+        "hits": 1,
+        "hitByPitch": 0,
+        "avg": ".125",
+        "atBats": 8,
+        "obp": ".222",
+        "slg": ".125",
+        "ops": ".347",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 37,
+        "plateAppearances": 9,
+        "totalBases": 1,
+        "rbi": 0,
+        "leftOnBase": 4,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".200",
+        "groundOutsToAirouts": "4.00",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "link": "/api/v1/teams/140"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 4,
+        "groundOuts": 2,
+        "airOuts": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 4,
+        "baseOnBalls": 0,
+        "intentionalWalks": 0,
+        "hits": 1,
+        "hitByPitch": 0,
+        "avg": ".083",
+        "atBats": 12,
+        "obp": ".083",
+        "slg": ".083",
+        "ops": ".166",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 39,
+        "plateAppearances": 12,
+        "totalBases": 1,
+        "rbi": 0,
+        "leftOnBase": 8,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".125",
+        "groundOutsToAirouts": "0.40",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "link": "/api/v1/teams/144"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 104,
+        "name": "National League",
+        "link": "/api/v1/league/104"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 9,
+        "groundOuts": 3,
+        "airOuts": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 6,
+        "baseOnBalls": 2,
+        "intentionalWalks": 0,
+        "hits": 0,
+        "hitByPitch": 0,
+        "avg": ".000",
+        "atBats": 16,
+        "obp": ".111",
+        "slg": ".000",
+        "ops": ".111",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 73,
+        "plateAppearances": 18,
+        "totalBases": 0,
+        "rbi": 0,
+        "leftOnBase": 19,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".000",
+        "groundOutsToAirouts": "0.43",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "team": {
+        "id": 133,
+        "name": "Athletics",
+        "link": "/api/v1/teams/133"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "league": {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      },
+      {
+       "season": "2026",
+       "stat": {
+        "gamesPlayed": 16,
+        "groundOuts": 9,
+        "airOuts": 12,
+        "doubles": 0,
+        "triples": 0,
+        "homeRuns": 0,
+        "strikeOuts": 13,
+        "baseOnBalls": 3,
+        "intentionalWalks": 0,
+        "hits": 2,
+        "hitByPitch": 0,
+        "avg": ".056",
+        "atBats": 36,
+        "obp": ".128",
+        "slg": ".056",
+        "ops": ".184",
+        "groundIntoDoublePlay": 0,
+        "groundIntoTriplePlay": 0,
+        "numberOfPitches": 149,
+        "plateAppearances": 39,
+        "totalBases": 2,
+        "rbi": 0,
+        "leftOnBase": 31,
+        "sacBunts": 0,
+        "sacFlies": 0,
+        "babip": ".087",
+        "groundOutsToAirouts": "0.75",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "-.--"
+       },
+       "player": {
+        "id": 642851,
+        "fullName": "Austin Wynns",
+        "link": "/api/v1/people/642851",
+        "firstName": "Robert",
+        "lastName": "Wynns"
+       },
+       "sport": {
+        "id": 1,
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB"
+       },
+       "gameType": "R",
+       "numTeams": 3,
+       "split": {
+        "code": "vr",
+        "description": "vs Right",
+        "sortOrder": 74
+       },
+       "position": {
+        "code": "2",
+        "name": "Catcher",
+        "type": "Catcher",
+        "abbreviation": "C"
+       }
+      }
+     ],
+     "abridor": "Ronel Blanco (R)",
+     "B": "0.091",
+     "P": 0.171,
+     "sampleNote": "AVG geral (amostra split <100PA)",
+     "p_aj": "5.9",
+     "AB": "3.60",
+     "P1base": "19.6",
+     "oddJusta": "5.10",
+     "oddTeto": "6.02",
+     "oddPiso": "4.42",
+     "consist": "sem_lastro",
+     "avisos": [
+      "K% acima de 21%",
+      "não bate piso de %1+H (temp/últ10)",
+      "seca histórica > 6 jogos"
+     ]
+    }
+   ],
+   "excluidos": []
+  }
+ ]
+}

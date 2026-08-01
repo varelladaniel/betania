@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — MLB — Histórico</title>
+<link rel="stylesheet" href="../style.css?v=7" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="../index.html">← Voltar para esportes/ligas</a>
+  <header class="brand">
+    <img src="../logo-betania.png" alt="Betania" />
+    <div>
+      <h1>MLB</h1>
+      <p>Histórico de análises — mercado 1+ base total</p>
+    </div>
+  </header>
+
+  <div class="history-grid" id="lista-analises">
+    <!-- NOVA_ANALISE_AQUI -->
+    <a class="history-card" href="2026-08-01_stl-cardinals-x-tor-blue-jays.html">
+      <span class="history-date-badge">01/08 · 16:07</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/stl.png" alt="St. Louis Cardinals" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/tor.png" alt="Toronto Blue Jays" />
+      </div>
+      <div class="history-teams-label">STL Cardinals vs TOR Blue Jays</div>
+    </a>
+    <a class="history-card" href="2026-08-01_texas-rangers-x-houston-astros.html">
+      <span class="history-date-badge">01/08 · 20:10</span>
+      <div class="history-teams-label">TEX Rangers vs HOU Astros</div>
+    </a>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
