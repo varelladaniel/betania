@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — SF Giants x SD Padres (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">02/08 · 17:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/sf.png" alt="San Francisco Giants" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/sd.png" alt="San Diego Padres" />
+      </div>
+      <div class="history-teams-label">SF Giants vs SD Padres</div>
+      <div class="hero-venue">Petco Park, San Diego (CA)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>SF</th><th>SD</th></tr>
+            <tr><td>Classificação</td><td>47-64, 4º NL West, 11,0 jogos da vaga de wild card</td><td>57-54, 3º NL West, 1,0 jogo da vaga de wild card</td></tr>
+            <tr><td>Últimos 5</td><td>3V-2D</td><td>4V-1D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>01/08 — ❌ 5-6 ✈️ vs SD</td><td>01/08 — ✅ 6-5 🏠 vs SF</td></tr>
+            <tr><td>Próximo jogo</td><td>03/08 ✈️ vs Texas Rangers</td><td>03/08 ✈️ vs Arizona Diamondbacks</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">SD lidera 6-5 na temporada (série atual: SD 2-1)</td></tr>
+            <tr><td>Abridor</td><td>Landen Roupp (D) — 21 saídas, 113.2 IP, AVG contra .227, ERA 4,12, WHIP 1,26</td><td>Kyle Hart (E) — 3 saídas na rotação (+ relevos), 40.2 IP total, AVG contra .218, ERA 4,87, WHIP 1,11 ⚠️ amostra curta como titular</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">SF</span> Matt Chapman (3B, titular habitual) — IL10, estiramento abdominal. Harrison Bader (CF), Casey Schmitt (LF/util), Jesus Rodriguez (C) — IL10, papel secundário nesta escalação. Rotação desfalcada: Hayden Birdsong, Joel Peguero, José Buttó, Randy Rodríguez, Rowan Wick (IL60), Matt Gage e Trevor McDonald (IL15) — pressiona o bullpen.</p>
+          <p><span class="badge">SD</span> Nenhum titular da escalação de hoje fora por lesão. Rotação/bullpen desfalcados: Joe Musgrove, Nick Pivetta, Bryan Hoeing (IL60), Jason Adam, Lucas Giolito, David Morgan (IL15) — bullpen mais raso do que o normal, mas ainda com fechador saudável (Mason Miller).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Quarto e último jogo de uma série de 4 em San Diego (SD já venceu os dois últimos). SD briga de perto pela vaga de wild card na NL (1,0 jogo de distância) e tenta fechar a série com "vassourada"; SF está fora de disputa de classificação (11 jogos atrás), joga sem pressão de tabela. Rivalidade de divisão (NL West), mas sem fator extra além da disputa normal.</p>
+          <p style="font-size:13px;color:var(--muted)">Petco Park — park factor 92 runs / 88 HR / 97 doubles (supressor). Sem teto retrátil. Previsão: ~24°C (76°F), parcialmente nublado, vento nordeste fraco a moderado (~15 km/h), baixa chance de chuva — condições típicas de verão em San Diego, sem impacto relevante no jogo.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Neutro.</strong></p>
+          <p>N_fortes = 3 (P(1+base) ≥ 65% com consistência ✅ ou só um aviso leve): Luis Arraez (SF, 75,8%, ✅), Jung Hoo Lee (SF, 67,0%, ✅) e Heliot Ramos (SF, 65,4%, ⚠️ só K% acima de 21%) — os três do mesmo time. O Padres não emplaca nenhum sinal forte de verdade: os nomes com P mais alta do lado SD (Ty France 70,5% e Luis Rengifo 66,7%) aparecem "sem lastro", sem bater o piso de consistência (%1+H temporada/últimos 10 abaixo do corte).</p>
+          <p>BAA_efetiva enfrentada pelos batedores do SF (vs Kyle Hart + bullpen SD) é 0,224. Já a enfrentada pelos batedores do SD (vs Landen Roupp + bullpen SF) é 0,212. As duas estão abaixo da média de liga (0,248) — pitching relativamente duro dos dois lados. A classificação Neutro vem da combinação de dois fatores: profundidade de sinais concentrada só no Giants, e BAA_efetiva baixa nos dois lados suprimindo parte dos números.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Luis Arraez <span class="pick-star">⭐</span></td><td>SF</td><td>1</td><td>76,9%</td><td>70,0%</td><td>4,6%</td><td>0,331</td><td>✅</td><td class="prob-cell">75,8%</td><td>1,32</td><td>1,25–1,40</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Ty France <span class="pick-star">⭐</span></td><td>SD</td><td>4</td><td>60,8%</td><td>80,0%</td><td>23,1%</td><td>0,335</td><td>sem lastro</td><td class="prob-cell">70,5%</td><td>1,42</td><td>1,33–1,53</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr><td><span class="rank-num">3</span></td><td>Jung Hoo Lee</td><td>SF</td><td>5</td><td>66,3%</td><td>80,0%</td><td>10,3%</td><td>0,320</td><td>✅</td><td class="prob-cell">67,0%</td><td>1,49</td><td>1,39–1,61</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Luis Rengifo</td><td>SD</td><td>1</td><td>55,7%</td><td>70,0%</td><td>12,5%</td><td>0,265</td><td>sem lastro</td><td class="prob-cell">66,7%</td><td>1,50</td><td>1,40–1,61</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Heliot Ramos</td><td>SF</td><td>3</td><td>74,0%</td><td>60,0%</td><td>26,8%</td><td>0,338</td><td>⚠️ K% acima de 21%</td><td class="prob-cell">65,4%</td><td>1,53</td><td>1,42–1,66</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores SF (vs Kyle Hart + bullpen SD) = 0,212. BAA_efetiva enfrentada pelos batedores SD (vs Landen Roupp + bullpen SF) = 0,224.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking, times distintos — sem empate forte o suficiente pra virar trio)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Luis Arraez <span class="badge">SF</span></div>
+          <div class="pl5-sub">P(1+base) 75,8% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">4</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,4 base/jogo</strong> nos últimos 5 (7 bases totais em 5 jogos, 4/5 jogos com 1+ base) — consistente com o K% baixíssimo (4,6%) e o AVG alto na temporada (.328).</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Ty France <span class="badge">SD</span></div>
+          <div class="pl5-sub">P(1+base) 70,5% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">31/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">3</span><div class="pl5-bar" style="height:75%"></div><span class="pl5-bar-date">01/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,4 base/jogo</strong> nos últimos 5 (7 bases totais em 5 jogos, 4/5 jogos com 1+ base) — janela recente melhor que a média da temporada, mas P alta ainda "sem lastro" pelo piso de consistência (%1+H temporada 60,8%).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
