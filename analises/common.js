@@ -51,6 +51,36 @@ function buildNavDropdown(selectId, listVarName, currentSlug) {
   });
 }
 
+function setInfoTab(groupId, tabKey) {
+  var nav = document.getElementById(groupId + '-nav');
+  var panels = document.getElementById(groupId + '-panels');
+  if (!nav || !panels) return;
+  nav.querySelectorAll('.info-tab-btn').forEach(function (btn) {
+    btn.classList.toggle('active', btn.getAttribute('data-tab') === tabKey);
+  });
+  panels.querySelectorAll('.info-tab-panel').forEach(function (p) {
+    p.classList.toggle('active', p.getAttribute('data-tab') === tabKey);
+  });
+}
+
+function setMarketTab(groupId, marketKey) {
+  var nav = document.getElementById(groupId + '-nav');
+  if (!nav) return;
+  nav.querySelectorAll('.market-tab-btn').forEach(function (btn) {
+    btn.classList.toggle('active', btn.getAttribute('data-market') === marketKey);
+  });
+  document.querySelectorAll('.market-panel[data-group="' + groupId + '"]').forEach(function (p) {
+    p.classList.toggle('active', p.getAttribute('data-market') === marketKey);
+  });
+}
+
+function expandRank(btnEl, tbodyExtraId) {
+  var extra = document.getElementById(tbodyExtraId);
+  if (!extra) return;
+  var expanded = extra.classList.toggle('expanded');
+  btnEl.textContent = expanded ? 'Recolher ranking ▲' : 'Expandir ranking (65–70%) ▼';
+}
+
 function setQuarterTips(groupId, q) {
   var container = document.getElementById(groupId);
   if (!container) return;

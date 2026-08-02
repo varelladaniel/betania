@@ -3,16 +3,19 @@
 <head>
 <meta charset="utf-8" />
 <title>Betania — Análises</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css?v=7" />
 </head>
 <body>
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="site-nav-home" href="index.html">Início</a>
-    <a class="site-nav-league" href="wnba/index.html">WNBA</a>
-  </div>
-</nav>
-<main>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link" href="mlb/index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
   <header class="brand">
     <img src="logo-betania.png" alt="Betania" />
     <div>
@@ -27,9 +30,9 @@
       <strong>WNBA</strong>
       <span class="status">Ativo</span>
     </a>
-    <a class="league-card disabled" href="#">
+    <a class="league-card" href="mlb/index.html">
       <strong>MLB</strong>
-      <span class="status">Em breve</span>
+      <span class="status">Ativo</span>
     </a>
     <a class="league-card disabled" href="#">
       <strong>Futebol — Brasileirão</strong>
@@ -41,5 +44,6 @@
     </a>
   </div>
 </main>
+</div>
 </body>
 </html>

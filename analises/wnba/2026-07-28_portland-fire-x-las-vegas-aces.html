@@ -3,19 +3,22 @@
 <head>
 <meta charset="utf-8" />
 <title>Betania — Portland Fire x Las Vegas Aces (Análise Completa)</title>
-<link rel="stylesheet" href="../style.css" />
+<link rel="stylesheet" href="../style.css?v=7" />
 <script src="analises-list.js"></script>
 <script src="../common.js"></script>
 </head>
 <body>
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="site-nav-home" href="../index.html">Início</a>
-    <a class="site-nav-league active" href="index.html">WNBA</a>
-    <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
-  </div>
-</nav>
-<main>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link" href="../mlb/index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
   <div class="analysis-hero">
@@ -713,5 +716,6 @@
     <div>ESPN Standings — atualizado 28/07/2026</div>
   </div>
 </main>
+</div>
 </body>
 </html>

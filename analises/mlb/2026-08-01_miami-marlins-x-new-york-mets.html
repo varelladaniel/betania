@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Betania — Miami Marlins x New York Mets (Análise MLB)</title>
-<link rel="stylesheet" href="../style.css?v=7" />
+<link rel="stylesheet" href="../style.css?v=8" />
 <script src="analises-list.js"></script>
 <script src="../common.js"></script>
 </head>
@@ -21,106 +21,113 @@
   <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
-  <div class="analysis-hero">
-    <span class="history-date-badge">01/08 · 17:10 BRT</span>
-    <div class="history-logos">
-      <img src="https://a.espncdn.com/i/teamlogos/mlb/500/mia.png" alt="Miami Marlins" />
-      <span class="history-vs">VS</span>
-      <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nym.png" alt="New York Mets" />
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">01/08 · 17:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/mia.png" alt="Miami Marlins" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nym.png" alt="New York Mets" />
+      </div>
+      <div class="history-teams-label">Miami Marlins vs New York Mets</div>
+      <div class="hero-venue">Citi Field, Flushing (NY)</div>
     </div>
-    <div class="history-teams-label">Miami Marlins vs New York Mets</div>
-    <div class="hero-venue">Citi Field, Flushing (NY)</div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>MIA</th><th>NYM</th></tr>
+            <tr><td>Classificação</td><td>56-55, 3º NL East, 1,5 jogos da vaga de wild card — ainda vivo na disputa</td><td>47-64, 5º NL East, 10,5 jogos da wild card — praticamente fora da disputa</td></tr>
+            <tr><td>Últimos 5</td><td>4V-1D</td><td>3V-2D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>31/07 — ✅ 5-2 ✈️ vs NYM</td><td>31/07 — ❌ 2-5 🏠 vs MIA</td></tr>
+            <tr><td>Próximo jogo</td><td>02/08 ✈️ vs NYM (fecha a série), depois em Cincinnati vs Reds</td><td>02/08 🏠 vs MIA (fecha a série), depois em Baltimore vs Orioles</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">Empate 4-4 na temporada regular (ignorando amistosos de março)</td></tr>
+            <tr><td>Abridor</td><td>Tyler Phillips (D) — perfil de swingman, 27 jogos/11 aberturas, BAA .241, WHIP 1,36, ERA 3,52 em 84.1 IP</td><td>Zac Thornton (E) — rookie, apenas 5 aberturas na carreira MLB, BAA .196, WHIP 0,91, ERA 2,43 em 29.2 IP (amostra pequena, baixa confiança)</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">NYM</span> Juan Soto (LF) — IL10, estiramento de panturrilha esquerda, principal bate-rebatedor do time fora. Mark Vientos (1B) — IL10, fratura na mão direita. Clay Holmes (P) — IL60, fratura de fíbula direita.</p>
+          <p><span class="badge">MIA</span> Owen Caissie (RF) — IL10, estiramento de panturrilha direita, papel secundário/reserva. Demais desfalques dos dois times são arremessadores do IL60 sem impacto direto na escalação titular de hoje.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Nenhuma rivalidade especial; MIA ainda briga por vaga de wild card e busca varrer a série de 3 jogos contra um NYM já matematicamente distante da classificação.</p>
+          <p style="font-size:13px;color:var(--muted)">Citi Field — park factor 97 runs / 96 HR / 100 doubles (levemente supressor). Sem teto retrátil. Previsão: ~28°C, vento de norte/nordeste 10-15 mph, chance de chuva pontual 30-40% — ⚠️ previsão consultada com antecedência, sujeita a ajuste.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Desinteressante.</strong></p>
+          <p>Apenas 2 rebatedores batem sinal forte (P(1+base) ≥ 65% com consistência ✅): Bo Bichette (NYM, 66,6%) e Carson Benge (NYM, 65,7%) — os dois do mesmo time, pouca profundidade combinada. Mesmo com N_fortes = 2, as duas BAA_efetivas do confronto estão visivelmente abaixo da média de liga (~0,248): o lado que os batedores do MIA enfrentam (Thornton + bullpen do NYM) fica em 0,202, e o lado que os batedores do NYM enfrentam (Phillips + bullpen do MIA) fica em 0,231 — ambas ≤0,235, o cenário que tende a anular rebatedores bons no papel.</p>
+          <p>Parte da BAA_efetiva baixíssima do lado NYM vem de um dado de baixa confiança: Zac Thornton tem apenas 5 aberturas na carreira MLB, então seu número atual pode não se sustentar. Ou seja, o jogo é desinteressante tanto pelo matchup em si (pitching combinado difícil dos dois lados) quanto pela incerteza estatística do abridor do NYM — os dois fatores pesam juntos, não é só um problema de amostra.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>Momento da equipe</h2>
-    <table>
-      <tr><th></th><th>Miami Marlins</th><th>New York Mets</th></tr>
-      <tr><td>Classificação</td><td>56-55, 3º NL East, 1,5 jogos da vaga de wild card — ainda vivo na disputa</td><td>47-64, 5º NL East, 10,5 jogos da wild card — praticamente fora da disputa</td></tr>
-      <tr><td>Últimos 5 jogos</td><td>4 vitórias - 1 derrota</td><td>3 vitórias - 2 derrotas</td></tr>
-      <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
-      <tr><td>Último jogo</td><td>31/07 — ✅ 5-2 ✈️ vs New York Mets</td><td>31/07 — ❌ 2-5 🏠 vs Miami Marlins</td></tr>
-      <tr><td>Próximo jogo</td><td>02/08 ✈️ vs New York Mets (fecha a série), depois em Cincinnati vs Reds</td><td>02/08 🏠 vs Miami Marlins (fecha a série), depois em Baltimore vs Orioles</td></tr>
-      <tr><td>Confronto direto 2026</td><td colspan="2">Empate 4-4 na temporada regular (ignorando amistosos de março)</td></tr>
-      <tr><td>Abridor</td><td>Tyler Phillips (D) — perfil de swingman, 27 jogos/11 aberturas, BAA .241, WHIP 1,36, ERA 3,52 em 84.1 IP</td><td>Zac Thornton (E) — rookie, apenas 5 aberturas na carreira MLB, BAA .196, WHIP 0,91, ERA 2,43 em 29.2 IP (amostra pequena, baixa confiança)</td></tr>
-    </table>
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
   </div>
 
-  <div class="card">
-    <h2>Desfalques e motivação</h2>
-    <p><span class="badge">NYM</span> Juan Soto (LF) — IL10, estiramento de panturrilha esquerda, principal bate-rebatedor do time fora. Mark Vientos (1B) — IL10, fratura na mão direita. Clay Holmes (P) — IL60, fratura de fíbula direita.</p>
-    <p><span class="badge">MIA</span> Owen Caissie (RF) — IL10, estiramento de panturrilha direita, papel secundário/reserva. Demais desfalques dos dois times são arremessadores do IL60 sem impacto direto na escalação titular de hoje.</p>
-    <p>Nenhuma rivalidade especial; MIA ainda briga por vaga de wild card e busca varrer a série de 3 jogos contra um NYM já matematicamente distante da classificação.</p>
-    <p style="font-size:13px;color:var(--muted)">Citi Field — park factor 97 runs / 96 HR / 100 doubles (levemente supressor). Sem teto retrátil. Previsão: ~28°C, vento de norte/nordeste 10-15 mph, chance de chuva pontual 30-40% — ⚠️ previsão consultada com antecedência, sujeita a ajuste.</p>
-  </div>
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Otto Lopez <span class="pick-star">⭐</span></td><td>MIA</td><td>1</td><td>76%</td><td>50%</td><td>13,6%</td><td>0,354</td><td>⚠️ L10 abaixo do piso; BABIP alto</td><td class="prob-cell">82,3%</td><td>1,22</td><td>1,15–1,29</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>A.J. Ewing <span class="pick-star">⭐</span></td><td>NYM</td><td>1</td><td>61%</td><td>60%</td><td>26,5%</td><td>0,351</td><td>⚠️ temp. abaixo do piso; K% alto; BABIP alto</td><td class="prob-cell">68,0%</td><td>1,47</td><td>1,41–1,54</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Bo Bichette</td><td>NYM</td><td>3</td><td>65%</td><td>60%</td><td>18,1%</td><td>0,293</td><td>✅</td><td class="prob-cell">66,6%</td><td>1,50</td><td>1,44–1,57</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Carson Benge</td><td>NYM</td><td>4</td><td>65%</td><td>80%</td><td>22,2%</td><td>0,326</td><td>✅ (K% levemente acima de 21%)</td><td class="prob-cell">65,7%</td><td>1,52</td><td>1,46–1,60</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores MIA (vs Thornton, amostra pequena de 5 aberturas, + bullpen NYM) = 0,202, faixa ampliada ±5pp em todos os batedores do MIA por causa da amostra pequena do abridor. BAA_efetiva enfrentada pelos batedores NYM (vs Phillips + bullpen MIA) = 0,231, faixa padrão ±3pp.</p>
+    </div>
 
-  <div class="card">
-    <h2>Interesse do jogo <span style="font-size:14px;font-weight:normal;color:var(--muted)">(leitura qualitativa do confronto — não é preço, não é indicação de aposta)</span></h2>
-    <p><strong>Classificação: Desinteressante.</strong></p>
-    <p>Apenas 2 rebatedores batem sinal forte (P(1+base) ≥ 65% com consistência ✅): Bo Bichette (NYM, 66,6%) e Carson Benge (NYM, 65,7%) — os dois do mesmo time, pouca profundidade combinada. Mesmo com N_fortes = 2, as duas BAA_efetivas do confronto estão visivelmente abaixo da média de liga (~0,248): o lado que os batedores do MIA enfrentam (Thornton + bullpen do NYM) fica em 0,202, e o lado que os batedores do NYM enfrentam (Phillips + bullpen do MIA) fica em 0,231 — ambas ≤0,235, o cenário que tende a anular rebatedores bons no papel.</p>
-    <p>Parte da BAA_efetiva baixíssima do lado NYM vem de um dado de baixa confiança: Zac Thornton tem apenas 5 aberturas na carreira MLB, então seu número atual pode não se sustentar. Ou seja, o jogo é desinteressante tanto pelo matchup em si (pitching combinado difícil dos dois lados) quanto pela incerteza estatística do abridor do NYM — os dois fatores pesam juntos, não é só um problema de amostra.</p>
-  </div>
-
-  <div class="card">
-    <h2>Ranking — Probabilidade de 1+ base total</h2>
-    <table>
-      <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
-      <tr><td>1</td><td>Otto Lopez</td><td>MIA</td><td>1</td><td>76%</td><td>50%</td><td>13,6%</td><td>0,354</td><td>⚠️ L10 abaixo do piso; BABIP alto</td><td><strong>82,3%</strong></td><td>1,22</td><td>1,15–1,29</td></tr>
-      <tr><td>2</td><td>A.J. Ewing</td><td>NYM</td><td>1</td><td>61%</td><td>60%</td><td>26,5%</td><td>0,351</td><td>⚠️ temp. abaixo do piso; K% alto; BABIP alto</td><td><strong>68,0%</strong></td><td>1,47</td><td>1,41–1,54</td></tr>
-      <tr><td>3</td><td>Bo Bichette</td><td>NYM</td><td>3</td><td>65%</td><td>60%</td><td>18,1%</td><td>0,293</td><td>✅</td><td><strong>66,6%</strong></td><td>1,50</td><td>1,44–1,57</td></tr>
-      <tr><td>4</td><td>Carson Benge</td><td>NYM</td><td>4</td><td>65%</td><td>80%</td><td>22,2%</td><td>0,326</td><td>✅ (K% levemente acima de 21%)</td><td><strong>65,7%</strong></td><td>1,52</td><td>1,46–1,60</td></tr>
-      <tr><td>5</td><td>Liam Hicks</td><td>MIA</td><td>3</td><td>64%</td><td>40%</td><td>9,5%</td><td>0,276</td><td>⚠️ temp. e L10 abaixo do piso</td><td><strong>64,0%</strong></td><td>1,56</td><td>1,45–1,69</td></tr>
-      <tr><td>6</td><td>Jared Young</td><td>NYM</td><td>5</td><td>51%</td><td>60%</td><td>19,9%</td><td>0,286</td><td>⚠️ temp. abaixo do piso</td><td><strong>63,3%</strong></td><td>1,58</td><td>1,51–1,66</td></tr>
-      <tr><td>7</td><td>Heriberto Hernández</td><td>MIA</td><td>2</td><td>56%</td><td>50%</td><td>26,8%</td><td>0,269</td><td>⚠️ temp./L10 abaixo do piso; K% alto</td><td><strong>62,6%</strong></td><td>1,60</td><td>1,48–1,74</td></tr>
-      <tr><td>8</td><td>Xavier Edwards</td><td>MIA</td><td>4</td><td>73%</td><td>70%</td><td>13,7%</td><td>0,329</td><td>✅</td><td><strong>61,6%</strong></td><td>1,62</td><td>1,50–1,77</td></tr>
-      <tr><td>9</td><td>Francisco Lindor</td><td>NYM</td><td>2</td><td>57%</td><td>60%</td><td>17,6%</td><td>0,250</td><td>⚠️ temp. abaixo do piso; PA reduzido</td><td><strong>61,0%</strong></td><td>1,64</td><td>1,56–1,72</td></tr>
-      <tr><td>10</td><td>Javier Sanoja</td><td>MIA</td><td>7</td><td>47%</td><td>50%</td><td>7,9%</td><td>0,279</td><td>⚠️ temp./L10 abaixo do piso</td><td><strong>60,5%</strong></td><td>1,65</td><td>1,53–1,80</td></tr>
-      <tr><td>11</td><td>Tyrone Taylor</td><td>NYM</td><td>8</td><td>38%</td><td>50%</td><td>19,9%</td><td>0,245</td><td>⚠️ temp. bem abaixo do piso</td><td><strong>58,6%</strong></td><td>1,71</td><td>1,62–1,80</td></tr>
-      <tr><td>12</td><td>Brett Baty</td><td>NYM</td><td>7</td><td>53%</td><td>50%</td><td>27,2%</td><td>0,292</td><td>⚠️ K% quase no corte; seca máx. 7 jogos</td><td><strong>57,6%</strong></td><td>1,74</td><td>1,65–1,83</td></tr>
-      <tr><td>13</td><td>Luis Torrens</td><td>NYM</td><td>9</td><td>48%</td><td>60%</td><td>20,5%</td><td>0,273</td><td>⚠️ temp. abaixo do piso</td><td><strong>53,4%</strong></td><td>1,87</td><td>1,77–1,98</td></tr>
-      <tr><td>14</td><td>Marcus Semien</td><td>NYM</td><td>6</td><td>51%</td><td>50%</td><td>22,9%</td><td>0,241</td><td>⚠️ temp./L10 abaixo do piso; K% alto</td><td><strong>51,9%</strong></td><td>1,93</td><td>1,82–2,05</td></tr>
-    </table>
-    <p style="font-size:13px;color:var(--muted)">BAA_efetiva enfrentada pelos batedores MIA (vs Thornton, amostra pequena de 5 aberturas, + bullpen NYM) = 0,202, faixa ampliada ±5pp em todos os batedores do MIA por causa da amostra pequena do abridor. BAA_efetiva enfrentada pelos batedores NYM (vs Phillips + bullpen MIA) = 0,231, faixa padrão ±3pp.</p>
-  </div>
-
-  <div class="card">
-    <h2>Ajustes Tier 2 (auditoria)</h2>
-    <table>
-      <tr><th>Jogador</th><th>Time</th><th>P base (log5)</th><th>Ajuste Tier 2</th><th>Motivo</th><th>P final</th></tr>
-      <tr><td>Otto Lopez</td><td>MIA</td><td>81,8%</td><td>+0,5pp</td><td>Park factor Citi Field (-1,0pp) + bullpen NYM desgastado (+1,5pp)</td><td><strong>82,3%</strong></td></tr>
-      <tr><td>Heriberto Hernández</td><td>MIA</td><td>62,1%</td><td>+0,5pp</td><td>Park factor Citi Field (-1,0pp) + bullpen NYM desgastado (+1,5pp)</td><td><strong>62,6%</strong></td></tr>
-      <tr><td>Liam Hicks</td><td>MIA</td><td>63,5%</td><td>+0,5pp</td><td>Park factor Citi Field (-1,0pp) + bullpen NYM desgastado (+1,5pp)</td><td><strong>64,0%</strong></td></tr>
-      <tr><td>Xavier Edwards</td><td>MIA</td><td>61,1%</td><td>+0,5pp</td><td>Park factor Citi Field (-1,0pp) + bullpen NYM desgastado (+1,5pp)</td><td><strong>61,6%</strong></td></tr>
-      <tr><td>Javier Sanoja</td><td>MIA</td><td>60,0%</td><td>+0,5pp</td><td>Park factor Citi Field (-1,0pp) + bullpen NYM desgastado (+1,5pp)</td><td><strong>60,5%</strong></td></tr>
-      <tr><td>A.J. Ewing</td><td>NYM</td><td>69,0%</td><td>-1,0pp</td><td>Park factor Citi Field (levemente supressor)</td><td><strong>68,0%</strong></td></tr>
-      <tr><td>Bo Bichette</td><td>NYM</td><td>67,6%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>66,6%</strong></td></tr>
-      <tr><td>Carson Benge</td><td>NYM</td><td>66,7%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>65,7%</strong></td></tr>
-      <tr><td>Jared Young</td><td>NYM</td><td>64,3%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>63,3%</strong></td></tr>
-      <tr><td>Francisco Lindor</td><td>NYM</td><td>62,0%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>61,0%</strong></td></tr>
-      <tr><td>Tyrone Taylor</td><td>NYM</td><td>59,6%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>58,6%</strong></td></tr>
-      <tr><td>Brett Baty</td><td>NYM</td><td>58,6%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>57,6%</strong></td></tr>
-      <tr><td>Luis Torrens</td><td>NYM</td><td>54,4%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>53,4%</strong></td></tr>
-      <tr><td>Marcus Semien</td><td>NYM</td><td>52,9%</td><td>-1,0pp</td><td>Park factor Citi Field</td><td><strong>51,9%</strong></td></tr>
-    </table>
-    <p style="font-size:13px;color:var(--muted)">Bullpen NYM somou 12,7 IP nos últimos 3 dias (acima do range de referência 9-12 IP) — sinal de desgaste, favorece levemente os batedores do MIA. Bullpen do MIA somou 10,0 IP em 3 dias, dentro do range normal, sem ajuste aplicado.</p>
-  </div>
-
-  <div class="card">
-    <h2>Destaques</h2>
-    <p><strong>Otto Lopez (MIA, SS, slot 1) — P = 82,3% | faixa 1,15–1,29 — maior P do jogo.</strong> AVG .322/OBP alto/K% 13,6% (o mais baixo entre os líderes de P), 463 PA. vs canhoto (Thornton): .388 em 110 PA. A favor: K% muito baixo, split excelente vs canhoto, sem seca anormal (máx. histórico 3 jogos, seca atual 2). Contra: %1+base nos últimos 10 jogos caiu para 50% (abaixo do piso de consistência de 60%) e BABIP de .354 pede atenção à sustentabilidade — por isso fica marcado ⚠️ mesmo com o maior P da tabela.</p>
-    <p><strong>Bo Bichette (NYM, DH, slot 3) — P = 66,6% | faixa 1,44–1,57 — melhor perfil de consistência do jogo.</strong> AVG .256/BABIP .293 (sem sinal de sorte), K% 18,1% (dentro do critério ≤21%), %1+base temporada 65% e últimos 10 também 60% — bate o piso duplo de consistência. vs destro (Phillips): .260 em 354 PA, amostra grande. A favor: consistência ✅ plena, maior amostra vs destro do jogo. Contra: joga contra um bullpen do MIA na média de liga, sem vantagem extra de matchup.</p>
-    <p><strong>Marcus Semien (NYM, 2B, slot 6) — menor P do jogo (51,9%).</strong> Split vs destro fraco (.196 em 264 PA, amostra grande e confiável), K% 22,9% acima do critério de consistência, %1+base temporada e últimos 10 ambos abaixo do piso (51% e 50%). Perfil fraco sustentado por amostra grande, não é ruído.</p>
-  </div>
-
-  <div class="card">
-    <h2>Exclusões</h2>
-    <table>
-      <tr><th>Jogador</th><th>Time</th><th>Motivo</th></tr>
-      <tr><td>Leo Jiménez</td><td>MIA</td><td>PA temporada 138 &lt; 150</td></tr>
-      <tr><td>Kyle Stowers</td><td>MIA</td><td>K% temporada 31,8% &gt; 28%</td></tr>
-      <tr><td>Esteury Ruiz</td><td>MIA</td><td>PA temporada 142 &lt; 150</td></tr>
-      <tr><td>Griffin Conine</td><td>MIA</td><td>PA temporada 135 &lt; 150</td></tr>
-    </table>
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking, times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Otto Lopez <span class="badge">MIA</span></div>
+          <div class="pl5-sub">P(1+base) 82,3% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,4 base/jogo</strong> nos últimos 5 (7 bases totais em 5 jogos, 2/5 jogos com 1+ base) — puxado por um jogo de 5 bases, mas com uma seca real de 3 jogos seguidos zerado logo depois, reforçando o aviso ⚠️ de consistência.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">A.J. Ewing <span class="badge">NYM</span></div>
+          <div class="pl5-sub">P(1+base) 68,0% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:67%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">3</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:33%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:33%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,4 base/jogo</strong> nos últimos 5 (7 bases totais em 5 jogos, 4/5 jogos com 1+ base) — janela mais estável que a de Lopez apesar do P menor, coerente com o aviso de amostra/temporada abaixo do piso.</div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 </div>

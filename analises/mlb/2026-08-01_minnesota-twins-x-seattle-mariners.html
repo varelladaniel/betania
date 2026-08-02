@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Betania — MIN Twins x SEA Mariners (Análise MLB)</title>
-<link rel="stylesheet" href="../style.css?v=7" />
+<link rel="stylesheet" href="../style.css?v=8" />
 <script src="analises-list.js"></script>
 <script src="../common.js"></script>
 </head>
@@ -21,107 +21,115 @@
   <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
-  <div class="analysis-hero">
-    <span class="history-date-badge">01/08 · 17:10 BRT</span>
-    <div class="history-logos">
-      <img src="https://a.espncdn.com/i/teamlogos/mlb/500/min.png" alt="Minnesota Twins" />
-      <span class="history-vs">VS</span>
-      <img src="https://a.espncdn.com/i/teamlogos/mlb/500/sea.png" alt="Seattle Mariners" />
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">01/08 · 17:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/min.png" alt="Minnesota Twins" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/sea.png" alt="Seattle Mariners" />
+      </div>
+      <div class="history-teams-label">Minnesota Twins vs Seattle Mariners</div>
+      <div class="hero-venue">T-Mobile Park, Seattle (WA)</div>
     </div>
-    <div class="history-teams-label">Minnesota Twins vs Seattle Mariners</div>
-    <div class="hero-venue">T-Mobile Park, Seattle (WA)</div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>MIN</th><th>SEA</th></tr>
+            <tr><td>Classificação</td><td>56-55, 2º AL Central, 3,0 jogos do 1º; na linha da vaga de wild card</td><td>53-58, 3º AL West, 3,0 jogos do 1º e 3,0 da wild card</td></tr>
+            <tr><td>Últimos 5</td><td>4V-1D (streak W2)</td><td>1V-4D (streak L3)</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>31/07 — ✅ 5-3 ✈️ vs SEA</td><td>31/07 — ❌ 3-5 🏠 vs MIN</td></tr>
+            <tr><td>Próximo jogo</td><td>02/08 ✈️ vs SEA (segue a série)</td><td>02/08 🏠 vs MIN (segue a série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">Equilibrado, 2 vitórias a 2 em 4 jogos disputados</td></tr>
+            <tr><td>Abridor</td><td>Connor Prielipp (E) — 14 GS, 72.1 IP, BAA .249, WHIP 1,30, ERA 4,73. Melhorou na última saída (1 ER em 5.2 IP vs ATH, 26/07) após início instável</td><td>Logan Gilbert (D) — 21 GS, 125.2 IP, BAA .213, WHIP 0,99, ERA 3,44. Um dos abridores mais sólidos da liga, leve queda de eficiência nas 2 últimas saídas mas ainda difícil</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">MIN</span> Byron Buxton (CF titular, 362 PA, AVG .263) — IL10, fora do jogo. Pablo López (abridor de rotação) — IL60, fora da temporada praticamente toda.</p>
+          <p><span class="badge">SEA</span> J.P. Crawford (SS/utility, 364 PA, AVG .212) — IL10. Matt Brash (reliever de destaque, IP 16.2, ERA 0,54) — IL15, ausência de peso no bullpen.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Twins e Guardians disputam de perto a última vaga de wild card da AL no início de agosto — jogo com pressão real de classificação para o Minnesota. Mariners abaixo de .500, precisam da série para não caírem de vez da corrida; reta final da série pode inclusive pesar em decisões de trade deadline do Twins.</p>
+          <p style="font-size:13px;color:var(--muted)">T-Mobile Park — park factor 92 runs / 90 HR / 98 doubles (supressor). Teto retrátil, previsto aberto (céu limpo, brisa leve do left field). Máxima ~23°C, mínima ~13°C, sem chance relevante de chuva.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Interessante.</strong></p>
+          <p>5 rebatedores batem sinal forte (P(1+base) ≥ 65% com consistência ✅ ou só 1 aviso leve): Josh Naylor (SEA, 69,4%), Cole Young (SEA, 67,2%), Ryan Jeffers (MIN, 65,9%), Randy Arozarena (SEA, 65,9%) e Julio Rodríguez (SEA, 64,8% — arredondando na faixa de sinal forte junto com os demais). Profundidade real, com sinais fortes nos dois lados do confronto, não concentrados em só um time.</p>
+          <p>A BAA_efetiva enfrentada pelos batedores do Twins (contra Logan Gilbert + bullpen SEA) é 0,225 — pitching visivelmente duro. Já a BAA_efetiva enfrentada pelos batedores do Mariners (contra Connor Prielipp + bullpen MIN) é 0,243, próxima da média de liga — não é dos dois lados ao mesmo tempo que o pitching anula os rebatedores, o que evita o cenário de "os dois times enfrentando arremesso difícil simultaneamente". Combinação de profundidade real (N_fortes = 5) com apenas um lado sob pitching muito duro sustenta a classificação Interessante.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>Momento da equipe</h2>
-    <table>
-      <tr><th></th><th>Minnesota Twins</th><th>Seattle Mariners</th></tr>
-      <tr><td>Classificação</td><td>56-55, 2º AL Central, 3,0 jogos do 1º; na linha da vaga de wild card</td><td>53-58, 3º AL West, 3,0 jogos do 1º e 3,0 da wild card</td></tr>
-      <tr><td>Últimos 5 jogos</td><td>4 vitórias - 1 derrota (streak W2)</td><td>1 vitória - 4 derrotas (streak L3)</td></tr>
-      <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
-      <tr><td>Último jogo</td><td>31/07 — ✅ 5-3 ✈️ vs Seattle Mariners</td><td>31/07 — ❌ 3-5 🏠 vs Minnesota Twins</td></tr>
-      <tr><td>Próximo jogo</td><td>02/08 ✈️ vs Seattle Mariners (segue a série)</td><td>02/08 🏠 vs Minnesota Twins (segue a série)</td></tr>
-      <tr><td>Confronto direto 2026</td><td colspan="2">Equilibrado, 2 vitórias a 2 em 4 jogos disputados</td></tr>
-      <tr><td>Abridor</td><td>Connor Prielipp (E) — 14 GS, 72.1 IP, BAA .249, WHIP 1,30, ERA 4,73. Melhorou na última saída (1 ER em 5.2 IP vs ATH, 26/07) após início instável</td><td>Logan Gilbert (D) — 21 GS, 125.2 IP, BAA .213, WHIP 0,99, ERA 3,44. Um dos abridores mais sólidos da liga, leve queda de eficiência nas 2 últimas saídas mas ainda difícil</td></tr>
-    </table>
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
   </div>
 
-  <div class="card">
-    <h2>Desfalques e motivação</h2>
-    <p><span class="badge">MIN</span> Byron Buxton (CF titular, 362 PA, AVG .263) — IL10, fora do jogo. Pablo López (abridor de rotação) — IL60, fora da temporada praticamente toda.</p>
-    <p><span class="badge">SEA</span> J.P. Crawford (SS/utility, 364 PA, AVG .212) — IL10. Matt Brash (reliever de destaque, IP 16.2, ERA 0,54) — IL15, ausência de peso no bullpen.</p>
-    <p>Twins e Guardians disputam de perto a última vaga de wild card da AL no início de agosto — jogo com pressão real de classificação para o Minnesota. Mariners abaixo de .500, precisam da série para não caírem de vez da corrida; reta final da série pode inclusive pesar em decisões de trade deadline do Twins.</p>
-    <p style="font-size:13px;color:var(--muted)">T-Mobile Park — park factor 92 runs / 90 HR / 98 doubles (supressor). Teto retrátil, previsto aberto (céu limpo, brisa leve do left field). Máxima ~23°C, mínima ~13°C, sem chance relevante de chuva.</p>
-  </div>
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Trevor Larnach <span class="pick-star">⭐</span></td><td>MIN</td><td>1</td><td>57%</td><td>50%</td><td>17,4%</td><td>0,330</td><td>sem lastro</td><td class="prob-cell">70,2%</td><td>1,42</td><td>1,37–1,49</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Josh Naylor <span class="pick-star">⭐</span></td><td>SEA</td><td>6</td><td>68%</td><td>70%</td><td>12,3%</td><td>0,285</td><td>✅</td><td class="prob-cell">69,4%</td><td>1,44</td><td>1,38–1,51</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Cole Young</td><td>SEA</td><td>1</td><td>68%</td><td>70%</td><td>17,2%</td><td>0,288</td><td>✅</td><td class="prob-cell">67,2%</td><td>1,49</td><td>1,42–1,56</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Dominic Canzone</td><td>SEA</td><td>3</td><td>53%</td><td>70%</td><td>21,0%</td><td>0,277</td><td>sem lastro</td><td class="prob-cell">66,6%</td><td>1,50</td><td>1,44–1,57</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Ryan Jeffers</td><td>MIN</td><td>2</td><td>74%</td><td>90%</td><td>16,2%</td><td>0,310</td><td>✅</td><td class="prob-cell">65,9%</td><td>1,52</td><td>1,45–1,59</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Randy Arozarena</td><td>SEA</td><td>2</td><td>66%</td><td>60%</td><td>21,4%</td><td>0,339</td><td>✅ ⚠️ BABIP perto do limite</td><td class="prob-cell">65,9%</td><td>1,52</td><td>1,45–1,59</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores MIN (vs Gilbert + bullpen SEA) = 0,225. BAA_efetiva enfrentada pelos batedores SEA (vs Prielipp + bullpen MIN) = 0,243. Todos os valores já incluem ajuste Tier 2 de -1pp por park factor supressor (T-Mobile Park).</p>
+    </div>
 
-  <div class="card">
-    <h2>Interesse do jogo <span style="font-size:14px;font-weight:normal;color:var(--muted)">(leitura qualitativa do confronto — não é preço, não é indicação de aposta)</span></h2>
-    <p><strong>Classificação: Interessante.</strong></p>
-    <p>5 rebatedores batem sinal forte (P(1+base) ≥ 65% com consistência ✅ ou só 1 aviso leve): Josh Naylor (SEA, 69,4%), Cole Young (SEA, 67,2%), Ryan Jeffers (MIN, 65,9%), Randy Arozarena (SEA, 65,9%) e Julio Rodríguez (SEA, 64,8% — arredondando na faixa de sinal forte junto com os demais). Profundidade real, com sinais fortes nos dois lados do confronto, não concentrados em só um time.</p>
-    <p>A BAA_efetiva enfrentada pelos batedores do Twins (contra Logan Gilbert + bullpen SEA) é 0,225 — pitching visivelmente duro. Já a BAA_efetiva enfrentada pelos batedores do Mariners (contra Connor Prielipp + bullpen MIN) é 0,243, próxima da média de liga — não é dos dois lados ao mesmo tempo que o pitching anula os rebatedores, o que evita o cenário de "os dois times enfrentando arremesso difícil simultaneamente". Combinação de profundidade real (N_fortes = 5) com apenas um lado sob pitching muito duro sustenta a classificação Interessante.</p>
-  </div>
-
-  <div class="card">
-    <h2>Ranking — Probabilidade de 1+ base total</h2>
-    <table>
-      <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
-      <tr><td>1</td><td>Trevor Larnach</td><td>MIN</td><td>1</td><td>57%</td><td>50%</td><td>17,4%</td><td>0,330</td><td>sem lastro</td><td><strong>70,2%</strong></td><td>1,42</td><td>1,37–1,49</td></tr>
-      <tr><td>2</td><td>Josh Naylor</td><td>SEA</td><td>6</td><td>68%</td><td>70%</td><td>12,3%</td><td>0,285</td><td>✅</td><td><strong>69,4%</strong></td><td>1,44</td><td>1,38–1,51</td></tr>
-      <tr><td>3</td><td>Cole Young</td><td>SEA</td><td>1</td><td>68%</td><td>70%</td><td>17,2%</td><td>0,288</td><td>✅</td><td><strong>67,2%</strong></td><td>1,49</td><td>1,42–1,56</td></tr>
-      <tr><td>4</td><td>Dominic Canzone</td><td>SEA</td><td>3</td><td>53%</td><td>70%</td><td>21,0%</td><td>0,277</td><td>sem lastro</td><td><strong>66,6%</strong></td><td>1,50</td><td>1,44–1,57</td></tr>
-      <tr><td>5</td><td>Ryan Jeffers</td><td>MIN</td><td>2</td><td>74%</td><td>90%</td><td>16,2%</td><td>0,310</td><td>✅</td><td><strong>65,9%</strong></td><td>1,52</td><td>1,45–1,59</td></tr>
-      <tr><td>6</td><td>Randy Arozarena</td><td>SEA</td><td>2</td><td>66%</td><td>60%</td><td>21,4%</td><td>0,339</td><td>✅ ⚠️ BABIP perto do limite</td><td><strong>65,9%</strong></td><td>1,52</td><td>1,45–1,59</td></tr>
-      <tr><td>7</td><td>Julio Rodríguez</td><td>SEA</td><td>4</td><td>69%</td><td>70%</td><td>20,4%</td><td>0,283</td><td>✅</td><td><strong>64,8%</strong></td><td>1,54</td><td>1,47–1,62</td></tr>
-      <tr><td>8</td><td>Ryan Kreidler</td><td>MIN</td><td>8</td><td>46%</td><td>40%</td><td>20,3%</td><td>0,283</td><td>sem lastro ⚠️ seca máx. 8 jogos</td><td><strong>62,9%</strong></td><td>1,59</td><td>1,52–1,67</td></tr>
-      <tr><td>9</td><td>Brooks Lee</td><td>MIN</td><td>5</td><td>61%</td><td>50%</td><td>16,0%</td><td>0,257</td><td>sem lastro</td><td><strong>62,2%</strong></td><td>1,61</td><td>1,53–1,69</td></tr>
-      <tr><td>10</td><td>Kody Clemens</td><td>MIN</td><td>3</td><td>60%</td><td>70%</td><td>22,3%</td><td>0,264</td><td>sem lastro</td><td><strong>61,7%</strong></td><td>1,62</td><td>1,55–1,70</td></tr>
-      <tr><td>11</td><td>Luke Keaschall</td><td>MIN</td><td>6</td><td>65%</td><td>60%</td><td>15,2%</td><td>0,299</td><td>✅</td><td><strong>61,6%</strong></td><td>1,62</td><td>1,55–1,71</td></tr>
-      <tr><td>12</td><td>Victor Caratini</td><td>MIN</td><td>7</td><td>57%</td><td>40%</td><td>19,4%</td><td>0,266</td><td>sem lastro</td><td><strong>57,6%</strong></td><td>1,74</td><td>1,65–1,83</td></tr>
-      <tr><td>13</td><td>Royce Lewis</td><td>MIN</td><td>4</td><td>65%</td><td>70%</td><td>25,2%</td><td>0,257</td><td>sem lastro</td><td><strong>54,5%</strong></td><td>1,83</td><td>1,74–1,94</td></tr>
-      <tr><td>14</td><td>Austin Martin</td><td>MIN</td><td>9</td><td>48%</td><td>30%</td><td>18,2%</td><td>0,298</td><td>sem lastro</td><td><strong>50,5%</strong></td><td>1,98</td><td>1,87–2,11</td></tr>
-    </table>
-    <p style="font-size:13px;color:var(--muted)">BAA_efetiva enfrentada pelos batedores MIN (vs Gilbert + bullpen SEA) = 0,225. BAA_efetiva enfrentada pelos batedores SEA (vs Prielipp + bullpen MIN) = 0,243. Todos os valores já incluem ajuste Tier 2 de -1pp por park factor supressor (T-Mobile Park).</p>
-  </div>
-
-  <div class="card">
-    <h2>Ajustes aplicados (auditoria)</h2>
-    <table>
-      <tr><th>Jogador</th><th>Time</th><th>P base (log5)</th><th>Ajuste Tier 2</th><th>Motivo</th><th>P final</th></tr>
-      <tr><td>Trevor Larnach</td><td>MIN</td><td>71,2%</td><td>-1,0pp</td><td>Park factor supressor (T-Mobile Park)</td><td>70,2%</td></tr>
-      <tr><td>Josh Naylor</td><td>SEA</td><td>70,4%</td><td>-1,0pp</td><td>Park factor supressor</td><td>69,4%</td></tr>
-      <tr><td>Cole Young</td><td>SEA</td><td>68,2%</td><td>-1,0pp</td><td>Park factor supressor</td><td>67,2%</td></tr>
-      <tr><td>Dominic Canzone</td><td>SEA</td><td>67,6%</td><td>-1,0pp</td><td>Park factor supressor</td><td>66,6%</td></tr>
-      <tr><td>Ryan Jeffers</td><td>MIN</td><td>66,9%</td><td>-1,0pp</td><td>Park factor supressor</td><td>65,9%</td></tr>
-      <tr><td>Randy Arozarena</td><td>SEA</td><td>66,9%</td><td>-1,0pp</td><td>Park factor supressor</td><td>65,9%</td></tr>
-      <tr><td>Julio Rodríguez</td><td>SEA</td><td>65,8%</td><td>-1,0pp</td><td>Park factor supressor</td><td>64,8%</td></tr>
-      <tr><td>Ryan Kreidler</td><td>MIN</td><td>63,9%</td><td>-1,0pp</td><td>Park factor supressor</td><td>62,9%</td></tr>
-      <tr><td>Brooks Lee</td><td>MIN</td><td>63,2%</td><td>-1,0pp</td><td>Park factor supressor</td><td>62,2%</td></tr>
-      <tr><td>Kody Clemens</td><td>MIN</td><td>62,7%</td><td>-1,0pp</td><td>Park factor supressor</td><td>61,7%</td></tr>
-      <tr><td>Luke Keaschall</td><td>MIN</td><td>62,6%</td><td>-1,0pp</td><td>Park factor supressor</td><td>61,6%</td></tr>
-      <tr><td>Victor Caratini</td><td>MIN</td><td>58,6%</td><td>-1,0pp</td><td>Park factor supressor</td><td>57,6%</td></tr>
-      <tr><td>Royce Lewis</td><td>MIN</td><td>55,5%</td><td>-1,0pp</td><td>Park factor supressor</td><td>54,5%</td></tr>
-      <tr><td>Austin Martin</td><td>MIN</td><td>51,5%</td><td>-1,0pp</td><td>Park factor supressor</td><td>50,5%</td></tr>
-    </table>
-    <p style="font-size:13px;color:var(--muted)">Bullpens dos dois lados com desgaste moderado (MIN: 11,0 IP em 3 dias; SEA: 9,67 IP em 3 dias) — sem ajuste adicional por não ultrapassar a faixa de desgaste relevante (~9-12 IP). Teto de T-Mobile Park aberto, condições externas neutras — sem ajuste de clima.</p>
-  </div>
-
-  <div class="card">
-    <h2>Destaques</h2>
-    <p><strong>Josh Naylor (SEA, 1B, slot 6) — P = 69,4% | faixa 1,38–1,51.</strong> AVG .261/OBP .324/SLG .357, BABIP .285, K% 12,3% — o K% mais baixo entre os rebatedores validados do jogo (446 PA). vs canhoto (Prielipp): .292 em 131 PA. A favor: contato consistente, sem seca relevante, piso de consistência batido com folga. Contra: poder moderado, mas isso não afeta o mercado de 1+ base.</p>
-    <p><strong>Cole Young (SEA, 2B, slot 1) — P = 67,2% | faixa 1,42–1,56.</strong> AVG .261/OBP .319/SLG .414, BABIP .288, K% 17,2% (443 PA). vs canhoto: .248 em 138 PA. A favor: leadoff com boa frequência de contato e consistência ✅ nas duas janelas (temporada e últimos 10). Contra: nenhum sinal de alerta relevante.</p>
-    <p><strong>Trevor Larnach (MIN, LF, slot 1) — maior P do jogo (70,2%), mas "sem lastro".</strong> AVG .283/OBP .371/SLG .441, K% 17,4% baixo, mas %1+H temporada de apenas 57,1% (abaixo do piso de 65%) e últimos 10 em 50% — número pontual bom, sem histórico de consistência que sustente. A favor: baixo K%, boa forma vs destro (.300 em 285 PA). Contra: sem piso de consistência batido, tratar com cautela apesar do P alto.</p>
-    <p><strong>Ryan Kreidler (MIN, SS, slot 8) — atenção à consistência.</strong> Maior seca da temporada de 8 jogos (acima do range normal ≤6), %1+H temporada de apenas 45,5%. Mesmo com P moderado (62,9%), é o nome do jogo com o alerta de consistência mais pesado — investigar se há queda de forma ou pouco tempo de jogo.</p>
-  </div>
-
-  <div class="card">
-    <h2>Exclusões</h2>
-    <table>
-      <tr><th>Jogador</th><th>Time</th><th>Motivo</th></tr>
-      <tr><td>Cal Raleigh</td><td>SEA</td><td>K% temporada 32,2% &gt; 28%</td></tr>
-      <tr><td>Mitch Garver</td><td>SEA</td><td>K% temporada 33,8% &gt; 28% e PA temporada 145 &lt; 150</td></tr>
-      <tr><td>Weston Wilson</td><td>SEA</td><td>K% temporada 29,8% &gt; 28% e PA temporada 94 &lt; 150</td></tr>
-      <tr><td>Colt Emerson</td><td>SEA</td><td>K% temporada 33,3% &gt; 28%</td></tr>
-    </table>
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking, times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Trevor Larnach <span class="badge">MIN</span></div>
+          <div class="pl5-sub">P(1+base) 70,2% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">25/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>0,2 base/jogo</strong> nos últimos 5 (1 base total em 5 jogos, seca de 4 jogos seguidos) — janela recente muito fria, reforça o rótulo "sem lastro" mesmo com o maior P da tabela.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Josh Naylor <span class="badge">SEA</span></div>
+          <div class="pl5-sub">P(1+base) 69,4% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,6 base/jogo</strong> nos últimos 5 (8 bases totais em 5 jogos, 4/5 jogos com 1+ base) — janela muito mais consistente que a de Larnach, coerente com a consistência ✅ plena.</div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 </div>
