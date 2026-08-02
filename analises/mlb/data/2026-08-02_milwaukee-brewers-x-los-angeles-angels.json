@@ -1,0 +1,481 @@
+{
+  "data": "2026-08-02",
+  "gerado_em_utc": "2026-08-02T18:04:55.705Z",
+  "jogos": [
+    {
+      "game_pk": 823996,
+      "contexto": {
+        "visitante": "Milwaukee Brewers",
+        "mandante": "Los Angeles Angels",
+        "estadio": "Angel Stadium",
+        "horario_utc": "2026-08-02T19:15:00Z",
+        "horario_brt": "2026-08-02 16:15",
+        "classificacao": {
+          "visitante": "69-41, 1º NL Central",
+          "mandante": "42-69, 5º AL West, 14,5 jogos do líder da divisão, 13,5 da vaga de wild card"
+        },
+        "ultimos_5": {
+          "visitante": "vencendo (streak W2), muito acima de .500 no ano",
+          "mandante": "2-8 nos últimos 10, streak L5"
+        },
+        "ultimo_jogo": {
+          "visitante": "01/08 — vitória 3-1 fora vs Los Angeles Angels",
+          "mandante": "01/08 — derrota 1-3 em casa vs Milwaukee Brewers"
+        },
+        "proximo_jogo": {
+          "visitante": "03/08 em casa vs Pittsburgh Pirates",
+          "mandante": "04/08 fora vs Baltimore Orioles"
+        },
+        "confronto_direto_temporada": "MIL lidera 2-0 (série de 3 jogos em andamento, MIL venceu os dois primeiros 6-2 e 3-1)",
+        "abridores": {
+          "visitante": {
+            "nome": "Jacob Misiorowski",
+            "brace": "R",
+            "gs": 20,
+            "ip": "120.0",
+            "baa": 0.149,
+            "era": 1.58,
+            "whip": 0.75,
+            "obs": "ano de ace — 185 K em 120 IP, BAA elite"
+          },
+          "mandante": {
+            "nome": "Walbert Ureña",
+            "brace": "R",
+            "gs": 17,
+            "ip": "93.1",
+            "baa": 0.202,
+            "era": 2.7,
+            "whip": 1.26
+          }
+        },
+        "desfalques": [
+          {
+            "time": "MIL",
+            "nome": "Sal Frelick",
+            "posicao": "RF",
+            "status": "IL10 — lesão no ombro direito"
+          },
+          {
+            "time": "LAA",
+            "nome": "Anthony Rendon",
+            "posicao": "3B",
+            "status": "IL60 — cirurgia no labrum do quadril esquerdo"
+          },
+          {
+            "time": "LAA",
+            "nome": "Adam Frazier",
+            "posicao": "2B",
+            "status": "IL10 — inflamação no cotovelo direito"
+          },
+          {
+            "time": "LAA",
+            "nome": "Yoán Moncada",
+            "posicao": "3B",
+            "status": "IL60 — inflamação no joelho direito"
+          }
+        ],
+        "motivacao_extra": "Última partida de uma série de 3 jogos em Anaheim, MIL já garantiu a série (2-0). Sem rivalidade especial; MIL consolidando a liderança da NL Central, LAA fechando temporada de reconstrução com o pior retrospecto recente da liga (2-8 nos últimos 10).",
+        "park_factor": {
+          "estadio": "Angel Stadium",
+          "runs": 98,
+          "hr": 96,
+          "doubles": 100,
+          "categoria": "neutro",
+          "teto_retratil": false
+        },
+        "clima": "Jogo diurno (12:15 horário local da Califórnia / 16:15 BRT). Onda de calor extremo em Anaheim, máxima ~34°C (93°F), mínima noturna ~21°C (70°F), vento leve de sudoeste. Sem chance relevante de chuva."
+      },
+      "bullpen": {
+        "MIL": {
+          "baa_ponderada": 0.216,
+          "ip_total": 333.7,
+          "ip_ultimos_3_dias": 7
+        },
+        "LAA": {
+          "baa_ponderada": 0.199,
+          "ip_total": 255,
+          "ip_ultimos_3_dias": 13.7
+        }
+      },
+      "interesse_jogo": {
+        "classificacao": "Desinteressante",
+        "n_fortes": 1,
+        "baa_efetiva_mil_batters_vs": 0.201,
+        "baa_efetiva_laa_batters_vs": 0.176,
+        "justificativa": "Apenas Brice Turang (MIL, 66,7%) bate P≥65% com só um aviso leve (K% um pouco acima do ideal) — N_fortes=1, profundidade mínima. Mais decisivo: as duas BAA_efetivas enfrentadas pelos rebatedores estão bem abaixo da média de liga (MIL enfrenta 0,201 contra Ureña+bullpen LAA, LAA enfrenta 0,176 contra Misiorowski — um dos abridores mais dominantes da liga neste momento — + bullpen MIL). Pitching duro dos dois lados neutraliza os rebatedores; é o cenário clássico de 'números bons no papel, difícil na prática'."
+      },
+      "rebatedores": [
+        {
+          "player_id": 668930,
+          "nome": "Brice Turang",
+          "time": "MIL",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 472,
+          "avg": 0.271,
+          "babip": 0.337,
+          "k_pct": 0.239,
+          "bb_pct": 0.129,
+          "pct_1mais_temporada": 0.683,
+          "pct_1mais_ultimos10": 0.8,
+          "maior_seca_temporada": 6,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6673,
+          "odd_justa": 1.5,
+          "faixa_odd": [
+            1.43,
+            1.57
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 23.9% acima do ideal de 21%"
+          ]
+        },
+        {
+          "player_id": 661388,
+          "nome": "William Contreras",
+          "time": "MIL",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 438,
+          "avg": 0.272,
+          "babip": 0.297,
+          "k_pct": 0.139,
+          "bb_pct": 0.084,
+          "pct_1mais_temporada": 0.647,
+          "pct_1mais_ultimos10": 0.6,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6399,
+          "odd_justa": 1.56,
+          "faixa_odd": [
+            1.49,
+            1.64
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "piso de %1+H (temp 64.7% / últ10 60%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 694192,
+          "nome": "Jackson Chourio",
+          "time": "MIL",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 346,
+          "avg": 0.273,
+          "babip": 0.332,
+          "k_pct": 0.243,
+          "bb_pct": 0.069,
+          "pct_1mais_temporada": 0.763,
+          "pct_1mais_ultimos10": 0.9,
+          "maior_seca_temporada": 2,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6269,
+          "odd_justa": 1.6,
+          "faixa_odd": [
+            1.52,
+            1.68
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 24.3% acima do ideal de 21%"
+          ]
+        },
+        {
+          "player_id": 685133,
+          "nome": "Wade Meckler",
+          "time": "LAA",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 162,
+          "avg": 0.295,
+          "babip": 0.38,
+          "k_pct": 0.222,
+          "bb_pct": 0.093,
+          "pct_1mais_temporada": 0.58,
+          "pct_1mais_ultimos10": 0.2,
+          "maior_seca_temporada": 3,
+          "seca_atual": 2,
+          "p_1mais_base": 0.6269,
+          "odd_justa": 1.6,
+          "faixa_odd": [
+            1.52,
+            1.68
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 22.2% acima do ideal de 21%",
+            "piso de %1+H (temp 58% / últ10 20%) não atingido em uma das janelas",
+            "BABIP 0.380 — atenção à sustentabilidade da média"
+          ]
+        },
+        {
+          "player_id": 694384,
+          "nome": "Nolan Schanuel",
+          "time": "LAA",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 379,
+          "avg": 0.276,
+          "babip": 0.31,
+          "k_pct": 0.14,
+          "bb_pct": 0.087,
+          "pct_1mais_temporada": 0.711,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 2,
+          "seca_atual": 1,
+          "p_1mais_base": 0.6168,
+          "odd_justa": 1.62,
+          "faixa_odd": [
+            1.55,
+            1.7
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 641343,
+          "nome": "Jake Bauers",
+          "time": "MIL",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 395,
+          "avg": 0.269,
+          "babip": 0.327,
+          "k_pct": 0.258,
+          "bb_pct": 0.134,
+          "pct_1mais_temporada": 0.6,
+          "pct_1mais_ultimos10": 0.8,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6048,
+          "odd_justa": 1.65,
+          "faixa_odd": [
+            1.58,
+            1.74
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 25.8% acima do ideal de 21%",
+            "piso de %1+H (temp 60% / últ10 80%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 683734,
+          "nome": "Andrew Vaughn",
+          "time": "MIL",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 207,
+          "avg": 0.305,
+          "babip": 0.331,
+          "k_pct": 0.116,
+          "bb_pct": 0.116,
+          "pct_1mais_temporada": 0.53,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 6,
+          "seca_atual": 2,
+          "p_1mais_base": 0.5801,
+          "odd_justa": 1.72,
+          "faixa_odd": [
+            1.64,
+            1.82
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "piso de %1+H (temp 53% / últ10 70%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 694203,
+          "nome": "Denzer Guzman",
+          "time": "LAA",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 152,
+          "avg": 0.239,
+          "babip": 0.293,
+          "k_pct": 0.25,
+          "bb_pct": 0.053,
+          "pct_1mais_temporada": 0.703,
+          "pct_1mais_ultimos10": 0.6,
+          "maior_seca_temporada": 2,
+          "seca_atual": 0,
+          "p_1mais_base": 0.559,
+          "odd_justa": 1.79,
+          "faixa_odd": [
+            1.7,
+            1.89
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 25.0% acima do ideal de 21%"
+          ]
+        },
+        {
+          "player_id": 687093,
+          "nome": "Vaughn Grissom",
+          "time": "LAA",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 269,
+          "avg": 0.261,
+          "babip": 0.285,
+          "k_pct": 0.156,
+          "bb_pct": 0.078,
+          "pct_1mais_temporada": 0.609,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5559,
+          "odd_justa": 1.8,
+          "faixa_odd": [
+            1.71,
+            1.9
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "piso de %1+H (temp 60.9% / últ10 70%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 666152,
+          "nome": "David Hamilton",
+          "time": "MIL",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 256,
+          "avg": 0.236,
+          "babip": 0.306,
+          "k_pct": 0.223,
+          "bb_pct": 0.09,
+          "pct_1mais_temporada": 0.486,
+          "pct_1mais_ultimos10": 0.6,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5283,
+          "odd_justa": 1.89,
+          "faixa_odd": [
+            1.79,
+            2.01
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 22.3% acima do ideal de 21%",
+            "piso de %1+H (temp 48.6% / últ10 60%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 666176,
+          "nome": "Jo Adell",
+          "time": "LAA",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 453,
+          "avg": 0.24,
+          "babip": 0.282,
+          "k_pct": 0.236,
+          "bb_pct": 0.033,
+          "pct_1mais_temporada": 0.591,
+          "pct_1mais_ultimos10": 0.6,
+          "maior_seca_temporada": 6,
+          "seca_atual": 2,
+          "p_1mais_base": 0.4857,
+          "odd_justa": 2.06,
+          "faixa_odd": [
+            1.94,
+            2.19
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 23.6% acima do ideal de 21%",
+            "piso de %1+H (temp 59.1% / últ10 60%) não atingido em uma das janelas"
+          ]
+        },
+        {
+          "player_id": 545361,
+          "nome": "Mike Trout",
+          "time": "LAA",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 413,
+          "avg": 0.245,
+          "babip": 0.296,
+          "k_pct": 0.245,
+          "bb_pct": 0.184,
+          "pct_1mais_temporada": 0.652,
+          "pct_1mais_ultimos10": 0.7,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.472,
+          "odd_justa": 2.12,
+          "faixa_odd": [
+            1.99,
+            2.26
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 24.5% acima do ideal de 21%"
+          ]
+        },
+        {
+          "player_id": 666139,
+          "nome": "Josh Lowe",
+          "time": "LAA",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 207,
+          "avg": 0.2,
+          "babip": 0.234,
+          "k_pct": 0.266,
+          "bb_pct": 0.063,
+          "pct_1mais_temporada": 0.453,
+          "pct_1mais_ultimos10": 0.2,
+          "maior_seca_temporada": 7,
+          "seca_atual": 4,
+          "p_1mais_base": 0.4339,
+          "odd_justa": 2.3,
+          "faixa_odd": [
+            2.16,
+            2.48
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 26.6% acima do ideal de 21%",
+            "piso de %1+H (temp 45.3% / últ10 20%) não atingido em uma das janelas",
+            "maior seca histórica de 7 jogos, acima da normalidade (≤6)"
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Garrett Mitchell",
+          "time": "MIL",
+          "motivo": "K% temporada 32.0% > 28%"
+        },
+        {
+          "nome": "Luis Lara",
+          "time": "MIL",
+          "motivo": "PA temporada 55 < 150"
+        },
+        {
+          "nome": "Cooper Pratt",
+          "time": "MIL",
+          "motivo": "PA temporada 136 < 150"
+        },
+        {
+          "nome": "Zach Neto",
+          "time": "LAA",
+          "motivo": "K% temporada 31.6% > 28%"
+        },
+        {
+          "nome": "Tyler Heineman",
+          "time": "LAA",
+          "motivo": "PA temporada 126 < 150"
+        }
+      ]
+    }
+  ]
+}
