@@ -94,3 +94,53 @@ function setQuarterTips(groupId, q) {
     });
   }
 }
+
+function groupHistoryByDate(containerId) {
+  var container = document.getElementById(containerId);
+  if (!container) return;
+  var cards = Array.prototype.slice.call(container.querySelectorAll('.history-card'));
+  if (!cards.length) return;
+
+  var order = [];
+  var byDate = {};
+  cards.forEach(function (card) {
+    var m = card.getAttribute('href').match(/(\d{4}-\d{2}-\d{2})/);
+    var date = m ? m[1] : 'sem-data';
+    if (!byDate[date]) { byDate[date] = []; order.push(date); }
+    byDate[date].push(card);
+  });
+
+  var mostRecent = order[0];
+  var frag = document.createDocumentFragment();
+  order.forEach(function (date) {
+    var group = document.createElement('section');
+    group.className = 'history-date-group';
+    if (date !== mostRecent) group.classList.add('collapsed');
+
+    var parts = date.split('-');
+    var label = parts.length === 3 ? parts[2] + '/' + parts[1] : date;
+    var count = byDate[date].length;
+
+    var toggle = document.createElement('button');
+    toggle.className = 'history-date-toggle';
+    toggle.innerHTML =
+      '<span class="history-date-toggle-label">' + label + '</span>' +
+      '<span class="history-date-toggle-count">(' + count + (count === 1 ? ' jogo' : ' jogos') + ')</span>' +
+      '<span class="history-date-toggle-icon">▼</span>';
+    toggle.addEventListener('click', function () {
+      group.classList.toggle('collapsed');
+    });
+
+    var grid = document.createElement('div');
+    grid.className = 'history-grid';
+    byDate[date].forEach(function (card) { grid.appendChild(card); });
+
+    group.appendChild(toggle);
+    group.appendChild(grid);
+    frag.appendChild(group);
+  });
+
+  container.innerHTML = '';
+  container.className = '';
+  container.appendChild(frag);
+}

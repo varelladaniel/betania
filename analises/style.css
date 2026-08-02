@@ -498,6 +498,46 @@ table.player-summary { margin-bottom: 6px; }
   gap: 16px;
 }
 
+.history-date-group { margin-bottom: 28px; }
+
+.history-date-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--fg);
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0 0 10px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.history-date-toggle-label {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.history-date-toggle-count {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.history-date-toggle-icon {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--muted);
+  transition: transform 0.15s ease;
+}
+
+.history-date-group.collapsed .history-date-toggle-icon { transform: rotate(-90deg); }
+.history-date-group.collapsed .history-grid { display: none; }
+
 .history-card {
   position: relative;
   background: var(--card);
