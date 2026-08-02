@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Detroit Tigers x Athletics (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">02/08 · 17:05 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/det.png" alt="Detroit Tigers" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/ath.png" alt="Athletics" />
+      </div>
+      <div class="history-teams-label">Detroit Tigers vs Athletics</div>
+      <div class="hero-venue">Sutter Health Park, Sacramento (CA)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>DET</th><th>ATH</th></tr>
+            <tr><td>Classificação</td><td>53-58, 4º AL Central, 2,5 jogos da vaga de wild card</td><td>45-66, 4º AL West, 10,5 jogos da vaga de wild card</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>01/08 — ✅ 8-6 ✈️ vs ATH</td><td>01/08 — ❌ 6-8 🏠 vs DET</td></tr>
+            <tr><td>Próximo jogo</td><td>04/08 ✈️ vs Seattle Mariners</td><td>04/08 ✈️ vs Cincinnati Reds</td></tr>
+            <tr><td>Confronto direto 2026 (série atual)</td><td colspan="2">DET lidera 2-0 (13-1 em 31/07, 8-6 em 01/08) — este é o jogo 3 da série</td></tr>
+            <tr><td>Abridor</td><td>Keider Montero (D) — 23 jogos/17 aberturas, 110.1 IP, AVG contra .217, ERA 3,34, WHIP 1,02</td><td>Gage Jump (E) — 12 jogos/12 aberturas, 63.0 IP, AVG contra .268, ERA 4,00, WHIP 1,40</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">DET</span> Kerry Carpenter (RF, titular habitual) — IL10, fascite plantar no pé esquerdo. Matt Vierling — IL10, estiramento no adutor esquerdo. Jack Flaherty (rotação) — IL15. Rotação bem desfalcada: Justin Verlander, Jackson Jobe, Reese Olson, Brant Hurter, Bailey Horn, Burch Smith no IL60, Will Vest também IL60 — pressiona o bullpen.</p>
+          <p><span class="badge">ATH</span> Brent Rooker (DH/OF, principal bate do time) — IL60, contusão no joelho esquerdo. Shea Langeliers (C titular) — IL10, ruptura de menisco no joelho direito. Zack Gelof (2B) — IL10, laceração no joelho direito. Denzel Clarke (OF) — IL60. Luis Severino (rotação) — IL60, ombro direito. Desfalque ofensivo relevante (Rooker fora reduz bastante a profundidade do lineup do Athletics).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Terceiro e último jogo de uma série de 3 entre os mesmos times — Tigers já venceram os dois primeiros (13-1 e 8-6). Detroit ainda com chance real de wild card na AL; Athletics fora de disputa de classificação nesta reta da temporada. Nenhuma rivalidade especial.</p>
+          <p style="font-size:13px;color:var(--muted)">Sutter Health Park — park factor 106 runs / 110 HR / 101 doubles (inflador — estádio temporário de ligas menores, dimensões reduzidas). Sem teto retrátil. Sacramento em agosto: dia de verão, sem chuva prevista, condições normais de clima seco — favorece o ataque, reforçando o park factor inflador.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Neutro.</strong></p>
+          <p>Só um rebatedor bate sinal forte de verdade (P ≥ 65% com consistência ✅ ou só um aviso leve): Kevin McGonigle (DET, 70,5%, K% 13,8%, piso de %1+H batido sem ressalvas). Os outros nomes do Detroit com P ainda mais alta — Hao-Yu Lee (72,9%), Gleyber Torres (72,1%), Dillon Dingler (70,5%) — aparecem "sem lastro": números bons no papel mas sem o piso de consistência batido (%1+H temporada/últimos 10 abaixo do corte), então não contam como sinal forte.</p>
+          <p>A BAA_efetiva enfrentada pelos batedores do Athletics (Montero + bullpen do Detroit) é 0,224 — pitching visivelmente duro, o que suprime praticamente todo o lineup da casa abaixo de 65%. Já a BAA_efetiva enfrentada pelos batedores do Detroit (Jump + bullpen do Athletics) é 0,263, acima da média de liga — matchup batível, mas a falta de lastro de consistência da maioria dos rebatedores do Detroit (vários recém-promovidos com amostra pequena) impede uma classificação Interessante. Não é o caso de "pitching duro dos dois lados": só um lado está difícil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Hao-Yu Lee <span class="pick-star">⭐</span></td><td>DET</td><td>6</td><td>55,9%</td><td>70,0%</td><td>25,3%</td><td>0,333</td><td>sem lastro</td><td class="prob-cell">72,9%</td><td>1,37</td><td>1,28–1,47</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Gleyber Torres <span class="pick-star">⭐</span></td><td>DET</td><td>1</td><td>61,1%</td><td>50,0%</td><td>20,2%</td><td>0,320</td><td>sem lastro</td><td class="prob-cell">72,1%</td><td>1,39</td><td>1,30–1,49</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Kevin McGonigle</td><td>DET</td><td>3</td><td>76,6%</td><td>80,0%</td><td>13,8%</td><td>0,322</td><td>✅</td><td class="prob-cell">70,5%</td><td>1,42</td><td>1,36–1,48</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Dillon Dingler</td><td>DET</td><td>2</td><td>59,8%</td><td>70,0%</td><td>21,8%</td><td>0,295</td><td>sem lastro</td><td class="prob-cell">70,5%</td><td>1,42</td><td>1,36–1,48</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal. Ninguém ficou na faixa 65–70% (próximo mais alto: Tyler Soderstrom, ATH, 64,6%). Abaixo de 65% não é exibido — fora dos critérios de qualidade da skill. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores do Athletics (vs Montero + bullpen DET) = 0,224. BAA_efetiva enfrentada pelos batedores do Detroit (vs Jump + bullpen ATH) = 0,263.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking — ambos do Detroit; não houve alternativa do Athletics próxima o suficiente pra formar par com times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Hao-Yu Lee <span class="badge">DET</span></div>
+          <div class="pl5-sub">P(1+base) 72,9% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">26/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>0,6 base/jogo</strong> nos últimos 5 (3 bases totais em 5 jogos) — ⚠️ seca atual de 3 jogos sem hit, dentro da maior seca histórica dele (5 jogos), mas janela recente fria mesmo com P alto na temporada; K% elevado (25,3%) pesa na consistência.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Gleyber Torres <span class="badge">DET</span></div>
+          <div class="pl5-sub">P(1+base) 72,1% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">27/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">6</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">28/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:33%"></div><span class="pl5-bar-date">29/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:83%"></div><span class="pl5-bar-date">01/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>2,6 bases/jogo</strong> nos últimos 5 (13 bases totais em 5 jogos, 3/5 jogos com 1+ base) — janela recente forte, puxada por dois jogos de múltiplas bases contra o próprio Athletics.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
