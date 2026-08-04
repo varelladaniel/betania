@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Toronto Blue Jays x Houston Astros (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">04/08 · 21:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/tor.png" alt="Toronto Blue Jays" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/hou.png" alt="Houston Astros" />
+      </div>
+      <div class="history-teams-label">Toronto Blue Jays vs Houston Astros</div>
+      <div class="hero-venue">Daikin Park, Houston (TX)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>TOR</th><th>HOU</th></tr>
+            <tr><td>Classificação</td><td>53-60, 5º AL East, 4,0 da wild card</td><td>58-56, 1º AL West</td></tr>
+            <tr><td>Últimos 5</td><td>4V-1D</td><td>4V-1D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>03/08 — ✅ 3-1 ✈️ vs Houston</td><td>03/08 — ❌ 1-3 🏠 vs Toronto</td></tr>
+            <tr><td>Próximo jogo</td><td>05/08 ✈️ vs HOU (fecha a série)</td><td>05/08 🏠 vs TOR (fecha a série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">TOR venceu o jogo 1 desta série (3-1, 03/08) ⚠️ confrontos de abril-julho não verificados</td></tr>
+            <tr><td>Abridor</td><td>Trey Yesavage (D) — ERA 3,73, AVG contra .188, WHIP 1,16, 17 starts — fase muito sólida</td><td>Hayden Wesneski (D) — ERA 4,76, AVG contra .333 ⚠️ só 1 start na temporada (5.2 IP)</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">TOR</span> Anthony Santander (poder relevante, IL60, lesão labral no ombro). José Berríos (abridor, IL60). Addison Barger (IL60). Bowden Francis, Cody Ponce, Joe Mantiply, Yimi García (bullpen/rotação, IL60). Jonatan Clase (IL10). Patrick Corbin (IL15).</p>
+          <p><span class="badge">HOU</span> Carlos Correa (titular histórico, IL60). Brice Matthews (IL10). Mike Burrows (IL15). Brandon Walter (IL60).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>2º jogo de uma série de 3 entre os dois times, sem rivalidade histórica especial. Toronto ainda com pressão real pela vaga de wild card; Houston folgado na liderança da divisão.</p>
+          <p style="font-size:13px;color:var(--muted)">Daikin Park — park factor 98 runs / 102 HR / 96 doubles (neutro, campo curto em left field). Teto retrátil: tendência de fechado no verão em Houston por calor — condições internas controladas, ⚠️ anúncio oficial de hoje não confirmado.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Interessante.</strong></p>
+          <p>4 sinais fortes (P ≥ 65% com consistência ok ou 1 aviso leve): Ernie Clement (77,6%), Yordan Alvarez (76,2%), Jeremy Peña (74,9%) e George Springer (70,1%).</p>
+          <p>BAA_efetiva do lado que enfrenta os batedores do Toronto (vs Yesavage + bullpen TOR) é 0,203 — dura. Já a do lado que enfrenta os batedores do Houston (vs Wesneski, amostra mínima, + bullpen HOU) é 0,285 — bem acima da liga, favorecendo fortemente os visitantes. Como só um dos lados está com pitching duro, o jogo não é neutralizado nos dois sentidos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="rank-num">1</span></td><td>Nathan Lukes</td><td>TOR Blue Jays</td><td>1</td><td>57,7%</td><td>30,0%</td><td>14,3%</td><td>0,304</td><td>sem lastro (seca atual 5 jogos)</td><td class="prob-cell">82,8%</td><td>1,21</td><td>1,14–1,29</td></tr>
+            <tr><td><span class="rank-num">2</span></td><td>Jesús Sánchez</td><td>TOR Blue Jays</td><td>6</td><td>61,3%</td><td>40,0%</td><td>22,1%</td><td>0,321</td><td>sem lastro</td><td class="prob-cell">77,9%</td><td>1,28</td><td>1,21–1,37</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">3</span></td><td>Ernie Clement <span class="pick-star">⭐</span></td><td>TOR Blue Jays</td><td>7</td><td>72,7%</td><td>60,0%</td><td>9,4%</td><td>0,302</td><td>✅ (⚠️ abridor rival amostra mínima)</td><td class="prob-cell">77,6%</td><td>1,29</td><td>1,21–1,38</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Vladimir Guerrero Jr.</td><td>TOR Blue Jays</td><td>2</td><td>61,7%</td><td>70,0%</td><td>13,7%</td><td>0,293</td><td>sem lastro</td><td class="prob-cell">76,2%</td><td>1,31</td><td>1,23–1,40</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">5</span></td><td>Yordan Alvarez <span class="pick-star">⭐</span></td><td>HOU Astros</td><td>2</td><td>70,5%</td><td>70,0%</td><td>17,0%</td><td>0,341</td><td>✅ (⚠️ BABIP alto)</td><td class="prob-cell">76,2%</td><td>1,31</td><td>1,26–1,37</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Jeremy Peña</td><td>HOU Astros</td><td>1</td><td>80,3%</td><td>100%</td><td>18,6%</td><td>0,359</td><td>✅ (⚠️ BABIP alto)</td><td class="prob-cell">74,9%</td><td>1,34</td><td>1,28–1,39</td></tr>
+            <tr><td><span class="rank-num">7</span></td><td>George Springer</td><td>TOR Blue Jays</td><td>4</td><td>67,1%</td><td>90,0%</td><td>18,6%</td><td>0,267</td><td>✅ (⚠️ abridor rival amostra mínima)</td><td class="prob-cell">70,1%</td><td>1,43</td><td>1,33–1,54</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra-torhou">
+            <tr><td><span class="rank-num">8</span></td><td>Andrés Giménez</td><td>TOR Blue Jays</td><td>8</td><td>50,5%</td><td>40,0%</td><td>18,8%</td><td>0,265</td><td>sem lastro</td><td class="prob-cell">68,5%</td><td>1,46</td><td>1,36–1,58</td></tr>
+            <tr><td><span class="rank-num">9</span></td><td>Myles Straw</td><td>TOR Blue Jays</td><td>9</td><td>30,3%</td><td>30,0%</td><td>12,6%</td><td>0,240</td><td>sem lastro</td><td class="prob-cell">65,0%</td><td>1,54</td><td>1,43–1,67</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra-torhou')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores TOR (vs Wesneski, só 1 start na temporada, + bullpen HOU) = 0,285, faixa ampliada ±5pp para todos os batedores do TOR. BAA_efetiva enfrentada pelos batedores HOU (vs Yesavage + bullpen TOR) = 0,203.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Ernie Clement <span class="badge">TOR</span></div>
+          <div class="pl5-sub">P(1+base) 77,6% · melhor perfil de consistência do jogo (K% 9,4%)</div>
+          <div class="pl5-avg">A favor: %1+H temporada 72,7% e últimos 10 em 60%, dentro do piso de consistência, split forte vs destros (.302). Contra: único aviso é sobre a amostra mínima do abridor rival, não fraqueza própria.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Yordan Alvarez <span class="badge">HOU</span></div>
+          <div class="pl5-sub">P(1+base) 76,2% · melhor rebatedor puro do jogo (AVG .330)</div>
+          <div class="pl5-avg">A favor: split vs destro forte (.351 em 368 PA), K% 17% dentro do piso. Contra: BABIP .341 acima do limite de sustentabilidade — parte da média pode estar inflada por sorte.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>

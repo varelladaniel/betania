@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Chicago White Sox x Boston Red Sox (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">04/08 · 20:10 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/cws.png" alt="Chicago White Sox" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/bos.png" alt="Boston Red Sox" />
+      </div>
+      <div class="history-teams-label">Chicago White Sox vs Boston Red Sox</div>
+      <div class="hero-venue">Fenway Park, Boston (MA)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>CHW</th><th>BOS</th></tr>
+            <tr><td>Classificação</td><td>59-52, 1º AL Central</td><td>60-51, 3º AL East, 2º wild card (+4,0)</td></tr>
+            <tr><td>Últimos 5</td><td>4V-1D</td><td>5V-0D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>02/08 — ✅ 9-1 ✈️ vs Tampa Bay</td><td>02/08 — ✅ 8-4 ✈️ vs Los Angeles Dodgers</td></tr>
+            <tr><td>Próximo jogo</td><td>05/08 ✈️ vs BOS (mesma série)</td><td>05/08 🏠 vs CHW (mesma série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">BOS lidera 3-0 (série de julho: 8-1, 5-0, 2-1)</td></tr>
+            <tr><td>Abridor</td><td>Davis Martin (D) — ERA 3,62, AVG contra .255, WHIP 1,26, amostra robusta (21 starts)</td><td>Patrick Sandoval (E) — ERA 3,32, AVG contra .304, WHIP 1,58 ⚠️ só 4 starts na temporada</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">CHW</span> Kyle Teel (C titular, IL10 — hoje Joey Bart no lugar). Austin Hays (LF, IL60).</p>
+          <p><span class="badge">BOS</span> Garrett Crochet (ace da rotação, IL60). Triston Casas (1B titular, IL60 — hoje Willson Contreras no 1B). Trevor Story (SS titular, IL60 — hoje Andruw Monasterio). Roman Anthony (LF, IL60).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Início de série de 3 jogos entre times de conferências diferentes, ambos em boa fase (CHW 4V-1D e BOS 5V-0D nos últimos 5) e brigando por posição de classificação — CHW defendendo liderança de divisão, BOS brigando por wild card. Sem rivalidade histórica especial.</p>
+          <p style="font-size:13px;color:var(--muted)">Fenway Park — park factor 104 runs / 96 HR / 118 doubles (inflador de duplas pelo Green Monster, leve supressor de HR). Sem teto retrátil. Clima previsto: ⚠️ não confirmado nesta consulta.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Neutro.</strong></p>
+          <p>Apenas 1 sinal forte "limpo": Ceddanne Rafaela (75,3%, único ✅ pleno). Chase Meidroth tem P altíssima (81,6%) mas carrega dois avisos simultâneos (K% acima do ideal + BABIP .344), e os demais nomes com P≥65% (Grichuk, Vargas, Contreras, Acuña, Yoshida, Montgomery) ficam "sem lastro".</p>
+          <p>BAA_efetiva do CHW (0,2373) está abaixo da média de liga — pitching um pouco duro — enquanto a do BOS (0,2676) está acima, puxada pela amostra pequena e ruim de Sandoval (só 4 starts). Não é o cenário de dois arremessos difíceis ao mesmo tempo, mas a pouca profundidade de sinais consistentes segura a classificação em Neutro.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Chase Meidroth <span class="pick-star">⭐</span></td><td>CHW White Sox</td><td>1</td><td>70,4%</td><td>60,0%</td><td>22,6%</td><td>0,344</td><td>⚠️ K% alto + BABIP alto</td><td class="prob-cell">81,6%</td><td>1,22</td><td>1,15–1,30</td></tr>
+            <tr><td><span class="rank-num">2</span></td><td>Randal Grichuk</td><td>CHW White Sox</td><td>4</td><td>44,6%</td><td>50,0%</td><td>23,4%</td><td>0,288</td><td>sem lastro</td><td class="prob-cell">77,0%</td><td>1,30</td><td>1,22–1,39</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">3</span></td><td>Ceddanne Rafaela <span class="pick-star">⭐</span></td><td>BOS Red Sox</td><td>2</td><td>74,8%</td><td>90,0%</td><td>20,4%</td><td>0,339</td><td>✅</td><td class="prob-cell">75,3%</td><td>1,33</td><td>1,28–1,38</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Miguel Vargas</td><td>CHW White Sox</td><td>3</td><td>64,5%</td><td>70,0%</td><td>17,5%</td><td>0,239</td><td>sem lastro (quase bate o piso)</td><td class="prob-cell">72,2%</td><td>1,38</td><td>1,29–1,49</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra-chwbos">
+            <tr><td><span class="rank-num">5</span></td><td>Willson Contreras</td><td>BOS Red Sox</td><td>4</td><td>65,0%</td><td>40,0%</td><td>25,2%</td><td>0,341</td><td>sem lastro + BABIP alto</td><td class="prob-cell">69,8%</td><td>1,43</td><td>1,37–1,50</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Luisangel Acuña</td><td>CHW White Sox</td><td>9</td><td>41,0%</td><td>40,0%</td><td>18,5%</td><td>0,291</td><td>sem lastro</td><td class="prob-cell">66,0%</td><td>1,52</td><td>1,41–1,64</td></tr>
+            <tr><td><span class="rank-num">7</span></td><td>Masataka Yoshida</td><td>BOS Red Sox</td><td>5</td><td>55,8%</td><td>50,0%</td><td>10,6%</td><td>0,281</td><td>sem lastro</td><td class="prob-cell">65,0%</td><td>1,54</td><td>1,47–1,61</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra-chwbos')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores BOS (vs Martin + bullpen CHW) = 0,2373. BAA_efetiva enfrentada pelos batedores CHW (vs Sandoval + bullpen BOS, abridor com só 4 starts) = 0,2676, faixa ampliada ±5pp para os batedores do CHW por causa dessa amostra pequena.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Chase Meidroth <span class="badge">CHW</span></div>
+          <div class="pl5-sub">P(1+base) 81,6% · melhor split vs canhoto do jogo (.318 em 126 PA)</div>
+          <div class="pl5-avg">A favor: %1+H temporada 70,4%, abre o jogo com volume de ABs. Contra: K% 22,6% acima do teto de consistência, BABIP .344 sugere sorte acima do sustentável.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Ceddanne Rafaela <span class="badge">BOS</span></div>
+          <div class="pl5-sub">P(1+base) 75,3% · único nome com consistência ✅ plena do jogo</div>
+          <div class="pl5-avg">A favor: K% 20,4%, %1+H temporada 74,8% e últimos 10 em 90%, sem seca preocupante. Contra: BABIP .339 no limite da faixa de sustentabilidade, enfrenta abridor de amostra robusta e mais difícil que a média.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
