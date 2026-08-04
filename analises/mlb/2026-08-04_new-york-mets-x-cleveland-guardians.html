@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — New York Mets x Cleveland Guardians (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">04/08 · 19:40 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nym.png" alt="New York Mets" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/cle.png" alt="Cleveland Guardians" />
+      </div>
+      <div class="history-teams-label">New York Mets vs Cleveland Guardians</div>
+      <div class="hero-venue">Progressive Field, Cleveland (OH)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>NYM</th><th>CLE</th></tr>
+            <tr><td>Classificação</td><td>47-66, 5º NL East, 20,5 jogos atrás</td><td>57-56, 2º AL Central, 3,0 jogos do líder</td></tr>
+            <tr><td>Últimos 5</td><td>1V-4D (perdeu 3 seguidas)</td><td>2V-3D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>02/08 — ❌ 0-2 🏠 vs Miami</td><td>02/08 — ✅ 5-0 🏠 vs Arizona</td></tr>
+            <tr><td>Próximo jogo</td><td>05/08 ✈️ vs CLE (mesma série)</td><td>05/08 🏠 vs NYM (mesma série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">Primeiro encontro da temporada entre os dois times</td></tr>
+            <tr><td>Abridor</td><td>Sean Manaea (E) — AVG contra .262, forma recente razoável (6.0 IP/1-2 ER nas 2 últimas)</td><td>Joey Cantillo (E) — AVG contra .257, forma instável (de 0 ER a 5 ER nas 3 últimas)</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">NYM</span> Juan Soto (LF titular, IL10 — substituído por A.J. Ewing). Mark Vientos (1B, IL10). Rotação: Tylor Megill, Reed Garrett, Justin Hagenman (IL60); bullpen: Austin Warren, Cionel Pérez (IL15).</p>
+          <p><span class="badge">CLE</span> Shawn Armstrong (bullpen, IL60) — sem desfalques de destaque na escalação titular.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>⚠️ Não pesquisado especificamente nesta rodada — sem sinal de rivalidade especial. Mets em queda livre (3 derrotas seguidas), Guardians brigando pela AL Central.</p>
+          <p style="font-size:13px;color:var(--muted)">Progressive Field — park factor 97 runs / 95 HR / 100 doubles (levemente supressor). Sem teto retrátil. Clima previsto: ⚠️ não confirmado nesta consulta.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Interessante.</strong></p>
+          <p>5 rebatedores batem sinal forte (P ≥ 65% com consistência ok ou 1 aviso leve): Chase DeLauter (82,4%, único "ok" pleno), Jo Adell (75,1%), Carson Benge (67,9%), A.J. Ewing (65,8%) e Bo Bichette (65,3%).</p>
+          <p>BAA_efetiva do lado Mets (vs Cantillo + bullpen CLE) é 0,240, e do lado Guardians (vs Manaea + bullpen NYM, amostra pequena) é 0,257 — ambos abridores relativamente hitáveis. Boa profundidade de sinais nos dois times, especialmente puxada por DeLauter e Adell.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Chase DeLauter <span class="pick-star">⭐</span></td><td>CLE Guardians</td><td>3</td><td>66,0%</td><td>60,0%</td><td>14,1%</td><td>0,299</td><td>✅</td><td class="prob-cell">82,4%</td><td>1,21</td><td>1,17–1,26</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Jo Adell <span class="pick-star">⭐</span></td><td>CLE Guardians</td><td>2</td><td>59,0%</td><td>50,0%</td><td>23,7%</td><td>0,281</td><td>⚠️ %1+H temp abaixo do ideal</td><td class="prob-cell">75,1%</td><td>1,33</td><td>1,28–1,39</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Carson Benge</td><td>NYM Mets</td><td>5</td><td>65,0%</td><td>70,0%</td><td>22,1%</td><td>0,323</td><td>⚠️ K% acima de 21%</td><td class="prob-cell">67,9%</td><td>1,47</td><td>1,41–1,54</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>A.J. Ewing</td><td>NYM Mets</td><td>1</td><td>61,0%</td><td>60,0%</td><td>25,7%</td><td>0,339</td><td>⚠️ K% alto, BABIP no limite</td><td class="prob-cell">65,8%</td><td>1,52</td><td>1,41–1,65</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Bo Bichette</td><td>NYM Mets</td><td>3</td><td>65,0%</td><td>50,0%</td><td>18,2%</td><td>0,291</td><td>⚠️ %1+H últ.10 abaixo do ideal</td><td class="prob-cell">65,3%</td><td>1,53</td><td>1,46–1,60</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra-nymcle">
+            <tr><td><span class="rank-num">6</span></td><td>Francisco Lindor</td><td>NYM Mets</td><td>2</td><td>60,0%</td><td>60,0%</td><td>17,4%</td><td>0,258</td><td>⚠️ split amostra baixa</td><td class="prob-cell">64,3%</td><td>1,55</td><td>1,44–1,69</td></tr>
+            <tr><td><span class="rank-num">7</span></td><td>Austin Hedges</td><td>CLE Guardians</td><td>8</td><td>61,0%</td><td>50,0%</td><td>17,9%</td><td>0,319</td><td>⚠️ split amostra baixa</td><td class="prob-cell">63,3%</td><td>1,58</td><td>1,46–1,72</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra-nymcle')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores NYM (vs Cantillo + bullpen CLE) = 0,240. BAA_efetiva enfrentada pelos batedores CLE (vs Manaea + bullpen NYM, amostra pequena) = 0,257.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Chase DeLauter <span class="badge">CLE</span></div>
+          <div class="pl5-sub">P(1+base) 82,4% · melhor split vs canhoto do jogo (.355 em 120 PA)</div>
+          <div class="pl5-avg">A favor: K% baixo (14,1%), consistência plena, sem seca recente. Contra: BAA_efetiva do lado Mets é a mais baixa do jogo — depende de manter taxa de contato alta.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Jo Adell <span class="badge">CLE</span></div>
+          <div class="pl5-sub">P(1+base) 75,1% · split vs canhoto forte (.303 em 130 PA)</div>
+          <div class="pl5-avg">A favor: enfrenta bullpen fraco dos Mets. Contra: seca atual de 3 jogos sem hit, %1+H temporada abaixo da média (59%).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>

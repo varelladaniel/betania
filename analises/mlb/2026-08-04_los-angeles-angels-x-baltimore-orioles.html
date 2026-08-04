@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Los Angeles Angels x Baltimore Orioles (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">04/08 · 19:35 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/laa.png" alt="Los Angeles Angels" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/bal.png" alt="Baltimore Orioles" />
+      </div>
+      <div class="history-teams-label">Los Angeles Angels vs Baltimore Orioles</div>
+      <div class="hero-venue">Oriole Park at Camden Yards, Baltimore (MD)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>LAA</th><th>BAL</th></tr>
+            <tr><td>Classificação</td><td>43-69, 5º AL West, 14,0 jogos atrás</td><td>54-58, 4º AL East, 2,5 da wild card</td></tr>
+            <tr><td>Últimos 5</td><td>1V-4D</td><td>2V-3D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>02/08 — ❌ 0-3 🏠 vs Milwaukee</td><td>02/08 — ❌ 0-8 🏠 vs Philadelphia</td></tr>
+            <tr><td>Próximo jogo</td><td>05/08 ✈️ vs BAL (mesma série)</td><td>05/08 🏠 vs LAA (mesma série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">LAA lidera 2-1 nesta série</td></tr>
+            <tr><td>Abridor</td><td>Grayson Rodriguez (D) — ERA 7,98, AVG contra .315, WHIP 1,75 em 10 starts — fase muito ruim</td><td>Cade Povich (E) — ERA 5,12, AVG contra .257, WHIP 1,34 em 3 starts ⚠️ amostra curta</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">LAA</span> Anthony Rendon (3B, IL60, cirurgia labrum do quadril). Yoán Moncada (3B, IL60, inflamação no joelho). Yusei Kikuchi (P, IL60, ombro).</p>
+          <p><span class="badge">BAL</span> Ryan Mountcastle (1B titular, IL60, fratura no pé — por isso Pete Alonso está no 1B). Jordan Westburg (3B, IL60, UCL do cotovelo). Samuel Basallo (C, IL10, ombro). Bullpen desfalcado: Ryan Helsley (fechador, IL60) e Félix Bautista (IL60, cirurgia no ombro). Rotação também sem Chris Bassitt e Zach Eflin (IL60).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Nenhum fator extra além da disputa normal de classificação — Angels já fora de corrida, Orioles ainda brigando por uma vaga marginal de wild card.</p>
+          <p style="font-size:13px;color:var(--muted)">Oriole Park at Camden Yards — park factor 95 runs / 90 HR / 100 doubles (supressor de HR desde o recuo do left field em 2022). Sem teto retrátil. Clima previsto: ⚠️ não confirmado nesta consulta.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Neutro.</strong></p>
+          <p>Apenas 2 rebatedores batem sinal forte de verdade (P ≥ 65% com consistência ok ou 1 aviso leve): Nolan Schanuel (70,5%) e Wade Meckler (73,8%, com aviso de BABIP alto). Os nomes com P mais alta do jogo — Trout, Alonso, Beavers, Holliday, Grissom, Henderson — caem todos em "sem lastro" por K% acima de 21% apesar do número pontual bom.</p>
+          <p>BAA_efetiva do lado Orioles (vs Povich + bullpen BAL) é 0,2455, e do lado Angels (vs Rodriguez + bullpen LAA) é 0,2743 — ambas acima da média de liga, ou seja pitching batível dos dois lados. A classificação Neutro vem da pouca profundidade de sinais consistentes, não de pitching difícil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Wade Meckler <span class="pick-star">⭐</span></td><td>LAA Angels</td><td>9</td><td>56,0%</td><td>30,0%</td><td>22,4%</td><td>0,376</td><td>⚠️ BABIP alto</td><td class="prob-cell">73,8%</td><td>1,36</td><td>1,30–1,41</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Mike Trout <span class="pick-star">⭐</span></td><td>LAA Angels</td><td>2</td><td>66,0%</td><td>70,0%</td><td>24,7%</td><td>0,298</td><td>sem lastro</td><td class="prob-cell">73,1%</td><td>1,37</td><td>1,31–1,43</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Pete Alonso</td><td>BAL Orioles</td><td>2</td><td>65,0%</td><td>70,0%</td><td>24,7%</td><td>0,293</td><td>sem lastro</td><td class="prob-cell">72,7%</td><td>1,38</td><td>1,32–1,43</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Dylan Beavers</td><td>BAL Orioles</td><td>1</td><td>52,0%</td><td>70,0%</td><td>23,4%</td><td>0,325</td><td>sem lastro</td><td class="prob-cell">71,9%</td><td>1,39</td><td>1,34–1,45</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Jackson Holliday</td><td>BAL Orioles</td><td>5</td><td>47,0%</td><td>70,0%</td><td>25,3%</td><td>0,321</td><td>sem lastro</td><td class="prob-cell">71,5%</td><td>1,40</td><td>1,34–1,46</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Nolan Schanuel</td><td>LAA Angels</td><td>3</td><td>70,0%</td><td>60,0%</td><td>14,4%</td><td>0,307</td><td>✅</td><td class="prob-cell">70,5%</td><td>1,42</td><td>1,36–1,48</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra-laabal">
+            <tr><td><span class="rank-num">7</span></td><td>Vaughn Grissom</td><td>LAA Angels</td><td>4</td><td>61,0%</td><td>70,0%</td><td>15,4%</td><td>0,286</td><td>sem lastro</td><td class="prob-cell">68,7%</td><td>1,46</td><td>1,39–1,52</td></tr>
+            <tr><td><span class="rank-num">8</span></td><td>Gunnar Henderson</td><td>BAL Orioles</td><td>3</td><td>59,0%</td><td>60,0%</td><td>23,3%</td><td>0,254</td><td>sem lastro</td><td class="prob-cell">65,4%</td><td>1,53</td><td>1,46–1,60</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra-laabal')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores LAA (vs Povich + bullpen BAL) = 0,2455. BAA_efetiva enfrentada pelos batedores BAL (vs Rodriguez + bullpen LAA) = 0,2743.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Wade Meckler <span class="badge">LAA</span></div>
+          <div class="pl5-sub">P(1+base) 73,8% · melhor AVG geral do lineup dos Angels (.295)</div>
+          <div class="pl5-avg">A favor: enfrenta Cade Povich, abridor de amostra curtíssima e ERA alto. Contra: BABIP .376 insustentável, %1+H caiu para 30% nos últimos 10 — sinal de queda apesar da média boa de temporada.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Mike Trout <span class="badge">LAA</span></div>
+          <div class="pl5-sub">P(1+base) 73,1% · split vs destro forte (.299 em 109 PA)</div>
+          <div class="pl5-avg">A favor: OBP .391, %1+H temp/últ10 ambos altos (66%/70%). Contra: K% 24,7% tira do piso de consistência apesar do P alto.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>

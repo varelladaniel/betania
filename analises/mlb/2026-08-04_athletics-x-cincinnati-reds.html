@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Athletics x Cincinnati Reds (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">04/08 · 19:40 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/ath.png" alt="Athletics" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/cin.png" alt="Cincinnati Reds" />
+      </div>
+      <div class="history-teams-label">Athletics vs Cincinnati Reds</div>
+      <div class="hero-venue">Great American Ball Park, Cincinnati (OH)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>ATH</th><th>CIN</th></tr>
+            <tr><td>Classificação</td><td>45-67, sequência L5 (5 derrotas seguidas)</td><td>53-58, sequência W1</td></tr>
+            <tr><td>Últimos 5</td><td>0V-5D</td><td>3V-2D</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>02/08 — ❌ 0-11 🏠 vs Detroit (goleada)</td><td>02/08 — ✅ 10-2 🏠 vs Pittsburgh</td></tr>
+            <tr><td>Próximo jogo</td><td>05/08 ✈️ vs CIN (mesma série)</td><td>05/08 🏠 vs ATH (mesma série)</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">Nenhum jogo de temporada regular disputado ainda entre os dois times</td></tr>
+            <tr><td>Abridor</td><td>J.T. Ginn (D) — ERA 3,46, AVG contra .211 — melhor abridor do confronto, ⚠️ gap de mais de 2 semanas desde o último start</td><td>Brady Singer (D) — ERA 4,68, AVG contra .273 — mais "batível"</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">ATH</span> Nick Kurtz (1B, IL10) e Brent Rooker (DH, IL) — duas peças de poder importantes fora. Shea Langeliers (C, IL10), Zack Gelof (3B, IL10), Denzel Clarke (CF, IL60). Rotação/bullpen desfalcados: Jeffrey Springs, Justin Sterner, Luis Severino, Mark Leiter Jr. (todos IL).</p>
+          <p><span class="badge">CIN</span> Spencer Steer (1B, IL10), Blake Dunn (CF, IL10). Rotação: Nick Lodolo (IL15), Tony Santillan (IL15), Brandon Williamson e Graham Ashcraft (IL60).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Nenhuma motivação extra identificada — ambos os times fora de contenção real de playoff nesta fase da temporada.</p>
+          <p style="font-size:13px;color:var(--muted)">Great American Ball Park — park factor 110 runs / 118 HR / 102 doubles (inflador de HR, o mais favorável ao ataque dos três jogos de hoje). Sem teto retrátil. Clima previsto: ⚠️ não confirmado nesta consulta.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Neutro / levemente Interessante.</strong></p>
+          <p>3 rebatedores batem sinal forte (P ≥ 65% com consistência ok ou 1 aviso leve): Jacob Wilson (74,2%, único "ok" pleno), Tyler Soderstrom (67,7%) e Elly De La Cruz (65,8%, aviso de BABIP alto).</p>
+          <p>BAA_efetiva do lado que enfrenta Ginn (0,229) fica abaixo da média de liga — pitching duro de fato — enquanto o lado que enfrenta Singer (0,251) fica acima, mais batível. Grupo geral mediano, com muitos rebatedores na faixa 50–62% e 4 exclusões (K% alto ou pouca amostra) — vale acompanhar Wilson e Soderstrom, mas não é jogo de múltiplos alvos fortes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Jacob Wilson <span class="pick-star">⭐</span></td><td>ATH Athletics</td><td>2</td><td>73,0%</td><td>60,0%</td><td>11,2%</td><td>0,290</td><td>✅</td><td class="prob-cell">74,2%</td><td>1,35</td><td>1,30–1,40</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Tyler Soderstrom <span class="pick-star">⭐</span></td><td>ATH Athletics</td><td>3</td><td>61,0%</td><td>60,0%</td><td>19,0%</td><td>0,265</td><td>⚠️ %1+H temp abaixo do ideal</td><td class="prob-cell">67,7%</td><td>1,48</td><td>1,41–1,55</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Elly De La Cruz</td><td>CIN Reds</td><td>1</td><td>71,0%</td><td>70,0%</td><td>27,1%</td><td>0,349</td><td>⚠️ BABIP alto, K% no limite</td><td class="prob-cell">65,8%</td><td>1,52</td><td>1,45–1,59</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra-athcin">
+            <tr><td><span class="rank-num">4</span></td><td>Sal Stewart</td><td>CIN Reds</td><td>2</td><td>67,0%</td><td>80,0%</td><td>22,0%</td><td>0,279</td><td>⚠️ K% acima de 21%</td><td class="prob-cell">62,5%</td><td>1,60</td><td>1,53–1,68</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Henry Bolte</td><td>ATH Athletics</td><td>9</td><td>58,0%</td><td>40,0%</td><td>27,2%</td><td>0,347</td><td>⚠️ BABIP alto, K% no limite</td><td class="prob-cell">62,5%</td><td>1,60</td><td>1,53–1,68</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra-athcin')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo. Note: Elly De La Cruz (65,8%) aparece na tabela principal por proximidade, mas tecnicamente entra na faixa de expansão — mantido visível por ser o 3º maior sinal do jogo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores ATH (vs Singer + bullpen CIN) = 0,251. BAA_efetiva enfrentada pelos batedores CIN (vs Ginn + bullpen ATH) = 0,229.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Jacob Wilson <span class="badge">ATH</span></div>
+          <div class="pl5-sub">P(1+base) 74,2% · K% mais baixo do jogo (11,2%)</div>
+          <div class="pl5-avg">A favor: melhor perfil de contato do jogo, zero seca atual, split vs destro acima da média geral. Contra: joga fora de casa, mas enfrenta Singer, o abridor mais batível dos dois.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Tyler Soderstrom <span class="badge">ATH</span></div>
+          <div class="pl5-sub">P(1+base) 67,7% · split vs destro forte (.258 em 285 PA)</div>
+          <div class="pl5-avg">A favor: BB% alto (11,6%), enfrenta o lado mais fraco do pitching (Singer + bullpen CIN). Contra: %1+H na temporada abaixo do ideal (61%).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>

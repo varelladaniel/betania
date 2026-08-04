@@ -1,4 +1,7 @@
 window.MLB_ANALISES = [
+  { slug: "2026-08-04_new-york-mets-x-cleveland-guardians", dataLabel: "04/08", timeLabel: "19:40", teamsLabel: "New York Mets vs Cleveland Guardians" },
+  { slug: "2026-08-04_athletics-x-cincinnati-reds", dataLabel: "04/08", timeLabel: "19:40", teamsLabel: "Athletics vs Cincinnati Reds" },
+  { slug: "2026-08-04_los-angeles-angels-x-baltimore-orioles", dataLabel: "04/08", timeLabel: "19:35", teamsLabel: "Los Angeles Angels vs Baltimore Orioles" },
   { slug: "2026-08-02_boston-red-sox-x-los-angeles-dodgers", dataLabel: "02/08", timeLabel: "20:20", teamsLabel: "Boston Red Sox vs Los Angeles Dodgers" },
   { slug: "2026-08-02_milwaukee-brewers-x-los-angeles-angels", dataLabel: "02/08", timeLabel: "16:15", teamsLabel: "Milwaukee Brewers vs Los Angeles Angels" },
   { slug: "2026-08-02_san-francisco-giants-x-san-diego-padres", dataLabel: "02/08", timeLabel: "17:10", teamsLabel: "San Francisco Giants vs San Diego Padres" },
