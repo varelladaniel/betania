@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — San Diego Padres x Arizona Diamondbacks (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">05/08 · 22:40 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/sd.png" alt="San Diego Padres" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/ari.png" alt="Arizona Diamondbacks" />
+      </div>
+      <div class="history-teams-label">San Diego Padres vs Arizona Diamondbacks</div>
+      <div class="hero-venue">Chase Field, Phoenix (AZ)</div>
+      <p style="font-size:13px;color:var(--muted);margin-top:8px">⚠️ Escalação titular do Arizona ainda não confirmada no momento desta análise (checado via feed ao vivo). Só os rebatedores do San Diego Padres foram calculados. Reconsultar entre 20:40 e 23:40 UTC (1h30–4h30 antes do primeiro arremesso, às 01:40 UTC de 06/08) para completar o lado do Arizona.</p>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>SD</th><th>ARI</th></tr>
+            <tr><td>Classificação</td><td>59-55, 3º NL West, 9,5 atrás do líder, 1,0 atrás da vaga de wild card</td><td>60-54, 2º NL West, 8,5 atrás do líder, dentro da zona de wild card</td></tr>
+            <tr><td>Últimos 5 / últ.10</td><td>4V-1D / 8V-2D — ótima forma</td><td>3V-2D / 5V-5D — oscilante</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>04/08 — ✅ 9-4 ✈️ vs ARI</td><td>04/08 — ❌ 4-9 🏠 vs SD</td></tr>
+            <tr><td>Próximo jogo</td><td>06/08 ✈️ vs ARI (jogo 4), depois 07/08 🏠 vs Houston Astros</td><td>06/08 🏠 vs SD (jogo 4), depois 07/08 🏠 vs Los Angeles Dodgers</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">Série empatada 4-4 em 8 jogos de temporada regular (04/08 SD 9x4; 03/08 ARI 5x1; 09/07 SD 1x3; 08/07 SD 10x4; 07/07 SD 4x1; 06/07 ARI 8x0; 26/04 ARI 12x7; 25/04 SD 6x4)</td></tr>
+            <tr><td>Abridor</td><td>Casey Mize (D) — 16 aberturas, 86.2 IP, AVG contra .213, ERA 2,70, WHIP 0,99 — ótima fase</td><td>Mitch Bratt (E) — apenas 5 aberturas na MLB, 20.2 IP, AVG contra .284, ERA 5,23, WHIP 1,84 — rookie/callup, amostra pequena e fase difícil</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">SD</span> Joe Musgrove (SP, IL60), Nick Pivetta (SP, IL60), Lucas Giolito (SP, IL15), Jason Adam (fechador, IL60) — rotação e bullpen de trás bastante desfalcados. Ramón Laureano (OF titular, IL60). Miguel Andujar (IL10, papel secundário).</p>
+          <p><span class="badge">ARI</span> Corbin Burnes (SP, IL60), Zac Gallen (SP, IL60), Ryne Nelson (SP, IL60), Michael Soroka (SP, IL15) — praticamente toda a rotação titular fora, por isso Mitch Bratt (rookie) está abrindo hoje. Lourdes Gurriel Jr. (OF titular, IL10), Jordan Lawlar (IL10) e Tommy Troy (IL10) também fora. Bullpen: A.J. Puk, Andrew Saalfrank, Justin Martinez (IL60), Ryan Thompson (IL15).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Jogo 3 de uma série de 4 em Chase Field, com o confronto direto da temporada ainda empatado 4-4. Padres vêm de vitória de 9-4 no jogo anterior (04/08) e estão em ótima forma (8V-2D nos últimos 10), a apenas 1,0 jogo da vaga de wild card na NL West. Diamondbacks têm posição melhor na tabela (2º lugar, dentro da zona de wild card) mas estão apenas .500 nos últimos 10 e com quase toda a rotação titular no IL — pressão real dos dois lados na corrida da NL West/Wild Card.</p>
+          <p style="font-size:13px;color:var(--muted)">Chase Field — park factor 104 runs / 104 HR / 103 doubles (levemente inflador). Teto retrátil: geralmente fechado no verão pelo calor extremo do deserto — sem confirmação pontual, assume-se fechado (condições internas controladas, clima externo não é fator).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Desinteressante (provisório).</strong></p>
+          <p>N_fortes = 0 entre os rebatedores confirmados do Padres: Jackson Merrill (77,0%) e Fernando Tatis Jr. (75,1%) têm P(1+base) alta, mas nenhum bate o piso de consistência (%1+H temporada ≥65% E últimos 10 ≥60% combinados) — os dois caem em "sem lastro". A BAA_efetiva que o Padres enfrenta (Bratt + bullpen do Arizona) é 0,253, praticamente neutra; já a que o Arizona vai enfrentar (Mize + bullpen do Padres) é 0,210, bem abaixo da média de liga — pitching duro do lado do Padres deve suprimir os rebatedores do Arizona quando a escalação sair.</p>
+          <p><strong>Classificação provisória</strong> — falta o lado do Arizona (escalação ainda não confirmada). Reconsultar mais perto do horário do jogo para completar a análise e reclassificar com os dois lados prontos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <p class="rank-note">Escalação do Arizona ainda não confirmada — ranking mostra apenas os 9 titulares confirmados do San Diego Padres, contra Mitch Bratt (E) + bullpen do Arizona.</p>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Jackson Merrill <span class="pick-star">⭐</span></td><td>SD Padres</td><td>5</td><td>57,7%</td><td>90,0%</td><td>24,0%</td><td>0,289</td><td>sem lastro</td><td class="prob-cell">77,0%</td><td>1,30</td><td>1,25–1,35</td></tr>
+            <tr class="rank-pick"><td><span class="rank-num">2</span></td><td>Fernando Tatis Jr. <span class="pick-star">⭐</span></td><td>SD Padres</td><td>1</td><td>69,6%</td><td>50,0%</td><td>19,8%</td><td>0,340</td><td>sem lastro</td><td class="prob-cell">75,1%</td><td>1,33</td><td>1,28–1,39</td></tr>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+            <tr><td><span class="rank-num">3</span></td><td>Ty France</td><td>SD Padres</td><td>4</td><td>55,7%</td><td>70,0%</td><td>23,1%</td><td>0,330</td><td>sem lastro</td><td class="prob-cell">69,1%</td><td>1,45</td><td>1,35–1,56</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Mostrando acima de 70% na lista principal; expansão traz até 65%. Abaixo de 65% não é exibido na página (Manny Machado 62,9%, Xander Bogaerts 60,1%, Jake Cronenworth 57,5%, Luis Rengifo 52,6% — seguem no chat e no JSON). ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores do SD (vs Mitch Bratt + bullpen ARI) = 0,253 — praticamente neutra vs. média de liga ~0,248, mas com margem ampliada (±5pp) porque Bratt tem só 5 aberturas na carreira. Luis Campusano (65,2%) e Jase Bowen (35,3%) foram excluídos por amostra de temporada (PA&lt;150) — ver Tabela 4 no chat.</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base) do ranking confirmado — só o Padres tem escalação pronta)</span></h2>
+      <div class="picks-l5-grid">
+        <div class="picks-l5-card">
+          <div class="pl5-name">Jackson Merrill <span class="badge">SD</span></div>
+          <div class="pl5-sub">P(1+base) 77,0% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">31/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">01/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">02/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:20%"></div><span class="pl5-bar-date">03/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">3</span><div class="pl5-bar" style="height:60%"></div><span class="pl5-bar-date">04/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>2,2 bases/jogo</strong> nos últimos 5 (11 bases totais, 4/5 jogos com 1+ base) — janela muito quente (90% nos últimos 10), reforça o P alto mesmo sem bater o piso de consistência da temporada inteira.</div>
+        </div>
+        <div class="picks-l5-card">
+          <div class="pl5-name">Fernando Tatis Jr. <span class="badge">SD</span></div>
+          <div class="pl5-sub">P(1+base) 75,1% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:20%"></div><span class="pl5-bar-date">30/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">31/07</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">01/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">03/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:40%"></div><span class="pl5-bar-date">04/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>1,0 base/jogo</strong> nos últimos 5 (5 bases totais, 3/5 jogos com 1+ base) — janela recente mais fria que o P de temporada sugere (últimos 10 caiu a 50%), atenção ao contraste com a %1+H de temporada (69,6%).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Últimos 10 jogos <span style="font-size:14px;font-weight:normal;color:var(--muted)">(Tabela 1B — cálculo alternativo de janela curta)</span></h2>
+      <p class="rank-note">Tabela adicional, não substitui o ranking de temporada acima. Mesma fórmula log5, mas B (média do rebatedor) é a AVG dos últimos 10 jogos em vez do split vs braço do abridor — janela de 10 jogos é pequena demais pra separar por canhoto/destro com confiança (limitação assumida). Inclui quem foi cortado do ranking de temporada por baixo volume anual: dá visibilidade a Luis Campusano (excluído da Tabela 1 por PA&lt;150, mas com 75,7% nos últimos 10) e Jase Bowen (excluído por PA&lt;150 e K%&gt;28%, ainda com só 8/10 jogos na amostra). Faixa ampliada para ±5pp (amostra sempre pequena). Sem filtro de K%/split — só entra quem jogou pelo menos 8 dos últimos 10.</p>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Jogos na amostra</th><th>AVG últ.10</th><th>K% temp.</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="rank-num">1</span></td><td>Jackson Merrill</td><td>SD Padres</td><td>10/10</td><td>0,425</td><td>24,0%</td><td class="prob-cell">87,6%</td><td>1,14</td><td>1,08–1,21</td></tr>
+            <tr><td><span class="rank-num">2</span></td><td>Ty France</td><td>SD Padres</td><td>10/10</td><td>0,351</td><td>23,1%</td><td class="prob-cell">81,3%</td><td>1,23</td><td>1,16–1,31</td></tr>
+            <tr><td><span class="rank-num">3</span></td><td>Luis Campusano <em>(excluído da Tabela 1)</em></td><td>SD Padres</td><td>10/10</td><td>0,355</td><td>23,0%</td><td class="prob-cell">75,7%</td><td>1,32</td><td>1,24–1,42</td></tr>
+            <tr><td><span class="rank-num">4</span></td><td>Jake Cronenworth</td><td>SD Padres</td><td>10/10</td><td>0,275</td><td>21,9%</td><td class="prob-cell">74,5%</td><td>1,34</td><td>1,26–1,44</td></tr>
+            <tr><td><span class="rank-num">5</span></td><td>Luis Rengifo</td><td>SD Padres</td><td>10/10</td><td>0,273</td><td>11,9%</td><td class="prob-cell">71,7%</td><td>1,39</td><td>1,30–1,50</td></tr>
+            <tr><td><span class="rank-num">6</span></td><td>Manny Machado</td><td>SD Padres</td><td>10/10</td><td>0,262</td><td>22,5%</td><td class="prob-cell">71,7%</td><td>1,40</td><td>1,30–1,50</td></tr>
+            <tr><td><span class="rank-num">7</span></td><td>Xander Bogaerts</td><td>SD Padres</td><td>10/10</td><td>0,281</td><td>18,3%</td><td class="prob-cell">69,5%</td><td>1,44</td><td>1,34–1,55</td></tr>
+            <tr><td><span class="rank-num">8</span></td><td>Fernando Tatis Jr.</td><td>SD Padres</td><td>10/10</td><td>0,225</td><td>19,8%</td><td class="prob-cell">66,1%</td><td>1,51</td><td>1,41–1,64</td></tr>
+            <tr><td><span class="rank-num">9</span></td><td>Jase Bowen <em>(excluído da Tabela 1)</em></td><td>SD Padres</td><td>8/10</td><td>0,211</td><td>36,1%</td><td class="prob-cell">42,1%</td><td>2,38</td><td>2,12–2,70</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>

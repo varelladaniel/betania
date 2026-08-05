@@ -1,0 +1,84 @@
+{
+  "data": "2026-08-05",
+  "gerado_em_utc": "2026-08-05T18:30:00Z",
+  "jogos": [
+    {
+      "game_pk": 825052,
+      "contexto": {
+        "visitante": "San Diego Padres",
+        "visitante_sigla": "SD",
+        "mandante": "Arizona Diamondbacks",
+        "mandante_sigla": "ARI",
+        "data_hora_brt": "2026-08-05T22:40:00-03:00",
+        "estadio": "Chase Field",
+        "classificacao": {
+          "padres": { "vitorias": 59, "derrotas": 55, "posicao_divisao": 3, "divisao": "NL West", "jogos_atras_lider": 9.5, "jogos_atras_wildcard": 1.0 },
+          "diamondbacks": { "vitorias": 60, "derrotas": 54, "posicao_divisao": 2, "divisao": "NL West", "jogos_atras_lider": 8.5, "posicao_wildcard": "dentro da vaga de wild card (0 jogos atrás)" }
+        },
+        "sequencia_recente": {
+          "padres_ultimos5": "4V-1D",
+          "padres_ultimos10": "8V-2D",
+          "diamondbacks_ultimos5": "3V-2D",
+          "diamondbacks_ultimos10": "5V-5D"
+        },
+        "ultimo_jogo": {
+          "padres": "venceu 9-4 fora vs ARI (04/08)",
+          "diamondbacks": "perdeu 4-9 em casa vs SD (04/08)"
+        },
+        "proximo_jogo": {
+          "padres": "06/08, fora, vs Arizona Diamondbacks (jogo 4 da série), depois 07/08 em casa vs Houston Astros",
+          "diamondbacks": "06/08, em casa, vs San Diego Padres (jogo 4 da série), depois 07/08 em casa vs Los Angeles Dodgers"
+        },
+        "confronto_direto_temporada": "Série empatada 4-4 nos 8 jogos de temporada regular já disputados (04/08: SD 9x4 ARI; 03/08: ARI 5x1 SD; 09/07: SD 1x3 ARI; 08/07: SD 10x4 ARI; 07/07: SD 4x1 ARI; 06/07: ARI 8x0 SD; 26/04: ARI 12x7 SD; 25/04: SD 6x4 ARI)",
+        "abridores": {
+          "padres": "Casey Mize (D) — 16 aberturas, 86.2 IP, AVG contra .213, ERA 2,70, WHIP 0,99 — ótima fase, rotação estável apesar dos desfalques",
+          "diamondbacks": "Mitch Bratt (E) — apenas 5 aberturas na MLB, 20.2 IP, AVG contra .284, ERA 5,23, WHIP 1,84 — rookie/callup recente, amostra pequena e fase difícil"
+        },
+        "desfalques": {
+          "padres": "Joe Musgrove (SP, IL60), Nick Pivetta (SP, IL60), Lucas Giolito (SP, IL15), Jason Adam (fechador, IL60), Ramón Laureano (OF titular, IL60), Miguel Andujar (IL10, papel secundário) — rotação badly desfalcada, força times abertos como Mize a carregar mais inning.",
+          "diamondbacks": "Corbin Burnes (SP, IL60), Zac Gallen (SP, IL60), Ryne Nelson (SP, IL60), Michael Soroka (SP, IL15) — praticamente toda a rotação titular fora, por isso Mitch Bratt (rookie) está abrindo. Lourdes Gurriel Jr. (OF titular, IL10), Jordan Lawlar (IL10) e Tommy Troy (IL10) também fora do lado ofensivo. Bullpen também desfalcado: A.J. Puk, Andrew Saalfrank, Justin Martinez (todos IL60), Ryan Thompson (IL15)."
+        },
+        "motivacao": "Jogo 3 de uma série de 4 em Chase Field, com a série de temporada regular ainda empatada 4-4. Padres vêm de vitória de 9-4 no jogo anterior (04/08) e estão em ótima forma (8V-2D nos últimos 10), 1,0 jogo atrás da vaga de wild card na NL West. Diamondbacks têm posição melhor na tabela (2º lugar, dentro da zona de wild card) mas estão apenas .500 nos últimos 10 e com a rotação titular praticamente toda no IL — pressão real dos dois lados pela corrida de outubro na NL West/Wild Card.",
+        "estadio_condicoes": "Chase Field — park factor: 104 runs / 104 HR / 103 doubles (levemente inflador, ver park-factors.json). Teto retrátil: geralmente fechado no verão por causa do calor extremo do deserto — sem confirmação pontual via WebSearch, assume-se fechado (condições internas controladas, clima externo não é fator)."
+      },
+      "rebatedores": [
+        { "player_id": 701538, "nome": "Jackson Merrill", "time": "San Diego Padres", "slot": "5 (CF)", "slot_confirmado": true, "pa_temporada": 466, "avg": 0.241, "babip": 0.289, "k_pct": 24.0, "bb_pct": 6.4, "pct_1mais_temporada": 57.7, "pct_1mais_ultimos10": 90.0, "maior_seca_temporada": 4, "seca_atual": 0, "p_1mais_base": 77.00, "odd_justa": 1.30, "faixa_odd": [1.25, 1.35], "consistencia": "sem_lastro", "avisos": ["K% acima de 21% (24,0%)", "não bate piso combinado %1+H temp>=65% e últ.10>=60% (temp. 57,7% fica abaixo)"] },
+        { "player_id": 665487, "nome": "Fernando Tatis Jr.", "time": "San Diego Padres", "slot": "1 (2B)", "slot_confirmado": true, "pa_temporada": 495, "avg": 0.280, "babip": 0.340, "k_pct": 19.8, "bb_pct": 9.1, "pct_1mais_temporada": 69.6, "pct_1mais_ultimos10": 50.0, "maior_seca_temporada": 3, "seca_atual": 0, "p_1mais_base": 75.10, "odd_justa": 1.33, "faixa_odd": [1.28, 1.39], "consistencia": "sem_lastro", "avisos": ["não bate piso combinado (últ.10 caiu para 50,0%, abaixo dos 60% exigidos)"] },
+        { "player_id": 664034, "nome": "Ty France", "time": "San Diego Padres", "slot": "4 (1B)", "slot_confirmado": true, "pa_temporada": 307, "avg": 0.289, "babip": 0.330, "k_pct": 23.1, "bb_pct": 4.9, "pct_1mais_temporada": 55.7, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 4, "seca_atual": 2, "p_1mais_base": 69.11, "odd_justa": 1.45, "faixa_odd": [1.35, 1.56], "consistencia": "sem_lastro", "avisos": ["K% acima de 21% (23,1%)", "não bate piso combinado (temp. 55,7% abaixo de 65%)"] },
+        { "player_id": 592518, "nome": "Manny Machado", "time": "San Diego Padres", "slot": "3 (3B)", "slot_confirmado": true, "pa_temporada": 472, "avg": 0.213, "babip": 0.223, "k_pct": 22.5, "bb_pct": 10.8, "pct_1mais_temporada": 55.0, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 62.86, "odd_justa": 1.59, "faixa_odd": [1.52, 1.67], "consistencia": "sem_lastro", "avisos": ["K% acima de 21% (22,5%)", "não bate piso combinado (temp. 55,0% abaixo de 65%)"] },
+        { "player_id": 593428, "nome": "Xander Bogaerts", "time": "San Diego Padres", "slot": "6 (SS)", "slot_confirmado": true, "pa_temporada": 432, "avg": 0.225, "babip": 0.259, "k_pct": 18.3, "bb_pct": 11.8, "pct_1mais_temporada": 55.6, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 60.09, "odd_justa": 1.66, "faixa_odd": [1.59, 1.75], "consistencia": "sem_lastro", "avisos": ["não bate piso combinado (temp. 55,6% abaixo de 65%)"] },
+        { "player_id": 630105, "nome": "Jake Cronenworth", "time": "San Diego Padres", "slot": "8 (DH)", "slot_confirmado": true, "pa_temporada": 233, "avg": 0.220, "babip": 0.278, "k_pct": 21.9, "bb_pct": 9.4, "pct_1mais_temporada": 46.8, "pct_1mais_ultimos10": 60.0, "maior_seca_temporada": 5, "seca_atual": 0, "p_1mais_base": 57.48, "odd_justa": 1.74, "faixa_odd": [1.60, 1.91], "consistencia": "sem_lastro", "avisos": ["K% acima de 21% (21,9%)", "não bate piso combinado (temp. 46,8%)"] },
+        { "player_id": 650859, "nome": "Luis Rengifo", "time": "San Diego Padres", "slot": "2 (LF)", "slot_confirmado": true, "pa_temporada": 277, "avg": 0.237, "babip": 0.264, "k_pct": 11.9, "bb_pct": 10.1, "pct_1mais_temporada": 56.8, "pct_1mais_ultimos10": 70.0, "maior_seca_temporada": 7, "seca_atual": 0, "p_1mais_base": 52.58, "odd_justa": 1.90, "faixa_odd": [1.80, 2.02], "consistencia": "sem_lastro", "avisos": ["não bate piso combinado (temp. 56,8%)", "maior seca histórica > 6 jogos (7)"] }
+      ],
+      "rebatedores_ultimos10": [
+        { "player_id": 701538, "nome": "Jackson Merrill", "time": "San Diego Padres", "slot": "5", "jogos_na_amostra": 10, "avg_ultimos10": 0.425, "k_pct_temporada": 24.0, "pa_medio_jogo_ultimos10": 4.10, "p_1mais_base": 87.60, "odd_justa": 1.14, "faixa_odd": [1.08, 1.21] },
+        { "player_id": 664034, "nome": "Ty France", "time": "San Diego Padres", "slot": "4", "jogos_na_amostra": 10, "avg_ultimos10": 0.351, "k_pct_temporada": 23.1, "pa_medio_jogo_ultimos10": 4.20, "p_1mais_base": 81.27, "odd_justa": 1.23, "faixa_odd": [1.16, 1.31] },
+        { "player_id": 669134, "nome": "Luis Campusano", "time": "San Diego Padres", "slot": "7", "jogos_na_amostra": 10, "avg_ultimos10": 0.355, "k_pct_temporada": 23.0, "pa_medio_jogo_ultimos10": 3.50, "p_1mais_base": 75.66, "odd_justa": 1.32, "faixa_odd": [1.24, 1.42] },
+        { "player_id": 630105, "nome": "Jake Cronenworth", "time": "San Diego Padres", "slot": "8", "jogos_na_amostra": 10, "avg_ultimos10": 0.275, "k_pct_temporada": 21.9, "pa_medio_jogo_ultimos10": 4.60, "p_1mais_base": 74.45, "odd_justa": 1.34, "faixa_odd": [1.26, 1.44] },
+        { "player_id": 650859, "nome": "Luis Rengifo", "time": "San Diego Padres", "slot": "2", "jogos_na_amostra": 10, "avg_ultimos10": 0.273, "k_pct_temporada": 11.9, "pa_medio_jogo_ultimos10": 4.30, "p_1mais_base": 71.73, "odd_justa": 1.39, "faixa_odd": [1.30, 1.50] },
+        { "player_id": 592518, "nome": "Manny Machado", "time": "San Diego Padres", "slot": "3", "jogos_na_amostra": 10, "avg_ultimos10": 0.262, "k_pct_temporada": 22.5, "pa_medio_jogo_ultimos10": 4.50, "p_1mais_base": 71.66, "odd_justa": 1.40, "faixa_odd": [1.30, 1.50] },
+        { "player_id": 593428, "nome": "Xander Bogaerts", "time": "San Diego Padres", "slot": "6", "jogos_na_amostra": 10, "avg_ultimos10": 0.281, "k_pct_temporada": 18.3, "pa_medio_jogo_ultimos10": 3.90, "p_1mais_base": 69.52, "odd_justa": 1.44, "faixa_odd": [1.34, 1.55] },
+        { "player_id": 665487, "nome": "Fernando Tatis Jr.", "time": "San Diego Padres", "slot": "1", "jogos_na_amostra": 10, "avg_ultimos10": 0.225, "k_pct_temporada": 19.8, "pa_medio_jogo_ultimos10": 4.60, "p_1mais_base": 66.13, "odd_justa": 1.51, "faixa_odd": [1.41, 1.64] },
+        { "player_id": 687749, "nome": "Jase Bowen", "time": "San Diego Padres", "slot": "9", "jogos_na_amostra": 8, "avg_ultimos10": 0.211, "k_pct_temporada": 36.1, "pa_medio_jogo_ultimos10": 2.50, "p_1mais_base": 42.06, "odd_justa": 2.38, "faixa_odd": [2.12, 2.70] }
+      ],
+      "excluidos": [
+        { "nome": "Luis Campusano", "motivo": "PA temporada < 150 (122 PA) — amostra pequena para a Tabela 1 de temporada (segue elegível e presente na Tabela 1B)" },
+        { "nome": "Jase Bowen", "motivo": "PA temporada < 150 (72 PA) e K% > 28% (36,1%) — dupla exclusão" }
+      ],
+      "escalacao_arizona_pendente": {
+        "status": "não confirmada no momento da análise (checado via feed live, battingOrder terminando em '0' vazio às ~18:30 UTC)",
+        "abridor_provavel": "Mitch Bratt (não é rebatedor, apenas referência do pitching)",
+        "reconsultar_a_partir_de": "aproximadamente 20:40-23:40 UTC (1h30 a 4h30 antes do primeiro arremesso às 2026-08-06T01:40:00Z) — reconsultar o feed do gamePk 825052 para completar a análise dos rebatedores do Arizona"
+      },
+      "baa_efetiva": {
+        "enfrentada_pelos_padres_vs_bratt_mais_bullpen_ari": 0.2534,
+        "enfrentada_pelos_dbacks_vs_mize_mais_bullpen_pad": 0.2102,
+        "media_liga": 0.248
+      },
+      "avaliacao_ia": {
+        "classificacao": "Desinteressante (provisório)",
+        "explicacao": "N_fortes = 0 entre os rebatedores confirmados do Padres: apesar de Jackson Merrill (77,0%) e Fernando Tatis Jr. (75,1%) terem P(1+base) alta, nenhum bate o piso de consistência (%1+H temporada>=65% E últimos10>=60% combinados) — os dois caem em 'sem lastro'. A BAA_efetiva que o Padres enfrenta (Bratt+bullpen ARI) é 0,253, praticamente neutra; mas a que o Arizona vai enfrentar (Mize+bullpen Padres) é 0,210, bem abaixo da média de liga — pitching duro do lado do Padres deve suprimir os rebatedores do Arizona quando a escalação sair. Classificação é provisória: falta o lado do Arizona (escalação não confirmada), reconsultar mais perto do horário do jogo para reclassificar com os dois lados completos."
+      }
+    }
+  ]
+}
