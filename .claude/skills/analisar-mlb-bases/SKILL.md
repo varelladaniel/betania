@@ -238,6 +238,54 @@ Aplicar ajustes de Tier 2 declarando cada um (bullpen desgastado, park
 factor, clima, forma dos últimos 15, BAA/WHIP do abridor — nunca ERA como
 métrica principal).
 
+### 4B. Tabela paralela — últimos 10 jogos
+
+**Problema que isso resolve:** o filtro de amostra mínima do passo 3 (PA
+temporada < 150) corta jogadores com callup recente, mudança de papel ou
+temporada encurtada por lesão — mesmo que estejam com um recorte recente
+forte. Um jogador assim fica invisível na Tabela 1 mesmo tendo dado
+suficiente nos últimos jogos pra dizer algo. Por isso, **além** da Tabela 1
+(temporada), calcule sempre uma segunda tabela — Tabela 1B — usando só os
+últimos 10 jogos do `gameLog` de cada rebatedor titular confirmado (os
+mesmos do jogo, sem exceção: quem está na Tabela 1 E quem foi cortado só
+pelo filtro de PA<150 ou K%>28%/split ruim da temporada).
+
+Regras de cálculo (mesma fórmula log5 de 5 passos da seção 4, com inputs
+recalculados na janela curta):
+
+1. **Amostra mínima pra entrar na Tabela 1B**: pelo menos 8 jogos
+   disputados dentro da janela dos últimos 10 do `gameLog` (não precisa ser
+   os últimos 10 corridos no calendário — é dos últimos 10 jogos em que ele
+   jogou/apareceu no log). Registre `jogos_na_amostra` sempre. Quem tem
+   menos que 8 fica de fora da Tabela 1B (não tem tabela de exclusão própria
+   pra isso — é só não elegível, mencionar em texto se for caso notável).
+2. **B do log5 (passo 2)**: não dá pra refazer o split vs canhoto/destro
+   com confiança numa janela de só 10 jogos (amostra pequena demais pra
+   separar por braço do abridor). **Limitação assumida**: use a AVG geral
+   dos últimos 10 jogos como B, em vez do split — é uma aproximação pior
+   que a da Tabela 1, mas ainda assim mais informativa que excluir o
+   jogador inteiramente.
+3. **P e L (passos 1 e 2)**: mesmos `BAA_efetiva` e média de liga já
+   calculados pro jogo — não recalcula por janela curta, isso é constante
+   do confronto, não do rebatedor.
+4. **PA_slot (passo 3)**: PA médio por jogo dos últimos 10 jogos daquele
+   rebatedor (em vez do PA médio da temporada inteira) — mais sensível a
+   mudança recente de posição na ordem de rebatida.
+5. **Passos 4-5** (P(1+base) final, odd justa, faixa): idênticos à seção 4,
+   com faixa padrão ampliada pra ±5pp sempre (janela de 10 jogos é amostra
+   pequena por definição — trate como dado de menor confiança sempre, não
+   só nos casos de exceção da seção 4).
+
+**Não aplica os filtros eliminatórios de K%>28% ou split ruim da Tabela 1**
+(seção 3) — esses dependem de split vs braço, que não é recalculável numa
+janela de 10. Só o critério de amostra mínima (item 1 acima) filtra entrada
+na Tabela 1B.
+
+A Tabela 1B **não substitui a Tabela 1** — as duas convivem, uma ao lado
+(ou abaixo) da outra, sempre com nota clara de que é um cálculo alternativo
+de janela curta, útil principalmente pra dar visibilidade a quem a Tabela 1
+excluiu por baixo volume de temporada.
+
 ### 5. Critério de consistência (separado da ordenação por P, não filtra — sinaliza)
 
 Baseado em calibração real feita em 01/08/2026 com 5 rebatedores validados
@@ -306,6 +354,18 @@ tabela completa de rebatedores.
 
 ### 7. Tabelas de entrega
 
+**Padrão de nome de time — nunca sigla sozinha.** Em qualquer lugar com
+espaço suficiente (coluna "Time" de tabela, cabeçalho de "Momento da
+Equipe", badge de time, card de jogador, título de página), escreva
+"Cidade + Apelido" (ex: "Boston Red Sox", ou abreviado "BOS Red Sox" se o
+espaço for justo) — nunca só a sigla de 3 letras isolada (ex: "BOS"). Sigla
+pura só é aceitável em contexto muito apertado onde não há alternativa
+(ex: badge minúsculo de ~3 caracteres de largura fixa) — e mesmo aí,
+prefira city+apelido se couber. Isso vale para toda tabela (`rank-table`,
+"Momento da Equipe"), badges de desfalques, cards de jogador (`pl5-name`)
+e no slug/nome de arquivo (usar nome completo da cidade, não sigla, ex:
+`st-louis-cardinals-x-toronto-blue-jays`, não `stl-cardinals-x-tor-blue-jays`).
+
 **Tabela 1 — Ranking geral** (todos os jogos da rodada, ordenado por
 P(1+base) decrescente, ninguém omitido):
 
@@ -314,6 +374,14 @@ P(1+base) decrescente, ninguém omitido):
 
 Coluna "Consistência": ✅ (bate os critérios), ⚠️ (algum aviso, especificar
 qual ao lado), ou "sem lastro" (P alta mas não bate piso).
+
+**Tabela 1B — Ranking últimos 10 jogos** (ver seção 4B; tabela adicional,
+não substitui a Tabela 1 — existe pra não deixar de fora callups recentes
+e jogadores com amostra de temporada insuficiente, ordenada por P(1+base)
+decrescente):
+
+| # | Jogador | Time | Jogo | Jogos na amostra (de 10) | AVG últ.10 | K% temp. | **P(1+base)** | Odd justa | Faixa |
+|---|---|---|---|---|---|---|---|---|---|
 
 **Tabela 2 — Ajustes aplicados** (auditoria):
 
@@ -401,6 +469,14 @@ Sempre as três entregas, sem perguntar:
        um valor real por jogo, barra proporcional — altura mínima ~6% pra
        jogos com 0 base, classe `.pl5-bar.zero`), com a data de cada jogo
        embaixo e uma linha de média/leitura curta no rodapé do card.
+     - Logo abaixo do ranking principal (e do card "Dupla escolhida"),
+       adicionar a **Tabela 1B** (últimos 10 jogos, ver seção 4B) como uma
+       segunda `.rank-table-wrap` dentro do mesmo `.market-panel`, com um
+       título curto acima ("Últimos 10 jogos") e uma linha de nota
+       explicando que é cálculo alternativo de janela curta, complementar
+       à tabela principal — reaproveita as mesmas classes CSS
+       (`table.rank-table`), sem precisar de nova aba/sub-aba. Incluir
+       coluna "Jogos na amostra" pra deixar claro quando é <10.
    - **Sem seção de Exclusões na página HTML** — a tabela de exclusões
      (Tabela 4) continua obrigatória no chat e no JSON estruturado, só não
      vai pro HTML (o usuário não quer avaliar quem já caiu fora dos
@@ -441,6 +517,14 @@ Sempre as três entregas, sem perguntar:
              "p_1mais_base": 0, "odd_justa": 0, "faixa_odd": [0, 0],
              "consistencia": "ok|aviso|sem_lastro",
              "avisos": []
+           }
+         ],
+         "rebatedores_ultimos10": [
+           {
+             "player_id": 0, "nome": "", "time": "", "slot": "",
+             "jogos_na_amostra": 0, "avg_ultimos10": 0, "k_pct_temporada": 0,
+             "pa_medio_jogo_ultimos10": 0,
+             "p_1mais_base": 0, "odd_justa": 0, "faixa_odd": [0, 0]
            }
          ],
          "excluidos": [ { "nome": "", "motivo": "" } ]
