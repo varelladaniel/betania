@@ -1,0 +1,480 @@
+{
+  "data": "2026-08-05",
+  "gerado_em_utc": "2026-08-05T20:49:58.137Z",
+  "jogos": [
+    {
+      "game_pk": 824728,
+      "contexto": {
+        "visitante": "Chicago White Sox",
+        "mandante": "Boston Red Sox",
+        "estadio": "Fenway Park, Boston (MA)",
+        "data_hora_brt": "05/08/2026 20:10",
+        "classificacao": {
+          "CWS": "59-53, 1º AL Central",
+          "BOS": "61-51, 3º AL East, +5.0 wild card"
+        },
+        "ultimos5": {
+          "CWS": "3V-2D (streak L1)",
+          "BOS": "5V-0D (streak W6)"
+        },
+        "ultimo_jogo": {
+          "CWS": "04/08 — derrota 2-14 fora vs BOS",
+          "BOS": "04/08 — vitória 14-2 em casa vs CWS"
+        },
+        "proximo_jogo": {
+          "CWS": "06/08 fora vs BOS, depois casa vs Cleveland Guardians",
+          "BOS": "06/08 casa vs CWS, depois casa vs Athletics"
+        },
+        "confronto_direto_temporada": "BOS lidera 4-0",
+        "abridores": {
+          "CWS": {
+            "nome": "Sean Burke",
+            "mao": "R",
+            "baa": 0.22,
+            "era": 3.04,
+            "whip": 1.1,
+            "ip": 124.1,
+            "gs": 18
+          },
+          "BOS": {
+            "nome": "Sonny Gray",
+            "mao": "R",
+            "baa": 0.242,
+            "era": 2.93,
+            "whip": 1.17,
+            "ip": 113.2,
+            "gs": 20
+          }
+        },
+        "baa_bullpen": {
+          "CWS": 0.2107,
+          "BOS": 0.2124
+        },
+        "baa_efetiva": {
+          "Burke_enfrentado_por_BOS": 0.2163,
+          "Gray_enfrentado_por_CWS": 0.2302
+        },
+        "desfalques": {
+          "CWS": [
+            "Kyle Teel (C, titular, IL10) — substituído por Drew Romo",
+            "Brooks Baldwin, Tanner Murray, Drew Thorpe, Jordan Leasure, Ky Bush, Mike Vasil, Prelander Berroa — IL60, papel secundário"
+          ],
+          "BOS": [
+            "Roman Anthony (LF, titular, IL60) — substituído por Jarren Duran",
+            "Triston Casas (1B, titular, IL60) — substituído por Willson Contreras",
+            "Trevor Story (SS, titular, IL60) — substituído por Andruw Monasterio",
+            "Garrett Crochet (abridor de rotação, IL60)",
+            "Curtis Mead, Isiah Kiner-Falefa — IL10, papel secundário"
+          ]
+        },
+        "motivacao": "Jogo 2 de série de 3 em Fenway; BOS venceu jogo 1 por 14-2 e lidera o confronto direto 4-0 na temporada. BOS em sequência de 6 vitórias, brigando por wild card. CWS lidera a AL Central mas com pequena queda de forma recente.",
+        "park_factor": {
+          "estadio": "Fenway Park",
+          "runs": 104,
+          "hr": 96,
+          "doubles": 118,
+          "categoria": "inflador de duplas (Green Monster), supressor leve de HR"
+        },
+        "clima": {
+          "temperatura_f": 84,
+          "condicao": "parcialmente nublado",
+          "vento": "6 mph para fora",
+          "chance_chuva_pct": 1,
+          "fonte": "WebSearch (RotoWire/AccuWeather agregado)"
+        },
+        "interesse_jogo": {
+          "classificacao": "Desinteressante",
+          "n_fortes": 1,
+          "explicacao": "N_fortes=1 (só Ceddanne Rafaela bate P>=65% com consistência ok); Sam Antonacci, Tristan Peters e Willson Contreras têm P alta mas sem lastro. BAA_efetiva dos dois abridores (0,216 e 0,230) está bem abaixo da média de liga (~0,248), cenário de pitching duro dos dois lados que neutraliza boa parte dos rebatedores no papel."
+        }
+      },
+      "rebatedores": [
+        {
+          "player_id": 803011,
+          "nome": "Sam Antonacci",
+          "time": "Chicago White Sox",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 368,
+          "avg": 0.273,
+          "babip": 0.31,
+          "k_pct": 15.5,
+          "bb_pct": 7.1,
+          "pct_1mais_temporada": 62,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 3,
+          "seca_atual": 3,
+          "p_1mais_base": 71.8,
+          "odd_justa": 1.39,
+          "faixa_odd": [
+            1.34,
+            1.45
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)",
+            "seca atual (3 jogos) próxima/igual maior seca histórica — investigar"
+          ]
+        },
+        {
+          "player_id": 678882,
+          "nome": "Ceddanne Rafaela",
+          "time": "Boston Red Sox",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 445,
+          "avg": 0.289,
+          "babip": 0.339,
+          "k_pct": 20.2,
+          "bb_pct": 4,
+          "pct_1mais_temporada": 75,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 71.7,
+          "odd_justa": 1.39,
+          "faixa_odd": [
+            1.34,
+            1.46
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 671976,
+          "nome": "Tristan Peters",
+          "time": "Chicago White Sox",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 335,
+          "avg": 0.265,
+          "babip": 0.314,
+          "k_pct": 18.5,
+          "bb_pct": 6.9,
+          "pct_1mais_temporada": 50.9,
+          "pct_1mais_ultimos10": 20,
+          "maior_seca_temporada": 7,
+          "seca_atual": 1,
+          "p_1mais_base": 66.9,
+          "odd_justa": 1.49,
+          "faixa_odd": [
+            1.43,
+            1.56
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)",
+            "maior seca histórica > 6 jogos (7)"
+          ]
+        },
+        {
+          "player_id": 575929,
+          "nome": "Willson Contreras",
+          "time": "Boston Red Sox",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 428,
+          "avg": 0.286,
+          "babip": 0.345,
+          "k_pct": 25.2,
+          "bb_pct": 10.7,
+          "pct_1mais_temporada": 65.4,
+          "pct_1mais_ultimos10": 40,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 65,
+          "odd_justa": 1.54,
+          "faixa_odd": [
+            1.47,
+            1.61
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)",
+            "BABIP alto (0.345) — atenção sustentabilidade"
+          ]
+        },
+        {
+          "player_id": 643217,
+          "nome": "Andrew Benintendi",
+          "time": "Chicago White Sox",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 339,
+          "avg": 0.246,
+          "babip": 0.292,
+          "k_pct": 23.9,
+          "bb_pct": 8.6,
+          "pct_1mais_temporada": 54.5,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 63.9,
+          "odd_justa": 1.56,
+          "faixa_odd": [
+            1.49,
+            1.64
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 695731,
+          "nome": "Braden Montgomery",
+          "time": "Chicago White Sox",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 182,
+          "avg": 0.235,
+          "babip": 0.285,
+          "k_pct": 20.3,
+          "bb_pct": 9.3,
+          "pct_1mais_temporada": 62.2,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 3,
+          "seca_atual": 1,
+          "p_1mais_base": 62,
+          "odd_justa": 1.61,
+          "faixa_odd": [
+            1.54,
+            1.69
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 807799,
+          "nome": "Masataka Yoshida",
+          "time": "Boston Red Sox",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 259,
+          "avg": 0.268,
+          "babip": 0.285,
+          "k_pct": 10.4,
+          "bb_pct": 9.3,
+          "pct_1mais_temporada": 56.4,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 62,
+          "odd_justa": 1.61,
+          "faixa_odd": [
+            1.54,
+            1.69
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 805367,
+          "nome": "Chase Meidroth",
+          "time": "Chicago White Sox",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 456,
+          "avg": 0.273,
+          "babip": 0.345,
+          "k_pct": 22.6,
+          "bb_pct": 9.6,
+          "pct_1mais_temporada": 70.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 60.5,
+          "odd_justa": 1.65,
+          "faixa_odd": [
+            1.57,
+            1.74
+          ],
+          "consistencia": "ok",
+          "avisos": [
+            "K% acima de 21% mas dentro do piso",
+            "BABIP alto (0.345) — atenção sustentabilidade"
+          ]
+        },
+        {
+          "player_id": 655316,
+          "nome": "Andruw Monasterio",
+          "time": "Boston Red Sox",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 225,
+          "avg": 0.263,
+          "babip": 0.318,
+          "k_pct": 21.8,
+          "bb_pct": 7.1,
+          "pct_1mais_temporada": 55.6,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 58.6,
+          "odd_justa": 1.71,
+          "faixa_odd": [
+            1.62,
+            1.8
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 678246,
+          "nome": "Miguel Vargas",
+          "time": "Chicago White Sox",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 485,
+          "avg": 0.236,
+          "babip": 0.239,
+          "k_pct": 17.7,
+          "bb_pct": 12.6,
+          "pct_1mais_temporada": 64,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 5,
+          "seca_atual": 1,
+          "p_1mais_base": 57.9,
+          "odd_justa": 1.73,
+          "faixa_odd": [
+            1.64,
+            1.82
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 702332,
+          "nome": "Caleb Durbin",
+          "time": "Boston Red Sox",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 392,
+          "avg": 0.247,
+          "babip": 0.261,
+          "k_pct": 13.3,
+          "bb_pct": 7.1,
+          "pct_1mais_temporada": 55.2,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 57.8,
+          "odd_justa": 1.73,
+          "faixa_odd": [
+            1.64,
+            1.82
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 677800,
+          "nome": "Wilyer Abreu",
+          "time": "Boston Red Sox",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 478,
+          "avg": 0.251,
+          "babip": 0.282,
+          "k_pct": 20.9,
+          "bb_pct": 9.6,
+          "pct_1mais_temporada": 63.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 55.2,
+          "odd_justa": 1.81,
+          "faixa_odd": [
+            1.72,
+            1.92
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        },
+        {
+          "player_id": 657136,
+          "nome": "Connor Wong",
+          "time": "Boston Red Sox",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 170,
+          "avg": 0.248,
+          "babip": 0.324,
+          "k_pct": 22.9,
+          "bb_pct": 9.4,
+          "pct_1mais_temporada": 53.6,
+          "pct_1mais_ultimos10": 30,
+          "maior_seca_temporada": 4,
+          "seca_atual": 4,
+          "p_1mais_base": 54.1,
+          "odd_justa": 1.85,
+          "faixa_odd": [
+            1.75,
+            1.96
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)",
+            "seca atual (4 jogos) próxima/igual maior seca histórica — investigar"
+          ]
+        },
+        {
+          "player_id": 691011,
+          "nome": "Drew Romo",
+          "time": "Chicago White Sox",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 151,
+          "avg": 0.134,
+          "babip": 0.144,
+          "k_pct": 26.5,
+          "bb_pct": 8.6,
+          "pct_1mais_temporada": 36.4,
+          "pct_1mais_ultimos10": 40,
+          "maior_seca_temporada": 6,
+          "seca_atual": 1,
+          "p_1mais_base": 34.5,
+          "odd_justa": 2.9,
+          "faixa_odd": [
+            2.67,
+            3.17
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "não bate piso %1+H (temp>=65% e ult10>=60%)"
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Munetaka Murakami",
+          "motivo": "Chicago White Sox — K% temporada 33.4% > 28%"
+        },
+        {
+          "nome": "Nick Sogard",
+          "motivo": "Boston Red Sox — Amostra de temporada 65 PA < 150 PA — número não confiável"
+        },
+        {
+          "nome": "Colson Montgomery",
+          "motivo": "Chicago White Sox — K% temporada 32.3% > 28% — cada strikeout é zero base garantido"
+        },
+        {
+          "nome": "Jarren Duran",
+          "motivo": "Boston Red Sox — K% temporada 28.5% > 28%"
+        }
+      ]
+    }
+  ]
+}
