@@ -1,0 +1,698 @@
+{
+  "data": "2026-08-07",
+  "gerado_em_utc": "2026-08-07T21:42:22.545Z",
+  "jogos": [
+    {
+      "game_pk": 823349,
+      "contexto": {
+        "visitante": "New York Mets",
+        "mandante": "Pittsburgh Pirates",
+        "estadio": "PNC Park, Pittsburgh (PA)",
+        "data_hora_brt": "07/08 19:40",
+        "classificacao": {
+          "visitante": "50-66, 5º NL East, 20,5 jogos da divisão, 11,0 da vaga de wild card",
+          "mandante": "57-60, 5º NL Central, 16,0 jogos da divisão, 4,5 da vaga de wild card"
+        },
+        "ultimos5": {
+          "visitante": "3V-2D (streak W3)",
+          "mandante": "1V-4D (streak L3)"
+        },
+        "ultimo_jogo": {
+          "visitante": "06/08 vitória 13-6 @ Cleveland Guardians",
+          "mandante": "06/08 derrota 2-5 @ Milwaukee Brewers"
+        },
+        "proximo_jogo": {
+          "visitante": "08/08 @ PIT (segue série), depois @ Atlanta Braves",
+          "mandante": "08/08 vs NYM (segue série), depois @ Miami Marlins"
+        },
+        "confronto_direto_temporada": "NYM lidera 2-1",
+        "abridores": {
+          "visitante": "Zac Thornton (D) — 6 aberturas, 34.1 IP, BAA .215, ERA 2,88, WHIP 1,05, amostra pequena",
+          "mandante": "Carmen Mlodzinski (D) — 9 aberturas, 94.1 IP, BAA .254, ERA 3,15, WHIP 1,31"
+        },
+        "desfalques": [
+          "NYM: Juan Soto (LF, titular) IL10",
+          "NYM: Mark Vientos (1B, titular) IL10",
+          "NYM: Tylor Megill/Reed Garrett (SP/bullpen) IL60",
+          "PIT: Oneil Cruz (CF, titular) IL60",
+          "PIT: Ryan O'Hearn (RF, titular) IL10",
+          "PIT: Mitch Keller (SP) IL60"
+        ],
+        "motivacao": "Sem rivalidade especial; ambos fora de contenção real na divisão.",
+        "park_factor": "PNC Park — 96 runs / 90 HR / 102 doubles, supressor de HR",
+        "clima": "não confirmado",
+        "interesse_jogo": "Desinteressante",
+        "interesse_motivo": "N_fortes=4 mas BAA_efetiva dos dois lados ≤0,235 (0,230 e 0,233) — pitching duro dos dois lados neutraliza os sinais."
+      },
+      "rebatedores": [
+        {
+          "player_id": 693304,
+          "nome": "Nick Gonzales",
+          "time": "PIT Pirates",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 458,
+          "avg": 0.309,
+          "babip": 0.368,
+          "k_pct": 17.2,
+          "bb_pct": 6.1,
+          "pct_1mais_temporada": 67.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6729,
+          "odd_justa": 1.49,
+          "faixa_odd": [
+            1.38,
+            1.61
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "BABIP alto (0,368)"
+          ]
+        },
+        {
+          "player_id": 668804,
+          "nome": "Bryan Reynolds",
+          "time": "PIT Pirates",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 509,
+          "avg": 0.266,
+          "babip": 0.34,
+          "k_pct": 24.6,
+          "bb_pct": 13.8,
+          "pct_1mais_temporada": 66.7,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.6673,
+          "odd_justa": 1.5,
+          "faixa_odd": [
+            1.39,
+            1.62
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 24,6%"
+          ]
+        },
+        {
+          "player_id": 666182,
+          "nome": "Bo Bichette",
+          "time": "NY Mets",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 498,
+          "avg": 0.257,
+          "babip": 0.296,
+          "k_pct": 18.7,
+          "bb_pct": 6,
+          "pct_1mais_temporada": 65.2,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.665,
+          "odd_justa": 1.5,
+          "faixa_odd": [
+            1.44,
+            1.57
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 701807,
+          "nome": "Carson Benge",
+          "time": "NY Mets",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 459,
+          "avg": 0.267,
+          "babip": 0.322,
+          "k_pct": 22,
+          "bb_pct": 7.2,
+          "pct_1mais_temporada": 65.8,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 6,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6606,
+          "odd_justa": 1.51,
+          "faixa_odd": [
+            1.45,
+            1.59
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 22,0%"
+          ]
+        },
+        {
+          "player_id": 663968,
+          "nome": "Jake Mangum",
+          "time": "PIT Pirates",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 335,
+          "avg": 0.298,
+          "babip": 0.364,
+          "k_pct": 18.2,
+          "bb_pct": 5.4,
+          "pct_1mais_temporada": 61.7,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6519,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.42,
+            1.66
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "BABIP alto (0,364)"
+          ]
+        },
+        {
+          "player_id": 805999,
+          "nome": "A.J. Ewing",
+          "time": "NY Mets",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 305,
+          "avg": 0.262,
+          "babip": 0.339,
+          "k_pct": 25.6,
+          "bb_pct": 8.9,
+          "pct_1mais_temporada": 61.3,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 3,
+          "seca_atual": 1,
+          "p_1mais_base": 0.6342,
+          "odd_justa": 1.58,
+          "faixa_odd": [
+            1.51,
+            1.66
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 25,6%"
+          ]
+        },
+        {
+          "player_id": 596019,
+          "nome": "Francisco Lindor",
+          "time": "NY Mets",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 257,
+          "avg": 0.23,
+          "babip": 0.254,
+          "k_pct": 19.8,
+          "bb_pct": 9.7,
+          "pct_1mais_temporada": 57.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6191,
+          "odd_justa": 1.62,
+          "faixa_odd": [
+            1.54,
+            1.7
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 687462,
+          "nome": "Spencer Horwitz",
+          "time": "PIT Pirates",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 312,
+          "avg": 0.271,
+          "babip": 0.289,
+          "k_pct": 14.4,
+          "bb_pct": 13.1,
+          "pct_1mais_temporada": 63.3,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6184,
+          "odd_justa": 1.62,
+          "faixa_odd": [
+            1.5,
+            1.76
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 664040,
+          "nome": "Brandon Lowe",
+          "time": "PIT Pirates",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 480,
+          "avg": 0.255,
+          "babip": 0.307,
+          "k_pct": 27.9,
+          "bb_pct": 9,
+          "pct_1mais_temporada": 67.6,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5717,
+          "odd_justa": 1.75,
+          "faixa_odd": [
+            1.61,
+            1.92
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 27,9%"
+          ]
+        },
+        {
+          "player_id": 683146,
+          "nome": "Brett Baty",
+          "time": "NY Mets",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 363,
+          "avg": 0.219,
+          "babip": 0.288,
+          "k_pct": 27.3,
+          "bb_pct": 8.5,
+          "pct_1mais_temporada": 52.4,
+          "pct_1mais_ultimos10": 40,
+          "maior_seca_temporada": 7,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5362,
+          "odd_justa": 1.86,
+          "faixa_odd": [
+            1.77,
+            1.98
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "maior seca 7 jogos",
+            "K% 27,3%"
+          ]
+        },
+        {
+          "player_id": 676724,
+          "nome": "Jared Young",
+          "time": "NY Mets",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 211,
+          "avg": 0.253,
+          "babip": 0.288,
+          "k_pct": 19.4,
+          "bb_pct": 8.5,
+          "pct_1mais_temporada": 51.5,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5318,
+          "odd_justa": 1.88,
+          "faixa_odd": [
+            1.78,
+            1.99
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 543760,
+          "nome": "Marcus Semien",
+          "time": "NY Mets",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 380,
+          "avg": 0.214,
+          "babip": 0.241,
+          "k_pct": 21.8,
+          "bb_pct": 7.6,
+          "pct_1mais_temporada": 51.5,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5227,
+          "odd_justa": 1.91,
+          "faixa_odd": [
+            1.81,
+            2.03
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21,8%"
+          ]
+        },
+        {
+          "player_id": 669707,
+          "nome": "Jared Triolo",
+          "time": "PIT Pirates",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 259,
+          "avg": 0.239,
+          "babip": 0.312,
+          "k_pct": 21.6,
+          "bb_pct": 8.5,
+          "pct_1mais_temporada": 51.2,
+          "pct_1mais_ultimos10": 20,
+          "maior_seca_temporada": 4,
+          "seca_atual": 3,
+          "p_1mais_base": 0.5043,
+          "odd_justa": 1.98,
+          "faixa_odd": [
+            1.8,
+            2.2
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21,6%"
+          ]
+        },
+        {
+          "player_id": 620443,
+          "nome": "Luis Torrens",
+          "time": "NY Mets",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 212,
+          "avg": 0.234,
+          "babip": 0.281,
+          "k_pct": 19.8,
+          "bb_pct": 6.6,
+          "pct_1mais_temporada": 48.5,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.4809,
+          "odd_justa": 2.08,
+          "faixa_odd": [
+            1.96,
+            2.22
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        }
+      ],
+      "rebatedores_ultimos10": [
+        {
+          "player_id": 701807,
+          "nome": "Carson Benge",
+          "time": "NY Mets",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.333,
+          "k_pct_temporada": 22,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.7642,
+          "odd_justa": 1.31,
+          "faixa_odd": [
+            1.23,
+            1.4
+          ]
+        },
+        {
+          "player_id": 620443,
+          "nome": "Luis Torrens",
+          "time": "NY Mets",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.333,
+          "k_pct_temporada": 19.8,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.7222,
+          "odd_justa": 1.38,
+          "faixa_odd": [
+            1.29,
+            1.49
+          ]
+        },
+        {
+          "player_id": 663968,
+          "nome": "Jake Mangum",
+          "time": "PIT Pirates",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.268,
+          "k_pct_temporada": 18.2,
+          "pa_medio_jogo_ultimos10": 4.7,
+          "p_1mais_base": 0.7122,
+          "odd_justa": 1.4,
+          "faixa_odd": [
+            1.31,
+            1.51
+          ]
+        },
+        {
+          "player_id": 664040,
+          "nome": "Brandon Lowe",
+          "time": "PIT Pirates",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.293,
+          "k_pct_temporada": 27.9,
+          "pa_medio_jogo_ultimos10": 4.4,
+          "p_1mais_base": 0.7118,
+          "odd_justa": 1.4,
+          "faixa_odd": [
+            1.31,
+            1.51
+          ]
+        },
+        {
+          "player_id": 596019,
+          "nome": "Francisco Lindor",
+          "time": "NY Mets",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.262,
+          "k_pct_temporada": 19.8,
+          "pa_medio_jogo_ultimos10": 4.6,
+          "p_1mais_base": 0.6828,
+          "odd_justa": 1.46,
+          "faixa_odd": [
+            1.36,
+            1.58
+          ]
+        },
+        {
+          "player_id": 666182,
+          "nome": "Bo Bichette",
+          "time": "NY Mets",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.256,
+          "k_pct_temporada": 18.7,
+          "pa_medio_jogo_ultimos10": 4.5,
+          "p_1mais_base": 0.6797,
+          "odd_justa": 1.47,
+          "faixa_odd": [
+            1.37,
+            1.59
+          ]
+        },
+        {
+          "player_id": 805999,
+          "nome": "A.J. Ewing",
+          "time": "NY Mets",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.256,
+          "k_pct_temporada": 25.6,
+          "pa_medio_jogo_ultimos10": 4.5,
+          "p_1mais_base": 0.6693,
+          "odd_justa": 1.49,
+          "faixa_odd": [
+            1.39,
+            1.61
+          ]
+        },
+        {
+          "player_id": 543760,
+          "nome": "Marcus Semien",
+          "time": "NY Mets",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.29,
+          "k_pct_temporada": 21.8,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.6567,
+          "odd_justa": 1.52,
+          "faixa_odd": [
+            1.41,
+            1.65
+          ]
+        },
+        {
+          "player_id": 693304,
+          "nome": "Nick Gonzales",
+          "time": "PIT Pirates",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.25,
+          "k_pct_temporada": 17.2,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.6379,
+          "odd_justa": 1.57,
+          "faixa_odd": [
+            1.45,
+            1.7
+          ]
+        },
+        {
+          "player_id": 668804,
+          "nome": "Bryan Reynolds",
+          "time": "PIT Pirates",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.231,
+          "k_pct_temporada": 24.6,
+          "pa_medio_jogo_ultimos10": 4.5,
+          "p_1mais_base": 0.5971,
+          "odd_justa": 1.67,
+          "faixa_odd": [
+            1.55,
+            1.83
+          ]
+        },
+        {
+          "player_id": 676724,
+          "nome": "Jared Young",
+          "time": "NY Mets",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.241,
+          "k_pct_temporada": 19.4,
+          "pa_medio_jogo_ultimos10": 3.5,
+          "p_1mais_base": 0.5528,
+          "odd_justa": 1.81,
+          "faixa_odd": [
+            1.66,
+            1.99
+          ]
+        },
+        {
+          "player_id": 687462,
+          "nome": "Spencer Horwitz",
+          "time": "PIT Pirates",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.206,
+          "k_pct_temporada": 14.4,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.4835,
+          "odd_justa": 2.07,
+          "faixa_odd": [
+            1.87,
+            2.31
+          ]
+        },
+        {
+          "player_id": 804668,
+          "nome": "Rafael Flores Jr.",
+          "time": "PIT Pirates",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.2,
+          "k_pct_temporada": 16,
+          "pa_medio_jogo_ultimos10": 2.5,
+          "p_1mais_base": 0.3277,
+          "odd_justa": 3.05,
+          "faixa_odd": [
+            2.65,
+            3.6
+          ]
+        },
+        {
+          "player_id": 683146,
+          "nome": "Brett Baty",
+          "time": "NY Mets",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.16,
+          "k_pct_temporada": 27.3,
+          "pa_medio_jogo_ultimos10": 2.6,
+          "p_1mais_base": 0.3134,
+          "odd_justa": 3.19,
+          "faixa_odd": [
+            2.75,
+            3.8
+          ]
+        },
+        {
+          "player_id": 669707,
+          "nome": "Jared Triolo",
+          "time": "PIT Pirates",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.2,
+          "k_pct_temporada": 21.6,
+          "pa_medio_jogo_ultimos10": 1.9,
+          "p_1mais_base": 0.2927,
+          "odd_justa": 3.42,
+          "faixa_odd": [
+            2.92,
+            4.12
+          ]
+        },
+        {
+          "player_id": 593871,
+          "nome": "Jorge Polanco",
+          "time": "NY Mets",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.088,
+          "k_pct_temporada": 25,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.2507,
+          "odd_justa": 3.99,
+          "faixa_odd": [
+            3.33,
+            4.98
+          ]
+        },
+        {
+          "player_id": 699013,
+          "nome": "Esmerlyn Valdez",
+          "time": "PIT Pirates",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.067,
+          "k_pct_temporada": 37,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.1912,
+          "odd_justa": 5.23,
+          "faixa_odd": [
+            4.15,
+            7.08
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Jorge Polanco",
+          "motivo": "Amostra da temporada < 150 PA (120 PA)"
+        },
+        {
+          "nome": "Esmerlyn Valdez",
+          "motivo": "K% > 28% (37,0%)"
+        },
+        {
+          "nome": "Ronny Simon",
+          "motivo": "Amostra da temporada < 150 PA (6 PA)"
+        },
+        {
+          "nome": "Rafael Flores Jr.",
+          "motivo": "Amostra da temporada < 150 PA (25 PA)"
+        }
+      ]
+    }
+  ]
+}
