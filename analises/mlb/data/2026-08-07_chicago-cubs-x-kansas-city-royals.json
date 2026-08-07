@@ -1,0 +1,712 @@
+{
+  "data": "2026-08-07",
+  "gerado_em_utc": "2026-08-07T21:42:22.545Z",
+  "jogos": [
+    {
+      "game_pk": 824081,
+      "contexto": {
+        "visitante": "Chicago Cubs",
+        "mandante": "Kansas City Royals",
+        "estadio": "Kauffman Stadium, Kansas City (MO)",
+        "data_hora_brt": "07/08 21:10",
+        "classificacao": {
+          "visitante": "67-49, 2º NL Central, 5,5 jogos do líder, +6,0 na vaga de wild card",
+          "mandante": "48-68, 5º AL Central, 12,0 jogos da divisão, 9,5 da vaga de wild card"
+        },
+        "ultimos5": {
+          "visitante": "5V-0D (streak oficial W4)",
+          "mandante": "2V-3D (streak L1)"
+        },
+        "ultimo_jogo": {
+          "visitante": "06/08 vitória 3-2 vs Toronto Blue Jays",
+          "mandante": "06/08 derrota 3-4 vs Minnesota Twins"
+        },
+        "proximo_jogo": {
+          "visitante": "08/08 @ KC (segue série), depois @ Washington Nationals",
+          "mandante": "08/08 vs CHC (segue série), depois @ Los Angeles Dodgers"
+        },
+        "confronto_direto_temporada": "Primeiro confronto direto da temporada",
+        "abridores": {
+          "visitante": "Kevin Gausman (D) — 23 aberturas, 127.1 IP, BAA .259, ERA 4,38, WHIP 1,29",
+          "mandante": "Daniel Lynch IV (E) — 0 aberturas, 46.0 IP em bullpen, BAA .185, ERA 1,96, WHIP 0,93, amostra mínima como titular"
+        },
+        "desfalques": [
+          "CHC: Matt Shaw (RF, titular) IL10",
+          "CHC: Justin Steele/Cade Horton/Ben Brown/Clay Holmes (rotação/bullpen) IL60",
+          "KC: Jonathan India (2B, titular) IL60",
+          "KC: Maikel Garcia (3B, titular) IL10",
+          "KC: Vinnie Pasquantino (1B, titular) IL10"
+        ],
+        "motivacao": "CHC briga pelo topo da NL Central; KC fora de contenção, time em reconstrução.",
+        "park_factor": "Kauffman Stadium — 96 runs / 88 HR / 105 doubles, supressor de HR",
+        "clima": "não confirmado",
+        "interesse_jogo": "Interessante",
+        "interesse_motivo": "N_fortes=3 e BAA_efetiva enfrentada pelos batedores do KC (0,240) não está muito baixa — não são dois arremessos difíceis ao mesmo tempo. Ressalva de confiança: Lynch IV sem aberturas na temporada."
+      },
+      "rebatedores": [
+        {
+          "player_id": 673548,
+          "nome": "Seiya Suzuki",
+          "time": "CHI Cubs",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 434,
+          "avg": 0.27,
+          "babip": 0.332,
+          "k_pct": 25.6,
+          "bb_pct": 12.2,
+          "pct_1mais_temporada": 66.7,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 6,
+          "seca_atual": 1,
+          "p_1mais_base": 0.7032,
+          "odd_justa": 1.42,
+          "faixa_odd": [
+            1.33,
+            1.53
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 25,6%"
+          ]
+        },
+        {
+          "player_id": 677951,
+          "nome": "Bobby Witt Jr.",
+          "time": "KC Royals",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 427,
+          "avg": 0.286,
+          "babip": 0.323,
+          "k_pct": 17.3,
+          "bb_pct": 9.8,
+          "pct_1mais_temporada": 74.2,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.7022,
+          "odd_justa": 1.42,
+          "faixa_odd": [
+            1.37,
+            1.49
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 663538,
+          "nome": "Nico Hoerner",
+          "time": "CHI Cubs",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 502,
+          "avg": 0.26,
+          "babip": 0.273,
+          "k_pct": 9,
+          "bb_pct": 7.6,
+          "pct_1mais_temporada": 68.4,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.7017,
+          "odd_justa": 1.43,
+          "faixa_odd": [
+            1.33,
+            1.53
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 691718,
+          "nome": "Pete Crow-Armstrong",
+          "time": "CHI Cubs",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 511,
+          "avg": 0.289,
+          "babip": 0.361,
+          "k_pct": 26.6,
+          "bb_pct": 11.7,
+          "pct_1mais_temporada": 69,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6887,
+          "odd_justa": 1.45,
+          "faixa_odd": [
+            1.35,
+            1.57
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "BABIP alto (0,361)",
+            "K% 26,6%"
+          ]
+        },
+        {
+          "player_id": 608348,
+          "nome": "Carson Kelly",
+          "time": "CHI Cubs",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 304,
+          "avg": 0.265,
+          "babip": 0.303,
+          "k_pct": 16.4,
+          "bb_pct": 10.9,
+          "pct_1mais_temporada": 57,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 1,
+          "p_1mais_base": 0.6542,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.42,
+            1.66
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 608324,
+          "nome": "Alex Bregman",
+          "time": "CHI Cubs",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 517,
+          "avg": 0.248,
+          "babip": 0.277,
+          "k_pct": 16.1,
+          "bb_pct": 10.8,
+          "pct_1mais_temporada": 67.3,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6517,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.43,
+            1.66
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 695506,
+          "nome": "Jac Caglianone",
+          "time": "KC Royals",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 414,
+          "avg": 0.254,
+          "babip": 0.312,
+          "k_pct": 27.1,
+          "bb_pct": 6.5,
+          "pct_1mais_temporada": 61.7,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 6,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6414,
+          "odd_justa": 1.56,
+          "faixa_odd": [
+            1.49,
+            1.64
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 27,1%"
+          ]
+        },
+        {
+          "player_id": 683737,
+          "nome": "Michael Busch",
+          "time": "CHI Cubs",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 517,
+          "avg": 0.241,
+          "babip": 0.294,
+          "k_pct": 22.6,
+          "bb_pct": 13,
+          "pct_1mais_temporada": 64.3,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 8,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5901,
+          "odd_justa": 1.69,
+          "faixa_odd": [
+            1.56,
+            1.85
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "maior seca 8 jogos",
+            "K% 22,6%"
+          ]
+        },
+        {
+          "player_id": 686555,
+          "nome": "Isaac Collins",
+          "time": "KC Royals",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 382,
+          "avg": 0.238,
+          "babip": 0.303,
+          "k_pct": 22.5,
+          "bb_pct": 11.5,
+          "pct_1mais_temporada": 58.7,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5874,
+          "odd_justa": 1.7,
+          "faixa_odd": [
+            1.62,
+            1.79
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 22,5%"
+          ]
+        },
+        {
+          "player_id": 686681,
+          "nome": "Michael Massey",
+          "time": "KC Royals",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 312,
+          "avg": 0.263,
+          "babip": 0.289,
+          "k_pct": 17,
+          "bb_pct": 5.1,
+          "pct_1mais_temporada": 55.8,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5805,
+          "odd_justa": 1.72,
+          "faixa_odd": [
+            1.64,
+            1.82
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 521692,
+          "nome": "Salvador Perez",
+          "time": "KC Royals",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 453,
+          "avg": 0.215,
+          "babip": 0.235,
+          "k_pct": 20.5,
+          "bb_pct": 4,
+          "pct_1mais_temporada": 60.2,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5588,
+          "odd_justa": 1.79,
+          "faixa_odd": [
+            1.7,
+            1.89
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 621020,
+          "nome": "Dansby Swanson",
+          "time": "CHI Cubs",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 430,
+          "avg": 0.217,
+          "babip": 0.246,
+          "k_pct": 23.5,
+          "bb_pct": 9.8,
+          "pct_1mais_temporada": 51.4,
+          "pct_1mais_ultimos10": 40,
+          "maior_seca_temporada": 5,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5443,
+          "odd_justa": 1.84,
+          "faixa_odd": [
+            1.68,
+            2.02
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 23,5%"
+          ]
+        },
+        {
+          "player_id": 679845,
+          "nome": "Nick Loftin",
+          "time": "KC Royals",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 271,
+          "avg": 0.249,
+          "babip": 0.273,
+          "k_pct": 14,
+          "bb_pct": 9.6,
+          "pct_1mais_temporada": 51.3,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 7,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5254,
+          "odd_justa": 1.9,
+          "faixa_odd": [
+            1.8,
+            2.02
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "maior seca 7 jogos"
+          ]
+        },
+        {
+          "player_id": 516782,
+          "nome": "Starling Marte",
+          "time": "KC Royals",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 151,
+          "avg": 0.255,
+          "babip": 0.337,
+          "k_pct": 24.5,
+          "bb_pct": 5.3,
+          "pct_1mais_temporada": 53.7,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5136,
+          "odd_justa": 1.95,
+          "faixa_odd": [
+            1.77,
+            2.16
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 24,5%"
+          ]
+        }
+      ],
+      "rebatedores_ultimos10": [
+        {
+          "player_id": 673548,
+          "nome": "Seiya Suzuki",
+          "time": "CHI Cubs",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.316,
+          "k_pct_temporada": 25.6,
+          "pa_medio_jogo_ultimos10": 4.7,
+          "p_1mais_base": 0.7274,
+          "odd_justa": 1.37,
+          "faixa_odd": [
+            1.29,
+            1.48
+          ]
+        },
+        {
+          "player_id": 608324,
+          "nome": "Alex Bregman",
+          "time": "CHI Cubs",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.317,
+          "k_pct_temporada": 16.1,
+          "pa_medio_jogo_ultimos10": 4.4,
+          "p_1mais_base": 0.7114,
+          "odd_justa": 1.41,
+          "faixa_odd": [
+            1.31,
+            1.51
+          ]
+        },
+        {
+          "player_id": 691718,
+          "nome": "Pete Crow-Armstrong",
+          "time": "CHI Cubs",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.3,
+          "k_pct_temporada": 26.6,
+          "pa_medio_jogo_ultimos10": 4.6,
+          "p_1mais_base": 0.6989,
+          "odd_justa": 1.43,
+          "faixa_odd": [
+            1.34,
+            1.54
+          ]
+        },
+        {
+          "player_id": 663538,
+          "nome": "Nico Hoerner",
+          "time": "CHI Cubs",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.333,
+          "k_pct_temporada": 9,
+          "pa_medio_jogo_ultimos10": 3.8,
+          "p_1mais_base": 0.6945,
+          "odd_justa": 1.44,
+          "faixa_odd": [
+            1.34,
+            1.55
+          ]
+        },
+        {
+          "player_id": 521692,
+          "nome": "Salvador Perez",
+          "time": "KC Royals",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.27,
+          "k_pct_temporada": 20.5,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.6892,
+          "odd_justa": 1.45,
+          "faixa_odd": [
+            1.35,
+            1.56
+          ]
+        },
+        {
+          "player_id": 695506,
+          "nome": "Jac Caglianone",
+          "time": "KC Royals",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.25,
+          "k_pct_temporada": 27.1,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.6545,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.42,
+            1.65
+          ]
+        },
+        {
+          "player_id": 677951,
+          "nome": "Bobby Witt Jr.",
+          "time": "KC Royals",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.263,
+          "k_pct_temporada": 17.3,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.6542,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.42,
+            1.66
+          ]
+        },
+        {
+          "player_id": 608348,
+          "nome": "Carson Kelly",
+          "time": "CHI Cubs",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.29,
+          "k_pct_temporada": 16.4,
+          "pa_medio_jogo_ultimos10": 3.3,
+          "p_1mais_base": 0.5664,
+          "odd_justa": 1.77,
+          "faixa_odd": [
+            1.62,
+            1.94
+          ]
+        },
+        {
+          "player_id": 699393,
+          "nome": "Pedro Ramírez",
+          "time": "CHI Cubs",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.286,
+          "k_pct_temporada": 17.8,
+          "pa_medio_jogo_ultimos10": 3.2,
+          "p_1mais_base": 0.558,
+          "odd_justa": 1.79,
+          "faixa_odd": [
+            1.64,
+            1.97
+          ]
+        },
+        {
+          "player_id": 679845,
+          "nome": "Nick Loftin",
+          "time": "KC Royals",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.241,
+          "k_pct_temporada": 14,
+          "pa_medio_jogo_ultimos10": 3.4,
+          "p_1mais_base": 0.5499,
+          "odd_justa": 1.82,
+          "faixa_odd": [
+            1.67,
+            2
+          ]
+        },
+        {
+          "player_id": 683737,
+          "nome": "Michael Busch",
+          "time": "CHI Cubs",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.209,
+          "k_pct_temporada": 22.6,
+          "pa_medio_jogo_ultimos10": 4.4,
+          "p_1mais_base": 0.5222,
+          "odd_justa": 1.92,
+          "faixa_odd": [
+            1.75,
+            2.12
+          ]
+        },
+        {
+          "player_id": 686475,
+          "nome": "Tyler Tolbert",
+          "time": "KC Royals",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.316,
+          "k_pct_temporada": 16.5,
+          "pa_medio_jogo_ultimos10": 2.2,
+          "p_1mais_base": 0.5205,
+          "odd_justa": 1.92,
+          "faixa_odd": [
+            1.75,
+            2.13
+          ]
+        },
+        {
+          "player_id": 686681,
+          "nome": "Michael Massey",
+          "time": "KC Royals",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.171,
+          "k_pct_temporada": 17,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.4622,
+          "odd_justa": 2.16,
+          "faixa_odd": [
+            1.95,
+            2.43
+          ]
+        },
+        {
+          "player_id": 686555,
+          "nome": "Isaac Collins",
+          "time": "KC Royals",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.171,
+          "k_pct_temporada": 22.5,
+          "pa_medio_jogo_ultimos10": 3.9,
+          "p_1mais_base": 0.456,
+          "odd_justa": 2.19,
+          "faixa_odd": [
+            1.98,
+            2.46
+          ]
+        },
+        {
+          "player_id": 621020,
+          "nome": "Dansby Swanson",
+          "time": "CHI Cubs",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.194,
+          "k_pct_temporada": 23.5,
+          "pa_medio_jogo_ultimos10": 3.8,
+          "p_1mais_base": 0.4558,
+          "odd_justa": 2.19,
+          "faixa_odd": [
+            1.98,
+            2.46
+          ]
+        },
+        {
+          "player_id": 516782,
+          "nome": "Starling Marte",
+          "time": "KC Royals",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.2,
+          "k_pct_temporada": 24.5,
+          "pa_medio_jogo_ultimos10": 2.6,
+          "p_1mais_base": 0.4034,
+          "odd_justa": 2.48,
+          "faixa_odd": [
+            2.21,
+            2.83
+          ]
+        },
+        {
+          "player_id": 695600,
+          "nome": "Carter Jensen",
+          "time": "KC Royals",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.111,
+          "k_pct_temporada": 29.7,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.3424,
+          "odd_justa": 2.92,
+          "faixa_odd": [
+            2.55,
+            3.42
+          ]
+        },
+        {
+          "player_id": 664023,
+          "nome": "Ian Happ",
+          "time": "CHI Cubs",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.125,
+          "k_pct_temporada": 31,
+          "pa_medio_jogo_ultimos10": 3.6,
+          "p_1mais_base": 0.2887,
+          "odd_justa": 3.46,
+          "faixa_odd": [
+            2.95,
+            4.19
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Ian Happ",
+          "motivo": "K% > 28% (31,0%) | Split vs braço do abridor > 50pts abaixo da média (155 vs 211)"
+        },
+        {
+          "nome": "Pedro Ramírez",
+          "motivo": "Amostra da temporada < 150 PA (118 PA)"
+        },
+        {
+          "nome": "Carter Jensen",
+          "motivo": "K% > 28% (29,7%)"
+        },
+        {
+          "nome": "Tyler Tolbert",
+          "motivo": "Amostra da temporada < 150 PA (91 PA)"
+        }
+      ]
+    }
+  ]
+}
