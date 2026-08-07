@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — NY Mets x PIT Pirates (Análise MLB)</title>
+<link rel="stylesheet" href="../style.css?v=8" />
+<script src="analises-list.js"></script>
+<script src="../common.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link" href="../wnba/index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-head-grid">
+    <div class="analysis-hero">
+      <span class="history-date-badge">07/08 · 19:40 BRT</span>
+      <div class="history-logos">
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nym.png" alt="New York Mets" />
+        <span class="history-vs">VS</span>
+        <img src="https://a.espncdn.com/i/teamlogos/mlb/500/pit.png" alt="Pittsburgh Pirates" />
+      </div>
+      <div class="history-teams-label">NY Mets vs PIT Pirates</div>
+      <div class="hero-venue">PNC Park, Pittsburgh (PA)</div>
+    </div>
+
+    <div class="info-tabs-card">
+      <div class="info-tabs-nav" id="info-tabs-nav">
+        <button class="info-tab-btn active" data-tab="momento" onclick="setInfoTab('info-tabs','momento')">Momento da Equipe</button>
+        <button class="info-tab-btn" data-tab="desfalques" onclick="setInfoTab('info-tabs','desfalques')">Desfalques</button>
+        <button class="info-tab-btn" data-tab="motivacao" onclick="setInfoTab('info-tabs','motivacao')">Motivação</button>
+        <button class="info-tab-btn" data-tab="ia" onclick="setInfoTab('info-tabs','ia')">Avaliação da IA</button>
+      </div>
+      <div class="info-tab-panels" id="info-tabs-panels">
+        <div class="info-tab-panel active" data-tab="momento">
+          <table>
+            <tr><th></th><th>NYM</th><th>PIT</th></tr>
+            <tr><td>Classificação</td><td>50-66, 5º NL East, 20,5 jogos da divisão, 11,0 da vaga de wild card</td><td>57-60, 5º NL Central, 16,0 jogos da divisão, 4,5 da vaga de wild card</td></tr>
+            <tr><td>Últimos 5</td><td>3V-2D (streak atual: W3)</td><td>1V-4D (streak atual: L3)</td></tr>
+            <tr><td>Mando</td><td>Visitante</td><td>Casa</td></tr>
+            <tr><td>Último jogo</td><td>06/08 — ✅ 13-6 ✈️ vs Cleveland Guardians</td><td>06/08 — ❌ 2-5 ✈️ vs Milwaukee Brewers</td></tr>
+            <tr><td>Próximo jogo</td><td>08/08 ✈️ vs PIT (segue série), depois 🏠 vs Atlanta Braves</td><td>08/08 🏠 vs NYM (segue série), depois ✈️ vs Miami Marlins</td></tr>
+            <tr><td>Confronto direto 2026</td><td colspan="2">NYM lidera 2-1 (série de março disputada)</td></tr>
+            <tr><td>Abridor</td><td>Zac Thornton (D) — 6 aberturas, 34.1 IP, AVG contra .215, ERA 2,88, WHIP 1,05 ⚠️ amostra ainda pequena</td><td>Carmen Mlodzinski (D) — 9 aberturas, 94.1 IP, AVG contra .254, ERA 3,15, WHIP 1,31</td></tr>
+          </table>
+        </div>
+        <div class="info-tab-panel" data-tab="desfalques">
+          <p><span class="badge">NYM</span> Juan Soto (LF, titular) — IL10. Mark Vientos (1B, titular) — IL10. Rotação/bullpen: Tylor Megill (IL60), Reed Garrett (IL60), Justin Hagenman (IL60), Austin Warren e Cionel Pérez (IL15).</p>
+          <p><span class="badge">PIT</span> Oneil Cruz (CF, titular) — IL60, ausência longa e sentida. Ryan O'Hearn (RF, titular) — IL10. Rotação: Mitch Keller (IL60), Konnor Griffin (IL60, prospecto de infield).</p>
+        </div>
+        <div class="info-tab-panel" data-tab="motivacao">
+          <p>Nenhuma rivalidade especial. Os dois times já estão fora de contenção real na divisão (NYM 20,5 jogos atrás, PIT 16,0), embora PIT ainda tenha uma chance matemática remota de wild card (4,5 jogos). Jogo de rotina de fim de temporada, com foco em avaliação de jovens e desenvolvimento.</p>
+          <p style="font-size:13px;color:var(--muted)">PNC Park — park factor 96 runs / 90 HR / 102 doubles (supressor de home runs). Sem teto retrátil. ⚠️ Clima não confirmado.</p>
+        </div>
+        <div class="info-tab-panel" data-tab="ia">
+          <p><strong>Interesse do jogo: Desinteressante (por matchup, não por incerteza dos dados).</strong></p>
+          <p>N_fortes = 4 (Nick Gonzales, Bryan Reynolds, Bo Bichette, Carson Benge todos com P≥65% e no máximo um aviso leve de consistência) — em outras condições seria um sinal de jogo interessante. Mas os dois arremessos combinados (abridor + bullpen) são duros ao mesmo tempo: BAA_efetiva enfrentada pelos batedores do NYM (Mlodzinski + bullpen PIT) = 0,230 e a enfrentada pelos batedores do PIT (Thornton + bullpen NYM) = 0,233 — as duas abaixo do limiar de 0,235 usado pela skill para marcar "pitching difícil dos dois lados". Isso neutraliza boa parte do valor dos números de temporada, por isso o jogo cai em Desinteressante apesar da profundidade aparente de sinais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-tabs-nav" id="market-tabs-nav">
+    <button class="market-tab-btn active" data-market="tb" onclick="setMarketTab('market-tabs','tb')">Total de Bases</button>
+  </div>
+
+  <div class="market-panel active" data-group="market-tabs" data-market="tb">
+    <div class="card">
+      <h2>Ranking — Probabilidade de 1+ base total</h2>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Slot</th><th>%1+H temp.</th><th>%1+H últ.10</th><th>K%</th><th>BABIP</th><th>Consistência</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+          </tbody>
+          <tbody class="rank-extra-rows" id="tb-extra">
+<tr class="rank-pick"><td><span class="rank-num">1</span></td><td>Nick Gonzales <span class="pick-star">⭐</span></td><td>PIT Pirates</td><td>6</td><td>67,6%</td><td>60,0%</td><td>17,2%</td><td>0,368</td><td>⚠️ BABIP alto (0,368)</td><td class="prob-cell">67,3%</td><td>1,49</td><td>1,38–1,61</td></tr>
+<tr><td><span class="rank-num">2</span></td><td>Bryan Reynolds</td><td>PIT Pirates</td><td>3</td><td>66,7%</td><td>70,0%</td><td>24,6%</td><td>0,340</td><td>⚠️ K% 24,6%</td><td class="prob-cell">66,7%</td><td>1,50</td><td>1,39–1,62</td></tr>
+<tr class="rank-pick"><td><span class="rank-num">3</span></td><td>Bo Bichette <span class="pick-star">⭐</span></td><td>NY Mets</td><td>3</td><td>65,2%</td><td>60,0%</td><td>18,7%</td><td>0,296</td><td>✅</td><td class="prob-cell">66,5%</td><td>1,50</td><td>1,44–1,57</td></tr>
+<tr><td><span class="rank-num">4</span></td><td>Carson Benge</td><td>NY Mets</td><td>4</td><td>65,8%</td><td>80,0%</td><td>22,0%</td><td>0,322</td><td>⚠️ K% 22,0%</td><td class="prob-cell">66,1%</td><td>1,51</td><td>1,45–1,59</td></tr>
+<tr><td><span class="rank-num">5</span></td><td>Jake Mangum</td><td>PIT Pirates</td><td>1</td><td>61,7%</td><td>80,0%</td><td>18,2%</td><td>0,364</td><td>sem lastro</td><td class="prob-cell">65,2%</td><td>1,53</td><td>1,42–1,66</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rank-expand-wrap">
+        <button class="rank-expand-btn" onclick="expandRank(this,'tb-extra')">Expandir ranking (65–70%) ▼</button>
+      </div>
+      <p class="rank-note">Nenhum jogador atingiu 70% neste jogo — lista principal fica vazia e todos os elegíveis (65–70%) aparecem só na expansão. Abaixo de 65% não é exibido. ⭐ = escolhidos da dupla, ver abaixo.</p>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px">BAA_efetiva enfrentada pelos batedores do NYM (vs Mlodzinski + bullpen PIT) = 0,230. BAA_efetiva enfrentada pelos batedores do PIT (vs Thornton + bullpen NYM) = 0,233. Faixa ampliada para ±5pp nos casos com split <100 PA ou abridor com menos de 8 aberturas (Thornton, 6 aberturas — afeta os batedores do PIT).</p>
+    </div>
+
+    <div class="card">
+      <h2>Dupla escolhida <span style="font-size:14px;font-weight:normal;color:var(--muted)">(maiores P(1+base), times distintos — Bryan Reynolds ficou de fora por 0,1-0,8pp de diferença, mesmo time de Gonzales)</span></h2>
+      <div class="picks-l5-grid">
+<div class="picks-l5-card">
+          <div class="pl5-name">Nick Gonzales <span class="badge">PIT</span></div>
+          <div class="pl5-sub">P(1+base) 67,3% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">02/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">03/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">04/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:25%"></div><span class="pl5-bar-date">05/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">2</span><div class="pl5-bar" style="height:50%"></div><span class="pl5-bar-date">06/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>0,6 base/jogo</strong> nos últimos 5 (3 bases totais em 5 jogos, 2/5 jogos com 1+ base) — janela recente fria (seca de 3 jogos até 04/08), mas P sustentado sobretudo pelo BABIP alto da temporada — atenção à sustentabilidade.</div>
+        </div>
+<div class="picks-l5-card">
+          <div class="pl5-name">Bo Bichette <span class="badge">NYM</span></div>
+          <div class="pl5-sub">P(1+base) 66,5% · Total de bases, últimos 5 jogos</div>
+          <div class="picks-l5-bars">
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:20%"></div><span class="pl5-bar-date">01/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">0</span><div class="pl5-bar zero" style="height:6%"></div><span class="pl5-bar-date">02/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">5</span><div class="pl5-bar" style="height:100%"></div><span class="pl5-bar-date">04/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">1</span><div class="pl5-bar" style="height:20%"></div><span class="pl5-bar-date">05/08</span></div>
+            <div class="pl5-bar-col"><span class="pl5-bar-val">3</span><div class="pl5-bar" style="height:60%"></div><span class="pl5-bar-date">06/08</span></div>
+          </div>
+          <div class="pl5-avg">Média: <strong>2,0 base/jogo</strong> nos últimos 5 (10 bases totais em 5 jogos, 4/5 jogos com 1+ base) — janela recente consistente, reforça a consistência ✅.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Últimos 10 jogos <span style="font-size:14px;font-weight:normal;color:var(--muted)">(Tabela 1B — cálculo alternativo de janela curta)</span></h2>
+      <p class="rank-note">Tabela adicional, não substitui o ranking de temporada acima. Mesma fórmula log5, mas B (média do rebatedor) é a AVG dos últimos 10 jogos em vez do split vs braço do abridor. Faixa ampliada para ±5pp sempre. Sem filtro de K%/split — só entra quem jogou pelo menos 8 dos últimos 10.</p>
+      <div class="rank-table-wrap">
+        <table class="rank-table">
+          <thead>
+            <tr><th>#</th><th>Jogador</th><th>Time</th><th>Jogos na amostra</th><th>AVG últ.10</th><th>K% temp.</th><th>P(1+base)</th><th>Odd justa</th><th>Faixa</th></tr>
+          </thead>
+          <tbody>
+<tr><td><span class="rank-num">1</span></td><td>Carson Benge</td><td>NY Mets</td><td>10/10</td><td>0,333</td><td>22,0%</td><td class="prob-cell">76,4%</td><td>1,31</td><td>1,23–1,40</td></tr>
+<tr><td><span class="rank-num">2</span></td><td>Luis Torrens</td><td>NY Mets</td><td>10/10</td><td>0,333</td><td>19,8%</td><td class="prob-cell">72,2%</td><td>1,38</td><td>1,29–1,49</td></tr>
+<tr><td><span class="rank-num">3</span></td><td>Jake Mangum</td><td>PIT Pirates</td><td>10/10</td><td>0,268</td><td>18,2%</td><td class="prob-cell">71,2%</td><td>1,40</td><td>1,31–1,51</td></tr>
+<tr><td><span class="rank-num">4</span></td><td>Brandon Lowe</td><td>PIT Pirates</td><td>10/10</td><td>0,293</td><td>27,9%</td><td class="prob-cell">71,2%</td><td>1,40</td><td>1,31–1,51</td></tr>
+<tr><td><span class="rank-num">5</span></td><td>Francisco Lindor</td><td>NY Mets</td><td>10/10</td><td>0,262</td><td>19,8%</td><td class="prob-cell">68,3%</td><td>1,46</td><td>1,36–1,58</td></tr>
+<tr><td><span class="rank-num">6</span></td><td>Bo Bichette</td><td>NY Mets</td><td>10/10</td><td>0,256</td><td>18,7%</td><td class="prob-cell">68,0%</td><td>1,47</td><td>1,37–1,59</td></tr>
+<tr><td><span class="rank-num">7</span></td><td>A.J. Ewing</td><td>NY Mets</td><td>10/10</td><td>0,256</td><td>25,6%</td><td class="prob-cell">66,9%</td><td>1,49</td><td>1,39–1,61</td></tr>
+<tr><td><span class="rank-num">8</span></td><td>Marcus Semien</td><td>NY Mets</td><td>10/10</td><td>0,290</td><td>21,8%</td><td class="prob-cell">65,7%</td><td>1,52</td><td>1,41–1,65</td></tr>
+<tr><td><span class="rank-num">9</span></td><td>Nick Gonzales</td><td>PIT Pirates</td><td>10/10</td><td>0,250</td><td>17,2%</td><td class="prob-cell">63,8%</td><td>1,57</td><td>1,45–1,70</td></tr>
+<tr><td><span class="rank-num">10</span></td><td>Bryan Reynolds</td><td>PIT Pirates</td><td>10/10</td><td>0,231</td><td>24,6%</td><td class="prob-cell">59,7%</td><td>1,67</td><td>1,55–1,83</td></tr>
+<tr><td><span class="rank-num">11</span></td><td>Jared Young</td><td>NY Mets</td><td>10/10</td><td>0,241</td><td>19,4%</td><td class="prob-cell">55,3%</td><td>1,81</td><td>1,66–1,99</td></tr>
+<tr><td><span class="rank-num">12</span></td><td>Spencer Horwitz</td><td>PIT Pirates</td><td>10/10</td><td>0,206</td><td>14,4%</td><td class="prob-cell">48,3%</td><td>2,07</td><td>1,87–2,31</td></tr>
+<tr><td><span class="rank-num">13</span></td><td>Rafael Flores Jr. <em>(excluído da Tabela 1)</em></td><td>PIT Pirates</td><td>10/10</td><td>0,200</td><td>16,0%</td><td class="prob-cell">32,8%</td><td>3,05</td><td>2,65–3,60</td></tr>
+<tr><td><span class="rank-num">14</span></td><td>Brett Baty</td><td>NY Mets</td><td>10/10</td><td>0,160</td><td>27,3%</td><td class="prob-cell">31,3%</td><td>3,19</td><td>2,75–3,80</td></tr>
+<tr><td><span class="rank-num">15</span></td><td>Jared Triolo</td><td>PIT Pirates</td><td>10/10</td><td>0,200</td><td>21,6%</td><td class="prob-cell">29,3%</td><td>3,42</td><td>2,92–4,12</td></tr>
+<tr><td><span class="rank-num">16</span></td><td>Jorge Polanco <em>(excluído da Tabela 1)</em></td><td>NY Mets</td><td>10/10</td><td>0,088</td><td>25,0%</td><td class="prob-cell">25,1%</td><td>3,99</td><td>3,33–4,98</td></tr>
+<tr><td><span class="rank-num">17</span></td><td>Esmerlyn Valdez <em>(excluído da Tabela 1)</em></td><td>PIT Pirates</td><td>10/10</td><td>0,067</td><td>37,0%</td><td class="prob-cell">19,1%</td><td>5,23</td><td>4,15–7,08</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>buildNavDropdown('nav-select', 'MLB_ANALISES', null);</script>
+</body>
+</html>
