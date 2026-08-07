@@ -1,0 +1,54 @@
+{
+  "data": "2026-08-07",
+  "gerado_em_utc": "2026-08-07T21:35:00Z",
+  "jogos": [
+    {
+      "game_pk": 823266,
+      "contexto": {
+        "visitante": "Houston Astros",
+        "mandante": "San Diego Padres",
+        "estadio": "Petco Park, San Diego (CA)",
+        "data_hora_brt": "07/08 22:40",
+        "escalacao_confirmada": false,
+        "reconsultar_apos_brt": "20:30-22:00",
+        "classificacao": {
+          "visitante": "59-57, 1º AL West (líder da divisão)",
+          "mandante": "60-56, 3º NL West, 9,5 do líder, 1,0 da vaga de wild card"
+        },
+        "ultimos5": {
+          "visitante": "3V-2D (streak L1)",
+          "mandante": "3V-2D (streak W1)"
+        },
+        "ultimo_jogo": {
+          "visitante": "05/08 derrota 4-5 vs Toronto Blue Jays",
+          "mandante": "07/08 vitória 5-1 @ Arizona Diamondbacks"
+        },
+        "proximo_jogo": {
+          "visitante": "08/08 @ SD (segue série, inclui doubleheader), depois @ San Francisco Giants",
+          "mandante": "08/08 vs HOU (segue série), depois vs Milwaukee Brewers"
+        },
+        "confronto_direto_temporada": "Primeiro confronto direto da temporada",
+        "abridores": {
+          "visitante": "Ronel Blanco (D) — 3 aberturas, 14.2 IP, BAA .208, ERA 7,36, WHIP 1,30, amostra mínima extrema",
+          "mandante": "Robbie Ray (E) — 21 aberturas, 122.2 IP, BAA .226, ERA 3,08, WHIP 1,29"
+        },
+        "desfalques": [
+          "HOU: Carlos Correa (SS, titular) IL60",
+          "HOU: Brice Matthews (CF, titular) IL10",
+          "SD: Ramón Laureano (LF, titular) IL60",
+          "SD: Miguel Andujar (DH) IL10",
+          "SD: Joe Musgrove/Nick Pivetta (rotação) IL60",
+          "SD: Jason Adam (fechador) IL60"
+        ],
+        "motivacao": "HOU lidera a AL West com folga; SD briga de perto pela vaga de wild card (1,0 jogo atrás). Primeiro confronto direto da temporada.",
+        "park_factor": "Petco Park — 92 runs / 88 HR / 97 doubles, supressor",
+        "clima": "não confirmado",
+        "interesse_jogo": "pendente",
+        "interesse_motivo": "Escalação titular de nenhum dos dois times confirmada — impossível calcular P(1+base) e N_fortes."
+      },
+      "rebatedores": [],
+      "rebatedores_ultimos10": [],
+      "excluidos": []
+    }
+  ]
+}
