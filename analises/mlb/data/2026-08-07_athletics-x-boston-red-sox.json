@@ -1,0 +1,607 @@
+{
+  "data": "2026-08-07",
+  "gerado_em_utc": "2026-08-07T21:42:22.545Z",
+  "jogos": [
+    {
+      "game_pk": 824727,
+      "contexto": {
+        "visitante": "Athletics",
+        "mandante": "Boston Red Sox",
+        "estadio": "Fenway Park, Boston (MA)",
+        "data_hora_brt": "07/08 20:10",
+        "classificacao": {
+          "visitante": "45-70, 4º AL West, 13,5 jogos da divisão, 12,0 da vaga de wild card",
+          "mandante": "63-51, 3º AL East, 5,0 jogos do líder, +6,5 na vaga de wild card"
+        },
+        "ultimos5": {
+          "visitante": "0V-5D (streak L8)",
+          "mandante": "5V-0D (streak W8)"
+        },
+        "ultimo_jogo": {
+          "visitante": "06/08 derrota 5-6 @ Cincinnati Reds",
+          "mandante": "06/08 vitória 12-11 vs Chicago White Sox"
+        },
+        "proximo_jogo": {
+          "visitante": "08/08 @ BOS (segue série), depois vs Tampa Bay Rays",
+          "mandante": "08/08 vs ATH (segue série), depois @ Toronto Blue Jays"
+        },
+        "confronto_direto_temporada": "BOS lidera 3-1",
+        "abridores": {
+          "visitante": "Jack Perkins (D) — 9 aberturas, 73.2 IP, BAA .256, ERA 6,72, WHIP 1,40, temporada difícil",
+          "mandante": "Payton Tolle (E) — 18 aberturas, 101.0 IP, BAA .228, ERA 3,30, WHIP 1,15"
+        },
+        "desfalques": [
+          "ATH: Brent Rooker (DH, titular) IL60",
+          "ATH: Nick Kurtz (1B, titular) IL10",
+          "ATH: Shea Langeliers (C, titular) IL10",
+          "ATH: Zack Gelof (3B, titular) IL10",
+          "BOS: Roman Anthony (LF, titular) IL60",
+          "BOS: Trevor Story (SS, titular) IL60",
+          "BOS: Triston Casas (1B, titular) IL60"
+        ],
+        "motivacao": "BOS embalado com 8 vitórias seguidas; ATH sem chances de classificação, sequência de 8 derrotas.",
+        "park_factor": "Fenway Park — 104 runs / 96 HR / 118 doubles, inflador de duplas (Green Monster)",
+        "clima": "não confirmado",
+        "interesse_jogo": "Neutro",
+        "interesse_motivo": "N_fortes=1 (só Ceddanne Rafaela) — baixa profundidade de sinais, não dificuldade combinada de pitching."
+      },
+      "rebatedores": [
+        {
+          "player_id": 678882,
+          "nome": "Ceddanne Rafaela",
+          "time": "BOS Red Sox",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 456,
+          "avg": 0.287,
+          "babip": 0.338,
+          "k_pct": 20.4,
+          "bb_pct": 4.2,
+          "pct_1mais_temporada": 74.5,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.7432,
+          "odd_justa": 1.35,
+          "faixa_odd": [
+            1.29,
+            1.4
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 677800,
+          "nome": "Wilyer Abreu",
+          "time": "BOS Red Sox",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 489,
+          "avg": 0.253,
+          "babip": 0.283,
+          "k_pct": 20.9,
+          "bb_pct": 9.8,
+          "pct_1mais_temporada": 64.3,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6298,
+          "odd_justa": 1.59,
+          "faixa_odd": [
+            1.52,
+            1.67
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 805779,
+          "nome": "Jacob Wilson",
+          "time": "Athletics",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 312,
+          "avg": 0.27,
+          "babip": 0.286,
+          "k_pct": 11.2,
+          "bb_pct": 3.8,
+          "pct_1mais_temporada": 72.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 1,
+          "p_1mais_base": 0.624,
+          "odd_justa": 1.6,
+          "faixa_odd": [
+            1.53,
+            1.68
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 702332,
+          "nome": "Caleb Durbin",
+          "time": "BOS Red Sox",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 403,
+          "avg": 0.251,
+          "babip": 0.268,
+          "k_pct": 13.4,
+          "bb_pct": 7.2,
+          "pct_1mais_temporada": 56.1,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6221,
+          "odd_justa": 1.61,
+          "faixa_odd": [
+            1.53,
+            1.69
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 641680,
+          "nome": "Jonah Heim",
+          "time": "Athletics",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 253,
+          "avg": 0.229,
+          "babip": 0.239,
+          "k_pct": 18.6,
+          "bb_pct": 6.7,
+          "pct_1mais_temporada": 58.8,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6146,
+          "odd_justa": 1.63,
+          "faixa_odd": [
+            1.55,
+            1.71
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 807799,
+          "nome": "Masataka Yoshida",
+          "time": "BOS Red Sox",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 267,
+          "avg": 0.269,
+          "babip": 0.286,
+          "k_pct": 10.5,
+          "bb_pct": 9.4,
+          "pct_1mais_temporada": 56.3,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6068,
+          "odd_justa": 1.65,
+          "faixa_odd": [
+            1.57,
+            1.73
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 703607,
+          "nome": "Henry Bolte",
+          "time": "Athletics",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 261,
+          "avg": 0.259,
+          "babip": 0.355,
+          "k_pct": 27.2,
+          "bb_pct": 7.3,
+          "pct_1mais_temporada": 56.9,
+          "pct_1mais_ultimos10": 50,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.592,
+          "odd_justa": 1.69,
+          "faixa_odd": [
+            1.61,
+            1.78
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "BABIP alto (0,355)",
+            "K% 27,2%"
+          ]
+        },
+        {
+          "player_id": 655316,
+          "nome": "Andruw Monasterio",
+          "time": "BOS Red Sox",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 234,
+          "avg": 0.268,
+          "babip": 0.321,
+          "k_pct": 21.4,
+          "bb_pct": 6.8,
+          "pct_1mais_temporada": 56.8,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5919,
+          "odd_justa": 1.69,
+          "faixa_odd": [
+            1.61,
+            1.78
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21,4%"
+          ]
+        },
+        {
+          "player_id": 691016,
+          "nome": "Tyler Soderstrom",
+          "time": "Athletics",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 427,
+          "avg": 0.245,
+          "babip": 0.269,
+          "k_pct": 19,
+          "bb_pct": 11.9,
+          "pct_1mais_temporada": 62.1,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5351,
+          "odd_justa": 1.87,
+          "faixa_odd": [
+            1.77,
+            1.98
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 671732,
+          "nome": "Lawrence Butler",
+          "time": "Athletics",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 340,
+          "avg": 0.209,
+          "babip": 0.272,
+          "k_pct": 26.2,
+          "bb_pct": 11.8,
+          "pct_1mais_temporada": 43.9,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 6,
+          "seca_atual": 0,
+          "p_1mais_base": 0.4427,
+          "odd_justa": 2.26,
+          "faixa_odd": [
+            2.03,
+            2.55
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 26,2%"
+          ]
+        }
+      ],
+      "rebatedores_ultimos10": [
+        {
+          "player_id": 702332,
+          "nome": "Caleb Durbin",
+          "time": "BOS Red Sox",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.378,
+          "k_pct_temporada": 13.4,
+          "pa_medio_jogo_ultimos10": 4.6,
+          "p_1mais_base": 0.8703,
+          "odd_justa": 1.15,
+          "faixa_odd": [
+            1.09,
+            1.22
+          ]
+        },
+        {
+          "player_id": 678882,
+          "nome": "Ceddanne Rafaela",
+          "time": "BOS Red Sox",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.364,
+          "k_pct_temporada": 20.4,
+          "pa_medio_jogo_ultimos10": 4.6,
+          "p_1mais_base": 0.8656,
+          "odd_justa": 1.16,
+          "faixa_odd": [
+            1.09,
+            1.23
+          ]
+        },
+        {
+          "player_id": 655316,
+          "nome": "Andruw Monasterio",
+          "time": "BOS Red Sox",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.342,
+          "k_pct_temporada": 21.4,
+          "pa_medio_jogo_ultimos10": 4.3,
+          "p_1mais_base": 0.8154,
+          "odd_justa": 1.23,
+          "faixa_odd": [
+            1.16,
+            1.31
+          ]
+        },
+        {
+          "player_id": 807799,
+          "nome": "Masataka Yoshida",
+          "time": "BOS Red Sox",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.344,
+          "k_pct_temporada": 10.5,
+          "pa_medio_jogo_ultimos10": 3.5,
+          "p_1mais_base": 0.7395,
+          "odd_justa": 1.35,
+          "faixa_odd": [
+            1.27,
+            1.45
+          ]
+        },
+        {
+          "player_id": 677800,
+          "nome": "Wilyer Abreu",
+          "time": "BOS Red Sox",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.25,
+          "k_pct_temporada": 20.9,
+          "pa_medio_jogo_ultimos10": 4.7,
+          "p_1mais_base": 0.7076,
+          "odd_justa": 1.41,
+          "faixa_odd": [
+            1.32,
+            1.52
+          ]
+        },
+        {
+          "player_id": 680776,
+          "nome": "Jarren Duran",
+          "time": "BOS Red Sox",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.263,
+          "k_pct_temporada": 28.4,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.6927,
+          "odd_justa": 1.44,
+          "faixa_odd": [
+            1.35,
+            1.56
+          ]
+        },
+        {
+          "player_id": 703607,
+          "nome": "Henry Bolte",
+          "time": "Athletics",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.333,
+          "k_pct_temporada": 27.2,
+          "pa_medio_jogo_ultimos10": 3.5,
+          "p_1mais_base": 0.69,
+          "odd_justa": 1.45,
+          "faixa_odd": [
+            1.35,
+            1.56
+          ]
+        },
+        {
+          "player_id": 641680,
+          "nome": "Jonah Heim",
+          "time": "Athletics",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.263,
+          "k_pct_temporada": 18.6,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.6536,
+          "odd_justa": 1.53,
+          "faixa_odd": [
+            1.42,
+            1.66
+          ]
+        },
+        {
+          "player_id": 695720,
+          "nome": "Tommy White",
+          "time": "Athletics",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.244,
+          "k_pct_temporada": 16.2,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.6277,
+          "odd_justa": 1.59,
+          "faixa_odd": [
+            1.48,
+            1.73
+          ]
+        },
+        {
+          "player_id": 671732,
+          "nome": "Lawrence Butler",
+          "time": "Athletics",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.286,
+          "k_pct_temporada": 26.2,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.6223,
+          "odd_justa": 1.61,
+          "faixa_odd": [
+            1.49,
+            1.75
+          ]
+        },
+        {
+          "player_id": 686765,
+          "nome": "Nick Sogard",
+          "time": "BOS Red Sox",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.188,
+          "k_pct_temporada": 18.4,
+          "pa_medio_jogo_ultimos10": 4,
+          "p_1mais_base": 0.5059,
+          "odd_justa": 1.98,
+          "faixa_odd": [
+            1.8,
+            2.19
+          ]
+        },
+        {
+          "player_id": 805779,
+          "nome": "Jacob Wilson",
+          "time": "Athletics",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.171,
+          "k_pct_temporada": 11.2,
+          "pa_medio_jogo_ultimos10": 4.3,
+          "p_1mais_base": 0.4947,
+          "odd_justa": 2.02,
+          "faixa_odd": [
+            1.84,
+            2.25
+          ]
+        },
+        {
+          "player_id": 691016,
+          "nome": "Tyler Soderstrom",
+          "time": "Athletics",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.184,
+          "k_pct_temporada": 19,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.4848,
+          "odd_justa": 2.06,
+          "faixa_odd": [
+            1.87,
+            2.3
+          ]
+        },
+        {
+          "player_id": 661531,
+          "nome": "Brian Serven",
+          "time": "Athletics",
+          "slot": "6",
+          "jogos_na_amostra": 8,
+          "avg_ultimos10": 0.25,
+          "k_pct_temporada": 11.8,
+          "pa_medio_jogo_ultimos10": 2.13,
+          "p_1mais_base": 0.3992,
+          "odd_justa": 2.5,
+          "faixa_odd": [
+            2.23,
+            2.86
+          ]
+        },
+        {
+          "player_id": 668670,
+          "nome": "Jake Rogers",
+          "time": "BOS Red Sox",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.176,
+          "k_pct_temporada": 28,
+          "pa_medio_jogo_ultimos10": 2.5,
+          "p_1mais_base": 0.3479,
+          "odd_justa": 2.87,
+          "faixa_odd": [
+            2.51,
+            3.36
+          ]
+        },
+        {
+          "player_id": 691777,
+          "nome": "Max Muncy",
+          "time": "Athletics",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.154,
+          "k_pct_temporada": 34.1,
+          "pa_medio_jogo_ultimos10": 3,
+          "p_1mais_base": 0.3349,
+          "odd_justa": 2.99,
+          "faixa_odd": [
+            2.6,
+            3.51
+          ]
+        },
+        {
+          "player_id": 678011,
+          "nome": "Anthony Seigler",
+          "time": "BOS Red Sox",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.115,
+          "k_pct_temporada": 17.7,
+          "pa_medio_jogo_ultimos10": 3,
+          "p_1mais_base": 0.2884,
+          "odd_justa": 3.47,
+          "faixa_odd": [
+            2.95,
+            4.19
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Tommy White",
+          "motivo": "Amostra da temporada < 150 PA (74 PA)"
+        },
+        {
+          "nome": "Brian Serven",
+          "motivo": "Amostra da temporada < 150 PA (17 PA)"
+        },
+        {
+          "nome": "Max Muncy",
+          "motivo": "K% > 28% (34,1%)"
+        },
+        {
+          "nome": "Jonathan Ornelas",
+          "motivo": "Amostra da temporada < 150 PA (9 PA) | K% > 28% (44,4%)"
+        },
+        {
+          "nome": "Nick Sogard",
+          "motivo": "Amostra da temporada < 150 PA (76 PA)"
+        },
+        {
+          "nome": "Jarren Duran",
+          "motivo": "K% > 28% (28,4%)"
+        },
+        {
+          "nome": "Anthony Seigler",
+          "motivo": "Amostra da temporada < 150 PA (141 PA)"
+        },
+        {
+          "nome": "Jake Rogers",
+          "motivo": "Amostra da temporada < 150 PA (118 PA)"
+        }
+      ]
+    }
+  ]
+}
