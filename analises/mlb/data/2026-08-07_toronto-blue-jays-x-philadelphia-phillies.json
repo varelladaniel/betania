@@ -1,0 +1,713 @@
+{
+  "data": "2026-08-07",
+  "gerado_em_utc": "2026-08-07T21:42:22.545Z",
+  "jogos": [
+    {
+      "game_pk": 823428,
+      "contexto": {
+        "visitante": "Toronto Blue Jays",
+        "mandante": "Philadelphia Phillies",
+        "estadio": "Citizens Bank Park, Philadelphia (PA)",
+        "data_hora_brt": "07/08 19:40",
+        "classificacao": {
+          "visitante": "54-62, 5º AL East, 15,0 jogos da divisão, 3,5 da vaga de wild card",
+          "mandante": "62-54, 2º NL East, 8,5 jogos do líder, +1,0 na vaga de wild card"
+        },
+        "ultimos5": {
+          "visitante": "2V-3D (streak L1)",
+          "mandante": "4V-1D (streak W1)"
+        },
+        "ultimo_jogo": {
+          "visitante": "06/08 derrota 2-3 @ Chicago Cubs",
+          "mandante": "06/08 vitória 7-3 vs Washington Nationals"
+        },
+        "proximo_jogo": {
+          "visitante": "08/08 @ PHI (segue série), depois vs Boston Red Sox",
+          "mandante": "08/08 vs TOR (segue série), depois @ St. Louis Cardinals"
+        },
+        "confronto_direto_temporada": "PHI lidera 2-1",
+        "abridores": {
+          "visitante": "José Soriano (D) — 22 aberturas, 123.0 IP, BAA .217, ERA 3,29, WHIP 1,25",
+          "mandante": "Zack Wheeler (D) — 18 aberturas, 105.0 IP, BAA .194, ERA 2,49, WHIP 0,91, fase de elite"
+        },
+        "desfalques": [
+          "TOR: Addison Barger (RF, titular) IL60",
+          "TOR: Anthony Santander (RF, titular) IL60",
+          "TOR: Jonatan Clase/Luis Urías IL10",
+          "PHI: Adolis García (RF, titular) IL60",
+          "PHI: Johan Rojas (CF, titular) IL60"
+        ],
+        "motivacao": "PHI briga por topo da NL East e vaga de wild card; TOR fora de contenção real na divisão.",
+        "park_factor": "Citizens Bank Park — 107 runs / 112 HR / 100 doubles, inflador de HR",
+        "clima": "não confirmado",
+        "interesse_jogo": "Desinteressante",
+        "interesse_motivo": "N_fortes=3 mas BAA_efetiva dos dois lados ≤0,235 (0,220 e 0,207) — Wheeler em fase de elite puxa a dificuldade combinada para baixo."
+      },
+      "rebatedores": [
+        {
+          "player_id": 650333,
+          "nome": "Luis Arraez",
+          "time": "PHI Phillies",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 477,
+          "avg": 0.326,
+          "babip": 0.327,
+          "k_pct": 4.4,
+          "bb_pct": 5.2,
+          "pct_1mais_temporada": 76.9,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 2,
+          "seca_atual": 0,
+          "p_1mais_base": 0.7631,
+          "odd_justa": 1.31,
+          "faixa_odd": [
+            1.26,
+            1.36
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 669016,
+          "nome": "Brandon Marsh",
+          "time": "PHI Phillies",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 434,
+          "avg": 0.28,
+          "babip": 0.346,
+          "k_pct": 25.6,
+          "bb_pct": 5.1,
+          "pct_1mais_temporada": 67.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6769,
+          "odd_justa": 1.48,
+          "faixa_odd": [
+            1.41,
+            1.55
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "BABIP alto (0,346)",
+            "K% 25,6%"
+          ]
+        },
+        {
+          "player_id": 607208,
+          "nome": "Trea Turner",
+          "time": "PHI Phillies",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 500,
+          "avg": 0.252,
+          "babip": 0.294,
+          "k_pct": 21.6,
+          "bb_pct": 5.8,
+          "pct_1mais_temporada": 67.3,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6734,
+          "odd_justa": 1.48,
+          "faixa_odd": [
+            1.42,
+            1.55
+          ],
+          "consistencia": "aviso",
+          "avisos": [
+            "K% 21,6%"
+          ]
+        },
+        {
+          "player_id": 676391,
+          "nome": "Ernie Clement",
+          "time": "TOR Blue Jays",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 457,
+          "avg": 0.287,
+          "babip": 0.299,
+          "k_pct": 9.4,
+          "bb_pct": 3.3,
+          "pct_1mais_temporada": 72.6,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6611,
+          "odd_justa": 1.51,
+          "faixa_odd": [
+            1.45,
+            1.58
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 547180,
+          "nome": "Bryce Harper",
+          "time": "PHI Phillies",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 489,
+          "avg": 0.255,
+          "babip": 0.278,
+          "k_pct": 21.1,
+          "bb_pct": 14.9,
+          "pct_1mais_temporada": 59.5,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 6,
+          "seca_atual": 0,
+          "p_1mais_base": 0.6464,
+          "odd_justa": 1.55,
+          "faixa_odd": [
+            1.48,
+            1.62
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21,1%"
+          ]
+        },
+        {
+          "player_id": 664770,
+          "nome": "Nathan Lukes",
+          "time": "TOR Blue Jays",
+          "slot": "1",
+          "slot_confirmado": true,
+          "pa_temporada": 287,
+          "avg": 0.261,
+          "babip": 0.294,
+          "k_pct": 15,
+          "bb_pct": 5.9,
+          "pct_1mais_temporada": 56.8,
+          "pct_1mais_ultimos10": 20,
+          "maior_seca_temporada": 9,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5939,
+          "odd_justa": 1.68,
+          "faixa_odd": [
+            1.6,
+            1.77
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "maior seca 9 jogos"
+          ]
+        },
+        {
+          "player_id": 681082,
+          "nome": "Bryson Stott",
+          "time": "PHI Phillies",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 425,
+          "avg": 0.26,
+          "babip": 0.303,
+          "k_pct": 17.6,
+          "bb_pct": 8.9,
+          "pct_1mais_temporada": 66.4,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 5,
+          "seca_atual": 0,
+          "p_1mais_base": 0.571,
+          "odd_justa": 1.75,
+          "faixa_odd": [
+            1.66,
+            1.85
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 664761,
+          "nome": "Alec Bohm",
+          "time": "PHI Phillies",
+          "slot": "5",
+          "slot_confirmado": true,
+          "pa_temporada": 454,
+          "avg": 0.227,
+          "babip": 0.238,
+          "k_pct": 14.5,
+          "bb_pct": 6.2,
+          "pct_1mais_temporada": 60.4,
+          "pct_1mais_ultimos10": 90,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5624,
+          "odd_justa": 1.78,
+          "faixa_odd": [
+            1.69,
+            1.88
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 543807,
+          "nome": "George Springer",
+          "time": "TOR Blue Jays",
+          "slot": "4",
+          "slot_confirmado": true,
+          "pa_temporada": 373,
+          "avg": 0.234,
+          "babip": 0.26,
+          "k_pct": 18.2,
+          "bb_pct": 9.9,
+          "pct_1mais_temporada": 65.9,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 3,
+          "seca_atual": 2,
+          "p_1mais_base": 0.5561,
+          "odd_justa": 1.8,
+          "faixa_odd": [
+            1.71,
+            1.9
+          ],
+          "consistencia": "ok",
+          "avisos": []
+        },
+        {
+          "player_id": 702222,
+          "nome": "Justin Crawford",
+          "time": "PHI Phillies",
+          "slot": "9",
+          "slot_confirmado": true,
+          "pa_temporada": 337,
+          "avg": 0.264,
+          "babip": 0.325,
+          "k_pct": 19.3,
+          "bb_pct": 5.3,
+          "pct_1mais_temporada": 55.7,
+          "pct_1mais_ultimos10": 70,
+          "maior_seca_temporada": 7,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5548,
+          "odd_justa": 1.8,
+          "faixa_odd": [
+            1.71,
+            1.91
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "maior seca 7 jogos"
+          ]
+        },
+        {
+          "player_id": 660821,
+          "nome": "Jesús Sánchez",
+          "time": "TOR Blue Jays",
+          "slot": "3",
+          "slot_confirmado": true,
+          "pa_temporada": 248,
+          "avg": 0.268,
+          "babip": 0.314,
+          "k_pct": 22.2,
+          "bb_pct": 4.4,
+          "pct_1mais_temporada": 60.3,
+          "pct_1mais_ultimos10": 30,
+          "maior_seca_temporada": 3,
+          "seca_atual": 1,
+          "p_1mais_base": 0.5516,
+          "odd_justa": 1.81,
+          "faixa_odd": [
+            1.72,
+            1.92
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 22,2%"
+          ]
+        },
+        {
+          "player_id": 672386,
+          "nome": "Alejandro Kirk",
+          "time": "TOR Blue Jays",
+          "slot": "2",
+          "slot_confirmado": true,
+          "pa_temporada": 158,
+          "avg": 0.255,
+          "babip": 0.274,
+          "k_pct": 13.3,
+          "bb_pct": 10.1,
+          "pct_1mais_temporada": 61.9,
+          "pct_1mais_ultimos10": 80,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5337,
+          "odd_justa": 1.87,
+          "faixa_odd": [
+            1.77,
+            1.99
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 592663,
+          "nome": "J.T. Realmuto",
+          "time": "PHI Phillies",
+          "slot": "7",
+          "slot_confirmado": true,
+          "pa_temporada": 319,
+          "avg": 0.226,
+          "babip": 0.265,
+          "k_pct": 21,
+          "bb_pct": 7.5,
+          "pct_1mais_temporada": 55.3,
+          "pct_1mais_ultimos10": 60,
+          "maior_seca_temporada": 3,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5194,
+          "odd_justa": 1.93,
+          "faixa_odd": [
+            1.82,
+            2.04
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": [
+            "K% 21,0%"
+          ]
+        },
+        {
+          "player_id": 665926,
+          "nome": "Andrés Giménez",
+          "time": "TOR Blue Jays",
+          "slot": "6",
+          "slot_confirmado": true,
+          "pa_temporada": 369,
+          "avg": 0.235,
+          "babip": 0.272,
+          "k_pct": 18.7,
+          "bb_pct": 3.3,
+          "pct_1mais_temporada": 50.9,
+          "pct_1mais_ultimos10": 40,
+          "maior_seca_temporada": 4,
+          "seca_atual": 0,
+          "p_1mais_base": 0.5067,
+          "odd_justa": 1.97,
+          "faixa_odd": [
+            1.86,
+            2.1
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        },
+        {
+          "player_id": 669701,
+          "nome": "Josh Smith",
+          "time": "TOR Blue Jays",
+          "slot": "8",
+          "slot_confirmado": true,
+          "pa_temporada": 160,
+          "avg": 0.204,
+          "babip": 0.252,
+          "k_pct": 19.4,
+          "bb_pct": 10,
+          "pct_1mais_temporada": 47.9,
+          "pct_1mais_ultimos10": 30,
+          "maior_seca_temporada": 6,
+          "seca_atual": 5,
+          "p_1mais_base": 0.4419,
+          "odd_justa": 2.26,
+          "faixa_odd": [
+            2.12,
+            2.43
+          ],
+          "consistencia": "sem_lastro",
+          "avisos": []
+        }
+      ],
+      "rebatedores_ultimos10": [
+        {
+          "player_id": 607208,
+          "nome": "Trea Turner",
+          "time": "PHI Phillies",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.326,
+          "k_pct_temporada": 21.6,
+          "pa_medio_jogo_ultimos10": 4.5,
+          "p_1mais_base": 0.761,
+          "odd_justa": 1.31,
+          "faixa_odd": [
+            1.23,
+            1.41
+          ]
+        },
+        {
+          "player_id": 650333,
+          "nome": "Luis Arraez",
+          "time": "PHI Phillies",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.326,
+          "k_pct_temporada": 4.4,
+          "pa_medio_jogo_ultimos10": 4.4,
+          "p_1mais_base": 0.7554,
+          "odd_justa": 1.32,
+          "faixa_odd": [
+            1.24,
+            1.42
+          ]
+        },
+        {
+          "player_id": 681082,
+          "nome": "Bryson Stott",
+          "time": "PHI Phillies",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.357,
+          "k_pct_temporada": 17.6,
+          "pa_medio_jogo_ultimos10": 3.9,
+          "p_1mais_base": 0.7402,
+          "odd_justa": 1.35,
+          "faixa_odd": [
+            1.27,
+            1.45
+          ]
+        },
+        {
+          "player_id": 672386,
+          "nome": "Alejandro Kirk",
+          "time": "TOR Blue Jays",
+          "slot": "2",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.361,
+          "k_pct_temporada": 13.3,
+          "pa_medio_jogo_ultimos10": 4,
+          "p_1mais_base": 0.7268,
+          "odd_justa": 1.38,
+          "faixa_odd": [
+            1.29,
+            1.48
+          ]
+        },
+        {
+          "player_id": 664761,
+          "nome": "Alec Bohm",
+          "time": "PHI Phillies",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.282,
+          "k_pct_temporada": 14.5,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.6722,
+          "odd_justa": 1.49,
+          "faixa_odd": [
+            1.38,
+            1.61
+          ]
+        },
+        {
+          "player_id": 702222,
+          "nome": "Justin Crawford",
+          "time": "PHI Phillies",
+          "slot": "9",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.345,
+          "k_pct_temporada": 19.3,
+          "pa_medio_jogo_ultimos10": 3.2,
+          "p_1mais_base": 0.6672,
+          "odd_justa": 1.5,
+          "faixa_odd": [
+            1.39,
+            1.62
+          ]
+        },
+        {
+          "player_id": 547180,
+          "nome": "Bryce Harper",
+          "time": "PHI Phillies",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.294,
+          "k_pct_temporada": 21.1,
+          "pa_medio_jogo_ultimos10": 4.3,
+          "p_1mais_base": 0.6627,
+          "odd_justa": 1.51,
+          "faixa_odd": [
+            1.4,
+            1.63
+          ]
+        },
+        {
+          "player_id": 672960,
+          "nome": "Kazuma Okamoto",
+          "time": "TOR Blue Jays",
+          "slot": "5",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.275,
+          "k_pct_temporada": 31.2,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.618,
+          "odd_justa": 1.62,
+          "faixa_odd": [
+            1.5,
+            1.76
+          ]
+        },
+        {
+          "player_id": 592663,
+          "nome": "J.T. Realmuto",
+          "time": "PHI Phillies",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.242,
+          "k_pct_temporada": 21,
+          "pa_medio_jogo_ultimos10": 3.9,
+          "p_1mais_base": 0.5734,
+          "odd_justa": 1.74,
+          "faixa_odd": [
+            1.6,
+            1.91
+          ]
+        },
+        {
+          "player_id": 543807,
+          "nome": "George Springer",
+          "time": "TOR Blue Jays",
+          "slot": "4",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.243,
+          "k_pct_temporada": 18.2,
+          "pa_medio_jogo_ultimos10": 4.2,
+          "p_1mais_base": 0.567,
+          "odd_justa": 1.76,
+          "faixa_odd": [
+            1.62,
+            1.93
+          ]
+        },
+        {
+          "player_id": 669016,
+          "nome": "Brandon Marsh",
+          "time": "PHI Phillies",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.211,
+          "k_pct_temporada": 25.6,
+          "pa_medio_jogo_ultimos10": 3.8,
+          "p_1mais_base": 0.5153,
+          "odd_justa": 1.94,
+          "faixa_odd": [
+            1.77,
+            2.15
+          ]
+        },
+        {
+          "player_id": 665926,
+          "nome": "Andrés Giménez",
+          "time": "TOR Blue Jays",
+          "slot": "6",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.25,
+          "k_pct_temporada": 18.7,
+          "pa_medio_jogo_ultimos10": 3.2,
+          "p_1mais_base": 0.5077,
+          "odd_justa": 1.97,
+          "faixa_odd": [
+            1.79,
+            2.18
+          ]
+        },
+        {
+          "player_id": 656941,
+          "nome": "Kyle Schwarber",
+          "time": "PHI Phillies",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.188,
+          "k_pct_temporada": 34.8,
+          "pa_medio_jogo_ultimos10": 4.5,
+          "p_1mais_base": 0.4901,
+          "odd_justa": 2.04,
+          "faixa_odd": [
+            1.85,
+            2.27
+          ]
+        },
+        {
+          "player_id": 676391,
+          "nome": "Ernie Clement",
+          "time": "TOR Blue Jays",
+          "slot": "7",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.179,
+          "k_pct_temporada": 9.4,
+          "pa_medio_jogo_ultimos10": 4.1,
+          "p_1mais_base": 0.4615,
+          "odd_justa": 2.17,
+          "faixa_odd": [
+            1.96,
+            2.43
+          ]
+        },
+        {
+          "player_id": 660821,
+          "nome": "Jesús Sánchez",
+          "time": "TOR Blue Jays",
+          "slot": "3",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.115,
+          "k_pct_temporada": 22.2,
+          "pa_medio_jogo_ultimos10": 2.9,
+          "p_1mais_base": 0.2336,
+          "odd_justa": 4.28,
+          "faixa_odd": [
+            3.53,
+            5.45
+          ]
+        },
+        {
+          "player_id": 664770,
+          "nome": "Nathan Lukes",
+          "time": "TOR Blue Jays",
+          "slot": "1",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.091,
+          "k_pct_temporada": 15,
+          "pa_medio_jogo_ultimos10": 3.7,
+          "p_1mais_base": 0.2282,
+          "odd_justa": 4.38,
+          "faixa_odd": [
+            3.59,
+            5.61
+          ]
+        },
+        {
+          "player_id": 669701,
+          "nome": "Josh Smith",
+          "time": "TOR Blue Jays",
+          "slot": "8",
+          "jogos_na_amostra": 10,
+          "avg_ultimos10": 0.103,
+          "k_pct_temporada": 19.4,
+          "pa_medio_jogo_ultimos10": 3.1,
+          "p_1mais_base": 0.2118,
+          "odd_justa": 4.72,
+          "faixa_odd": [
+            3.82,
+            6.18
+          ]
+        }
+      ],
+      "excluidos": [
+        {
+          "nome": "Kazuma Okamoto",
+          "motivo": "K% > 28% (31,2%)"
+        },
+        {
+          "nome": "Brett Bateman",
+          "motivo": "Amostra da temporada < 150 PA (0 PA)"
+        },
+        {
+          "nome": "Kyle Schwarber",
+          "motivo": "K% > 28% (34,8%)"
+        }
+      ]
+    }
+  ]
+}
