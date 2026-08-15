@@ -388,7 +388,23 @@ A estrutura de páginas fica em `analises/`:
   `.quarter-card`/`.qc-label`/`.qc-avg`/`.qc-range`, `.opp-pts`,
   `.history-card`/`.history-date-badge`/`.history-logos`/`.history-vs`/
   `.history-teams-label` (usadas tanto nos cards do histórico quanto no
-  hero da página de análise), `.analysis-hero`/`.hero-venue`).
+  hero da página de análise), `.analysis-hero`/`.hero-venue`,
+  `.matchup-card`/`.matchup-head`/`.matchup-name`/`.matchup-badge`
+  (`.matchup-favorece`/`.matchup-neutro`/`.matchup-desfavorece`)/
+  `.matchup-text`).
+
+**⚠️ Cache-bust do CSS — regra obrigatória**: toda página referencia o
+CSS como `../style.css?v=N`. Sempre que uma nova análise for gerada, use
+o `v=N` **mais alto já usado em qualquer página existente** (confira com
+`grep -r "style.css?v=" analises/`), nunca reaproveite um `v=` antigo de
+outra análise recente. E toda vez que você **adicionar ou alterar uma
+regra em `style.css`**, incremente esse número em **todas** as páginas
+que forem geradas/editadas na mesma sessão — se duas análises da mesma
+rodada saírem com `v=` diferentes, a que ficou com o número antigo
+carrega o CSS cacheado do navegador e não reflete a mudança nova (já
+aconteceu: badges de matchup apareceram estilizados em uma página e como
+texto puro sem cor em outra, mesmo com o HTML idêntico, só porque o `v=`
+não bateu).
 - `analises/common.js` — funções `setWindow(tableId, n)` (esconde/mostra
   linhas por `data-rank`, usado nas listas de jogos gerais tipo histórico),
   `setAvgWindow(tableId, n)` (troca o texto de células `data-5`/`data-10`,
