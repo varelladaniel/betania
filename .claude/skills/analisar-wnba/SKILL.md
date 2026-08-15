@@ -1,6 +1,6 @@
 ---
 name: analisar-wnba
-description: Analisa um confronto da WNBA (contexto geral, mercados de pontos por quarto/tempo, e props individuais de jogadora) e entrega a análise pronta em texto no chat + página HTML salva localmente. Combina dados estatísticos reais da ESPN (últimos 5 e 10 jogos) com contexto qualitativo (lesões, rotação, momento no campeonato). Use quando o usuário pedir análise de um jogo da WNBA.
+description: Analisa um confronto da WNBA (contexto geral, mercados de pontos por quarto/tempo, props individuais de jogadora, e leitura qualitativa de matchup individual por jogadora) e entrega a análise pronta em texto no chat + página HTML salva localmente. Combina dados estatísticos reais da ESPN (últimos 5 e 10 jogos) com contexto qualitativo (lesões, rotação, momento no campeonato, marcação/porte físico do adversário). Use quando o usuário pedir análise de um jogo da WNBA.
 ---
 
 # Analisar jogo da WNBA
@@ -244,6 +244,55 @@ partir do histórico — **não é a odd real da bet365** (que não tem API
 pública/gratuita) — e que o usuário deve conferir o número que a casa
 oferece antes de decidir.
 
+## Matchup Individual por Jogadora (card separado, depois de BETANIA TIPS — Jogadoras)
+
+Além da tabela fria de médias, cada jogadora relevante (mesmo critério de
+piso da seção "Análise Jogadores") recebe uma **leitura qualitativa de
+matchup**: não é só "ela faz X pontos", é "ela faz X pontos, e contra
+*este* adversário específico isso tende a ficar mais fácil ou mais
+difícil, e por quê". Card próprio **"Matchup Individual"**, com uma
+tabela ou lista por jogadora, cobrindo os seguintes pontos sempre que
+houver dado real para sustentar (nunca invente um padrão sem evidência —
+se não houver dado suficiente, diga isso em vez de especular):
+
+- **Marcação direta**: quem no time adversário costuma marcar a posição
+  dela (base marca base, ala marca ala, pivô marca pivô) e se essa
+  defensora é forte ou fraca na posição — use ranking defensivo do time
+  adversário por posição se disponível (ex: "Fever costuma sofrer bastante
+  de armadoras — 3ª pior defesa da liga contra a posição"), ou ao menos o
+  histórico de pontos permitidos na posição pelo adversário nos últimos
+  jogos. Cite a fonte/número, não intua.
+- **Porte físico do confronto**: se o time adversário for visivelmente
+  mais alto/mais físico no garrafão (compare altura média dos pivôs/alas
+  titulares via roster), sinalize que rebote ofensivo/pontos no garrafão
+  tendem a ficar mais difíceis para uma jogadora "de dentro"; se for mais
+  baixo/perimetral, sinalize a chance de vantagem no rebote ou nos
+  arremessos próximos ao aro. Da mesma forma, times menores/mais rápidos
+  tendem a fechar menos o perímetro — relevante para arremessadoras de 3.
+- **Papel dela dentro do jogo esperado**: pelo estilo de jogo da
+  jogadora (armadora que distribui vs finalizadora, ala que joga mais
+  aberta no perímetro vs pivô que joga de costas pra cesta) e pelo
+  panorama do jogo (ritmo esperado, se o time dela tende a jogar mais
+  posicional ou em transição contra este adversário específico), aponte
+  se o jogo tende a puxar essa jogadora mais para armação/assistência ou
+  mais para finalização/pontuação — e o que isso significa pros mercados
+  dela (ex: "tende a sobrar mais assistência que pontos hoje" ou "com a
+  base adversária fraca na marcação, tende a atacar mais o aro").
+- **Efeito do confronto no volume**: se o adversário for um time que
+  historicamente permite mais posses/ritmo mais acelerado (ver médias por
+  quarto/tempo do card de Mercado de Pontos), isso tende a inflar volume
+  geral (mais pontos, mais rebotes disponíveis); se for um time que
+  segura o ritmo, o oposto. Conecte com o dado do card de Mercado de
+  Pontos em vez de repetir a mesma pesquisa.
+
+Cada jogadora recebe um bloco curto (3-5 linhas, não um texto longo) com
+um resumo objetivo puxando pra um lado: "favorece", "neutro" ou
+"desfavorece" o mercado dela, com o porquê. Isso é a leitura da Betania —
+deixe claro que é opinião qualitativa apoiada em dado, não uma garantia.
+Jogadoras sem dado suficiente pra essa leitura (ex: adversário sem
+histórico recente contra o estilo dela) ficam de fora, mencionadas numa
+nota de rodapé do card.
+
 ## Contexto sempre obrigatório
 
 1. **Momento da equipe**: tabela por time, enxuta, sem redundância com o
@@ -288,7 +337,9 @@ oferece antes de decidir.
 8. Análise Jogadores (tabela única, por jogadora, com jogo a jogo,
    sinalização de pouco tempo em quadra — sem sugestão de mercado aqui)
 9. BETANIA TIPS — Jogadoras (card próprio, só sugestões 🟢)
-10. Fontes (data da informação, não da consulta)
+10. Matchup Individual por Jogadora (card próprio, leitura qualitativa de
+    marcação/porte físico/papel no jogo/ritmo por jogadora)
+11. Fontes (data da informação, não da consulta)
 
 ## Como investigar (paralelize quando fizer sentido)
 
