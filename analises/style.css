@@ -350,6 +350,38 @@ table.rank-table tr.top-pick .rank-num { background: var(--accent); color: #1722
   font-weight: 600;
 }
 
+/* Matchup Individual por Jogadora */
+.matchup-card {
+  padding: 12px 0;
+  border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+}
+.matchup-card:first-of-type { border-top: none; }
+.matchup-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.matchup-name { font-weight: 600; }
+.matchup-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #0b1220;
+}
+.matchup-favorece { background: #34d399; }
+.matchup-neutro { background: #fbbf24; }
+.matchup-desfavorece { background: #f87171; color: #2a0a0a; }
+.matchup-text {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+
 /* Toggle 5j / 10j */
 .window-toggle {
   display: flex;

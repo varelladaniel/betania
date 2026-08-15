@@ -293,6 +293,30 @@ Jogadoras sem dado suficiente pra essa leitura (ex: adversário sem
 histórico recente contra o estilo dela) ficam de fora, mencionadas numa
 nota de rodapé do card.
 
+**Formato obrigatório de exibição — veredito sempre ao lado do nome,
+nunca perdido no meio ou no fim do texto.** Cada bloco de jogadora é um
+`<div class="matchup-card">` com um cabeçalho `<div class="matchup-head">`
+contendo o nome e, imediatamente ao lado (mesma linha, não abaixo), um
+badge colorido de veredito — nunca só no texto corrido:
+```html
+<div class="matchup-card">
+  <div class="matchup-head">
+    <span class="matchup-name">{Nome da jogadora} ({TIME})</span>
+    <span class="matchup-badge matchup-favorece">FAVORECE</span>
+  </div>
+  <p class="matchup-text">{texto explicativo curto, 3-5 linhas}</p>
+</div>
+```
+Três classes fixas de badge, sempre os mesmos rótulos em maiúsculo:
+`matchup-favorece` (verde, texto "FAVORECE"), `matchup-neutro` (amarelo,
+texto "NEUTRO"), `matchup-desfavorece` (vermelho, texto "DESFAVORECE").
+O CSS dessas três classes já existe em `analises/style.css` — se não
+existir na hora de gerar a página, adicione lá (fundo sólido de cor,
+texto legível em ambos os temas claro/escuro, `border-radius`, padding
+pequeno tipo pill/badge). Nunca deixe o veredito só mencionado dentro do
+parágrafo de texto — o badge ao lado do nome é a fonte de verdade visual,
+o texto é só o "porquê".
+
 ## Contexto sempre obrigatório
 
 1. **Momento da equipe**: tabela por time, enxuta, sem redundância com o
