@@ -82,6 +82,13 @@ time e cada jogadora relevante, mostre:
 - **Últimos 10 jogos** (médio prazo) — se a amostra disponível for menor
   que 10, use o que houver e diga quantos jogos realmente há.
 
+**Ordem cronológica obrigatória em toda tabela jogo-a-jogo (times e
+jogadoras): jogo mais recente primeiro (topo), do mais novo pro mais
+antigo descendo.** Nunca ordem ascendente (mais antigo primeiro) — fica
+sem sentido de leitura para quem quer ver "como ela está indo agora".
+Depois de montar os últimos 10 jogos de qualquer jogadora/time, ordene
+por data decrescente antes de gerar as linhas da tabela.
+
 ## Mercado de Pontos — o que cobrir
 
 **Nunca misture os dois times numa mesma tabela ou média.** Cada time tem
