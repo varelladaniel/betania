@@ -68,7 +68,8 @@ Endpoints (todos sem chave):
 - Calendário do time: `http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/{id}/schedule`
 - Resumo/boxscore de um jogo (linescores por quarto — campo `displayValue`, não `value` —, titulares/reservas, minutos): `http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event={event_id}`
 - Gamelog de uma jogadora (jogo a jogo da temporada): `https://site.web.api.espn.com/apis/common/v3/sports/basketball/wnba/athletes/{athlete_id}/gamelog`
-  (estrutura: `data.seasonTypes[0].categories[0].events[]` tem `eventId` + `stats` array na ordem de `data.names`; `data.events[eventId]` tem `gameDate`, `opponent.displayName`, `homeTeamScore`/`awayTeamScore`, `gameResult`)
+  (estrutura: `data.seasonTypes[]` tem um item por temporada/tipo, ex. "2026 Regular Season" e "2026 Preseason" — dentro de cada `seasonTypes[i]`, `categories[]` é **paginado por mês** (maio, junho, julho, agosto...), cada categoria com seu próprio `events[]`. `eventId` + `stats` array na ordem de `data.names`; `data.events[eventId]` tem `gameDate`, `opponent.displayName`, `homeTeamScore`/`awayTeamScore`, `gameResult`.
+  **⚠️ NUNCA leia só `seasonTypes[0].categories[0]`** — isso pega só o mês mais recente (ex: só agosto) e faz parecer que a jogadora tem uma amostra minúscula (ex: 5 jogos) quando na verdade ela tem a temporada inteira (ex: 34 jogos). Já aconteceu: uma titular full-time da rotação (Olivia Miles, MIN) ficou de fora inteira de uma análise porque o agente leu só 1 categoria e concluiu erroneamente "amostra pequena, não avaliar". **Sempre**: filtre `seasonTypes` pelo `displayName` que contenha "Regular Season" da temporada corrente, depois concatene `events` de **todas** as `categories` desse item antes de pegar os últimos 5/10 jogos por data.)
 - Classificação/standings: `http://site.api.espn.com/apis/v2/sports/basketball/wnba/standings`
 - Lesões: `http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/injuries` (o campo `shortComment` pode estar desatualizado/referenciar um jogo passado — confie mais no campo `details.returnDate`, e cruze com notícia recente via WebSearch antes de reportar algo crítico)
 - Notícias: `http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/news`
@@ -200,6 +201,17 @@ consistente e relevante para odds reais (ex: pontos 10+, rebotes 6+,
 assistências 4+, 3PM 1.5+ como referência de piso). Descarte e diga
 explicitamente quem não tem volume relevante, em vez de omitir sem
 explicação.
+
+**Checklist obrigatória antes de fechar a tabela**: busque o roster
+completo dos dois times (endpoint `/teams/{id}/roster`) e confira, uma a
+uma, cada titular/rotativa contra o critério de piso acima — nunca monte
+a tabela só a partir de "quem apareceu" durante a pesquisa qualitativa
+(notícia, contexto, WebSearch). Já aconteceu de uma titular relevante
+(Olivia Miles, MIN — armadora titular desde a estreia da temporada) ficar
+de fora inteira de uma análise porque não foi citada nas fontes
+consultadas para contexto, mesmo estando no roster com produção acima do
+piso. O roster é a fonte de verdade de quem existe no time; a pesquisa
+qualitativa só ajuda a decidir o que dizer sobre cada uma.
 
 ## BETANIA TIPS — Jogadoras (card separado, depois da tabela de jogadoras)
 
