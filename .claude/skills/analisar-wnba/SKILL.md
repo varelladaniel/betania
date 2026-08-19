@@ -341,6 +341,37 @@ o texto é só o "porquê".
 1. **Momento da equipe**: tabela por time, enxuta, sem redundância com o
    resto da página. Linhas, nesta ordem exata:
    - **Posição** (seed/colocação, só o número, sem badge nem explicação).
+   - **Situação no campeonato**: busque `http://site.api.espn.com/apis/v2/sports/basketball/wnba/standings`
+     (tabela única, sem conferências — a WNBA classifica os 8 melhores
+     times gerais pro playoff, independente do agrupamento leste/oeste que
+     o JSON usa). Para cada time, calcule jogos de diferença (GB) para a
+     8ª posição e jogos restantes na temporada (44 jogos no total), e
+     classifique numa destas categorias (com `<span class="badge">` +
+     texto curto explicando o porquê):
+     - **Já classificado** — flag `clincher`/`x` da própria ESPN, ou GB
+       grande sobre o 9º colocado com poucos jogos restantes para reverter.
+     - **Disputando vaga** — na briga real pelas posições 6-9, margem
+       apertada o bastante pra mudar com os jogos restantes.
+     - **Fora, mas com chance matemática** — abaixo da linha de corte, sem
+       flag de eliminado (`e`), mas com chance real pequena/remota.
+     - **Praticamente eliminado / disputando posição no draft** — GB tão
+       grande que nem vencendo todos os jogos restantes fecha a conta
+       (calcule: vitórias possíveis máximas vs piso do 8º colocado). **Isso
+       importa para a leitura do jogo**: quanto pior a posição geral de um
+       time matematicamente fora do playoff, melhor a prioridade dele na
+       loteria do draft do ano seguinte — então um time nessa situação tem
+       menos incentivo a forçar veteranas/titulares e mais chance de dar
+       minutos a jogadoras jovens/em desenvolvimento, o que pode reduzir
+       produção de titulares e afetar tips de pontos/mercados dela.
+     - **Já classificado, mas ainda brigando por posição alta/mando de
+       quadra nos playoffs** — mesmo com vaga garantida, se o time ainda
+       disputa 1º/2º lugar geral (relevante pro mando de quadra na pós-
+       temporada), não há sinal de "time de molho" — deixe isso explícito
+       para não sugerir erroneamente que as titulares serão poupadas.
+     Só mencione "poupar titulares"/"minutos reduzidos para jogadoras
+     jovens" como algo **observado ou plausível pelo contexto matemático**,
+     nunca como certeza — é leitura de tendência, não fato confirmado, a
+     menos que haja notícia (WebSearch) confirmando decisão do técnico.
    - **Últimos 5 jogos**: sequência de emojis ✅ (vitória) / ❌ (derrota),
      jogo mais antigo à esquerda, mais recente à direita (ex: `✅❌❌✅✅`).
      Não escreva "WN/LN" nem "X vitórias, Y derrotas" — só os emojis.
@@ -436,24 +467,40 @@ não bateu).
 Sempre gere as duas entregas, sem perguntar:
 1. **Resumo direto no chat** — a análise completa, seguindo a ordem de
    seções acima.
-2. **Página HTML em `analises/wnba/<slug>.html`**. Logo no início do
-   `<body>`, ANTES do `<main>`, insira sempre o **menu fixo (sticky nav)**,
-   igual em todas as páginas da WNBA:
+2. **Página HTML em `analises/wnba/<slug>.html`**. A página usa o layout
+   de shell fixo (`.app-shell` > `.sidebar` sticky + `.main-content`) — a
+   sidebar com os links de Início/WNBA/MLB já existe, reaproveite-a
+   igual em todas as páginas (`.sidebar-link.active` na liga atual).
+
+   Dentro de `.main-content`, **logo no topo, antes do `<a class="back-link">`**,
+   insira a **barra fixa de navegação por seção + troca de jogo**
+   (`.content-stickybar`, sticky ao rolar, classe já existe em
+   `style.css`), com um link `<a href="#{id}">` por seção da página (na
+   mesma ordem em que elas aparecem) e o dropdown de troca de jogo à
+   direita:
    ```html
-   <nav class="site-nav">
-     <div class="site-nav-inner">
-       <a class="site-nav-home" href="../index.html">Início</a>
-       <a class="site-nav-league active" href="index.html">WNBA</a>
-       <select class="site-nav-select" id="nav-select" onchange="location.href=this.value"></select>
-     </div>
-   </nav>
+   <div class="content-stickybar">
+     <nav class="section-nav">
+       <a href="#momento">Momento</a>
+       <a href="#lesoes">Lesões</a>
+       <a href="#analise-jogo">Análise</a>
+       <a href="#matchup">Matchup</a>
+       <a href="#pontos-{siglaA}">Pontos {SIGLA_A}</a>
+       <a href="#pontos-{siglaB}">Pontos {SIGLA_B}</a>
+       <a href="#tips-quartos">Tips Quartos</a>
+       <a href="#jogadoras">Jogadoras</a>
+       <a href="#tips-jogadoras">Tips Jogadoras</a>
+       <a href="#matchup-individual">Matchup Jogadoras</a>
+     </nav>
+     <select class="content-select" id="nav-select" onchange="location.href=this.value"></select>
+   </div>
    ```
-   (`.site-nav-inner` é o que centraliza o conteúdo do menu na mesma
-   largura do `<main>` — não remova essa div, sem ela o menu fica esticado
-   na largura toda da viewport. `.site-nav-league` marca a liga atual;
-   quando houver mais de uma liga implementada, liste todas aqui, com
-   `class="site-nav-league active"` só na liga desta página. Sem emoji no
-   link de Início.)
+   Cada `<div class="card">` correspondente precisa do `id` igual ao
+   `href` do link (`id="momento"`, `id="lesoes"`, `id="analise-jogo"`,
+   `id="matchup"`, `id="pontos-{sigla}"`, `id="tips-quartos"`,
+   `id="jogadoras"`, `id="tips-jogadoras"`, `id="matchup-individual"`) —
+   sem isso o link não leva a lugar nenhum. O scroll suave (`scroll-behavior:
+   smooth`) já vem do `style.css` global, não precisa JS adicional.
 
    Para isso funcionar, o `<head>` precisa carregar
    `<script src="analises-list.js"></script>` (mesma pasta `wnba/`) e

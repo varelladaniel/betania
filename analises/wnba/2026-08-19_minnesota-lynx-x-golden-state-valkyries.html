@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Betania — Minnesota Lynx x Golden State Valkyries (Análise Completa)</title>
-<link rel="stylesheet" href="../style.css?v=8" />
+<link rel="stylesheet" href="../style.css?v=9" />
 <script src="analises-list.js"></script>
 <script src="../common.js"></script>
 </head>
@@ -18,7 +18,21 @@
   </nav>
 </aside>
 <main class="main-content">
-  <div class="content-topbar"><select class="content-select" id="nav-select" onchange="location.href=this.value"></select></div>
+  <div class="content-stickybar">
+    <nav class="section-nav">
+      <a href="#momento">Momento</a>
+      <a href="#lesoes">Lesões</a>
+      <a href="#analise-jogo">Análise</a>
+      <a href="#matchup">Matchup</a>
+      <a href="#pontos-min">Pontos MIN</a>
+      <a href="#pontos-gs">Pontos GS</a>
+      <a href="#tips-quartos">Tips Quartos</a>
+      <a href="#jogadoras">Jogadoras</a>
+      <a href="#tips-jogadoras">Tips Jogadoras</a>
+      <a href="#matchup-individual">Matchup Jogadoras</a>
+    </nav>
+    <select class="content-select" id="nav-select" onchange="location.href=this.value"></select>
+  </div>
   <a class="back-link" href="index.html">← Voltar ao histórico</a>
 
   <div class="analysis-hero">
@@ -32,11 +46,12 @@
     <div class="hero-venue">Chase Center, San Francisco (CA)</div>
   </div>
 
-  <div class="card">
+  <div class="card" id="momento">
     <h2>Momento da equipe</h2>
     <table>
       <tr><th></th><th>Minnesota Lynx</th><th>Golden State Valkyries</th></tr>
-      <tr><td>Posição</td><td>1º</td><td>2º</td></tr>
+      <tr><td>Posição</td><td>1º geral (29-7, líder isolado)</td><td>2º geral (25-9)</td></tr>
+      <tr><td>Situação no campeonato</td><td><span class="badge">Já classificado</span> Vaga de playoff garantida (flag oficial "clinched" da ESPN), com folga ampla sobre o 9º colocado e 8 jogos restantes. Segue em sequência de 4 vitórias — briga real agora é pelo 1º lugar geral e vantagem de mando de quadra nos playoffs, não pela classificação em si, então não há sinal de time "de molho".</td><td><span class="badge">Já classificado</span> Vaga garantida (flag "clinched" da ESPN), 6 vitórias seguidas, 10 jogos restantes. Também disputando posição alta na tabela geral (2º lugar) para mando de quadra nos playoffs — sem indício de poupar titulares neste momento da temporada.</td></tr>
       <tr><td>Últimos 5 jogos</td><td>❌✅✅✅✅</td><td>✅✅✅✅✅</td></tr>
       <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
       <tr><td>Último jogo</td><td>15/08 — ✅ <strong>92</strong>-87<br>✈️ vs Las Vegas Aces</td><td>17/08 — ✅ <strong>78</strong>-70<br>🏠 vs Dallas Wings</td></tr>
@@ -44,20 +59,20 @@
     </table>
   </div>
 
-  <div class="card">
+  <div class="card" id="lesoes">
     <h2>Lesões e desfalques</h2>
     <p><span class="badge">Minnesota Lynx</span> Nenhuma jogadora do elenco atual consta no endpoint de lesões da ESPN (13 times listados, Minnesota ausente). Rotação deve seguir cheia.</p>
     <p><span class="badge">Golden State Valkyries</span> Iliana Rupert (C) <strong>fora</strong> — gravidez, sem prazo de retorno para 2026 (reportado em 07/05/2026, "return date" apontado para 2027). Não afeta a rotação recente, já que ela não vem somando minutos há semanas — os beneficiários citados pela própria ESPN (Janelle Salaun, Kiah Stokes e Laeticia Amihere) já são as opções de garrafão usadas no dia a dia.</p>
     <p style="font-size:13px;color:var(--muted)">Fonte: ESPN Injuries, dados de 19/08/2026.</p>
   </div>
 
-  <div class="card">
+  <div class="card" id="analise-jogo">
     <h2>Análise do jogo</h2>
     <p><span class="confianca-media">Confiança: média</span></p>
     <p>Confronto de topo da liga: Minnesota é o 1º colocado geral (29-7) e Golden State o 2º (25-9), com a Valkyries embalada numa sequência de 6 vitórias seguidas (streak W6) contra 4 do Lynx. Minnesota vem de vitória fora de casa sobre Las Vegas (92-87) e tem 9 vitórias em 10 jogos recentes, única derrota para Los Angeles Sparks (82-89) em 06/08. Golden State também está muito bem, com 9 vitórias em 10, ganhando os últimos 6 seguidos, incluindo dois triunfos consecutivos sobre Toronto e vitórias sobre Chicago e Dallas por boas margens. No confronto direto da temporada 2026, porém, o retrospecto é 2-0 para Minnesota (87-84 em 04/06 e 81-75 em 19/06, ambos jogos apertados por menos de 6 pontos). Minnesota tem vantagem histórica direta e o elenco mais completo em pontuação por jogadora (Olivia Miles com 21.8 pts/6.8 ast, Napheesa Collier, Kayla McBride com grande volume de 3 pontos), mas Golden State está no melhor momento das últimas semanas e joga em casa. Pesando o domínio direto da temporada e a posição geral de Minnesota como 1º colocado da liga contra o fator casa e o momento imediato do Golden State, a confiança fica em "média", com leve inclinação para Minnesota.</p>
   </div>
 
-  <div class="card">
+  <div class="card" id="matchup">
     <h2>Matchup</h2>
     <p><strong>Minnesota Lynx</strong>: ataque bem distribuído, liderado por Olivia Miles (21.8 pts, 6.8 ast, 2.3 3PM de média nos últimos 10 — inclusive um jogo de 13 assistências contra Dallas em 09/08) e Kayla McBride (19.9 pts, 4.0 3PM, incluindo um pico de 43 pontos e 10 triplos contra Dallas em 09/08). Napheesa Collier soma 19.1 pts e 7.3 reb (amostra de 9 jogos, sem dado anterior a 22/07 no gamelog da fonte), Natasha Howard reforça o garrafão com 11.6 pts e 7.6 reb, e Courtney Williams organiza como segunda opção de armação (11.9 pts, 4.2 ast). Banco curto: Nia Coffey e Dorka Juhasz têm minutos baixos e produção abaixo do piso de mercado. Ambição de manter a liderança geral da liga e chegar ao playoff como cabeça de chave.</p>
     <p><strong>Golden State Valkyries</strong>: elenco mais coletivo, sem um "franchise scorer" isolado — Veronica Burton lidera a organização (12.9 pts, 6.1 ast), Gabby Williams soma volume ofensivo (14.8 pts em amostra de 9 jogos), Janelle Salaun (13.0 pts, 2.2 3PM) e Tiffany Hayes (11.3 pts) complementam no perímetro. Kayla Thornton (9.8 pts, 4.7 reb) e Kiah Stokes (6.0 reb) dividem o garrafão, ainda mais depois da saída de Iliana Rupert por gravidez. Cecilia Zandalasini contribui de forma mais pontual (8.9 pts, 1.7 3PM). Time mais raso em porte físico de garrafão comparado a Minnesota (Stokes e Thornton, 75" e 73", contra Collier e Howard, ambas 73"-74" mas com mais volume de rebote). Ambição de consolidar a 2ª colocação do Oeste com a melhor sequência recente da liga (6 vitórias seguidas) e brigar pela liderança geral.</p>
@@ -68,7 +83,7 @@
     </details>
   </div>
 
-  <div class="card">
+  <div class="card" id="pontos-min">
     <h2>Mercado de Pontos — Minnesota Lynx</h2>
     <h3>Médias por quarto/tempo</h3>
     <div class="window-toggle" id="min-avg-toggle">
@@ -108,7 +123,7 @@
     </details>
   </div>
 
-  <div class="card">
+  <div class="card" id="pontos-gs">
     <h2>Mercado de Pontos — Golden State Valkyries</h2>
     <h3>Médias por quarto/tempo</h3>
     <div class="window-toggle" id="gs-avg-toggle">
@@ -148,7 +163,7 @@
     </details>
   </div>
 
-  <div class="card">
+  <div class="card" id="tips-quartos">
     <h2>BETANIA TIPS</h2>
     <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir dos dados — não é indicação de aposta. Taxas calculadas sobre os últimos 10 jogos de cada time. "Ambas marcam" é uma estimativa de probabilidade conjunta assumindo independência entre as duas amostras, sem cruzar com o confronto direto (os 2 jogos de 2026 entre eles tiveram margem apertada, sem quarto de blowout claro nos dados disponíveis).</p>
     <div class="quarter-toggle" id="tips-toggle">
@@ -241,7 +256,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" id="jogadoras">
     <h2>Análise Jogadores</h2>
     <p style="font-size:13px;color:var(--muted)">Roster completo dos dois times conferido linha a linha contra o piso mínimo (pontos 10+, rebotes 6+, assistências 4+, 3PM 1.5+). Descartadas por volume abaixo do piso em todas as categorias: Chloe Bibby, Elena Buenavida, Maya Caldwell, Antonia Delaere, Eliska Joklova, Liatu King, Anastasiia Olairi Kosu, Nia Coffey e Dorka Juhasz (MIN, banco/reservas de rotação curta); Kaila Charles, Kaitlyn Chen, Laeticia Amihere, Nadia Fingall, Juste Jocyte, Ashten Prechtel e Miela Sowah (GS, banco de baixo volume). Iliana Rupert (GS) está fora por gravidez.</p>
     <table class="player-table">
@@ -524,7 +539,7 @@
     </table>
   </div>
 
-  <div class="card">
+  <div class="card" id="tips-jogadoras">
     <h2>BETANIA TIPS — Jogadoras</h2>
     <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir do histórico — não é a odd real da casa de apostas. Confira o número oferecido antes de decidir. Linha calculada no ~percentil 30 da amostra (chão de produção), não a média.</p>
     <table class="player-table">
@@ -552,7 +567,7 @@
     <p style="font-size:12px;color:var(--muted)">Natasha Howard não atingiu 70% em Pontos nem em Duplo-Duplo (2/10, 20%). Duplo-Duplo não atingiu 70% de acerto para nenhuma jogadora desta amostra (Napheesa Collier 2/9 = 22%, Olivia Miles 1/10, Natasha Howard 2/10) — nenhuma entrou nesse mercado. Kayla Thornton, Kiah Stokes e Cecilia Zandalasini (GS) não tiveram nenhum mercado com 70%+ de acerto (produção mais irregular/abaixo do piso na maioria das categorias) e ficaram fora deste card. Courtney Williams só teve 🟢 em Pontos — Assistências ficou em 60% (6/10), abaixo do corte. Kayla McBride está marcada como "outlier" pelo pico de 43 pontos/10 triplos em 09/08, que infla a média — mesmo assim, a linha seguindo o percentil 30 ainda é conservadora e a taxa de acerto se sustenta olhando o jogo a jogo completo.</p>
   </div>
 
-  <div class="card">
+  <div class="card" id="matchup-individual">
     <h2>Matchup Individual</h2>
     <div class="matchup-card">
       <div class="matchup-head">
