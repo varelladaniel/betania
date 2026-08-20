@@ -464,7 +464,15 @@ rodada saírem com `v=` diferentes, a que ficou com o número antigo
 carrega o CSS cacheado do navegador e não reflete a mudança nova (já
 aconteceu: badges de matchup apareceram estilizados em uma página e como
 texto puro sem cor em outra, mesmo com o HTML idêntico, só porque o `v=`
-não bateu).
+não bateu). **A mesma regra vale para `common.js`**: toda página referencia
+`../common.js?v=N`; se você alterar `common.js`, incremente esse `v=N` em
+**todas** as páginas do site (`grep -rl "common.js" analises/ | xargs sed
+-i 's/common\.js?v=[0-9]*/common.js?v=NOVO/g'`) — não só nas páginas
+tocadas na sessão, porque `common.js` é compartilhado por todo o histórico
+e o navegador do usuário pode ter uma versão antiga em cache mesmo em
+páginas não editadas hoje (já aconteceu: a ordenação por horário nos
+cards do índice não aparecia porque `common.js` não tinha cache-bust
+nenhum e o navegador continuava servindo a versão antiga do cache).
 - `analises/common.js` — funções `setWindow(tableId, n)` (esconde/mostra
   linhas por `data-rank`, usado nas listas de jogos gerais tipo histórico),
   `setAvgWindow(tableId, n)` (troca o texto de células `data-5`/`data-10`,
