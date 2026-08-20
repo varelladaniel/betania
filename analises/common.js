@@ -110,6 +110,15 @@ function groupHistoryByDate(containerId) {
     byDate[date].push(card);
   });
 
+  function cardTimeKey(card) {
+    var badge = card.querySelector('.history-date-badge');
+    var m = badge && badge.textContent.match(/(\d{1,2}):(\d{2})/);
+    return m ? parseInt(m[1], 10) * 60 + parseInt(m[2], 10) : 0;
+  }
+  order.forEach(function (date) {
+    byDate[date].sort(function (a, b) { return cardTimeKey(a) - cardTimeKey(b); });
+  });
+
   var mostRecent = order[0];
   var frag = document.createDocumentFragment();
   order.forEach(function (date) {
