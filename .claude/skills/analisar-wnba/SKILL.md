@@ -402,7 +402,17 @@ o texto é só o "porquê".
 1. Momento da equipe
 2. Lesões e desfalques
 3. **Análise do jogo** (parecer geral, nível de confiança) — logo após
-   lesões, antes do Matchup
+   lesões, antes do Matchup. **Sempre abra este card com um veredito
+   direto de favorito**, antes do parágrafo explicativo, como uma linha
+   `<p class="favorito-line">` com um badge:
+   `<span class="favorito-badge favorito-time">🏆 Favorito: {Nome do
+   time}</span>` (o time com mais chances de vencer, na sua leitura), ou,
+   se a leitura for de jogo parelho sem favorito claro,
+   `<span class="favorito-badge favorito-empate">⚖️ Jogo equilibrado —
+   sem favorito claro</span>`. Isso vem **antes** de "Confiança: alta/
+   média/baixa" e do parágrafo — o usuário precisa ver o veredito sem
+   precisar ler o texto todo. O parágrafo que já existia continua depois,
+   como justificativa do porquê.
 4. Matchup (com histórico entre os times recolhível)
 5. Mercado de Pontos — {Time A} (card próprio)
 6. Mercado de Pontos — {Time B} (card próprio, mesma estrutura)

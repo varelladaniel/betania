@@ -241,9 +241,22 @@ a { color: var(--accent-blue); }
   margin-right: 6px;
 }
 
-.confianca-alto { color: var(--ok); font-weight: 600; }
-.confianca-medio { color: var(--warn); font-weight: 600; }
-.confianca-baixo { color: var(--bad); font-weight: 600; }
+.confianca-alto, .confianca-alta { color: var(--ok); font-weight: 600; }
+.confianca-medio, .confianca-media { color: var(--warn); font-weight: 600; }
+.confianca-baixo, .confianca-baixa { color: var(--bad); font-weight: 600; }
+
+.favorito-line { margin: 0 0 10px; }
+.favorito-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.favorito-badge.favorito-time { background: var(--ok-soft); color: var(--ok); }
+.favorito-badge.favorito-empate { background: var(--warn-soft); color: var(--warn); }
 
 table { width: 100%; border-collapse: collapse; margin: 12px 0; }
 td, th { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; font-size: 14px; }
