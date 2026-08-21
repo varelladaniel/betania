@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Portland Fire x Toronto Tempo (Análise Completa)</title>
+<link rel="stylesheet" href="../style.css?v=10" />
+<script src="analises-list.js"></script>
+<script src="../common.js?v=2"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link" href="../mlb/index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-stickybar">
+    <nav class="section-nav">
+      <a href="#momento">Momento</a>
+      <a href="#lesoes">Lesões</a>
+      <a href="#analise-jogo">Análise</a>
+      <a href="#matchup">Matchup</a>
+      <a href="#pontos-por">Pontos POR</a>
+      <a href="#pontos-tor">Pontos TOR</a>
+      <a href="#tips-quartos">Tips Quartos</a>
+      <a href="#jogadoras">Jogadoras</a>
+      <a href="#tips-jogadoras">Tips Jogadoras</a>
+      <a href="#matchup-individual">Matchup Jogadoras</a>
+    </nav>
+    <select class="content-select" id="nav-select" onchange="location.href=this.value"></select>
+  </div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-hero">
+    <span class="history-date-badge">21/08 · 23:00</span>
+    <div class="history-logos">
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/por.png" alt="Portland Fire" />
+      <span class="history-vs">VS</span>
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/tor.png" alt="Toronto Tempo" />
+    </div>
+    <div class="history-teams-label">Portland Fire vs Toronto Tempo</div>
+    <div class="hero-venue">Coca-Cola Coliseum, Toronto (ON)</div>
+  </div>
+
+  <div class="card" id="momento">
+    <h2>Momento da equipe</h2>
+    <table>
+      <tr><th></th><th>Portland Fire</th><th>Toronto Tempo</th></tr>
+      <tr><td>Posição</td><td>9º geral (15-20)</td><td>13º geral (10-25)</td></tr>
+      <tr><td>Situação no campeonato</td><td><span class="badge">Fora mas com chance matemática</span> 9ª colocação geral, 5 jogos atrás da 8ª (Dallas, 21-16) com 9 jogos restantes — tecnicamente ainda vivo, mas precisaria de uma virada muito forte para alcançar a linha de corte.</td><td><span class="badge">Praticamente eliminado/disputando posição no draft</span> 13ª colocação geral, 10 jogos atrás da 8ª posição com apenas 9 jogos restantes — matematicamente eliminado da disputa por vaga de playoff. Franquia de expansão no primeiro ano, foco natural tende a passar para desenvolvimento de jovens/rotação, mas isso é leitura de tendência, não confirmação oficial.</td></tr>
+      <tr><td>Últimos 5 jogos</td><td>✅✅❌✅✅</td><td>❌❌❌❌❌</td></tr>
+      <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
+      <tr><td>Último jogo</td><td>16/08 — ✅ <strong>88</strong>-85<br>✈️ vs Phoenix Mercury</td><td>19/08 — ❌ <strong>82</strong>-93<br>✈️ vs Washington Mystics</td></tr>
+      <tr><td>Próximo jogo</td><td>23/08 🏠 vs Washington Mystics</td><td>23/08 🏠 vs Las Vegas Aces</td></tr>
+    </table>
+  </div>
+
+  <div class="card" id="lesoes">
+    <h2>Lesões e desfalques</h2>
+    <p><span class="badge">Portland Fire</span> Sarah Ashlee Barker <strong>fora pelo resto da temporada</strong> (cirurgia para reparar ruptura do ligamento cruzado anterior do joelho esquerdo, anunciado em 24/07). Sania Feagin <strong>fora pelo resto da temporada</strong> (ruptura do LCA do joelho esquerdo, diagnosticada em 09/07). Luisa Geiselsoder <strong>fora pelo resto da temporada</strong> (motivo pessoal, não deve retornar em 2026). Como reposição por hardship (Season-Ending Injury Exception no lugar de Barker), Portland contratou Amy Okonkwo (capitã da seleção nigeriana) em meados de agosto — ela ainda não soma minutos na amostra de jogos analisada, portanto entra apenas como nota, sem dado de produção na WNBA.</p>
+    <p><span class="badge">Toronto Tempo</span> Marina Mabrey <strong>fora do jogo de hoje</strong> (adutor/posterior de coxa direita, boletim de 21/08). Maria Conde <strong>fora do jogo de hoje</strong> (panturrilha, boletim de 21/08) — ambas com retorno estimado para 23/08, ou seja, ficam de fora justamente desta partida. Nyara Sabally <strong>fora por tempo indeterminado</strong> (panturrilha, com bota imobilizadora, reavaliação em "algumas semanas" segundo Chelsea Leite/TSN — retorno não deve ocorrer antes de meados de setembro). Brittney Sykes voltou de lesão na fáscia plantar esquerda (fora dois meses) e jogou 21 minutos em 18/08 (15 pts), mas foi poupada em 19/08 (back-to-back) — amostra de apenas 1 jogo, insuficiente para avaliação de mercado, mas sinaliza retorno gradual em possível esquema de minutagem controlada.</p>
+    <p style="font-size:13px;color:var(--muted)">Fonte: ESPN Injuries (boletins de 08/07 a 21/08/2026) cruzado com TSN, SI.com e Washington Post (reportagens de 17-21/08/2026).</p>
+  </div>
+
+  <div class="card" id="analise-jogo">
+    <h2>Análise do jogo</h2>
+    <p class="favorito-line"><span class="favorito-badge favorito-time">🏆 Favorito: Portland Fire</span></p>
+    <p><span class="confianca-alta">Confiança: alta</span></p>
+    <p>Portland chega em vantagem clara mesmo jogando fora de casa. Venceu os dois confrontos diretos da temporada contra Toronto — 99-80 em 23/05 (em Toronto) e 97-83 em 07/08 (em Portland) — com margens confortáveis nos dois. Toronto está em queda livre: perdeu os últimos <strong>10 jogos seguidos</strong>, é a 13ª colocada geral (10-25) e está matematicamente eliminada da disputa por vaga de playoff. Para piorar, o Tempo entra neste jogo sem os dois principais nomes do ataque — Marina Mabrey (19.6 pts/8 jogos nos últimos 10) e Maria Conde (10.7 pts) — ambas fora especificamente para esta partida, além de Nyara Sabally (14.2 pts/6.7 reb) já ausente há duas semanas. Portland, apesar de também ter perdido peças (Barker e Feagin, fora pelo resto da temporada), mantém o núcleo ofensivo saudável — Carleton, Leite e DiLeo, os três produtores acima do piso do time, estão disponíveis e vêm de sequência de 4 vitórias em 5 jogos. O único fator que impede subir a confiança para "muito alta" é o mando de quadra de Toronto e o fato de o Tempo, mesmo destroçado, ter mostrado reação de 4ºQ em jogos recentes (26.8 pts de média nos últimos 5).</p>
+  </div>
+
+  <div class="card" id="matchup">
+    <h2>Matchup</h2>
+    <p><strong>Portland Fire</strong>: ataque gira em torno de três nomes — Bridget Carleton (17.6 pts/6.7 reb/3.6 3PM nos últimos 10, incluindo um jogo de 26 pontos em 01/08), Carla Leite (17.0 pts/7.2 ast, principal armadora e cestinha em picos como os 27 pontos/11 assistências no confronto direto de 07/08) e Megan DiLeo (14.9 pts, eficiente do garrafão para fora). Elenco foi bastante desfalcado por lesões graves (Barker e Feagin, ambas fora pelo resto do ano com LCA rompido), reduzindo a profundidade de banco — Frieda Buhner, Serah Williams e Nyadiew Puoch seguem como opções de rotação, mas nenhuma acima do piso de relevância. Ainda assim, o trio titular restante está saudável e em boa forma recente.</p>
+    <p><strong>Toronto Tempo</strong>: franquia de expansão no primeiro ano, 13ª colocada geral e matematicamente fora da disputa de playoff — foco natural tende a passar para desenvolvimento, embora não haja confirmação oficial de "time de molho". Hoje entra sem as duas principais armas ofensivas (Mabrey e Conde), deixando a produção nas mãos de Aneesah Morrow (10.8 pts/7.3 reb em amostra de 6 jogos, boa produção interna), Laura Juskaite (11.3 pts) e Kiki Rice (10.3 pts), com Julie Allemand (6.1 ast) na armação. Estrutura de garrafão fisicamente mais alta que a de Portland (Temi Fagbenle e Isabelle Harrison na casa de 1,96m), mas sem o núcleo ofensivo saudável para converter essa vantagem em pontos. Dez derrotas seguidas comprometem a confiança coletiva do time neste momento da temporada.</p>
+
+    <details class="collapsible">
+      <summary>Histórico entre os times</summary>
+      <p style="font-size:13px;color:var(--muted)">Dois confrontos diretos na temporada regular 2026, ambos vencidos por Portland: 23/05/2026 — Toronto Tempo 80 x 99 Portland Fire (em Toronto); 07/08/2026 — Portland Fire 97 x 83 Toronto Tempo (em Portland). O jogo de hoje é o terceiro e último encontro da temporada entre os dois times, novamente em Toronto.</p>
+    </details>
+  </div>
+
+  <div class="card" id="pontos-por">
+    <h2>Mercado de Pontos — Portland Fire</h2>
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="por-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('por-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('por-avg',10)">Últimos 10</button>
+    </div>
+    <div id="por-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1ºQ</div><div class="qc-avg" data-5="23.8" data-10="22.7">22.7</div><div class="qc-range" data-5="18-27" data-10="16-29">16-29</div></div>
+        <div class="quarter-card"><div class="qc-label">2ºQ</div><div class="qc-avg" data-5="21.0" data-10="21.1">21.1</div><div class="qc-range" data-5="10-29" data-10="10-29">10-29</div></div>
+        <div class="quarter-card"><div class="qc-label">3ºQ</div><div class="qc-avg" data-5="21.2" data-10="22.9">22.9</div><div class="qc-range" data-5="14-30" data-10="14-30">14-30</div></div>
+        <div class="quarter-card"><div class="qc-label">4ºQ</div><div class="qc-avg" data-5="24.0" data-10="25.5">25.5</div><div class="qc-range" data-5="16-30" data-10="16-33">16-33</div></div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1º Tempo</div><div class="qc-avg" data-5="44.8" data-10="43.8">43.8</div><div class="qc-range" data-5="33-56" data-10="33-56">33-56</div></div>
+        <div class="quarter-card"><div class="qc-label">2º Tempo</div><div class="qc-avg" data-5="45.2" data-10="48.4">48.4</div><div class="qc-range" data-5="36-52" data-10="36-55">36-55</div></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (19/07 a 16/08). 4ºQ é o quarto mais forte de Portland (25.5 de média, pico de 33 pontos em 19/07 contra Minnesota). 2ºQ é o mais fraco e mais instável (21.1, variando de 10 a 29 pontos) — no jogo de 13/08 contra Minnesota (derrota por 4, 81-85), o 2ºQ caiu para apenas 10 pontos com os titulares em minutagem normal (Carleton 33min, Engstler 23min, DiLeo 23min, dentro da faixa usual), evidenciando queda ofensiva real e não gestão de banco. Não há blowout expressivo na amostra (maior margem de derrota é 15 pontos, em 29/07 contra Las Vegas) que permita isolar poupança clara de titulares por diferença grande de placar — os titulares mantiveram minutagem normal em praticamente todos os jogos.</p>
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>16/08</td><td>✈️</td><td class="opp">Phoenix Mercury</td><td>✅</td><td><strong>88</strong>-85</td><td>18 <span class="opp-pts">(22)</span></td><td>18 <span class="opp-pts">(20)</span></td><td>25 <span class="opp-pts">(22)</span></td><td>27 <span class="opp-pts">(21)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>15/08</td><td>✈️</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>84</strong>-82</td><td>26 <span class="opp-pts">(16)</span></td><td>22 <span class="opp-pts">(20)</span></td><td>14 <span class="opp-pts">(18)</span></td><td>22 <span class="opp-pts">(28)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>13/08</td><td>🏠</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>81</strong>-85</td><td>23 <span class="opp-pts">(26)</span></td><td>10 <span class="opp-pts">(31)</span></td><td>18 <span class="opp-pts">(11)</span></td><td>30 <span class="opp-pts">(17)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">2ºQ de apenas 10 pontos, o pior da amostra, com titulares em minutagem normal — queda ofensiva real</span></details></td></tr>
+          <tr><td>09/08</td><td>🏠</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>100</strong>-93</td><td>27 <span class="opp-pts">(30)</span></td><td>29 <span class="opp-pts">(17)</span></td><td>19 <span class="opp-pts">(23)</span></td><td>25 <span class="opp-pts">(23)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>07/08</td><td>🏠</td><td class="opp">Toronto Tempo</td><td>✅</td><td><strong>97</strong>-83</td><td>25 <span class="opp-pts">(23)</span></td><td>26 <span class="opp-pts">(14)</span></td><td>30 <span class="opp-pts">(22)</span></td><td>16 <span class="opp-pts">(24)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Confronto direto mais recente — Portland abriu vantagem no 3ºQ (30 pontos)</span></details></td></tr>
+          <tr><td>02/08</td><td>🏠</td><td class="opp">Los Angeles Sparks</td><td>❌</td><td><strong>101</strong>-106</td><td>29 <span class="opp-pts">(22)</span></td><td>20 <span class="opp-pts">(21)</span></td><td>23 <span class="opp-pts">(29)</span></td><td>29 <span class="opp-pts">(34)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">LA fechou com 34 no 4ºQ para decidir o jogo</span></details></td></tr>
+          <tr><td>01/08</td><td>🏠</td><td class="opp">Indiana Fever</td><td>❌</td><td><strong>98</strong>-112</td><td>25 <span class="opp-pts">(27)</span></td><td>22 <span class="opp-pts">(29)</span></td><td>25 <span class="opp-pts">(34)</span></td><td>26 <span class="opp-pts">(22)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Indiana fez 34 no 3ºQ, abrindo distância</span></details></td></tr>
+          <tr><td>29/07</td><td>✈️</td><td class="opp">Las Vegas Aces</td><td>❌</td><td><strong>83</strong>-98</td><td>21 <span class="opp-pts">(36)</span></td><td>16 <span class="opp-pts">(17)</span></td><td>27 <span class="opp-pts">(26)</span></td><td>19 <span class="opp-pts">(19)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Las Vegas abriu 36x21 logo no 1ºQ; maior margem de derrota da amostra (15 pontos)</span></details></td></tr>
+          <tr><td>23/07</td><td>🏠</td><td class="opp">Dallas Wings</td><td>❌</td><td><strong>97</strong>-101</td><td>17 <span class="opp-pts">(18)</span></td><td>25 <span class="opp-pts">(22)</span></td><td>27 <span class="opp-pts">(36)</span></td><td>28 <span class="opp-pts">(25)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Dallas fez 36 no 3ºQ, o pico ofensivo de um adversário na amostra</span></details></td></tr>
+          <tr><td>19/07</td><td>✈️</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>93</strong>-101</td><td>16 <span class="opp-pts">(24)</span></td><td>23 <span class="opp-pts">(23)</span></td><td>21 <span class="opp-pts">(28)</span></td><td>33 <span class="opp-pts">(26)</span></td><td class="obs-cell"></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card" id="pontos-tor">
+    <h2>Mercado de Pontos — Toronto Tempo</h2>
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="tor-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('tor-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('tor-avg',10)">Últimos 10</button>
+    </div>
+    <div id="tor-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1ºQ</div><div class="qc-avg" data-5="21.8" data-10="22.4">22.4</div><div class="qc-range" data-5="17-24" data-10="17-28">17-28</div></div>
+        <div class="quarter-card"><div class="qc-label">2ºQ</div><div class="qc-avg" data-5="17.2" data-10="18.4">18.4</div><div class="qc-range" data-5="9-26" data-10="9-26">9-26</div></div>
+        <div class="quarter-card"><div class="qc-label">3ºQ</div><div class="qc-avg" data-5="22.8" data-10="21.8">21.8</div><div class="qc-range" data-5="20-28" data-10="14-28">14-28</div></div>
+        <div class="quarter-card"><div class="qc-label">4ºQ</div><div class="qc-avg" data-5="26.8" data-10="22.5">22.5</div><div class="qc-range" data-5="24-30" data-10="13-30">13-30</div></div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1º Tempo</div><div class="qc-avg" data-5="39.0" data-10="40.8">40.8</div><div class="qc-range" data-5="33-49" data-10="33-49">33-49</div></div>
+        <div class="quarter-card"><div class="qc-label">2º Tempo</div><div class="qc-avg" data-5="49.6" data-10="44.3">44.3</div><div class="qc-range" data-5="46-56" data-10="31-56">31-56</div></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (21/07 a 19/08, todos derrotas — sequência de 10 jogos seguidos sem vencer). 2ºQ é disparado o quarto mais fraco de Toronto (18.4 de média, com mínimo de apenas 9 pontos em 19/08 contra Washington). 4ºQ vem forte nos últimos 5 jogos (26.8 de média, 100% acima de 20 pontos) — sinal de reação ofensiva tardia em jogos já definidos, coerente com um time jovem que segue competindo mesmo atrás no placar. No blowout de 31/07 contra Minnesota (derrota por 32, 72-104), o 3ºQ foi o pior momento (14 pontos) com os titulares principais ainda em minutagem relevante (Conde 28min, Juskaite 30min, Mabrey 28min) — evidência de colapso ofensivo/defensivo real, não rotação de descanso; apenas jogadoras de fim de banco (Fagbenle 19min, Allemand 22min) tiveram minutagem reduzida frente ao normal.</p>
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>19/08</td><td>✈️</td><td class="opp">Washington Mystics</td><td>❌</td><td><strong>82</strong>-93</td><td>24 <span class="opp-pts">(25)</span></td><td>9 <span class="opp-pts">(22)</span></td><td>23 <span class="opp-pts">(22)</span></td><td>26 <span class="opp-pts">(24)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">2ºQ de apenas 9 pontos, o pior da amostra; Brittney Sykes poupada (back-to-back após retorno de lesão)</span></details></td></tr>
+          <tr><td>18/08</td><td>🏠</td><td class="opp">Indiana Fever</td><td>❌</td><td><strong>95</strong>-101</td><td>23 <span class="opp-pts">(33)</span></td><td>26 <span class="opp-pts">(24)</span></td><td>20 <span class="opp-pts">(24)</span></td><td>26 <span class="opp-pts">(20)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Brittney Sykes retornou de lesão na fáscia plantar (15 pts em 21min)</span></details></td></tr>
+          <tr><td>13/08</td><td>✈️</td><td class="opp">Dallas Wings</td><td>❌</td><td><strong>88</strong>-94</td><td>17 <span class="opp-pts">(27)</span></td><td>20 <span class="opp-pts">(18)</span></td><td>21 <span class="opp-pts">(25)</span></td><td>30 <span class="opp-pts">(24)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>11/08</td><td>✈️</td><td class="opp">Atlanta Dream</td><td>❌</td><td><strong>95</strong>-107</td><td>22 <span class="opp-pts">(24)</span></td><td>17 <span class="opp-pts">(30)</span></td><td>28 <span class="opp-pts">(26)</span></td><td>28 <span class="opp-pts">(27)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>07/08</td><td>✈️</td><td class="opp">Portland Fire</td><td>❌</td><td><strong>83</strong>-97</td><td>23 <span class="opp-pts">(25)</span></td><td>14 <span class="opp-pts">(26)</span></td><td>22 <span class="opp-pts">(30)</span></td><td>24 <span class="opp-pts">(16)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Confronto direto mais recente — Portland abriu com 3ºQ de 30 pontos</span></details></td></tr>
+          <tr><td>05/08</td><td>✈️</td><td class="opp">Golden State Valkyries</td><td>❌</td><td><strong>81</strong>-92</td><td>24 <span class="opp-pts">(25)</span></td><td>18 <span class="opp-pts">(16)</span></td><td>26 <span class="opp-pts">(31)</span></td><td>13 <span class="opp-pts">(20)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>03/08</td><td>✈️</td><td class="opp">Golden State Valkyries</td><td>❌</td><td><strong>79</strong>-96</td><td>20 <span class="opp-pts">(25)</span></td><td>23 <span class="opp-pts">(19)</span></td><td>18 <span class="opp-pts">(23)</span></td><td>18 <span class="opp-pts">(29)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>31/07</td><td>🏠</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>72</strong>-104</td><td>19 <span class="opp-pts">(18)</span></td><td>22 <span class="opp-pts">(32)</span></td><td>14 <span class="opp-pts">(31)</span></td><td>17 <span class="opp-pts">(23)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Maior derrota da amostra (32 pontos); 3ºQ de apenas 14 pontos com titulares ainda em minutagem relevante — colapso real, não rotação</span></details></td></tr>
+          <tr><td>29/07</td><td>✈️</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>93</strong>-100</td><td>28 <span class="opp-pts">(25)</span></td><td>15 <span class="opp-pts">(28)</span></td><td>25 <span class="opp-pts">(28)</span></td><td>25 <span class="opp-pts">(19)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>21/07</td><td>🏠</td><td class="opp">Las Vegas Aces</td><td>❌</td><td><strong>83</strong>-109</td><td>24 <span class="opp-pts">(30)</span></td><td>20 <span class="opp-pts">(30)</span></td><td>21 <span class="opp-pts">(26)</span></td><td>18 <span class="opp-pts">(23)</span></td><td class="obs-cell"></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card" id="tips-quartos">
+    <h2>BETANIA TIPS</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir dos dados — não é indicação de aposta. Taxas calculadas sobre os últimos 10 jogos de cada time. "Ambas marcam" é uma estimativa de probabilidade conjunta assumindo independência entre as duas amostras — não é frequência observada diretamente deste confronto.</p>
+    <div class="quarter-toggle" id="tips-toggle">
+      <button data-q="1" class="active" onclick="setQuarterTips('tips',1)">1ºQ</button>
+      <button data-q="2" onclick="setQuarterTips('tips',2)">2ºQ</button>
+      <button data-q="3" onclick="setQuarterTips('tips',3)">3ºQ</button>
+      <button data-q="4" onclick="setQuarterTips('tips',4)">4ºQ</button>
+    </div>
+    <div id="tips">
+      <div data-q="1">
+        <h3>Portland marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Nunca aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Toronto marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria, quarto inicial é razoável para o Tempo</span></td></tr>
+          <tr><td>25</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Nunca aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 1ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~72%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Favorável nos dois lados</span></td></tr>
+          <tr><td>22</td><td>~42%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~5%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Muito raro, não faria</span></td></tr>
+        </table>
+      </div>
+      <div data-q="2" style="display:none">
+        <h3>Portland marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Nunca aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Toronto marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, quarto mais fraco do Tempo</span></td></tr>
+          <tr><td>25</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Nunca aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 2ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~48%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção, pior janela conjunta do jogo</span></td></tr>
+          <tr><td>22</td><td>~18%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+          <tr><td>25</td><td>~3%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Muito raro, não faria</span></td></tr>
+        </table>
+      </div>
+      <div data-q="3" style="display:none">
+        <h3>Portland marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Toronto marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>0/10 (0%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Nunca aconteceu na amostra</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 3ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~81%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Melhor leitura conjunta do jogo</span></td></tr>
+          <tr><td>22</td><td>~30%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~15%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Pouco provável</span></td></tr>
+        </table>
+      </div>
+      <div data-q="4" style="display:none">
+        <h3>Portland marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Quarto mais forte de Portland, bate na maioria</span></td></tr>
+          <tr><td>25</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Ainda favorável</span></td></tr>
+          <tr><td>30</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Toronto marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>6/10 (60%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria, e vem crescendo nos últimos 5 jogos</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 4ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~72%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Favorável nos dois lados, quarto mais forte do jogo combinado</span></td></tr>
+          <tr><td>22</td><td>~48%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~35%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="jogadoras">
+    <h2>Análise Jogadores</h2>
+    <p style="font-size:13px;color:var(--muted)">Descartadas por volume abaixo do piso em todas as categorias (checagem feita no roster completo dos dois times): Emily Engstler, Frieda Buhner, Serah Williams, Nyadiew Puoch, Jordan Harrison, Teja Oblak, Karlie Samuelson (POR); Isabelle Harrison, Temi Fagbenle, Kia Nurse, Teonni Key (TOR). Sarah Ashlee Barker, Sania Feagin e Luisa Geiselsoder (POR) estão fora pelo resto da temporada, excluídas da tabela. Amy Okonkwo (POR, contratação recente por hardship) ainda não tem jogos na amostra — sem dado suficiente para avaliar. Brittney Sykes (TOR) tem apenas 1 jogo desde o retorno de lesão — amostra insuficiente. Marina Mabrey (19.6 pts/8 jogos) e Maria Conde (10.7 pts) do Toronto atingiriam o piso normalmente, mas estão <strong>fora especificamente do jogo de hoje</strong> — por isso ficam de fora da tabela abaixo, não por falta de produção. Nyara Sabally (TOR) está fora por tempo indeterminado.</p>
+    <table class="player-table">
+      <thead><tr><th>Time</th><th>Nome</th><th>Pontos</th><th>Rebotes</th><th>Duplo-Duplo</th><th>3PTS</th><th>Jogos</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Portland</td>
+          <td>Bridget Carleton</td>
+          <td>17.6 (9-26)</td><td>6.7 (3-11)</td><td>2/10</td><td>3.6 (0-7)</td>
+          <td><button class="expand-btn" data-toggle-target="det-carleton" onclick="toggleRow('det-carleton')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-carleton" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>16/08</td><td class="opp">Phoenix Mercury</td><td>9</td><td>5</td><td>0</td><td>0</td><td>⏱️ 32min</td></tr>
+              <tr><td>15/08</td><td class="opp">Seattle Storm</td><td>14</td><td>9</td><td>2</td><td>4</td><td>⏱️ 29min</td></tr>
+              <tr><td>13/08</td><td class="opp">Minnesota Lynx</td><td>16</td><td>5</td><td>2</td><td>1</td><td>⏱️ 33min</td></tr>
+              <tr><td>09/08</td><td class="opp">Seattle Storm</td><td>24</td><td>6</td><td>4</td><td>4</td><td>⏱️ 29min</td></tr>
+              <tr><td>07/08</td><td class="opp">Toronto Tempo</td><td>10</td><td>11</td><td>0</td><td>2</td><td>⏱️ 30min</td></tr>
+              <tr><td>02/08</td><td class="opp">Los Angeles Sparks</td><td>24</td><td>11</td><td>1</td><td>7</td><td>⏱️ 30min</td></tr>
+              <tr><td>01/08</td><td class="opp">Indiana Fever</td><td>26</td><td>3</td><td>2</td><td>7</td><td>⏱️ 33min</td></tr>
+              <tr><td>29/07</td><td class="opp">Las Vegas Aces</td><td>13</td><td>4</td><td>4</td><td>3</td><td>⏱️ 27min</td></tr>
+              <tr><td>23/07</td><td class="opp">Dallas Wings</td><td>18</td><td>5</td><td>2</td><td>2</td><td>⏱️ 31min</td></tr>
+              <tr><td>19/07</td><td class="opp">Minnesota Lynx</td><td>22</td><td>8</td><td>4</td><td>6</td><td>⏱️ 32min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Portland</td>
+          <td>Carla Leite</td>
+          <td>17.0 (4-27)</td><td>abaixo do piso</td><td>3/9</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-leite" onclick="toggleRow('det-leite')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-leite" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>16/08</td><td class="opp">Phoenix Mercury</td><td>23</td><td>1</td><td>5</td><td>1</td><td>⏱️ 28min</td></tr>
+              <tr><td>15/08</td><td class="opp">Seattle Storm</td><td>14</td><td>3</td><td>6</td><td>2</td><td>⏱️ 27min</td></tr>
+              <tr><td>09/08</td><td class="opp">Seattle Storm</td><td>4</td><td>0</td><td>2</td><td>0</td><td class="low-min">⏱️ 4min</td></tr>
+              <tr><td>07/08</td><td class="opp">Toronto Tempo</td><td>27</td><td>4</td><td>11</td><td>2</td><td>⏱️ 30min</td></tr>
+              <tr><td>02/08</td><td class="opp">Los Angeles Sparks</td><td>21</td><td>1</td><td>8</td><td>2</td><td>⏱️ 27min</td></tr>
+              <tr><td>01/08</td><td class="opp">Indiana Fever</td><td>20</td><td>2</td><td>12</td><td>0</td><td>⏱️ 31min</td></tr>
+              <tr><td>29/07</td><td class="opp">Las Vegas Aces</td><td>11</td><td>0</td><td>3</td><td>1</td><td>⏱️ 22min</td></tr>
+              <tr><td>23/07</td><td class="opp">Dallas Wings</td><td>12</td><td>3</td><td>11</td><td>1</td><td>⏱️ 31min</td></tr>
+              <tr><td>19/07</td><td class="opp">Minnesota Lynx</td><td>21</td><td>4</td><td>7</td><td>1</td><td>⏱️ 31min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Portland</td>
+          <td>Megan DiLeo</td>
+          <td>14.9 (5-21)</td><td>abaixo do piso</td><td>0/9</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-dileo" onclick="toggleRow('det-dileo')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-dileo" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>16/08</td><td class="opp">Phoenix Mercury</td><td>15</td><td>5</td><td>1</td><td>3</td><td>⏱️ 27min</td></tr>
+              <tr><td>15/08</td><td class="opp">Seattle Storm</td><td>14</td><td>9</td><td>1</td><td>2</td><td>⏱️ 28min</td></tr>
+              <tr><td>13/08</td><td class="opp">Minnesota Lynx</td><td>12</td><td>7</td><td>1</td><td>1</td><td>⏱️ 23min</td></tr>
+              <tr><td>09/08</td><td class="opp">Seattle Storm</td><td>11</td><td>4</td><td>0</td><td>1</td><td>⏱️ 24min</td></tr>
+              <tr><td>07/08</td><td class="opp">Toronto Tempo</td><td>17</td><td>3</td><td>2</td><td>0</td><td>⏱️ 28min</td></tr>
+              <tr><td>02/08</td><td class="opp">Los Angeles Sparks</td><td>19</td><td>8</td><td>3</td><td>2</td><td>⏱️ 29min</td></tr>
+              <tr><td>01/08</td><td class="opp">Indiana Fever</td><td>5</td><td>2</td><td>0</td><td>1</td><td class="low-min">⏱️ 25min</td></tr>
+              <tr><td>29/07</td><td class="opp">Las Vegas Aces</td><td>20</td><td>6</td><td>1</td><td>1</td><td>⏱️ 27min</td></tr>
+              <tr><td>23/07</td><td class="opp">Dallas Wings</td><td>21</td><td>2</td><td>1</td><td>2</td><td>⏱️ 25min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Toronto</td>
+          <td>Aneesah Morrow</td>
+          <td>10.8 (8-14)</td><td>7.3 (1-16)</td><td>1/6</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-morrow" onclick="toggleRow('det-morrow')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-morrow" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Washington Mystics</td><td>13</td><td>8</td><td>0</td><td>2</td><td>⏱️ 23min</td></tr>
+              <tr><td>18/08</td><td class="opp">Indiana Fever</td><td>14</td><td>16</td><td>2</td><td>1</td><td>⏱️ 29min</td></tr>
+              <tr><td>13/08</td><td class="opp">Dallas Wings</td><td>8</td><td>6</td><td>2</td><td>0</td><td>⏱️ 22min</td></tr>
+              <tr><td>11/08</td><td class="opp">Atlanta Dream</td><td>11</td><td>1</td><td>1</td><td>0</td><td class="low-min">⏱️ 16min</td></tr>
+              <tr><td>07/08</td><td class="opp">Portland Fire</td><td>11</td><td>8</td><td>1</td><td>0</td><td>⏱️ 24min</td></tr>
+              <tr><td>05/08</td><td class="opp">Golden State Valkyries</td><td>8</td><td>5</td><td>0</td><td>1</td><td class="low-min">⏱️ 16min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Toronto</td>
+          <td>Laura Juskaite</td>
+          <td>11.3 (0-19)</td><td>abaixo do piso</td><td>0/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-juskaite" onclick="toggleRow('det-juskaite')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-juskaite" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Washington Mystics</td><td>12</td><td>2</td><td>4</td><td>0</td><td>⏱️ 29min</td></tr>
+              <tr><td>18/08</td><td class="opp">Indiana Fever</td><td>2</td><td>6</td><td>0</td><td>0</td><td class="low-min">⏱️ 20min</td></tr>
+              <tr><td>13/08</td><td class="opp">Dallas Wings</td><td>18</td><td>7</td><td>0</td><td>1</td><td>⏱️ 32min</td></tr>
+              <tr><td>11/08</td><td class="opp">Atlanta Dream</td><td>0</td><td>1</td><td>0</td><td>0</td><td class="low-min">⏱️ 14min</td></tr>
+              <tr><td>07/08</td><td class="opp">Portland Fire</td><td>12</td><td>6</td><td>3</td><td>0</td><td>⏱️ 26min</td></tr>
+              <tr><td>05/08</td><td class="opp">Golden State Valkyries</td><td>11</td><td>3</td><td>1</td><td>1</td><td>⏱️ 25min</td></tr>
+              <tr><td>03/08</td><td class="opp">Golden State Valkyries</td><td>15</td><td>4</td><td>2</td><td>1</td><td>⏱️ 35min</td></tr>
+              <tr><td>31/07</td><td class="opp">Minnesota Lynx</td><td>19</td><td>5</td><td>3</td><td>2</td><td>⏱️ 30min</td></tr>
+              <tr><td>29/07</td><td class="opp">Minnesota Lynx</td><td>18</td><td>4</td><td>1</td><td>3</td><td>⏱️ 34min</td></tr>
+              <tr><td>21/07</td><td class="opp">Las Vegas Aces</td><td>6</td><td>3</td><td>1</td><td>1</td><td>⏱️ 29min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Toronto</td>
+          <td>Kiki Rice</td>
+          <td>10.3 (2-19)</td><td>abaixo do piso</td><td>0/9</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-rice" onclick="toggleRow('det-rice')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-rice" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Washington Mystics</td><td>19</td><td>0</td><td>2</td><td>3</td><td>⏱️ 24min</td></tr>
+              <tr><td>18/08</td><td class="opp">Indiana Fever</td><td>10</td><td>3</td><td>6</td><td>0</td><td>⏱️ 30min</td></tr>
+              <tr><td>13/08</td><td class="opp">Dallas Wings</td><td>13</td><td>3</td><td>5</td><td>0</td><td>⏱️ 31min</td></tr>
+              <tr><td>11/08</td><td class="opp">Atlanta Dream</td><td>18</td><td>5</td><td>6</td><td>1</td><td>⏱️ 30min</td></tr>
+              <tr><td>07/08</td><td class="opp">Portland Fire</td><td>5</td><td>0</td><td>1</td><td>1</td><td class="low-min">⏱️ 18min</td></tr>
+              <tr><td>05/08</td><td class="opp">Golden State Valkyries</td><td>2</td><td>1</td><td>0</td><td>0</td><td>⏱️ 23min</td></tr>
+              <tr><td>03/08</td><td class="opp">Golden State Valkyries</td><td>16</td><td>5</td><td>3</td><td>0</td><td>⏱️ 27min</td></tr>
+              <tr><td>31/07</td><td class="opp">Minnesota Lynx</td><td>6</td><td>4</td><td>2</td><td>2</td><td>⏱️ 23min</td></tr>
+              <tr><td>29/07</td><td class="opp">Minnesota Lynx</td><td>4</td><td>3</td><td>4</td><td>0</td><td class="low-min">⏱️ 17min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Toronto</td>
+          <td>Julie Allemand</td>
+          <td>abaixo do piso</td><td>abaixo do piso</td><td>1/8</td><td>1.5 (0-3)</td>
+          <td><button class="expand-btn" data-toggle-target="det-allemand" onclick="toggleRow('det-allemand')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-allemand" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Washington Mystics</td><td>4</td><td>3</td><td>4</td><td>1</td><td>⏱️ 26min</td></tr>
+              <tr><td>11/08</td><td class="opp">Atlanta Dream</td><td>3</td><td>2</td><td>2</td><td>1</td><td>⏱️ 26min</td></tr>
+              <tr><td>07/08</td><td class="opp">Portland Fire</td><td>11</td><td>5</td><td>12</td><td>3</td><td>⏱️ 32min</td></tr>
+              <tr><td>05/08</td><td class="opp">Golden State Valkyries</td><td>7</td><td>1</td><td>8</td><td>1</td><td>⏱️ 31min</td></tr>
+              <tr><td>03/08</td><td class="opp">Golden State Valkyries</td><td>11</td><td>3</td><td>6</td><td>3</td><td>⏱️ 34min</td></tr>
+              <tr><td>31/07</td><td class="opp">Minnesota Lynx</td><td>0</td><td>2</td><td>6</td><td>0</td><td class="low-min">⏱️ 22min</td></tr>
+              <tr><td>29/07</td><td class="opp">Minnesota Lynx</td><td>10</td><td>0</td><td>7</td><td>2</td><td>⏱️ 32min</td></tr>
+              <tr><td>21/07</td><td class="opp">Las Vegas Aces</td><td>3</td><td>5</td><td>4</td><td>1</td><td>⏱️ 31min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" id="tips-jogadoras">
+    <h2>BETANIA TIPS — Jogadoras</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir do histórico — não é a odd real da casa de apostas. Confira o número oferecido antes de decidir. Linha calculada no ~percentil 30 da amostra (chão de produção), não a média. Apenas mercados que atingem o piso mínimo de volume entram aqui.</p>
+    <table class="player-table">
+      <thead><tr><th>Jogadora</th><th>Mercado</th><th>Linha sugerida</th><th>Acerto histórico</th><th></th></tr></thead>
+      <tbody>
+        <tr><td>Bridget Carleton (POR)</td><td>Pontos</td><td>Over 13.5</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>Rebotes</td><td>Over 4.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>3 Pontos Convertidos</td><td>Over 1.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>Pontos+Rebotes+Assistências</td><td>Over 22.5</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>Pontos+Assistências</td><td>Over 16.5</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>Pontos+Rebotes</td><td>Over 20.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Bridget Carleton (POR)</td><td>Assistências+Rebotes</td><td>Over 6.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Pontos</td><td>Over 11.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Assistências</td><td>Over 4.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Pontos+Rebotes+Assistências</td><td>Over 22.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Pontos+Assistências</td><td>Over 19.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Pontos+Rebotes</td><td>Over 14.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Carla Leite (POR)</td><td>Assistências+Rebotes</td><td>Over 5.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Megan DiLeo (POR)</td><td>Pontos</td><td>Over 11.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Megan DiLeo (POR)</td><td>Pontos+Rebotes+Assistências</td><td>Over 19.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Megan DiLeo (POR)</td><td>Pontos+Assistências</td><td>Over 12.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Megan DiLeo (POR)</td><td>Pontos+Rebotes</td><td>Over 18.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aneesah Morrow (TOR)</td><td>Pontos</td><td>Over 7.5</td><td>6/6 (100%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aneesah Morrow (TOR)</td><td>Rebotes</td><td>Over 4.5</td><td>5/6 (83%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aneesah Morrow (TOR)</td><td>Pontos+Rebotes</td><td>Over 12.5</td><td>5/6 (83%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aneesah Morrow (TOR)</td><td>Assistências+Rebotes</td><td>Over 4.5</td><td>5/6 (83%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Laura Juskaite (TOR)</td><td>Pontos</td><td>Over 10.5</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kiki Rice (TOR)</td><td>Pontos</td><td>Over 4.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Julie Allemand (TOR)</td><td>Assistências</td><td>Over 3.5</td><td>7/8 (88%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Julie Allemand (TOR)</td><td>3 Pontos Convertidos</td><td>Over 0.5</td><td>7/8 (88%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Julie Allemand (TOR)</td><td>Assistências+Rebotes</td><td>Over 6.5</td><td>7/8 (88%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:var(--muted)">Marina Mabrey e Maria Conde (TOR) teriam mercados 🟢 relevantes (pontos, 3PM, assistências) em uma amostra saudável, mas estão fora especificamente do jogo de hoje — por isso não entram no card. Brittney Sykes (TOR, 1 jogo desde o retorno) e Amy Okonkwo (POR, sem jogos ainda) têm amostra insuficiente para avaliação. Nenhuma jogadora avaliada teve taxa de acerto ≥70% no mercado de Duplo-Duplo. Rebotes/Assistências/3PM de Leite, DiLeo, Juskaite, Rice e Morrow (parcial) que não aparecem acima ficaram abaixo do piso mínimo de volume — não foram omitidos por acaso.</p>
+  </div>
+
+  <div class="card" id="matchup-individual">
+    <h2>Matchup Individual por Jogadora</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura qualitativa da Betania — opinião apoiada em dado, não garantia. Os times já se enfrentaram duas vezes nesta temporada, o que dá uma base direta de comparação além do panorama de ritmo/estrutura de cada time (cards de Mercado de Pontos e Matchup).</p>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Bridget Carleton (POR)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Toronto está sem Marina Mabrey e Maria Conde, suas duas principais peças de perímetro/ala, o que reduz a qualidade de marcação disponível para conter uma ala arremessadora como Carleton. No confronto direto mais recente (07/08) ela converteu 11 rebotes, e no de 23/05 também produziu bem. O elenco reduzido do Tempo tende a empurrar mais responsabilidade defensiva para jogadoras de rotação (Rice, Key) que não têm o mesmo porte de perímetro. Favorece tanto pontuação quanto volume de rebotes.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Carla Leite (POR)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Leite é a principal criadora de Portland e, no confronto direto mais recente (07/08), teve a melhor atuação da amostra: 27 pontos e 11 assistências, justamente contra a defesa de perímetro do Tempo. Com Mabrey e Conde fora hoje, a pressão de bola de Toronto fica ainda mais reduzida — Julie Allemand precisa dividir atenção entre organizar o próprio ataque e conter a criação adversária. Cenário favorece manutenção de alto volume de pontos e assistências.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Megan DiLeo (POR)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">No garrafão, Toronto ainda tem opções fisicamente maiores (Temi Fagbenle e Isabelle Harrison, ambas na casa de 1,96m) que DiLeo (1,93m), mas nenhuma delas joga com volume ofensivo constante. No confronto direto de 07/08, DiLeo converteu 17 pontos em alta eficiência (8-12 de quadra). Com o ataque de Toronto mais lento sem seus principais criadores, o ritmo tende a favorecer finalizadores eficientes como ela.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Aneesah Morrow (TOR)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+      </div>
+      <p class="matchup-text">Morrow é fisicamente mais baixa (1,85m) que as principais opções de garrafão de Portland (DiLeo 1,93m, Puoch 1,91m), mas compensa com volume de disputa de bola — vem de sequência forte (7.3 reb nos últimos 6 jogos, incluindo 16 rebotes em 18/08 contra Indiana) e no confronto direto de 07/08 já havia produzido 11 pontos/8 rebotes. Com Toronto sem Mabrey e Conde, ela deve receber ainda mais bola dentro do garrafão, mas Portland tem defesa de quarto mais consistente do que a média dos adversários recentes do Tempo. Fica neutro.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Laura Juskaite (TOR)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+      </div>
+      <p class="matchup-text">Juskaite tem produção irregular (de 0 a 19 pontos na amostra), sem padrão claro ligado a adversário específico — no confronto direto de 07/08 fez 12 pontos e 6 rebotes, dentro da média. Com o ataque do Tempo mais dependente dela hoje pela ausência de Mabrey/Conde, pode ganhar volume de arremessos, mas a instabilidade histórica não permite uma leitura mais forte que neutro.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Kiki Rice (TOR)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+      </div>
+      <p class="matchup-text">Rice teve produção baixa no confronto direto mais recente (07/08: 5 pontos em 18 minutos), mas vem de sequência mais forte nos últimos jogos (19 pontos em 19/08). Com as saídas de Mabrey e Conde, deve receber mais bola no perímetro, mas Portland tem guardas de rotação (Winterburn, Samuelson) capazes de pressionar o guard play do Tempo. Fica neutro, com viés levemente positivo pelo aumento esperado de uso.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Julie Allemand (TOR)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Com Mabrey e Conde fora, Allemand deve concentrar ainda mais a organização ofensiva do Tempo — no confronto direto de 07/08 ela já havia produzido a melhor atuação da amostra (11 pontos, 12 assistências) justamente contra Portland. Carla Leite, principal armadora rival, tende a focar mais em produção própria do que em marcação individual, o que historicamente abre espaço para bases adversárias distribuírem jogo. Favorece volume de assistências.</p>
+    </div>
+
+    <p style="font-size:12px;color:var(--muted)">Marina Mabrey e Maria Conde (TOR) ficaram de fora desta seção por estarem fora especificamente do jogo de hoje. Nyara Sabally (TOR), Sania Feagin, Sarah Ashlee Barker e Luisa Geiselsoder (POR) ficaram de fora por estarem fora da temporada ou por tempo indeterminado.</p>
+  </div>
+
+  <script>buildNavDropdown('nav-select', 'WNBA_ANALISES', '2026-08-21_portland-fire-x-toronto-tempo');</script>
+
+  <div class="sources">
+    <strong>Fontes (data da informação, não da consulta):</strong>
+    <div>Boxscores ESPN de cada jogo específico — datas de 19/07 a 16/08/2026 (Portland Fire) e 21/07 a 19/08/2026 (Toronto Tempo), ver tabelas</div>
+    <div>ESPN Injuries — boletins de 08/07 a 21/08/2026 (Barker, Feagin, Mabrey, Conde, Sabally)</div>
+    <div>TSN, Washington Post e SI.com — reportagens de 17-21/08/2026 sobre o retorno de Brittney Sykes e a sequência de 10 derrotas do Tempo</div>
+    <div>ESPN — reportagens de 11-13/08/2026 sobre a contratação de Amy Okonkwo por hardship contract</div>
+    <div>Calendário ESPN de cada time — confrontos diretos: 23/05/2026 (TOR 80-99 POR) e 07/08/2026 (POR 97-83 TOR)</div>
+    <div>ESPN Standings — dados de 21/08/2026</div>
+  </div>
+</main>
+</div>
+</body>
+</html>
