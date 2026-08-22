@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Betania — Indiana Fever x New York Liberty (Análise Completa)</title>
+<link rel="stylesheet" href="../style.css?v=10" />
+<script src="analises-list.js"></script>
+<script src="../common.js?v=2"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="sidebar-brand"><img src="../logo-betania.png" alt="Betania" /><span>Betania</span></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-link" href="../index.html"><span class="sidebar-icon">🏠</span><span class="sidebar-label">Início</span></a>
+    <a class="sidebar-link active" href="index.html"><span class="sidebar-icon sidebar-icon-wnba"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/wnba.png" alt="WNBA" /></span><span class="sidebar-label">WNBA</span></a>
+    <a class="sidebar-link" href="../mlb/index.html"><span class="sidebar-icon sidebar-icon-mlb"><img src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png" alt="MLB" /></span><span class="sidebar-label">MLB</span></a>
+  </nav>
+</aside>
+<main class="main-content">
+  <div class="content-stickybar">
+    <nav class="section-nav">
+      <a href="#momento">Momento</a>
+      <a href="#lesoes">Lesões</a>
+      <a href="#analise-jogo">Análise</a>
+      <a href="#matchup">Matchup</a>
+      <a href="#pontos-ind">Pontos IND</a>
+      <a href="#pontos-ny">Pontos NY</a>
+      <a href="#tips-quartos">Tips Quartos</a>
+      <a href="#jogadoras">Jogadoras</a>
+      <a href="#tips-jogadoras">Tips Jogadoras</a>
+      <a href="#matchup-individual">Matchup Jogadoras</a>
+    </nav>
+    <select class="content-select" id="nav-select" onchange="location.href=this.value"></select>
+  </div>
+  <a class="back-link" href="index.html">← Voltar ao histórico</a>
+
+  <div class="analysis-hero">
+    <span class="history-date-badge">22/08 · 20:00</span>
+    <div class="history-logos">
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/ind.png" alt="Indiana Fever" />
+      <span class="history-vs">VS</span>
+      <img src="https://a.espncdn.com/i/teamlogos/wnba/500/ny.png" alt="New York Liberty" />
+    </div>
+    <div class="history-teams-label">Indiana Fever vs New York Liberty</div>
+    <div class="hero-venue">Barclays Center, Brooklyn (NY)</div>
+  </div>
+
+  <div class="card" id="momento">
+    <h2>Momento da equipe</h2>
+    <table>
+      <tr><th></th><th>Indiana Fever</th><th>New York Liberty</th></tr>
+      <tr><td>Posição</td><td>4º geral (24-13)</td><td>6º geral (22-15)</td></tr>
+      <tr><td>Situação no campeonato</td><td><span class="badge">Já classificado, ainda brigando por posição alta</span> Vaga garantida (flag "x" da ESPN), mas apenas 0.5 jogo à frente do Atlanta (3º) e 8+ à frente da linha de corte — ainda disputa posição alta/mando de quadra nos playoffs, sem sinal de time "de molho" com 7 jogos restantes.</td><td><span class="badge">Já classificado, ainda brigando por posição</span> Vaga garantida (flag "c" da ESPN), mas só 0.5 jogo à frente do Washington (7º) e 2 jogos atrás do Indiana (4º) — margem apertada o bastante para mudar de posição/mando de quadra nos 7 jogos finais.</td></tr>
+      <tr><td>Últimos 5 jogos</td><td>✅✅✅✅❌</td><td>✅❌✅✅❌</td></tr>
+      <tr><td>Mando de quadra</td><td>Visitante</td><td>Casa</td></tr>
+      <tr><td>Último jogo</td><td>20/08 — ❌ <strong>85</strong>-91<br>✈️ vs Dallas Wings</td><td>18/08 — ❌ <strong>86</strong>-93<br>✈️ vs Chicago Sky</td></tr>
+      <tr><td>Próximo jogo</td><td>23/08 ✈️ vs Chicago Sky</td><td>27/08 🏠 vs Golden State Valkyries</td></tr>
+    </table>
+  </div>
+
+  <div class="card" id="lesoes">
+    <h2>Lesões e desfalques</h2>
+    <p><span class="badge">Indiana Fever</span> Damiris Dantas <strong>fora pelo resto da temporada</strong> (cirurgia no joelho esquerdo). Caitlin Clark (costas) está listada como "Day-To-Day", mas confirmada <strong>provável</strong> para este jogo. Aliyah Boston (perna, região inferior) segue <strong>questionável</strong> — corre risco de desfalcar pelo terceiro jogo seguido; vale monitorar confirmação pré-jogo.</p>
+    <p><span class="badge">New York Liberty</span> Satou Sabally <strong>fora</strong> deste jogo (retorno previsto só em 27/08). Jonquel Jones (tornozelo) está <strong>questionável</strong>, mas segundo declaração dela mesma espera jogar "salvo alguma piora" — vale notar que no último jogo (19/08 vs Chicago) ela ficou apenas 6 minutos em quadra por causa dessa mesma lesão. Leonie Fiebich (pé) também está <strong>questionável</strong>, com chance real de retorno.</p>
+    <p style="font-size:13px;color:var(--muted)">Fonte: ESPN Injuries (dados de 22/08/2026) e apuração via notícias — Heavy.com, Athlon Sports, SI.com, 21-22/08/2026.</p>
+  </div>
+
+  <div class="card" id="analise-jogo">
+    <h2>Análise do jogo</h2>
+    <p class="favorito-line"><span class="favorito-badge favorito-time">🏆 Favorito: Indiana Fever</span></p>
+    <p><span class="confianca-media">Confiança: média</span></p>
+    <p>Indiana chega com a dupla ofensiva mais quente do confronto: Kelsey Mitchell vem de 28.3 pontos de média nos últimos 10 jogos (nunca abaixo de 20) e Caitlin Clark, confirmada provável, soma 23.4 pts/9.1 ast na mesma janela — folha de pontuação muito superior à da Liberty no momento. O Fever também lidera o confronto direto da temporada por 3 vitórias a 1. Mas há dois fatores que seguram a confiança em "alta": primeiro, Aliyah Boston segue questionável e pode desfalcar pela terceira vez seguida, tirando parte do garrafão do Fever; segundo, o único encontro da temporada em Nova York (06/07) foi justamente vencido pela Liberty (83-75) — o Fever ainda não venceu a Liberty jogando em Brooklyn neste ano. Do lado da Liberty, Satou Sabally está fora e Jonquel Jones (tornozelo) chega em dúvida real, tendo jogado só 6 minutos no jogo mais recente por causa dessa lesão — se ela não render minutos normais, a Liberty perde ainda mais poder de fogo interno. No conjunto, a produção individual e a régua de forma recente pendem para Indiana, mas o histórico específico em Brooklyn e as dúvidas médicas dos dois lados impedem uma leitura de "favoritismo alto".</p>
+  </div>
+
+  <div class="card" id="matchup">
+    <h2>Matchup</h2>
+    <p><strong>Indiana Fever</strong>: quando saudáveis, Clark e Mitchell formam a dupla mais produtiva do confronto — Mitchell está em sequência de pontuação elevadíssima (28.3 pts/10 jogos) e Clark segue como principal criadora (9.1 ast/10 jogos), além de arremessar bem de 3 (3.0 3PM). Aliyah Boston sustenta o garrafão (15.7 pts/8.8 reb), com Makayla Timpson complementando no rebote (6.3 reb/10 jogos) mesmo sem volume de pontos. Lexie Hull e Monique Billings completam a rotação titular/próxima, mas sem produção estatística relevante — papel mais defensivo/espaçamento. Elenco um pouco mais raso que o da Liberty em profundidade de banco, mas compensado por duas estrelas em pico de forma.</p>
+    <p><strong>New York Liberty</strong>: Breanna Stewart (19.8 pts/7.0 reb) e Jonquel Jones (13.5 pts/9.0 reb, mas em dúvida física) formam a dupla interior, com Sabrina Ionescu criando e pontuando (19.3 pts/5.9 ast em 9 jogos válidos) e Rebecca Allen como especialista de perímetro (2.0 3PM/10 jogos). A ausência de Sabally e a dúvida sobre Fiebich reduzem a profundidade de ala/perímetro do banco. Ainda briga por posição alta na tabela (só 0.5 jogo à frente da linha de corte de mando de quadra nos playoffs), mas está em momento irregular (2V-3D nos últimos 5).</p>
+
+    <details class="collapsible">
+      <summary>Histórico entre os times</summary>
+      <p style="font-size:13px;color:var(--muted)">Quatro confrontos diretos na temporada regular 2026, Indiana lidera por 3 vitórias a 1: 25/04/2026 — New York Liberty 91 x 109 Indiana Fever (em Nova York); 06/06/2026 (21:00 BRT) — Indiana Fever 75 x 83 New York Liberty (em Nova York, única vitória da Liberty na série); 18/07/2026 (21:00 BRT) — New York Liberty 88 x 108 Indiana Fever (em Indianápolis); 11/08/2026 — New York Liberty 92 x 106 Indiana Fever (em Indianápolis). O jogo de hoje é o quinto encontro da temporada, de volta a Nova York — palco do único triunfo da Liberty na série até aqui.</p>
+    </details>
+  </div>
+
+  <div class="card" id="pontos-ind">
+    <h2>Mercado de Pontos — Indiana Fever</h2>
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="ind-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('ind-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('ind-avg',10)">Últimos 10</button>
+    </div>
+    <div id="ind-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1ºQ</div><div class="qc-avg" data-5="24.4" data-10="26.1">26.1</div><div class="qc-range" data-5="17-33" data-10="17-37">17-37</div></div>
+        <div class="quarter-card"><div class="qc-label">2ºQ</div><div class="qc-avg" data-5="23.2" data-10="23.9">23.9</div><div class="qc-range" data-5="18-35" data-10="18-35">18-35</div></div>
+        <div class="quarter-card"><div class="qc-label">3ºQ</div><div class="qc-avg" data-5="23.6" data-10="22.0">22.0</div><div class="qc-range" data-5="19-28" data-10="9-34">9-34</div></div>
+        <div class="quarter-card"><div class="qc-label">4ºQ</div><div class="qc-avg" data-5="23.0" data-10="23.3">23.3</div><div class="qc-range" data-5="17-35" data-10="17-35">17-35</div></div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1º Tempo</div><div class="qc-avg" data-5="47.6" data-10="50.0">50.0</div><div class="qc-range" data-5="35-64" data-10="35-64">35-64</div></div>
+        <div class="quarter-card"><div class="qc-label">2º Tempo</div><div class="qc-avg" data-5="46.6" data-10="45.3">45.3</div><div class="qc-range" data-5="41-63" data-10="33-63">33-63</div></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (28/07 a 20/08/2026; os jogos de 06/08 contra Las Vegas e 16/08 contra Atlanta foram à prorrogação — apenas os 4 quartos regulares entraram nas médias). 1ºQ é o quarto mais forte do Fever (26.1 de média, pico de 37 pontos em 28/07 contra Seattle). 3ºQ é o mais fraco e instável (22.0) — no jogo de 06/08 contra Las Vegas (prorrogação) caiu para apenas 9 pontos, mas com titulares em minutagem alta (Clark 38min, Mitchell 39min, Boston 38min), evidenciando dificuldade ofensiva real, não gestão de banco. Não há evidência de queda de minutos em blowouts nesta amostra: nos dois jogos com vantagem de 15+ pontos antes do 4ºQ (11/08 vs New York e 31/07 em Portland), as titulares mantiveram minutagem normal.</p>
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>20/08</td><td>✈️</td><td class="opp">Dallas Wings</td><td>❌</td><td><strong>85</strong>-91</td><td>22 <span class="opp-pts">(18)</span></td><td>20 <span class="opp-pts">(24)</span></td><td>19 <span class="opp-pts">(24)</span></td><td>24 <span class="opp-pts">(25)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>18/08</td><td>✈️</td><td class="opp">Toronto Tempo</td><td>✅</td><td><strong>101</strong>-95</td><td>33 <span class="opp-pts">(23)</span></td><td>24 <span class="opp-pts">(26)</span></td><td>24 <span class="opp-pts">(20)</span></td><td>20 <span class="opp-pts">(26)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Indiana abriu 33x23 no 1ºQ e segurou apesar da reação do Tempo no 4ºQ</span></details></td></tr>
+          <tr><td>16/08</td><td>✈️</td><td class="opp">Atlanta Dream</td><td>✅</td><td><strong>95</strong>-91</td><td>21 <span class="opp-pts">(21)</span></td><td>19 <span class="opp-pts">(23)</span></td><td>24 <span class="opp-pts">(28)</span></td><td>17 <span class="opp-pts">(9)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo de prorrogação (período extra 14x10); regulamento terminou empatado, quarto extra não entra nas médias</span></details></td></tr>
+          <tr><td>14/08</td><td>🏠</td><td class="opp">Dallas Wings</td><td>✅</td><td><strong>98</strong>-87</td><td>17 <span class="opp-pts">(15)</span></td><td>18 <span class="opp-pts">(22)</span></td><td>28 <span class="opp-pts">(29)</span></td><td>35 <span class="opp-pts">(21)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Melhor 4ºQ da amostra (35 pontos), decidiu o jogo</span></details></td></tr>
+          <tr><td>11/08</td><td>🏠</td><td class="opp">New York Liberty</td><td>✅</td><td><strong>106</strong>-92</td><td>29 <span class="opp-pts">(23)</span></td><td>35 <span class="opp-pts">(23)</span></td><td>23 <span class="opp-pts">(21)</span></td><td>19 <span class="opp-pts">(25)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Vantagem de 20 antes do 4ºQ, mas titulares mantiveram minutagem normal — sem sinal de descanso</span></details></td></tr>
+          <tr><td>08/08</td><td>✈️</td><td class="opp">Chicago Sky</td><td>✅</td><td><strong>90</strong>-86</td><td>22 <span class="opp-pts">(23)</span></td><td>31 <span class="opp-pts">(19)</span></td><td>18 <span class="opp-pts">(20)</span></td><td>19 <span class="opp-pts">(24)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>06/08</td><td>🏠</td><td class="opp">Las Vegas Aces</td><td>❌</td><td><strong>84</strong>-86</td><td>20 <span class="opp-pts">(18)</span></td><td>22 <span class="opp-pts">(19)</span></td><td>9 <span class="opp-pts">(19)</span></td><td>24 <span class="opp-pts">(19)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo de prorrogação; 3ºQ de apenas 9 pontos foi o pior da amostra, com titulares em minutagem alta — não foi rotação de descanso</span></details></td></tr>
+          <tr><td>02/08</td><td>✈️</td><td class="opp">Minnesota Lynx</td><td>❌</td><td><strong>100</strong>-108</td><td>33 <span class="opp-pts">(36)</span></td><td>20 <span class="opp-pts">(28)</span></td><td>23 <span class="opp-pts">(23)</span></td><td>24 <span class="opp-pts">(21)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>31/07</td><td>✈️</td><td class="opp">Portland Fire</td><td>✅</td><td><strong>112</strong>-98</td><td>27 <span class="opp-pts">(25)</span></td><td>29 <span class="opp-pts">(22)</span></td><td>34 <span class="opp-pts">(25)</span></td><td>22 <span class="opp-pts">(26)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Vantagem de 18 antes do 4ºQ, mas sem queda de minutos das titulares</span></details></td></tr>
+          <tr><td>28/07</td><td>✈️</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>105</strong>-95</td><td>37 <span class="opp-pts">(20)</span></td><td>21 <span class="opp-pts">(27)</span></td><td>18 <span class="opp-pts">(25)</span></td><td>29 <span class="opp-pts">(23)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Melhor 1ºQ da amostra (37 pontos)</span></details></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card" id="pontos-ny">
+    <h2>Mercado de Pontos — New York Liberty</h2>
+    <h3>Médias por quarto/tempo</h3>
+    <div class="window-toggle" id="ny-avg-toggle">
+      <button data-n="5" onclick="setAvgWindow('ny-avg',5)">Últimos 5</button>
+      <button data-n="10" class="active" onclick="setAvgWindow('ny-avg',10)">Últimos 10</button>
+    </div>
+    <div id="ny-avg">
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1ºQ</div><div class="qc-avg" data-5="22.2" data-10="25.4">25.4</div><div class="qc-range" data-5="19-24" data-10="19-36">19-36</div></div>
+        <div class="quarter-card"><div class="qc-label">2ºQ</div><div class="qc-avg" data-5="24.6" data-10="22.0">22.0</div><div class="qc-range" data-5="19-28" data-10="17-28">17-28</div></div>
+        <div class="quarter-card"><div class="qc-label">3ºQ</div><div class="qc-avg" data-5="20.2" data-10="23.1">23.1</div><div class="qc-range" data-5="15-24" data-10="15-32">15-32</div></div>
+        <div class="quarter-card"><div class="qc-label">4ºQ</div><div class="qc-avg" data-5="24.2" data-10="24.4">24.4</div><div class="qc-range" data-5="18-37" data-10="16-37">16-37</div></div>
+      </div>
+      <div class="quarter-cards">
+        <div class="quarter-card"><div class="qc-label">1º Tempo</div><div class="qc-avg" data-5="46.8" data-10="47.4">47.4</div><div class="qc-range" data-5="43-50" data-10="43-53">43-53</div></div>
+        <div class="quarter-card"><div class="qc-label">2º Tempo</div><div class="qc-avg" data-5="44.4" data-10="47.5">47.5</div><div class="qc-range" data-5="36-61" data-10="36-61">36-61</div></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted)">Amostra de 10 jogos (28/07 a 18/08/2026), sem prorrogações. 1ºQ é o quarto mais forte da Liberty (25.4 de média, pico de 36 pontos em 28/07 contra Los Angeles). 2ºQ é o mais fraco, mas o ataque é relativamente equilibrado entre os quatro períodos. O 4ºQ tem a maior variação (16-37) — a Liberty tende a poupar titulares quando o placar já está resolvido (09/08 vs Las Vegas, vitória por 40, Stewart 23min/Jones 19min/Allen 22min/Ionescu 21min, bem abaixo da média normal), mas retoma minutagem alta se o adversário reage: em 13/08 contra Los Angeles, a Liberty liderava por 26 antes do 4ºQ mas LA fez 40 pontos no período e quase virou — titulares seguiram acima de 30 minutos, sem descanso.</p>
+    <details class="collapsible">
+      <summary>Jogos completos</summary>
+      <table class="gamelog">
+        <thead><tr><th>Data</th><th></th><th>Adversário</th><th></th><th>Placar</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>18/08</td><td>✈️</td><td class="opp">Chicago Sky</td><td>❌</td><td><strong>86</strong>-93</td><td>24 <span class="opp-pts">(24)</span></td><td>19 <span class="opp-pts">(30)</span></td><td>23 <span class="opp-pts">(20)</span></td><td>20 <span class="opp-pts">(19)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Chicago decidiu no 2ºQ (30x19)</span></details></td></tr>
+          <tr><td>15/08</td><td>✈️</td><td class="opp">Connecticut Sun</td><td>✅</td><td><strong>82</strong>-75</td><td>19 <span class="opp-pts">(27)</span></td><td>27 <span class="opp-pts">(10)</span></td><td>15 <span class="opp-pts">(19)</span></td><td>21 <span class="opp-pts">(19)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Connecticut abriu 27x19 no 1ºQ, mas Liberty virou com um 2ºQ de 27x10</span></details></td></tr>
+          <tr><td>13/08</td><td>🏠</td><td class="opp">Los Angeles Sparks</td><td>✅</td><td><strong>85</strong>-81</td><td>21 <span class="opp-pts">(16)</span></td><td>28 <span class="opp-pts">(16)</span></td><td>18 <span class="opp-pts">(9)</span></td><td>18 <span class="opp-pts">(40)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Liberty chegou a liderar por 26 antes do 4ºQ, mas LA fez 40 pontos no período e quase virou; vitória por apenas 4</span></details></td></tr>
+          <tr><td>11/08</td><td>✈️</td><td class="opp">Indiana Fever</td><td>❌</td><td><strong>92</strong>-106</td><td>23 <span class="opp-pts">(29)</span></td><td>23 <span class="opp-pts">(35)</span></td><td>21 <span class="opp-pts">(23)</span></td><td>25 <span class="opp-pts">(19)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>09/08</td><td>🏠</td><td class="opp">Las Vegas Aces</td><td>✅</td><td><strong>111</strong>-71</td><td>24 <span class="opp-pts">(15)</span></td><td>26 <span class="opp-pts">(24)</span></td><td>24 <span class="opp-pts">(12)</span></td><td>37 <span class="opp-pts">(20)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Blowout (vitória por 40) — titulares com minutagem bem reduzida (Stewart 23min, Jones 19min, Allen 22min, Ionescu 21min)</span></details></td></tr>
+          <tr><td>05/08</td><td>🏠</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>92</strong>-86</td><td>27 <span class="opp-pts">(16)</span></td><td>20 <span class="opp-pts">(27)</span></td><td>22 <span class="opp-pts">(22)</span></td><td>23 <span class="opp-pts">(21)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>03/08</td><td>🏠</td><td class="opp">Seattle Storm</td><td>✅</td><td><strong>95</strong>-83</td><td>28 <span class="opp-pts">(18)</span></td><td>22 <span class="opp-pts">(25)</span></td><td>29 <span class="opp-pts">(24)</span></td><td>16 <span class="opp-pts">(16)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>01/08</td><td>✈️</td><td class="opp">Phoenix Mercury</td><td>✅</td><td><strong>94</strong>-92</td><td>26 <span class="opp-pts">(15)</span></td><td>20 <span class="opp-pts">(28)</span></td><td>20 <span class="opp-pts">(22)</span></td><td>28 <span class="opp-pts">(27)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>30/07</td><td>✈️</td><td class="opp">Las Vegas Aces</td><td>❌</td><td><strong>99</strong>-104</td><td>26 <span class="opp-pts">(27)</span></td><td>18 <span class="opp-pts">(25)</span></td><td>27 <span class="opp-pts">(26)</span></td><td>28 <span class="opp-pts">(26)</span></td><td class="obs-cell"></td></tr>
+          <tr><td>28/07</td><td>✈️</td><td class="opp">Los Angeles Sparks</td><td>✅</td><td><strong>113</strong>-109</td><td>36 <span class="opp-pts">(30)</span></td><td>17 <span class="opp-pts">(26)</span></td><td>32 <span class="opp-pts">(28)</span></td><td>28 <span class="opp-pts">(25)</span></td><td class="obs-cell"><details><summary>⚠️</summary><span class="obs-note">Jogo de placar aberto dos dois lados; melhor 1ºQ da amostra (36 pontos)</span></details></td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  <div class="card" id="tips-quartos">
+    <h2>BETANIA TIPS</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir dos dados — não é indicação de aposta. Taxas calculadas sobre os últimos 10 jogos de cada time. "Ambas marcam" é uma estimativa de probabilidade conjunta assumindo independência entre as duas amostras — não é frequência observada diretamente deste confronto.</p>
+    <div class="quarter-toggle" id="tips-toggle">
+      <button data-q="1" class="active" onclick="setQuarterTips('tips',1)">1ºQ</button>
+      <button data-q="2" onclick="setQuarterTips('tips',2)">2ºQ</button>
+      <button data-q="3" onclick="setQuarterTips('tips',3)">3ºQ</button>
+      <button data-q="4" onclick="setQuarterTips('tips',4)">4ºQ</button>
+    </div>
+    <div id="tips">
+      <div data-q="1">
+        <h3>Indiana marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Quarto mais forte do Fever, bate quase sempre</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+        </table>
+        <h3>New York marca no 1ºQ</h3>
+        <table>
+          <tr><td>20</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Quarto mais forte da Liberty, bate quase sempre</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 1ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~90%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Excelente leitura conjunta, o quarto mais forte dos dois times</span></td></tr>
+          <tr><td>22</td><td>~56%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Ainda favorável</span></td></tr>
+          <tr><td>25</td><td>~25%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">No limite, vale atenção</span></td></tr>
+        </table>
+      </div>
+      <div data-q="2" style="display:none">
+        <h3>Indiana marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>New York marca no 2ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Quarto mais fraco da Liberty</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 2ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~90%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Boa leitura conjunta</span></td></tr>
+          <tr><td>22</td><td>~25%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">No limite, vale atenção</span></td></tr>
+          <tr><td>25</td><td>~9%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+      </div>
+      <div data-q="3" style="display:none">
+        <h3>Indiana marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>6/10 (60%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Quarto mais fraco do Fever</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>New York marca no 3ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>3/10 (30%)</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 3ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~81%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Favorável</span></td></tr>
+          <tr><td>22</td><td>~36%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~6%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Muito raro, não faria</span></td></tr>
+        </table>
+      </div>
+      <div data-q="4" style="display:none">
+        <h3>Indiana marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>7/10 (70%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>2/10 (20%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+        <h3>New York marca no 4ºQ</h3>
+        <table>
+          <tr><td>20</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Bate na maioria</span></td></tr>
+          <tr><td>25</td><td>5/10 (50%)</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Meio a meio, no limite do verde</span></td></tr>
+          <tr><td>30</td><td>1/10 (10%)</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, quarto de alta variação (16-37)</span></td></tr>
+        </table>
+        <h3>Ambas marcam no 4ºQ</h3>
+        <table>
+          <tr><td>18</td><td>~81%</td><td><span class="tip-verdict">🟢</span><span class="tip-desc">Favorável</span></td></tr>
+          <tr><td>22</td><td>~42%</td><td><span class="tip-verdict">🟡</span><span class="tip-desc">Vale atenção</span></td></tr>
+          <tr><td>25</td><td>~10%</td><td><span class="tip-verdict">🔴</span><span class="tip-desc">Raro, não faria</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="jogadoras">
+    <h2>Análise Jogadores</h2>
+    <p style="font-size:13px;color:var(--muted)">Descartadas por volume abaixo do piso em todas as categorias (checagem feita no roster completo dos dois times): Lexie Hull, Monique Billings (IND); Pauline Astier (NY, produção inconsistente, puxada por um único jogo de destaque). Satou Sabally e Leonie Fiebich (NY) não têm amostra recente suficiente — sem minutos jogados nos últimos 10 jogos por lesão. Makayla Timpson (IND) e Rebecca Allen (NY) ficam no limite do piso — incluídas com ressalva, avaliadas apenas nos mercados em que atingem o piso mínimo.</p>
+    <table class="player-table">
+      <thead><tr><th>Time</th><th>Nome</th><th>Pontos</th><th>Rebotes</th><th>Duplo-Duplo</th><th>3PTS</th><th>Jogos</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Indiana</td>
+          <td>Caitlin Clark <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Listada como "Day-To-Day" (costas), mas confirmada provável para este jogo.</span></details></span></td>
+          <td>23.4 (10-32)</td><td>abaixo do piso</td><td>5/10</td><td>3.0 (2-5)</td>
+          <td><button class="expand-btn" data-toggle-target="det-clark" onclick="toggleRow('det-clark')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-clark" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>20/08</td><td class="opp">Dallas Wings</td><td>10</td><td>4</td><td>9</td><td>2</td><td class="low-min">⏱️ 35min</td></tr>
+              <tr><td>18/08</td><td class="opp">Toronto Tempo</td><td>24</td><td>3</td><td>7</td><td>4</td><td>⏱️ 33min</td></tr>
+              <tr><td>16/08</td><td class="opp">Atlanta Dream</td><td>26</td><td>3</td><td>9</td><td>3</td><td>⏱️ 41min</td></tr>
+              <tr><td>14/08</td><td class="opp">Dallas Wings</td><td>29</td><td>3</td><td>10</td><td>2</td><td>⏱️ 34min</td></tr>
+              <tr><td>11/08</td><td class="opp">New York Liberty</td><td>22</td><td>4</td><td>10</td><td>4</td><td>⏱️ 35min</td></tr>
+              <tr><td>08/08</td><td class="opp">Chicago Sky</td><td>26</td><td>4</td><td>11</td><td>5</td><td>⏱️ 36min</td></tr>
+              <tr><td>06/08</td><td class="opp">Las Vegas Aces</td><td>20</td><td>3</td><td>8</td><td>2</td><td>⏱️ 38min</td></tr>
+              <tr><td>02/08</td><td class="opp">Minnesota Lynx</td><td>19</td><td>1</td><td>10</td><td>2</td><td>⏱️ 34min</td></tr>
+              <tr><td>01/08</td><td class="opp">Portland Fire</td><td>26</td><td>10</td><td>10</td><td>2</td><td>⏱️ 34min</td></tr>
+              <tr><td>29/07</td><td class="opp">Seattle Storm</td><td>32</td><td>4</td><td>7</td><td>4</td><td>⏱️ 33min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Indiana</td>
+          <td>Kelsey Mitchell</td>
+          <td>28.3 (20-37)</td><td>abaixo do piso</td><td>0/10</td><td>3.4 (1-6)</td>
+          <td><button class="expand-btn" data-toggle-target="det-mitchell" onclick="toggleRow('det-mitchell')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-mitchell" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>20/08</td><td class="opp">Dallas Wings</td><td>37</td><td>1</td><td>5</td><td>4</td><td>⏱️ 35min</td></tr>
+              <tr><td>18/08</td><td class="opp">Toronto Tempo</td><td>29</td><td>3</td><td>2</td><td>4</td><td>⏱️ 24min</td></tr>
+              <tr><td>16/08</td><td class="opp">Atlanta Dream</td><td>20</td><td>1</td><td>1</td><td>2</td><td>⏱️ 36min</td></tr>
+              <tr><td>14/08</td><td class="opp">Dallas Wings</td><td>23</td><td>2</td><td>2</td><td>1</td><td>⏱️ 36min</td></tr>
+              <tr><td>11/08</td><td class="opp">New York Liberty</td><td>28</td><td>3</td><td>3</td><td>4</td><td>⏱️ 31min</td></tr>
+              <tr><td>08/08</td><td class="opp">Chicago Sky</td><td>27</td><td>5</td><td>2</td><td>3</td><td>⏱️ 36min</td></tr>
+              <tr><td>06/08</td><td class="opp">Las Vegas Aces</td><td>28</td><td>0</td><td>4</td><td>2</td><td>⏱️ 39min</td></tr>
+              <tr><td>02/08</td><td class="opp">Minnesota Lynx</td><td>37</td><td>1</td><td>3</td><td>6</td><td>⏱️ 35min</td></tr>
+              <tr><td>01/08</td><td class="opp">Portland Fire</td><td>26</td><td>0</td><td>2</td><td>4</td><td>⏱️ 36min</td></tr>
+              <tr><td>29/07</td><td class="opp">Seattle Storm</td><td>28</td><td>2</td><td>2</td><td>4</td><td>⏱️ 35min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Indiana</td>
+          <td>Aliyah Boston <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Questionável (perna, região inferior) — risco real de desfalcar pela terceira vez seguida. Sugestões abaixo só valem se ela for confirmada.</span></details></span></td>
+          <td>15.7 (11-21)</td><td>8.8 (2-14)</td><td>4/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-boston" onclick="toggleRow('det-boston')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-boston" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>20/08</td><td class="opp">Dallas Wings</td><td>14</td><td>9</td><td>1</td><td>0</td><td>⏱️ 29min</td></tr>
+              <tr><td>18/08</td><td class="opp">Toronto Tempo</td><td>16</td><td>6</td><td>3</td><td>0</td><td>⏱️ 27min</td></tr>
+              <tr><td>16/08</td><td class="opp">Atlanta Dream</td><td>18</td><td>14</td><td>4</td><td>0</td><td>⏱️ 37min</td></tr>
+              <tr><td>14/08</td><td class="opp">Dallas Wings</td><td>16</td><td>10</td><td>1</td><td>0</td><td>⏱️ 29min</td></tr>
+              <tr><td>11/08</td><td class="opp">New York Liberty</td><td>19</td><td>7</td><td>4</td><td>3</td><td>⏱️ 26min</td></tr>
+              <tr><td>08/08</td><td class="opp">Chicago Sky</td><td>13</td><td>11</td><td>3</td><td>0</td><td>⏱️ 29min</td></tr>
+              <tr><td>06/08</td><td class="opp">Las Vegas Aces</td><td>21</td><td>12</td><td>2</td><td>3</td><td>⏱️ 38min</td></tr>
+              <tr><td>02/08</td><td class="opp">Minnesota Lynx</td><td>15</td><td>8</td><td>7</td><td>1</td><td>⏱️ 33min</td></tr>
+              <tr><td>01/08</td><td class="opp">Portland Fire</td><td>14</td><td>9</td><td>6</td><td>0</td><td>⏱️ 30min</td></tr>
+              <tr><td>29/07</td><td class="opp">Seattle Storm</td><td>11</td><td>2</td><td>1</td><td>1</td><td class="low-min">⏱️ 11min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>Indiana</td>
+          <td>Makayla Timpson <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Só atinge o piso em rebotes; pontos ficam inconsistentes (3 a 20 na amostra).</span></details></span></td>
+          <td>abaixo do piso</td><td>6.3 (3-12)</td><td>0/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-timpson" onclick="toggleRow('det-timpson')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-timpson" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>20/08</td><td class="opp">Dallas Wings</td><td>11</td><td>12</td><td>0</td><td>0</td><td>⏱️ 34min</td></tr>
+              <tr><td>18/08</td><td class="opp">Toronto Tempo</td><td>8</td><td>7</td><td>0</td><td>0</td><td>⏱️ 32min</td></tr>
+              <tr><td>16/08</td><td class="opp">Atlanta Dream</td><td>20</td><td>7</td><td>0</td><td>0</td><td>⏱️ 33min</td></tr>
+              <tr><td>14/08</td><td class="opp">Dallas Wings</td><td>6</td><td>4</td><td>1</td><td>0</td><td>⏱️ 24min</td></tr>
+              <tr><td>11/08</td><td class="opp">New York Liberty</td><td>3</td><td>7</td><td>0</td><td>0</td><td>⏱️ 28min</td></tr>
+              <tr><td>08/08</td><td class="opp">Chicago Sky</td><td>10</td><td>3</td><td>3</td><td>0</td><td>⏱️ 31min</td></tr>
+              <tr><td>06/08</td><td class="opp">Las Vegas Aces</td><td>4</td><td>11</td><td>0</td><td>0</td><td>⏱️ 32min</td></tr>
+              <tr><td>02/08</td><td class="opp">Minnesota Lynx</td><td>7</td><td>5</td><td>0</td><td>0</td><td class="low-min">⏱️ 21min</td></tr>
+              <tr><td>01/08</td><td class="opp">Portland Fire</td><td>15</td><td>3</td><td>0</td><td>0</td><td class="low-min">⏱️ 20min</td></tr>
+              <tr><td>29/07</td><td class="opp">Seattle Storm</td><td>4</td><td>4</td><td>0</td><td>0</td><td>⏱️ 28min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Breanna Stewart</td>
+          <td>19.8 (11-29)</td><td>7.0 (4-11)</td><td>2/10</td><td>abaixo do piso</td>
+          <td><button class="expand-btn" data-toggle-target="det-stewart" onclick="toggleRow('det-stewart')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-stewart" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Chicago Sky</td><td>22</td><td>7</td><td>3</td><td>1</td><td>⏱️ 35min</td></tr>
+              <tr><td>15/08</td><td class="opp">Connecticut Sun</td><td>11</td><td>4</td><td>2</td><td>1</td><td>⏱️ 33min</td></tr>
+              <tr><td>14/08</td><td class="opp">Los Angeles Sparks</td><td>11</td><td>6</td><td>5</td><td>0</td><td>⏱️ 31min</td></tr>
+              <tr><td>11/08</td><td class="opp">Indiana Fever</td><td>19</td><td>7</td><td>5</td><td>1</td><td>⏱️ 30min</td></tr>
+              <tr><td>09/08</td><td class="opp">Las Vegas Aces</td><td>14</td><td>4</td><td>4</td><td>0</td><td class="low-min">⏱️ 23min</td></tr>
+              <tr><td>05/08</td><td class="opp">Seattle Storm</td><td>28</td><td>8</td><td>2</td><td>1</td><td>⏱️ 33min</td></tr>
+              <tr><td>03/08</td><td class="opp">Seattle Storm</td><td>24</td><td>8</td><td>6</td><td>0</td><td>⏱️ 31min</td></tr>
+              <tr><td>01/08</td><td class="opp">Phoenix Mercury</td><td>14</td><td>11</td><td>2</td><td>0</td><td>⏱️ 34min</td></tr>
+              <tr><td>31/07</td><td class="opp">Las Vegas Aces</td><td>26</td><td>11</td><td>1</td><td>1</td><td>⏱️ 37min</td></tr>
+              <tr><td>29/07</td><td class="opp">Los Angeles Sparks</td><td>29</td><td>4</td><td>7</td><td>2</td><td>⏱️ 37min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Jonquel Jones <span class="badge">se jogar</span> <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Questionável (tornozelo) — no jogo mais recente ficou só 6 minutos em quadra por causa dessa lesão. Sugestões abaixo só valem se ela render minutos normais.</span></details></span></td>
+          <td>13.5 (5-23)</td><td>9.0 (0-18)</td><td>4/10</td><td>1.5 (0-4)</td>
+          <td><button class="expand-btn" data-toggle-target="det-jones" onclick="toggleRow('det-jones')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-jones" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Chicago Sky</td><td>5</td><td>0</td><td>2</td><td>0</td><td class="low-min">⏱️ 6min</td></tr>
+              <tr><td>15/08</td><td class="opp">Connecticut Sun</td><td>23</td><td>11</td><td>2</td><td>3</td><td>⏱️ 35min</td></tr>
+              <tr><td>14/08</td><td class="opp">Los Angeles Sparks</td><td>11</td><td>18</td><td>4</td><td>0</td><td>⏱️ 33min</td></tr>
+              <tr><td>11/08</td><td class="opp">Indiana Fever</td><td>14</td><td>10</td><td>2</td><td>3</td><td>⏱️ 30min</td></tr>
+              <tr><td>09/08</td><td class="opp">Las Vegas Aces</td><td>15</td><td>8</td><td>2</td><td>3</td><td class="low-min">⏱️ 19min</td></tr>
+              <tr><td>05/08</td><td class="opp">Seattle Storm</td><td>14</td><td>15</td><td>7</td><td>1</td><td>⏱️ 30min</td></tr>
+              <tr><td>03/08</td><td class="opp">Seattle Storm</td><td>20</td><td>7</td><td>2</td><td>4</td><td>⏱️ 30min</td></tr>
+              <tr><td>01/08</td><td class="opp">Phoenix Mercury</td><td>16</td><td>9</td><td>5</td><td>0</td><td>⏱️ 28min</td></tr>
+              <tr><td>31/07</td><td class="opp">Las Vegas Aces</td><td>8</td><td>7</td><td>5</td><td>0</td><td>⏱️ 28min</td></tr>
+              <tr><td>29/07</td><td class="opp">Los Angeles Sparks</td><td>9</td><td>5</td><td>6</td><td>1</td><td>⏱️ 24min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Sabrina Ionescu <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Não jogou em 15/08 (DNP) — médias calculadas sobre os 9 jogos restantes da amostra.</span></details></span></td>
+          <td>19.3 (5-27)</td><td>abaixo do piso</td><td>2/9</td><td>2.5 (1-5)</td>
+          <td><button class="expand-btn" data-toggle-target="det-ionescu" onclick="toggleRow('det-ionescu')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-ionescu" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Chicago Sky</td><td>18</td><td>7</td><td>12</td><td>2</td><td>⏱️ 34min</td></tr>
+              <tr><td>14/08</td><td class="opp">Los Angeles Sparks</td><td>20</td><td>3</td><td>4</td><td>1</td><td>⏱️ 33min</td></tr>
+              <tr><td>11/08</td><td class="opp">Indiana Fever</td><td>19</td><td>4</td><td>5</td><td>1</td><td>⏱️ 28min</td></tr>
+              <tr><td>09/08</td><td class="opp">Las Vegas Aces</td><td>5</td><td>3</td><td>2</td><td>1</td><td class="low-min">⏱️ 21min</td></tr>
+              <tr><td>05/08</td><td class="opp">Seattle Storm</td><td>15</td><td>5</td><td>6</td><td>1</td><td>⏱️ 31min</td></tr>
+              <tr><td>03/08</td><td class="opp">Seattle Storm</td><td>18</td><td>2</td><td>5</td><td>4</td><td>⏱️ 29min</td></tr>
+              <tr><td>01/08</td><td class="opp">Phoenix Mercury</td><td>27</td><td>7</td><td>10</td><td>4</td><td>⏱️ 35min</td></tr>
+              <tr><td>31/07</td><td class="opp">Las Vegas Aces</td><td>15</td><td>4</td><td>5</td><td>1</td><td>⏱️ 29min</td></tr>
+              <tr><td>29/07</td><td class="opp">Los Angeles Sparks</td><td>27</td><td>7</td><td>6</td><td>5</td><td>⏱️ 36min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Rebecca Allen <span class="obs-inline"><details><summary>⚠️</summary><span class="obs-note">Pontos abaixo do piso na média de 10 jogos (9.0); avaliada apenas no mercado de 3 pontos convertidos.</span></details></span></td>
+          <td>abaixo do piso</td><td>abaixo do piso</td><td>0/10</td><td>2.0 (0-3)</td>
+          <td><button class="expand-btn" data-toggle-target="det-allen" onclick="toggleRow('det-allen')">Ver jogos</button></td>
+        </tr>
+        <tr id="det-allen" class="detail-row" style="display:none">
+          <td colspan="7"><table class="gamelog">
+            <thead><tr><th>Data</th><th>Adversário</th><th>Pts</th><th>Reb</th><th>Ast</th><th>3PTS</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>19/08</td><td class="opp">Chicago Sky</td><td>14</td><td>5</td><td>1</td><td>3</td><td>⏱️ 32min</td></tr>
+              <tr><td>15/08</td><td class="opp">Connecticut Sun</td><td>6</td><td>5</td><td>0</td><td>2</td><td>⏱️ 29min</td></tr>
+              <tr><td>14/08</td><td class="opp">Los Angeles Sparks</td><td>13</td><td>1</td><td>1</td><td>3</td><td>⏱️ 26min</td></tr>
+              <tr><td>11/08</td><td class="opp">Indiana Fever</td><td>11</td><td>2</td><td>1</td><td>3</td><td>⏱️ 24min</td></tr>
+              <tr><td>09/08</td><td class="opp">Las Vegas Aces</td><td>13</td><td>8</td><td>2</td><td>2</td><td class="low-min">⏱️ 22min</td></tr>
+              <tr><td>05/08</td><td class="opp">Seattle Storm</td><td>12</td><td>1</td><td>0</td><td>2</td><td class="low-min">⏱️ 19min</td></tr>
+              <tr><td>03/08</td><td class="opp">Seattle Storm</td><td>0</td><td>5</td><td>1</td><td>0</td><td>⏱️ 26min</td></tr>
+              <tr><td>01/08</td><td class="opp">Phoenix Mercury</td><td>5</td><td>2</td><td>1</td><td>1</td><td class="low-min">⏱️ 21min</td></tr>
+              <tr><td>31/07</td><td class="opp">Las Vegas Aces</td><td>13</td><td>1</td><td>0</td><td>3</td><td>⏱️ 27min</td></tr>
+              <tr><td>29/07</td><td class="opp">Los Angeles Sparks</td><td>3</td><td>2</td><td>1</td><td>1</td><td class="low-min">⏱️ 18min</td></tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" id="tips-jogadoras">
+    <h2>BETANIA TIPS — Jogadoras</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura da Betania a partir do histórico — não é a odd real da casa de apostas. Confira o número oferecido antes de decidir. Linha calculada no ~percentil 30 da amostra (chão de produção), não a média.</p>
+    <table class="player-table">
+      <thead><tr><th>Jogadora</th><th>Mercado</th><th>Linha sugerida</th><th>Acerto histórico</th><th></th></tr></thead>
+      <tbody>
+        <tr><td>Caitlin Clark (IND)</td><td>Pontos</td><td>Over 19.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>Assistências</td><td>Over 7.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>3 Pontos Convertidos</td><td>Over 1.5</td><td>10/10 (100%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>Pontos+Assistências</td><td>Over 28.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>Pontos+Rebotes</td><td>Over 22.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>Assistências+Rebotes</td><td>Over 10.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Caitlin Clark (IND)</td><td>Pontos+Assistências+Rebotes</td><td>Over 30.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kelsey Mitchell (IND)</td><td>Pontos</td><td>Over 25.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kelsey Mitchell (IND)</td><td>3 Pontos Convertidos</td><td>Over 1.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kelsey Mitchell (IND)</td><td>Pontos+Assistências</td><td>Over 27.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kelsey Mitchell (IND)</td><td>Pontos+Rebotes</td><td>Over 25.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Kelsey Mitchell (IND)</td><td>Pontos+Assistências+Rebotes</td><td>Over 27.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Pontos</td><td>Over 13.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Rebotes</td><td>Over 6.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Pontos+Assistências</td><td>Over 15.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Pontos+Rebotes</td><td>Over 22.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Assistências+Rebotes</td><td>Over 9.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Aliyah Boston (IND) <span class="badge">se jogar</span></td><td>Pontos+Assistências+Rebotes</td><td>Over 24.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Makayla Timpson (IND)</td><td>Rebotes</td><td>Over 3.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Pontos</td><td>Over 13.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Rebotes</td><td>Over 3.5</td><td>10/10 (100%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Pontos+Assistências</td><td>Over 15.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Pontos+Rebotes</td><td>Over 17.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Assistências+Rebotes</td><td>Over 9.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Breanna Stewart (NY)</td><td>Pontos+Assistências+Rebotes</td><td>Over 21.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Pontos</td><td>Over 8.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Rebotes</td><td>Over 6.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Pontos+Assistências</td><td>Over 14.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Pontos+Rebotes</td><td>Over 14.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Assistências+Rebotes</td><td>Over 9.5</td><td>8/10 (80%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Jonquel Jones (NY) <span class="badge">se jogar</span></td><td>Pontos+Assistências+Rebotes</td><td>Over 19.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Pontos</td><td>Over 14.5</td><td>8/9 (89%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Assistências</td><td>Over 4.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>3 Pontos Convertidos</td><td>Over 0.5</td><td>9/9 (100%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Pontos+Assistências</td><td>Over 20.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Pontos+Rebotes</td><td>Over 19.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Assistências+Rebotes</td><td>Over 6.5</td><td>8/9 (89%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Sabrina Ionescu (NY)</td><td>Pontos+Assistências+Rebotes</td><td>Over 24.5</td><td>7/9 (78%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+        <tr><td>Rebecca Allen (NY)</td><td>3 Pontos Convertidos</td><td>Over 0.5</td><td>9/10 (90%)</td><td><span class="tip-verdict">🟢</span></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:var(--muted)">Nenhuma jogadora teve taxa de acerto ≥70% no mercado de Duplo-Duplo — Clark chegou mais perto (50%), seguida de Jones (40%) e Boston (40%), as demais abaixo disso. Lexie Hull e Monique Billings (IND), Pauline Astier (NY) ficaram de fora por produção abaixo do piso em todas as categorias. Satou Sabally e Leonie Fiebich (NY) ficaram de fora por amostra insuficiente (sem minutos jogados nos últimos 10 jogos). Rebeca Allen e Timpson só entram em um mercado cada, os demais ficaram abaixo do piso mínimo de volume para elas.</p>
+  </div>
+
+  <div class="card" id="matchup-individual">
+    <h2>Matchup Individual por Jogadora</h2>
+    <p style="font-size:13px;color:var(--muted)">Leitura qualitativa da Betania — opinião apoiada em dado, não garantia. Os times já se enfrentaram quatro vezes nesta temporada, o que dá uma base direta de comparação além do panorama de ritmo/estrutura de cada time (cards de Mercado de Pontos e Matchup).</p>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Kelsey Mitchell (IND)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Mitchell está na melhor sequência de pontuação da temporada (28.3 de média nos últimos 10, nunca abaixo de 20). No confronto direto mais recente (11/08), fez 28 pontos com 4 arremessos de 3. A Liberty está sem Sabally e com Fiebich em dúvida, reduzindo a profundidade de marcação de perímetro disponível para conter uma arremessadora de volume como ela. Favorece manutenção do alto volume ofensivo.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Caitlin Clark (IND)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Confirmada provável, Clark é armadora que tanto finaliza quanto distribui — no confronto de 11/08 fechou com 22 pontos e 10 assistências. A Liberty tem Ionescu como principal armadora adversária, mas o foco defensivo dela tende a ser mais ofensivo que defensivo (ela mesma sofre pressão defensiva do lado oposto). O único ponto de cautela é que este jogo é em Nova York, onde o Fever perdeu o único encontro da temporada em Brooklyn (06/07) — mas isso não muda o padrão individual de produção dela. Favorece pontuação e assistência.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Aliyah Boston (IND)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+        <span class="badge">se jogar</span>
+      </div>
+      <p class="matchup-text">No garrafão, a Liberty tem Jonquel Jones (6'6", em dúvida por lesão no tornozelo) e Breanna Stewart (6'4"), dupla de porte comparável ao de Boston (6'5"). No confronto de 11/08 ela fez 19 pontos e 7 rebotes contra essa mesma dupla. Como ela própria está questionável para este jogo, e o adversário direto no garrafão (Jones) também está em dúvida física, a leitura fica neutra — depende de quem realmente entra em quadra dos dois lados.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Breanna Stewart (NY)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Stewart tem sido a jogadora mais consistente do confronto em rebotes (7.0 de média, piso muito seguro, bateu 3.5 rebotes em 10 de 10 jogos). Contra o garrafão do Fever, mais raso caso Boston desfalque (o que está em dúvida), Stewart tende a encontrar menos resistência física — Timpson (6'2") e Billings (6'4") são mais baixas que ela. Favorece principalmente o mercado de rebotes; pontos seguem com volume relevante mas mais dependente de quem estiver marcando.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Sabrina Ionescu (NY)</span>
+        <span class="matchup-badge matchup-favorece">FAVORECE</span>
+      </div>
+      <p class="matchup-text">Ionescu vem de sequência forte de criação (5.9 assist nos 9 jogos válidos) e arremesso de 3 (2.5 3PM/10 jogos), e no confronto mais recente (11/08) fez 19 pontos e 5 assistências. Sem Kelsey Mitchell tendo papel defensivo primário no Fever (ela é a principal opção ofensiva, não a defensora de referência), e com o Fever jogando fora de casa (o que historicamente reduz um pouco a intensidade defensiva visitante), o cenário tende a favorecer volume de criação e pontuação dela.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Jonquel Jones (NY)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+        <span class="badge">se jogar</span>
+      </div>
+      <p class="matchup-text">Quando saudável, Jones tem produção completa (13.5 pts/9.0 reb) e já converteu duplo-duplo contra o Fever em 11/08 (14/10). Mas ela está questionável por lesão no tornozelo e jogou apenas 6 minutos no jogo mais recente por causa dessa mesma lesão — sem confirmação de minutos normais, não dá para projetar produção com segurança. Fica neutra até confirmação pré-jogo.</p>
+    </div>
+
+    <div class="matchup-card">
+      <div class="matchup-head">
+        <span class="matchup-name">Makayla Timpson (IND)</span>
+        <span class="matchup-badge matchup-neutro">NEUTRO</span>
+      </div>
+      <p class="matchup-text">Timpson só tem volume relevante em rebotes (6.3 de média), com pontuação inconsistente (de 3 a 20 na amostra, sem padrão claro ligado a adversário). Contra o garrafão da Liberty (Jones 6'6", Stewart 6'4"), o rebote tende a ficar mais disputado do que contra adversários menores. Sem dado suficiente para apontar direção clara no mercado de rebotes — fica neutra.</p>
+    </div>
+
+    <p style="font-size:12px;color:var(--muted)">Rebecca Allen (NY) ficou de fora desta seção por produção abaixo do piso mínimo de relevância nas categorias qualitativas (só o mercado de 3 pontos passa no piso, sem base suficiente pra leitura de matchup qualitativa). Lexie Hull e Monique Billings (IND), Pauline Astier (NY) também ficaram de fora pelo mesmo motivo.</p>
+  </div>
+
+  <script>buildNavDropdown('nav-select', 'WNBA_ANALISES', '2026-08-22_indiana-fever-x-new-york-liberty');</script>
+
+  <div class="sources">
+    <strong>Fontes (data da informação, não da consulta):</strong>
+    <div>Boxscores ESPN de cada jogo específico — datas de 28/07 a 20/08/2026 (Indiana Fever) e 28/07 a 18/08/2026 (New York Liberty), ver tabelas</div>
+    <div>Gamelogs das jogadoras — ESPN, jogos até 20/08/2026 (Indiana) e 19/08/2026 (New York)</div>
+    <div>ESPN Injuries — dados de 22/08/2026</div>
+    <div>Notícias — Heavy.com, Athlon Sports, SI.com, Yahoo Sports (21-22/08/2026), sobre status de Clark, Boston, Jones e Fiebich</div>
+    <div>Calendário ESPN de cada time — confrontos diretos: 25/04/2026 (NY 91-109 IND), 06/06/2026 (IND 75-83 NY), 18/07/2026 (NY 88-108 IND) e 11/08/2026 (NY 92-106 IND)</div>
+    <div>ESPN Standings — dados de 22/08/2026</div>
+  </div>
+</main>
+</div>
+</body>
+</html>
