@@ -1,4 +1,5 @@
 window.WNBA_ANALISES = [
+  { slug: "2026-08-22_dream-x-mercury", dataLabel: "22/08", timeLabel: "23:00", teamsLabel: "ATL Dream vs PHX Mercury" },
   { slug: "2026-08-21_portland-fire-x-toronto-tempo", dataLabel: "21/08", timeLabel: "23:00", teamsLabel: "POR Fire vs TOR Tempo" },
   { slug: "2026-08-21_golden-state-valkyries-x-chicago-sky", dataLabel: "21/08", timeLabel: "20:30", teamsLabel: "GS Valkyries vs CHI Sky" },
   { slug: "2026-08-21_minnesota-lynx-x-washington-mystics", dataLabel: "21/08", timeLabel: "20:30", teamsLabel: "MIN Lynx vs WAS Mystics" },
